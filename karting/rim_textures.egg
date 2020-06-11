@@ -1,0 +1,175 @@
+<Comment> {
+  "egg-texture-cards ../maps/kart_Rim_1.png ../maps/kart_Rim_2.png ../maps/kart_Rim_3.png ../maps/kart_Rim_4.png ../maps/kart_Rim_5.png ../maps/kart_Rim_6.png ../maps/kart_Rim_7.png ../maps/kart_Rim_8.png ../maps/kart_Rim_9.png ../maps/kart_Rim_10.png ../maps/kart_Rim_11.png ../maps/kart_Rim_12.png ../maps/kart_Rim_13.png ../maps/kart_Rim_14.png ../maps/kart_Rim_15.png -o rim_textures.egg"
+}
+<Texture> kart_Rim_9 {
+  "../maps/kart_Rim_9.png"
+}
+<Texture> kart_Rim_8 {
+  "../maps/kart_Rim_8.png"
+}
+<Texture> kart_Rim_7 {
+  "../maps/kart_Rim_7.png"
+}
+<Texture> kart_Rim_6 {
+  "../maps/kart_Rim_6.png"
+}
+<Texture> kart_Rim_5 {
+  "../maps/kart_Rim_5.png"
+}
+<Texture> kart_Rim_4 {
+  "../maps/kart_Rim_4.png"
+}
+<Texture> kart_Rim_3 {
+  "../maps/kart_Rim_3.png"
+}
+<Texture> kart_Rim_2 {
+  "../maps/kart_Rim_2.png"
+}
+<Texture> kart_Rim_15 {
+  "../maps/kart_Rim_15.png"
+}
+<Texture> kart_Rim_14 {
+  "../maps/kart_Rim_14.png"
+}
+<Texture> kart_Rim_13 {
+  "../maps/kart_Rim_13.png"
+}
+<Texture> kart_Rim_12 {
+  "../maps/kart_Rim_12.png"
+}
+<Texture> kart_Rim_11 {
+  "../maps/kart_Rim_11.png"
+}
+<Texture> kart_Rim_10 {
+  "../maps/kart_Rim_10.png"
+}
+<Texture> kart_Rim_1 {
+  "../maps/kart_Rim_1.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> kart_Rim_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_6 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_7 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_8 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_9 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_10 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_11 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_11 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_12 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_13 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_13 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_14 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_14 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart_Rim_15 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart_Rim_15 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

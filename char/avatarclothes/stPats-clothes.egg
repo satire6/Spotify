@@ -1,0 +1,95 @@
+<Comment> {
+  "egg-texture-cards StPats_shirt1.rgb StPats_sleeve.rgb shorts5.rgb male_sleeveNew12.rgb male_shirtNew12.rgb StPats_shirt2.rgb StPats_sleeve2.rgb -o stPats-clothes.egg"
+}
+<Texture> shorts5 {
+  shorts5.rgb
+}
+<Texture> male_sleeveNew12 {
+  male_sleeveNew12.rgb
+}
+<Texture> male_shirtNew12 {
+  male_shirtNew12.rgb
+}
+<Texture> StPats_sleeve2 {
+  StPats_sleeve2.rgb
+}
+<Texture> StPats_sleeve {
+  StPats_sleeve.rgb
+}
+<Texture> StPats_shirt2 {
+  StPats_shirt2.rgb
+}
+<Texture> StPats_shirt1 {
+  StPats_shirt1.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> StPats_shirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPats_shirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPats_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPats_sleeve }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> shorts5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shorts5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_sleeveNew12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_sleeveNew12 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_shirtNew12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_shirtNew12 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPats_shirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPats_shirt2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPats_sleeve2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPats_sleeve2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

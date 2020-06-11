@@ -1,0 +1,399 @@
+
+model "phase_3.5/models/modules/walls" [
+	store_node [ "wall_collide" "wall_collide" ]
+	store_node [ "wall_collide" "wall_camera_collide" ]
+	store_node [ "wall_collide" "wall_camera_barrier" ]
+
+	store_node [ "wall" "wall_lg_brick_ur" ]
+	store_node [ "wall" "wall_lg_brick_ul" ]
+	store_node [ "wall" "wall_lg_brick_dr" ]
+	store_node [ "wall" "wall_lg_brick_dl" ]
+
+	store_node [ "wall" "wall_lg_rock_ur" ]
+	store_node [ "wall" "wall_lg_rock_ul" ]
+	store_node [ "wall" "wall_lg_rock_dr" ]
+	store_node [ "wall" "wall_lg_rock_dl" ]
+
+	store_node [ "wall" "wall_md_board_ur" ]
+	store_node [ "wall" "wall_md_board_ul" ]
+	store_node [ "wall" "wall_md_board_dr" ]
+	store_node [ "wall" "wall_md_board_dl" ]
+
+	store_node [ "wall" "wall_md_bricks_ur" ]
+	store_node [ "wall" "wall_md_bricks_ul" ]
+	store_node [ "wall" "wall_md_bricks_dr" ]
+	store_node [ "wall" "wall_md_bricks_dl" ]
+
+	store_node [ "wall" "wall_md_dental_ur" ]
+	store_node [ "wall" "wall_md_dental_ul" ]
+	store_node [ "wall" "wall_md_dental_dr" ]
+	store_node [ "wall" "wall_md_dental_dl" ]
+
+	store_node [ "wall" "wall_md_pillars_ur" ]
+	store_node [ "wall" "wall_md_pillars_ul" ]
+	store_node [ "wall" "wall_md_pillars_dr" ]
+	store_node [ "wall" "wall_md_pillars_dl" ]
+
+	store_node [ "wall" "wall_sm_brick_ur" ]
+	store_node [ "wall" "wall_sm_brick_ul" ]
+	store_node [ "wall" "wall_sm_brick_dr" ]
+	store_node [ "wall" "wall_sm_brick_dl" ]
+
+	store_node [ "wall" "wall_sm_brick_pink_ur" ]
+	store_node [ "wall" "wall_sm_brick_pink_ul" ]
+	store_node [ "wall" "wall_sm_brick_pink_dr" ]
+	store_node [ "wall" "wall_sm_brick_pink_dl" ]
+
+	store_node [ "wall" "wall_sm_brick_blue_ur" ]
+	store_node [ "wall" "wall_sm_brick_blue_ul" ]
+	store_node [ "wall" "wall_sm_brick_blue_dr" ]
+	store_node [ "wall" "wall_sm_brick_blue_dl" ]
+
+	store_node [ "wall" "wall_sm_cement_ur" ]
+	store_node [ "wall" "wall_sm_cement_ul" ]
+	store_node [ "wall" "wall_sm_cement_dr" ]
+	store_node [ "wall" "wall_sm_cement_dl" ]
+
+	store_node [ "wall" "wall_sm_cement_blue_ur" ]
+	store_node [ "wall" "wall_sm_cement_blue_ul" ]
+	store_node [ "wall" "wall_sm_cement_blue_dr" ]
+	store_node [ "wall" "wall_sm_cement_blue_dl" ]
+
+	store_node [ "wall" "wall_sm_wood_ur" ]
+	store_node [ "wall" "wall_sm_wood_ul" ]
+	store_node [ "wall" "wall_sm_wood_dr" ]
+	store_node [ "wall" "wall_sm_wood_dl" ]
+
+	store_node [ "wall" "wall_bricks_ur" ]
+	store_node [ "wall" "wall_bricks_ul" ]
+	store_node [ "wall" "wall_bricks_dr" ]
+	store_node [ "wall" "wall_bricks_dl" ]
+
+	store_node [ "wall" "wall_fence_wood_ur" ]
+	store_node [ "wall" "wall_fence_wood_ul" ]
+	store_node [ "wall" "wall_fence_wood_dr" ]
+	store_node [ "wall" "wall_fence_wood_dl" ]
+
+	store_node [ "wall" "wall_md_blank_ur" ]
+	store_node [ "wall" "wall_md_blank_ul" ]
+	store_node [ "wall" "wall_md_blank_dr" ]
+	store_node [ "wall" "wall_md_blank_dl" ]
+
+	store_node [ "wall" "wall_woodflower_fence_ur" ]
+	store_node [ "wall" "wall_woodflower_fence_ul" ]
+
+	store_node [ "wall" "wall_stone_fence_ur" ]
+	store_node [ "wall" "wall_stone_fence_ul" ]
+
+	]
+
+model "phase_3.5/models/modules/doors_practical" [
+	store_node [ "door_double" "door_double_pillars_ur"  ]
+	store_node [ "door_double" "door_double_pillars_ul"  ]
+
+	store_node [ "door_double" "door_double_curved_ur"  ]
+	store_node [ "door_double" "door_double_curved_ul"  ]
+
+	store_node [ "door_double" "door_double_square_ur"  ]
+	store_node [ "door_double" "door_double_square_ul"  ]
+
+	store_node [ "door_double" "door_double_round_ur"  ]
+	store_node [ "door_double" "door_double_round_ul"  ]
+	]
+
+model "phase_3.5/models/modules/street_modules_enhanced" [
+        store_node [ "street" "street_interior_corner_slope" "interior_corner_slope"  ]
+        store_node [ "street" "street_slope_transition_R" ]
+        store_node [ "street" "street_slope_transition_L" "street_slope_transitionL" ]
+        store_node [ "street" "street_exterior_corner_slope" "exterior_corner_slope"  ]
+        store_node [ "street" "street_slope_30x20" ]
+        store_node [ "street" "street_slope_60x10" ]
+        store_node [ "street" "street_slope_60x20" ]
+        store_node [ "street" "street_slope_60x30" ]
+        store_node [ "street" "street_slope_60x40" ]
+        store_node [ "street" "street_slope_30x10" ]
+        store_node [ "street" "street_slope_30x20" ]
+        store_node [ "street" "street_slope_30x30" ]
+        store_node [ "street" "street_slope_30x40" ]
+        store_node [ "street" "street_slope_pathway_30x20" ]
+        store_node [ "street" "street_park_straight_20" "park_straight_20" ]
+        store_node [ "street" "street_park_straight_10" "park_straight_10" ]
+        store_node [ "street" "street_park_sidewalk_transitionL" "park_sidewalk_transitionL" ]
+        store_node [ "street" "street_park_sidewalk_transitionR" "park_sidewalk_transitionR" ]
+        store_node [ "street" "street_park_straight_sidewalk_corner" "park_straightsidewk_corner"  ]
+        store_node [ "street" "street_park_straight_sidewalk_20" "park_straightsidewk_20" ]
+        store_node [ "street" "street_park_straight_sidewalk_10" "park_straightsidewk_10" ]
+        store_node [ "street" "street_park_interior_10x10" "park_interior_10x10" ]
+        store_node [ "street" "street_park_interior_20x20" "park_interior_20x20" ]
+        store_node [ "street" "street_park_interior_40x40" "park_interior_40x40" ]
+        store_node [ "street" "street_park_corner" "park_corner" ]
+        store_node [ "street" "street_grass_transitionL_30x10" ]
+        store_node [ "street" "street_grass_transitionR_30x10" ]
+        store_node [ "street" "street_grass_transitionL_30x20" ]
+        store_node [ "street" "street_grass_transitionR_30x20" ]
+        store_node [ "street" "street_grass_transition_60x20" ]
+        store_node [ "street" "street_w_grass_divided_30x20" ]
+        store_node [ "street" "street_w_grass_60x60" ]
+        store_node [ "street" "street_w_grass_60x40" ]
+        store_node [ "street" "street_w_grass_60x20" ]
+        store_node [ "street" "street_w_grass_60x10" ]
+        store_node [ "street" "street_w_grass_30x60" ]
+        store_node [ "street" "street_w_grass_30x40" ]
+        store_node [ "street" "street_w_grass_30x20" ]
+        store_node [ "street" "street_w_grass_30x10" ]
+        store_node [ "street" "street_courtyard_w_grass" ]
+        store_node [ "street" "street_Tcourtyard_w_grass" ]
+        store_node [ "street" "street_exterior_whole_corner_w_grass" "exterior_wholecorner_w_grass" ]
+        store_node [ "street" "street_exterior_corner_w_grass" "exterior_corner_w_grass"  ]
+        store_node [ "street" "street_exterior_corner_grass_transition" "exterior_corner_grass_transition"  ]
+        store_node [ "street" "street_interior_corner_w_grass" "interior_corner_w_grass"  ]
+        store_node [ "street" "street_courtyard_w_grass_endL" ]
+        store_node [ "street" "street_courtyard_w_grass_endR" ]
+       ]
+
+model "phase_3.5/models/modules/street_modules" [
+	store_node [ "street" "street_5x20"  ]
+	store_node [ "street" "street_10x20" ]
+	store_node [ "street" "street_20x20" ]
+	store_node [ "street" "street_30x20" ]
+	store_node [ "street" "street_40x20" ]
+	store_node [ "street" "street_80x20" ]
+
+	store_node [ "street" "street_5x40"  ]
+	store_node [ "street" "street_10x40" ]
+	store_node [ "street" "street_20x40" ]
+	store_node [ "street" "street_30x40" ]
+	store_node [ "street" "street_40x40" ]
+	store_node [ "street" "street_80x40" ]
+
+	store_node [ "street" "street_20x60" ]
+	store_node [ "street" "street_40x60" ]
+
+	store_node [ "street" "street_angle_30" ]
+	store_node [ "street" "street_angle_45" ]
+	store_node [ "street" "street_angle_60" ]
+
+	store_node [ "street" "street_inner_corner"  ]
+	store_node [ "street" "street_outer_corner"  ]
+	store_node [ "street" "street_full_corner"   ]
+	store_node [ "street" "street_curved_corner" ]
+	store_node [ "street" "street_tight_corner"  ]
+	store_node [ "street" "street_tight_corner_mirror"  ]
+	store_node [ "street" "street_double_corner" ]
+
+	store_node [ "street" "street_t_intersection" ]
+	store_node [ "street" "street_y_intersection" ]
+
+	store_node [ "street" "street_street_20x20"   ]
+	store_node [ "street" "street_street_40x40"   ]
+	store_node [ "street" "street_sidewalk_10x10" ]
+	store_node [ "street" "street_sidewalk_10x20" ]
+	store_node [ "street" "street_sidewalk_10x40" ]
+	store_node [ "street" "street_sidewalk_20x20" ]
+	store_node [ "street" "street_sidewalk_40x40" ]
+
+	store_node [ "street" "street_divided_transition" ]
+	store_node [ "street" "street_divided_40x70"      ]
+
+	store_node [ "street" "street_stairs_40x10x5"     ]
+	store_node [ "street" "street_4way_intersection"  ]
+	store_node [ "street" "street_incline_40x40x5"    ]
+
+	store_node [ "street" "street_courtyard_70"       ]
+	store_node [ "street" "street_courtyard_70_exit"  ]
+	store_node [ "street" "street_courtyard_90"       ]
+	store_node [ "street" "street_courtyard_90_exit"  ]
+	store_node [ "street" "street_square_courtyard"   ]
+
+	store_node [ "street" "street_50_transition"      ]
+	store_node [ "street" "street_20x50"              ]
+	store_node [ "street" "street_40x50"              ]
+
+	// Street sections with keyboard pieces for Minnies Melody Land
+	// These need to be moved to MM storage, which means they need
+	// their own file
+	store_node [ "street" "street_keyboard_10x40"     ]
+	store_node [ "street" "street_keyboard_20x40"     ]
+	store_node [ "street" "street_keyboard_40x40"     ]
+
+
+	// 15 foot sidewalks
+	store_node [ "street" "street_courtyard_70_15"       ]
+	store_node [ "street" "street_courtyard_70_15_exit"  ]
+	store_node [ "street" "street_courtyard_90_15"       ]
+	store_node [ "street" "street_courtyard_90_15_exit"  ]
+	store_node [ "street" "street_divided_transition_15" ]
+	store_node [ "street" "street_divided_40x70_15"      ]
+	store_node [ "street" "street_20x40_15" ]
+	store_node [ "street" "street_40x40_15" ]
+	store_node [ "street" "street_curved_corner_15"  ]
+
+	store_node [ "street" "street_sunken_40x40"  ]
+
+
+	]
+
+model "phase_3.5/models/modules/windows" [
+	store_node [ "window" "window_md_curtains_ur" ]
+	store_node [ "window" "window_md_curtains_ul" ]
+
+	store_node [ "window" "window_md_curved_ur" ]
+	store_node [ "window" "window_md_curved_ul" ]
+
+	store_node [ "window" "window_porthole_ur" ]
+	store_node [ "window" "window_porthole_ul" ]
+
+	store_node [ "window" "window_sm_square_ur" ]
+	store_node [ "window" "window_sm_square_ul" ]
+
+	store_node [ "window" "window_sm_shuttered_ur" ]
+	store_node [ "window" "window_sm_shuttered_ul" ]
+
+	store_node [ "window" "window_sm_pointed_ur" ]
+	store_node [ "window" "window_sm_pointed_ul" ]
+
+	store_node [ "window" "window_sm_curved_ur" ]
+	store_node [ "window" "window_sm_curved_ul" ]
+
+	store_node [ "window" "window_sm_round_ur" ]
+	store_node [ "window" "window_sm_round_ul" ]
+	]
+
+model "phase_3.5/models/modules/cornices" [
+	store_node [ "cornice" "cornice_stone_ur" ]
+	store_node [ "cornice" "cornice_stone_ul" ]
+
+	store_node [ "cornice" "cornice_brick_ur" ]
+	store_node [ "cornice" "cornice_brick_ul" ]
+
+	store_node [ "cornice" "cornice_dental_ur" ]
+	store_node [ "cornice" "cornice_dental_ul" ]
+
+	store_node [ "cornice" "cornice_shingles_ur" ]
+	store_node [ "cornice" "cornice_shingles_ul" ]
+
+	store_node [ "cornice" "cornice_marble_ur" ]
+	store_node [ "cornice" "cornice_marble_ul" ]
+
+	store_node [ "cornice" "cornice_horizontal_ur" ]
+	store_node [ "cornice" "cornice_horizontal_ul" ]
+
+	store_node [ "cornice" "cornice_ice_ur" ]
+	store_node [ "cornice" "cornice_ice_ul" ]
+
+	store_node [ "cornice" "cornice_curved_ur" ]
+	store_node [ "cornice" "cornice_curved_ul" ]
+	]
+
+model "phase_3.5/models/props/mailbox_TT" [
+	store_node [ "prop" "prop_mailbox_TT" "" ]
+	]
+
+model "phase_3.5/models/modules/facade_a" [
+	store_node [ "prop" "prop_facade_a" "" ]
+	]
+model "phase_3.5/models/modules/facade_aN" [
+	store_node [ "prop" "prop_facade_aN" "" ]
+	]
+model "phase_3.5/models/modules/facade_b" [
+	store_node [ "prop" "prop_facade_b" "" ]
+	]
+model "phase_3.5/models/modules/facade_bN" [
+	store_node [ "prop" "prop_facade_bN" "" ]
+	]
+model "phase_3.5/models/modules/facade_c" [
+	store_node [ "prop" "prop_facade_c" "" ]
+	]
+model "phase_3.5/models/modules/facade_cN" [
+	store_node [ "prop" "prop_facade_cN" "" ]
+	]
+model "phase_3.5/models/modules/facade_d" [
+	store_node [ "prop" "prop_facade_d" "" ]
+	]
+model "phase_3.5/models/modules/facade_dM" [
+	store_node [ "prop" "prop_facade_dM" "" ]
+	]
+model "phase_3.5/models/modules/facade_dN" [
+	store_node [ "prop" "prop_facade_dN" "" ]
+	]
+model "phase_3.5/models/modules/facade_e" [
+	store_node [ "prop" "prop_facade_e" "" ]
+	]
+model "phase_3.5/models/modules/facade_eN" [
+	store_node [ "prop" "prop_facade_eN" "" ]
+	]
+
+model "phase_3.5/models/props/neighborhood_sign_TT" [
+	store_node [ "prop" "neighborhood_sign_TT" "" ]
+	]
+
+model "phase_3.5/models/props/tunnel_sign_orange" [
+	store_node [ "sign" "tunnel_sign_orange" "g1" ]
+	]
+
+store_font [ "font" "mickey"
+             "phase_3/models/fonts/MickeyFont" ]
+
+model "phase_3.5/models/props/mickeySZ" [
+	store_node [ "graphic" "mickeySZ" ]
+	]
+
+model "phase_3.5/models/modules/TT_A1" [
+	store_node [ "toon_landmark" "toon_landmark_TT_A1" "TT_A1"  ]
+	]
+
+model "phase_3.5/models/modules/hqTT" [
+	store_node [ "toon_landmark" "toon_landmark_hqTT" "" ]
+	]
+
+model "phase_3.5/models/props/trees" [
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
+	]
+
+store_texture [ "texture" "street_street_TT_tex"	
+		"phase_3.5/maps/sidewalkbrown.jpg"		]
+store_texture [ "texture" "street_sidewalk_TT_tex"
+		"phase_3.5/maps/sidewalk_4cont_brown.jpg"	]
+store_texture [ "texture" "street_curb_TT_tex"
+		"phase_3.5/maps/curb_brown_even.jpg"	]
+
+
+model "phase_3.5/models/props/streetlight_TT" [
+	store_node [ "prop" "prop_post_sign" ]
+	store_node [ "prop" "prop_post_one_light" ]
+	store_node [ "prop" "prop_post_three_light" ]
+	]
+
+model "phase_3.5/models/modules/wood_fence" [
+	store_node [ "prop" "prop_wood_fence" "" ]
+	]
+
+model "phase_3.5/models/modules/safe_zone_entrance_tunnel_TT" [
+	store_node [ "prop" "prop_safe_zone_entrance_tunnel" ]
+        ]
+
+model "phase_3.5/models/props/big_planter" [
+	store_node [ "prop" "prop_big_planter" "" ]
+        ]
+
+model "phase_3.5/models/props/cellar_door" [
+	store_node [ "prop" "prop_cellar_door" "" ]
+	]
+

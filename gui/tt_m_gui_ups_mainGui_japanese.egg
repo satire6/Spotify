@@ -1,0 +1,90 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_ups_mainGui.egg ../maps/tt_t_gui_ups_logo_noBubbles_japanese.tif ../maps/tt_t_gui_ups_logo_bubbles_japanese.tif ../maps/tt_t_gui_ups_banner_japanese.tif"
+}
+<Texture> tt_t_gui_ups_logo_noBubbles {
+  "../maps/tt_t_gui_ups_logo_noBubbles_japanese.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_ups_logo_bubbles {
+  "../maps/tt_t_gui_ups_logo_bubbles_japanese.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_ups_banner {
+  "../maps/tt_t_gui_ups_banner_japanese.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.695833 0.535417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.695833 -0.535417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.695833 -0.535417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.695833 0.535417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.695833 0.535417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.695833 -0.535417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.695833 -0.535417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.695833 0.535417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.666667 0.241667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.666667 -0.241667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.666667 -0.241667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.666667 0.241667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_ups_logo_noBubbles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_ups_logo_noBubbles }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_ups_logo_bubbles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_ups_logo_bubbles }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_ups_banner {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_ups_banner }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+}

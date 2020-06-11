@@ -1,0 +1,97 @@
+node "interior" [
+ prop "house_interiorA_DNARoot" [
+  code [ "house_interiorA" ]
+  pos [ 0 0 0 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "regular_bed_DNARoot" [
+  code [ "regular_bed" ]
+  pos [ -23.618 16.1823 0 ]
+  hpr [ 90 0 0 ]
+ ]
+ prop "closetBoy_DNARoot" [
+  code [ "closetBoy" ]
+  pos [ -19.45 24.7018 0 ]
+  hpr [ 0 0.0257039 -4.34842e-017 ]
+ ]
+ prop "jellybeanBank_DNARoot" [
+  code [ "jellybeanBank" ]
+  pos [ -21.4932 5.76027 0 ]
+  hpr [ 120 -0.0501863 -0.0440521 ]
+ ]
+ prop "rugB_DNARoot" [
+  code [ "rugB" ]
+  pos [ -20.6508 6.52406 0 ]
+  hpr [ 135 -0.0357293 -0.0257721 ]
+  scale [ 2.3354 2.3354 2.3354 ]
+ ]
+ prop "FireplaceSq_DNARoot" [
+  code [ "FireplaceSq" ]
+  pos [ -19 -13 0 ]
+  hpr [ 90 0 0 ]
+ ]
+ prop "chairA_DNARoot" [
+  code [ "chairA" ]
+  pos [ -17.6454 -23.6975 0 ]
+  hpr [ 120 0 0 ]
+  scale [ 10 10 10 ]
+ ]
+ prop "chairA_DNARoot" [
+  code [ "chairA" ]
+  pos [ -17.9124 0.933506 0 ]
+  hpr [ 45 0 0 ]
+  scale [ 10 10 10 ]
+ ]
+ prop "GardenA_DNARoot" [
+  code [ "GardenA" ]
+  pos [ 17.7635 -12.0134 8.7862 ]
+  hpr [ 90 0 0 ]
+  scale [ 0.889117 0.889117 0.889117 ]
+ ]
+ prop "rugB_DNARoot" [
+  code [ "rugA" ]
+  pos [ -10 16 0 ]
+  hpr [ 90 0 0 ]
+  scale [ 2.25031 2.25031 2.25031 ]
+ ]
+ prop "cabinetYwood_DNARoot" [
+  code [ "cabinetYwood" ]
+  pos [ -20 -1.74846e-006 0 ]
+  hpr [ 180 0 0 ]
+ ]
+ prop "couch_1person_DNARoot" [
+  code [ "couch_1person" ]
+  pos [ -4.00005 23 0 ]
+  hpr [ -45 0 0 ]
+ ]
+ prop "rug_DNARoot" [
+  code [ "rug" ]
+  pos [ 0 -12 0 ]
+  hpr [ 90 0 0 ]
+ ]
+ prop "couch_2person_DNARoot" [
+  code [ "couch_2person" ]
+  pos [ 0 -23 0 ]
+  hpr [ 180 0 0 ]
+ ]
+ prop "ending_table_DNARoot" [
+  code [ "ending_table" ]
+  pos [ -4 -24 0 ]
+  hpr [ -180 0 0 ]
+ ]
+ prop "lamp_tall_DNARoot" [
+  code [ "lamp_tall" ]
+  pos [ 6 7.62939e-006 0 ]
+  hpr [ -180 0 0 ]
+ ]
+ prop "desk_only_DNARoot" [
+  code [ "desk_only" ]
+  pos [ -2 18 0 ]
+  hpr [ 90 0 0 ]
+ ]
+ prop "couch_1person_DNARoot" [
+  code [ "couch_1person" ]
+  pos [ 10 -3.00001 0 ]
+  hpr [ -45 0 0 ]
+ ]
+]

@@ -1,0 +1,34 @@
+<Comment> {
+  "egg-texture-cards -p 654,721 -g -0.5,0.5,-0.5,0.5 -wm c -o flowerBasket.egg ../maps/basket2.tif"
+}
+<Texture> basket2 {
+  "../maps/basket2.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.516055 0.4681 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.516055 -0.4681 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.516055 -0.4681 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.516055 0.4681 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> basket2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { basket2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

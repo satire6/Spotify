@@ -1,0 +1,19 @@
+
+buildingStyle: 10_10
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 1.00, 0.59, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(0.27, 1.00, 0.42, 1.0)
+window_count: 2
+endWallStyle
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 1.00, 0.59, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(0.27, 1.00, 0.42, 1.0)
+window_count: 2
+cornice_texture: cornice_curved_ur
+cornice_color: Vec4(0.21, 0.73, 0.31, 1.0)
+endWallStyle
+endBuildingStyle

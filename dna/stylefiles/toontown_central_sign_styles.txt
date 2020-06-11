@@ -1,0 +1,9 @@
+signStyle
+sign_texture: sign_general1
+sign_color: Vec4(1.0, 1.0, 1.0, 1.0)
+endSignStyle
+
+signStyle
+sign_texture: sign_DD1
+sign_color: Vec4(1.0, 8.0, 0.592157, 1.0)
+endSignStyle

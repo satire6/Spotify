@@ -1,0 +1,102 @@
+
+place_model "phase_6/models/cogHQ/Cog_Tunnel" [
+	store_node [ "prop" "prop_cog_tunnel" "" ]
+	]
+
+place_model "phase_6/models/cogHQ/SmokeStack_simple" [
+	store_node [ "prop" "prop_cog_smoke_stack" "" ]
+	]
+
+place_model "phase_6/models/cogHQ/WaterTowerSimple" [
+	store_node [ "prop" "prop_cog_water_tower" "" ]
+	]
+
+
+place_model "phase_4/models/props/mickey_on_horse" [
+	store_node [ "prop" "prop_mickey_on_horse" "" ]
+        ]
+
+place_model "phase_5/models/modules/street_low_fence" [
+        store_node [ "prop" "post_sandstone" "p_sandstone" ]
+        store_node [ "prop" "post_sandstone2" "p_sandstone2" ]
+        store_node [ "prop" "post_stuccobrick" "p_stuccobrick" ]
+        store_node [ "prop" "post_brick" "p_brick" ]
+        store_node [ "prop" "post_brick2" "p_brick2" ]
+        store_node [ "prop" "post_brick3" "p_brick3" ]
+        
+        store_node [ "prop" "fence_woodflower_sandstone" "f_woodflower_sandstone" ]
+        store_node [ "prop" "fence_woodflower_brickstucco" "f_woodflower_brickstucco" ]
+        store_node [ "prop" "fence_ironbar_stuccobrick" "f_ironbar_stuccobrick" ]
+        store_node [ "prop" "fence_ironbar_brick" "f_ironbar_brick" ]
+        store_node [ "prop" "fence_woodbrush_sandstone" "f_woodbrush_sandstone" ]
+        store_node [ "prop" "fence_woodbrush_brick" "f_woodbrush_brick" ]
+        ]
+
+place_model "phase_8/models/props/mailbox_DL" [
+	store_node [ "prop" "prop_DL_mailbox" ""]
+	]
+
+place_model "phase_8/models/modules/neighborhood_tunnel_DL" [
+	store_node [ "prop" "prop_neighborhood_tunnel" ]
+        ]
+
+place_model "phase_8/models/modules/safe_zone_entrance_tunnel_DL" [
+	store_node [ "prop" "prop_safe_zone_entrance_tunnel" ]
+        ]
+
+place_model "phase_8/models/props/DL_hydrant" [
+	store_node [ "prop" "prop_DL_hydrant" "" ]
+        ]
+
+place_model "phase_8/models/props/DL_weathervane" [
+	store_node [ "prop" "prop_DL_weathervane" "" ]
+        ]
+
+place_model "phase_8/models/props/DL_flats" [
+	store_node [ "prop" "prop_DL_flat_owl" "owl" ]
+	store_node [ "prop" "prop_DL_flat_pillows" "pillows" ]
+        ]
+
+place_model "phase_5/models/props/diner_entrance" [
+	store_node [ "prop" "prop_diner_entrance" "" ]
+	]
+
+place_model "phase_3.5/models/props/cellar_door" [
+	store_node [ "prop" "prop_cellar_door" "" ]
+	]
+
+place_model "phase_5/models/props/roman_entrance" [
+	store_node [ "prop" "prop_roman_entrance" "" ]
+	]
+
+place_model "phase_5/models/props/crate" [
+	store_node [ "prop" "prop_crate" "crate" ]
+	]
+
+place_model "phase_5/models/props/chimneys" [
+	store_node [ "prop" "prop_chimney" ]
+	store_node [ "prop" "prop_stovepipe" ]
+	store_node [ "prop" "prop_smokestack" ]
+	]
+
+place_model "phase_5/models/props/roof_access" [
+	store_node [ "prop" "prop_roof_access" "" ]
+	]
+
+place_model "phase_5/models/props/trashcan_TT" [
+	store_node [ "prop" "prop_trashcan_metal" ]
+	]
+
+place_model "phase_5/models/props/marquee" [
+	store_node [ "prop" "prop_marquee" "" ]
+	]
+
+place_model "phase_5/models/props/billboard_ads" [
+	store_node [ "prop" "prop_signpost" ]
+
+	store_node [ "prop" "prop_billboard" ]
+	]
+
+place_model "phase_8/models/modules/DL_pond" [
+	store_node [ "street" "street_DL_pond" "" ]
+	]

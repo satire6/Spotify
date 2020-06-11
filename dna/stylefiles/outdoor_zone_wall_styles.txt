@@ -1,0 +1,186 @@
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 0.55, 1.00, 1.0)
+window_texture: window_md_curved_DG_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 1
+cornice_texture: cornice_stone_ur
+cornice_color: Vec4(0.74, 0.65, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 0.55, 1.00, 1.0)
+window_texture: window_md_curved_DG_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 1
+cornice_texture: cornice_stone_ur
+cornice_color: Vec4(0.74, 0.65, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(0.44, 0.96, 1.00, 1.0)
+window_texture: window_sm_square_ur
+window_color: Vec4(0.35, 0.90, 0.98, 1.0)
+window_count: 4
+cornice_texture: cornice_stone_ur
+cornice_color: Vec4(0.53, 0.91, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_board_ur
+wall_color: Vec4(0.44, 0.96, 1.00, 1.0)
+window_texture: window_sm_square_ur
+window_color: Vec4(0.25, 0.96, 0.98, 1.0)
+window_count: 4
+endWallStyle
+
+wallStyle
+wall_texture: wall_lg_brick_ur
+wall_color: Vec4(1.00, 1.00, 0.39, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(0.35, 1.00, 0.40, 1.0)
+window_count: 2
+cornice_texture: cornice_shinglesDG_ur
+cornice_color: Vec4(1.00, 1.00, 0.69, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 0.55, 1.00, 1.0)
+window_texture: window_flower_porthole_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 4
+cornice_texture: cornice_brick_ur
+cornice_color: Vec4(0.80, 0.53, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_basement_brick_ur
+wall_color: Vec4(0.69, 0.31, 0.83, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 0
+endWallStyle
+
+wallStyle
+wall_texture: wall_basement_brick_ur
+wall_color: Vec4(0.69, 0.31, 0.83, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 0
+endWallStyle
+
+wallStyle
+wall_texture: wall_basement_rock_ur
+wall_color: Vec4(0.22, 0.74, 0.62, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 0
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(1.00, 0.55, 0.55, 1.0)
+window_texture: window_flower_porthole_ur
+window_color: Vec4(1.00, 1.00, 0.60, 1.0)
+window_count: 4
+cornice_texture: cornice_brick_ur
+cornice_color: Vec4(0.53, 0.92, 0.81, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_lg_brick_ur
+wall_color: Vec4(1.00, 0.55, 0.81, 1.0)
+window_texture: window_md_curved_DG_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_lg_brick_ur
+wall_color: Vec4(1.00, 0.55, 0.81, 1.0)
+window_texture: window_md_curved_DG_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 2
+cornice_texture: cornice_brickDG_ur
+cornice_color: Vec4(1.00, 1.00, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(1.00, 1.00, 0.52, 1.0)
+window_texture: window_sm_pointed_DG_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 1
+cornice_texture: cornice_shinglesDG_ur
+cornice_color: Vec4(0.53, 0.92, 0.81, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_board_ur
+wall_color: Vec4(0.00, 1.00, 0.99, 1.0)
+window_texture: window_flower_porthole_ur
+window_color: Vec4(0.35, 0.90, 0.98, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_sm_brick_pink_ur
+wall_color: Vec4(0.75, 0.70, 1.00, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(0.85, 0.91, 1.00, 1.0)
+window_count: 1
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_board_ur
+wall_color: Vec4(0.79, 0.55, 1.00, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(0.85, 0.91, 1.00, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(1.00, 1.00, 0.52, 1.0)
+window_texture: window_flower_porthole_ur
+window_color: Vec4(1.00, 1.00, 0.75, 1.0)
+window_count: 2
+cornice_texture: cornice_brickDG_ur
+cornice_color: Vec4(1.00, 1.00, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_board_ur
+wall_color: Vec4(1.00, 0.55, 0.81, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(1.00, 1.00, 0.75, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_suit_build1_ur
+wall_color: Vec4(1.00, 1.00, 1.00, 1.00)
+endWallStyle
+
+wallStyle
+wall_texture: wall_suit_build2_ur
+wall_color: Vec4(1.00, 1.00, 1.00, 1.00)
+endWallStyle
+
+wallStyle
+wall_texture: wall_suit_build3_ur
+wall_color: Vec4(1.00, 1.00, 1.00, 1.00)
+endWallStyle
+
+wallStyle
+wall_texture: wall_suit_build4_ur
+wall_color: Vec4(1.00, 1.00, 1.00, 1.00)
+endWallStyle
+
+wallStyle
+wall_texture: wall_suit_build5_ur
+wall_color: Vec4(1.00, 1.00, 1.00, 1.00)
+endWallStyle

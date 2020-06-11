@@ -1,0 +1,953 @@
+group "goofySpeedway" [
+ visgroup "8000:safe_zone" [
+  vis [   "8000:safe_zone"   ]
+  node "level" [
+   node "golf_kart_0_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 133.588 47.396 -0.05 ]
+     nhpr [ 58.732 0 0 ]
+    ]
+   ]
+   node "golf_kart_0_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 121.484 23.65 -0.05 ]
+     nhpr [ 75.142 0 0 ]
+    ]
+   ]
+   node "golf_kart_0_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 117.751 -1.069 -0.05 ]
+     nhpr [ 81.928 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 10.725 -95.93 -0.05 ]
+     nhpr [ -30.762 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -16.308 -86.81 -0.05 ]
+     nhpr [ -16.949 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -41.97 -87.26 -0.05 ]
+     nhpr [ -9.108 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -97.77 -27.878 -0.05 ]
+     nhpr [ -87.415 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -100.205 -2.018 -0.05 ]
+     nhpr [ 284.36 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -106.58 21.819 -0.05 ]
+     nhpr [ -66.64 0 0 ]
+    ]
+   ]
+   prop "goofy_speedway_DNARoot" [
+    code [ "goofy_speedway" ]
+    pos [ 0 0 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "linktunnel_bosshq_10000_DNARoot" [
+    code [ "prop_golf_cog_tunnel" ]
+    pos [ 100 -95 0.05 ]
+    nhpr [ 45 0 0 ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ -20 -100 0.129929 ]
+    nhpr [ -15 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.6 1 0.6 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "サ" ]
+      ]
+      text [
+       letters [ "ム" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "フ" ]
+      ]
+      text [
+       letters [ "ァ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ふ" ]
+      ]
+      text [
+       letters [ "つ" ]
+      ]
+      text [
+       letters [ "う" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -129.472 37.2723 0.129929 ]
+    nhpr [ -54.6042 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ザ" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "カ" ]
+      ]
+      text [
+       letters [ "ブ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ド" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "む" ]
+      ]
+      text [
+       letters [ "ず" ]
+      ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "し" ]
+      ]
+      text [
+       letters [ "い" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ -110 -5 0.129929 ]
+    nhpr [ -75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ザ" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "カ" ]
+      ]
+      text [
+       letters [ "ブ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ド" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "む" ]
+      ]
+      text [
+       letters [ "ず" ]
+      ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "し" ]
+      ]
+      text [
+       letters [ "い" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -110 -5 0.129929 ]
+    nhpr [ -75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ザ" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "カ" ]
+      ]
+      text [
+       letters [ "ブ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ド" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "む" ]
+      ]
+      text [
+       letters [ "ず" ]
+      ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "し" ]
+      ]
+      text [
+       letters [ "い" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -66.3251 -96.9588 0.129929 ]
+    nhpr [ 7.99989 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.6 1 0.6 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "サ" ]
+      ]
+      text [
+       letters [ "ム" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "フ" ]
+      ]
+      text [
+       letters [ "ァ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ふ" ]
+      ]
+      text [
+       letters [ "つ" ]
+      ]
+      text [
+       letters [ "う" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ 135 20 0.129929 ]
+    nhpr [ 75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.6 1 0.6 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ウ" ]
+      ]
+      text [
+       letters [ "ォ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ク" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "イ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "パ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "た" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ 130.87 -26.3261 0.129929 ]
+    nhpr [ 95.7167 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.6 1 0.6 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ウ" ]
+      ]
+      text [
+       letters [ "ォ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ク" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "イ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "パ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "た" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARootTest" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ 135 20 0.129929 ]
+    nhpr [ 75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.6 1 0.6 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ウ" ]
+      ]
+      text [
+       letters [ "ォ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ク" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "イ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "パ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "か" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "た" ]
+      ]
+      text [
+       letters [ "ん" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARootTest" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -20 -100 0.129929 ]
+    nhpr [ -15 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "サ" ]
+      ]
+      text [
+       letters [ "ム" ]
+      ]
+      text [
+       letters [ "・" ]
+      ]
+      text [
+       letters [ "フ" ]
+      ]
+      text [
+       letters [ "ァ" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "ふ" ]
+      ]
+      text [
+       letters [ "つ" ]
+      ]
+      text [
+       letters [ "う" ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "  " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "ホ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+     ]
+    ]
+   ]
+   prop "linktunnel_oz_6000_DNARoot" [
+    code [ "prop_golf_NoSign_entrance" ]
+    pos [ 5 145 0 ]
+    nhpr [ 0 0 0 ]
+    sign [
+     baseline [
+      code [ "mickey" ]
+      color [ 0.705882 0.156863 0.235294 1 ]
+      scale [ 2 1 2 ]
+      text [
+       letters [ "チ" ]
+      ]
+      text [
+       letters [ "ッ" ]
+      ]
+      text [
+       letters [ "プ" ]
+      ]
+      text [
+       letters [ "と" ]
+      ]
+      text [
+       letters [ "デ" ]
+      ]
+      text [
+       letters [ "ー" ]
+      ]
+      text [
+       letters [ "ル" ]
+      ]
+      text [
+       letters [ "の" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0.705882 0.156863 0.235294 1 ]
+      pos [ 0 0 -4 ]
+      scale [ 3 1 3 ]
+      text [
+       letters [ "ド" ]
+      ]
+      text [
+       letters [ "ン" ]
+      ]
+      text [
+       letters [ "グ" ]
+      ]
+      text [
+       letters [ "リ" ]
+      ]
+      text [
+       letters [ "ひ" ]
+      ]
+      text [
+       letters [ "ろ" ]
+      ]
+      text [
+       letters [ "ば" ]
+      ]
+     ]
+    ]
+   ]
+  ]
+ ]
+]

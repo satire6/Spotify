@@ -1,0 +1,22 @@
+       \1blue\1Toons Love to Party!\2
+It's been a month of Toon Parties, and one thing is very clear -- Toons love to party! Just check out these stats:
+        - Over 72 million jellybens spent on Toon parties!
+        - Over 4.5 million Toons launching out of Cannons!
+        - Over 2 million Toons jumping on Trampolines!
+Whew, that's a lot of Toon partying! But it's no wonder with so much to do -- like launching your Toon out of a Cannon, collecting jellybeans while on a Trampoline, or breaking out some super-sweet Toon moves on the Dance Floor -- all while making new friends!
+If you haven't had a chance to party yet - what are you waiting for?!?!
+----
+Examples of All Panda tags
+\1shadow\1shadow\2
+\1red\1red\2
+\1green\1green\2
+\1yellow\1yellow\2
+\1midgreen\1midgreen\2
+\1blue\1blue\2
+\1white\1white\2
+\1black\1black\2
+\1grey\1grey\2
+\1WLDisplay\1WLDisplay\2
+\1shadow\1\1yellow\1yellow_and_shadow\2\2
+\1grey\1\1midgreen\1grey_and_midgreen\2\2
+\1blue\1\1WLDisplay\1blue_and_wldisplay\2\2

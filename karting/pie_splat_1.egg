@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -p 200,200 pie_splat_1.tif -o pie_splat_1.egg"
+}
+<Texture> pie_splat_1 {
+  pie_splat_1.tif
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -1.2125 1.2125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -1.2125 -1.2125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      1.2125 -1.2125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      1.2125 1.2125 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> pie_splat_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { pie_splat_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

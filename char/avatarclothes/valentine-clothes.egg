@@ -1,0 +1,225 @@
+<Comment> {
+  "egg-texture-cards tt_t_chr_avt_shirt_valentine1.tif tt_t_chr_avt_shirtSleeve_valentine1.tif tt_t_chr_avt_shirt_valentine2.tif tt_t_chr_avt_shirtSleeve_valentine2.tif tt_t_chr_avt_shirt_valentine3.tif tt_t_chr_avt_shirtSleeve_valentine3.tif tt_t_chr_avt_shorts_valentine1.tif tt_t_chr_avt_shorts_valentine2.tif tt_t_chr_avt_skirt_valentine1.tif tt_t_chr_avt_skirt_valentine2.tif Vday1Shirt5.rgb Vday1Shirt6SHD.rgb Vday1Shirt4.rgb Vday_shirt2c.rgb Vday5Sleeve.rgb Vda6Sleeve.rgb Vday_shirt4sleeve.rgb Vday2cSleeve.rgb VdayShorts2.rgb VdaySkirt1.rgb -o valentine-clothes.egg"
+}
+<Texture> tt_t_chr_avt_skirt_valentine2 {
+  tt_t_chr_avt_skirt_valentine2.tif
+}
+<Texture> tt_t_chr_avt_skirt_valentine1 {
+  tt_t_chr_avt_skirt_valentine1.tif
+}
+<Texture> tt_t_chr_avt_shorts_valentine2 {
+  tt_t_chr_avt_shorts_valentine2.tif
+}
+<Texture> tt_t_chr_avt_shorts_valentine1 {
+  tt_t_chr_avt_shorts_valentine1.tif
+}
+<Texture> tt_t_chr_avt_shirt_valentine3 {
+  tt_t_chr_avt_shirt_valentine3.tif
+}
+<Texture> tt_t_chr_avt_shirt_valentine2 {
+  tt_t_chr_avt_shirt_valentine2.tif
+}
+<Texture> tt_t_chr_avt_shirt_valentine1 {
+  tt_t_chr_avt_shirt_valentine1.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_valentine3 {
+  tt_t_chr_avt_shirtSleeve_valentine3.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_valentine2 {
+  tt_t_chr_avt_shirtSleeve_valentine2.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_valentine1 {
+  tt_t_chr_avt_shirtSleeve_valentine1.tif
+}
+<Texture> Vday_shirt4sleeve {
+  Vday_shirt4sleeve.rgb
+}
+<Texture> Vday_shirt2c {
+  Vday_shirt2c.rgb
+}
+<Texture> VdaySkirt1 {
+  VdaySkirt1.rgb
+}
+<Texture> VdayShorts2 {
+  VdayShorts2.rgb
+}
+<Texture> Vday5Sleeve {
+  Vday5Sleeve.rgb
+}
+<Texture> Vday2cSleeve {
+  Vday2cSleeve.rgb
+}
+<Texture> Vday1Shirt6SHD {
+  Vday1Shirt6SHD.rgb
+}
+<Texture> Vday1Shirt5 {
+  Vday1Shirt5.rgb
+}
+<Texture> Vday1Shirt4 {
+  Vday1Shirt4.rgb
+}
+<Texture> Vda6Sleeve {
+  Vda6Sleeve.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_valentine1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_valentine1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_valentine2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_valentine2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_valentine2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_valentine2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_valentine3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_valentine3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_valentine3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_valentine3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_valentine1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_valentine2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_valentine2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_valentine1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_valentine2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_valentine2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday1Shirt5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday1Shirt5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday1Shirt6SHD {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday1Shirt6SHD }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday1Shirt4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday1Shirt4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday_shirt2c {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday_shirt2c }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday5Sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday5Sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vda6Sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vda6Sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday_shirt4sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday_shirt4sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Vday2cSleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Vday2cSleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> VdayShorts2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { VdayShorts2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> VdaySkirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { VdaySkirt1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

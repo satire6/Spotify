@@ -1,0 +1,115 @@
+<Comment> {
+  "egg-texture-cards -o pajama-clothes.egg Blue_shorts_1.tif PJBlueBanana2.tif PJGlasses2.tif PJRedHorn2.tif PJSleeveBlue.tif PJSleevePurple.tif PJSleeveRed.tif Purple_shorts_1.tif Red_shorts_1.tif"
+}
+<Texture> Red_shorts_1 {
+  Red_shorts_1.tif
+}
+<Texture> Purple_shorts_1 {
+  Purple_shorts_1.tif
+}
+<Texture> PJSleeveRed {
+  PJSleeveRed.tif
+}
+<Texture> PJSleevePurple {
+  PJSleevePurple.tif
+}
+<Texture> PJSleeveBlue {
+  PJSleeveBlue.tif
+}
+<Texture> PJRedHorn2 {
+  PJRedHorn2.tif
+}
+<Texture> PJGlasses2 {
+  PJGlasses2.tif
+}
+<Texture> PJBlueBanana2 {
+  PJBlueBanana2.tif
+}
+<Texture> Blue_shorts_1 {
+  Blue_shorts_1.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Blue_shorts_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Blue_shorts_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJBlueBanana2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJBlueBanana2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJGlasses2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJGlasses2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJRedHorn2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJRedHorn2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJSleeveBlue {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJSleeveBlue }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJSleevePurple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJSleevePurple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PJSleeveRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PJSleeveRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Purple_shorts_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Purple_shorts_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Red_shorts_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Red_shorts_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

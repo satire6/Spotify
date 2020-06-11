@@ -1,0 +1,32 @@
+<CoordinateSystem> { Z-Up }
+
+<Texture> 0 {
+  "../maps/eyesFemale.rgba"
+  <Scalar> format { RGBA8 }
+  <Scalar> wrap { CLAMP }
+}
+<VertexPool> vertices {
+  <Vertex> 1 {
+    -1 0 1
+    <UV> { -2 1 }
+  }
+  <Vertex> 2 {
+    1 0 1
+    <UV> { 1 1 }
+  }
+  <Vertex> 3 {
+    -1 0 -1
+    <UV> { -2 -2 }
+  }
+  <Vertex> 4 {
+    1 0 -1
+    <UV> { 1 -2 }
+  }
+}
+<Group> poly {
+  <Polygon> {
+    <TRef> { 0 }
+    <VertexRef> { 1 3 4 2 <Ref> { vertices } }
+  }
+}
+

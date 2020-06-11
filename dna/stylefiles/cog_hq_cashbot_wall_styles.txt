@@ -1,0 +1,9 @@
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.0, 0.917, 0.592, 1.0)
+window_texture: window_sm_pointed_ur
+window_color: Vec4(0.396,  0.611,  0.666,  1.0)
+window_count: 2
+cornice_texture: cornice_stone_ur
+cornice_color: Vec4(1.0, 1.0, 0.592,  1.0)
+endWallStyle

@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -o minnieSZ.egg ../maps/minnieSZ.rgba"
+}
+<Texture> minnieSZ {
+  "../maps/minnieSZ.rgba"
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> minnieSZ {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { minnieSZ }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

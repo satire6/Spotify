@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards ../maps/LegalIcon.rgba legalIcon.egg"
+}
+<Texture> LegalIcon {
+  "../maps/LegalIcon.rgba"
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> LegalIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { LegalIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+// Parties
+model "phase_8/models/modules/partyGate_DG" [
+ 	store_node [ "prop" "prop_party_gate" "" ]
+	]
+    
+place_model "phase_8/models/neighborhoods/daisys_garden_ext" [
+ 	store_node [ "prop" "daisys_garden_ext" "" ]
+	]
+    
+place_model "phase_8/models/neighborhoods/daisys_garden" [
+  	store_node [ "prop" "daisys_garden" "" ]
+ 	]
+place_model "phase_8/models/modules/safe_zone_tunnel_DG" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_8/models/modules/trolley_station_DG" [
+	store_node [ "prop" "prop_trolley_station" ]
+	]
+
+place_model "phase_8/models/modules/gagShop_DG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_gag_shop" "" ]
+        ]
+
+place_model "phase_8/models/modules/PetShopExterior_DG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_pet_shop" "" ]
+        ]
+
+place_model "phase_8/models/modules/clothshopDG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_clothes_shop" "" ]
+        ]
+
+place_model "phase_4/models/props/exteriorfish-zero" [
+	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
+	]

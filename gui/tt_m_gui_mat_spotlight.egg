@@ -1,0 +1,34 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_mat_spotlight.egg ../maps/tt_t_ara_mat_reveal.tif"
+}
+<Texture> tt_t_ara_mat_reveal {
+  "../maps/tt_t_ara_mat_reveal.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -3.33333 2.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -3.33333 -2.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      3.33333 -2.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      3.33333 2.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_ara_mat_reveal {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_mat_reveal }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

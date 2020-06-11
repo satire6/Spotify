@@ -1,0 +1,737 @@
+#define DIR_TYPE models
+#define INSTALL_TO models/props
+#define CHAN_SUFFIX -chan
+// masad: make sure the neutral frame is set to -1 to get default orientation
+#define MAYA2EGG_OPTS -no -fri 24 -uo ft -nf -1
+
+// These are the various animation files generated within this directory
+
+// new can (from Multigen)
+#begin flt_egg
+  #define SOURCES can.flt
+#end flt_egg
+
+// roll-o-dex card
+#begin maya_char_egg
+  #define MODEL card
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL card
+  #define CHAR_NAME card
+#end maya_char_egg
+
+// dagger
+#begin maya_char_egg
+  #define MODEL dagger
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL dagger
+  #define CHAR_NAME dagger
+#end maya_char_egg
+
+// pad o' paper
+#begin maya_char_egg
+  #define MODEL pad 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL  pad
+  #define CHAR_NAME pad
+#end maya_char_egg
+
+// rubber stamp
+#begin maya_char_egg
+  #define MODEL rubber-stamp 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL  rubber-stamp
+  #define CHAR_NAME rubber-stamp 
+#end maya_char_egg
+
+// rubber stamp pad and anim
+#begin maya_char_egg
+  #define MODEL rubber-stamp-pad
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL  rubber-stamp-pad-mod
+  #define ANIMS rubber-stamp-pad
+  #define CHAR_NAME rubber-stamp-pad
+#end maya_char_egg
+
+// smile and anim 
+#begin maya_char_egg
+  #define MODEL smile
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL smile-mod 
+  #define ANIMS smile 
+  #define CHAR_NAME smile 
+#end maya_char_egg
+
+// propeller and anim 
+#begin maya_char_egg
+  #define MODEL propeller
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL propeller-mod 
+  #define ANIMS propeller 
+  #define CHAR_NAME propeller 
+#end maya_char_egg
+
+// wind-up-teeth and anim
+#begin maya_char_egg
+  #define MODEL teeth 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL teeth-mod
+  #define ANIMS teeth  
+  #define CHAR_NAME teeth
+#end maya_char_egg
+
+
+// rollodex
+#begin maya_char_egg
+  #define MODEL roll-o-dex
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL roll-o-dex
+  #define CHAR_NAME roll-o-dex 
+#end maya_char_egg
+
+// calculator and anim 
+#begin maya_char_egg
+  #define MODEL calculator
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL calculator-mod 
+  #define ANIMS calculator 
+  #define CHAR_NAME calculator
+#end maya_char_egg
+
+// golf club
+#begin maya_char_egg
+  #define MODEL golf-club
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL golf-club 
+  #define CHAR_NAME golf-club 
+#end maya_char_egg
+
+// golf ball 
+#begin maya_char_egg
+  #define MODEL golf-ball 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL golf-ball  
+  #define CHAR_NAME golf-ball
+#end maya_char_egg
+
+// red tape 
+#begin maya_char_egg
+  #define MODEL redtape
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL redtape 
+  #define CHAR_NAME redtape 
+#end maya_char_egg
+
+// red tape tube 
+#begin maya_char_egg
+  #define MODEL redtape-tube
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL redtape-tube 
+  #define CHAR_NAME redtape-tube 
+#end maya_char_egg
+
+// paper shredder
+#begin maya_char_egg
+  #define MODEL shredder
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL shredder 
+  #define CHAR_NAME shredder
+#end maya_char_egg
+
+// paper (also eviction notice) and chan
+#begin maya_char_egg
+  #define MODEL shredder-paper
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL shredder-paper-mod 
+  #define ANIMS shredder-paper 
+  #define CHAR_NAME shredder-paper
+#end maya_char_egg
+
+// phone (minus receiver)
+#begin maya_char_egg
+  #define MODEL phone
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL phone 
+  #define CHAR_NAME phone
+#end maya_char_egg
+
+// receiver
+#begin maya_char_egg
+  #define MODEL receiver
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL receiver 
+  #define CHAR_NAME receiver
+#end maya_char_egg
+
+// pencil
+#begin maya_char_egg
+  #define MODEL pencil
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pencil  
+  #define CHAR_NAME pencil
+#end maya_char_egg
+
+// sharpener
+#begin maya_char_egg
+  #define MODEL sharpener
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL sharpener
+  #define CHAR_NAME sharpener
+#end maya_char_egg
+
+// pen
+#begin maya_char_egg
+  #define MODEL pen
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pen  
+  #define CHAR_NAME pen
+#end maya_char_egg
+
+// bounced-check
+#begin maya_char_egg
+  #define MODEL bounced-check
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL bounced-check   
+  #define CHAR_NAME bounced-check
+#end maya_char_egg
+
+// clip-on-tie and anim
+#begin maya_char_egg
+  #define MODEL clip-on-tie
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX
+  #define POLY_MODEL clip-on-tie-mod
+  #define ANIMS clip-on-tie 
+  #define CHAR_NAME clip-on-tie
+#end maya_char_egg
+
+// watercooler
+#begin maya_char_egg
+  #define MODEL watercooler 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL watercooler  
+  #define CHAR_NAME watercooler
+#end maya_char_egg
+
+// rake-step and anim
+#begin maya_char_egg
+  #define MODEL rake-step
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX
+  #define POLY_MODEL rake-step-mod
+  #define ANIMS rake-step 
+  #define CHAR_NAME rake-step
+#end maya_char_egg
+
+// baseball
+#begin maya_char_egg
+  #define MODEL baseball 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL baseball  
+  #define CHAR_NAME baseball
+#end maya_char_egg
+
+// pink-slip
+#begin maya_char_egg
+  #define MODEL pink-slip 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pink-slip  
+  #define CHAR_NAME pink-slip
+#end maya_char_egg
+
+// half-windsor
+#begin maya_char_egg
+  #define MODEL half-windsor 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL half-windsor  
+  #define CHAR_NAME half-windsor
+#end maya_char_egg
+
+// evil-eye
+#begin maya_char_egg
+  #define MODEL evil-eye 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL evil-eye  
+  #define CHAR_NAME evil-eye
+#end maya_char_egg
+
+// cigar
+#begin maya_char_egg
+  #define MODEL cigar 
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL cigar  
+  #define CHAR_NAME cigar
+#end maya_char_egg
+
+// newspaper
+
+// we moved this from maya to multigen to make localization easier
+#begin flt_egg
+  #define SOURCES newspaper_english.flt
+  #if $[eq $[LANGUAGE], castillian]
+    #define SOURCES newspaper_castillian.flt
+  #elif $[eq $[LANGUAGE], japanese]
+    #define SOURCES newspaper_japanese.flt
+  #endif
+#end flt_egg
+
+// little bird
+#begin maya_char_egg
+  #define MODEL bird
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL bird  
+  #define CHAR_NAME bird
+#end maya_char_egg
+
+
+// little gavel
+#begin maya_char_egg
+  #define MODEL gavel
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL gavel  
+  #define CHAR_NAME gavel
+#end maya_char_egg
+
+
+// lawbook
+#begin maya_char_egg
+  #define MODEL lawbook
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL lawbook  
+  #define CHAR_NAME lawbook
+#end maya_char_egg
+
+// power-tie
+#begin maya_char_egg
+  #define MODEL power-tie
+  #define MAYA_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL power-tie  
+  #define CHAR_NAME power-tie
+#end maya_char_egg
+
+//
+// OPTIMIZE
+//
+
+#define OPTCHAR_OPTS \
+   -no -TR 0,180,0 -TS 0.25 
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    propeller-mod.egg propeller-chan.egg 
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    rubber-stamp-pad-mod.egg rubber-stamp-pad-chan.egg 
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    smile-mod.egg smile-chan.egg    
+#end optchar_egg
+
+// Optimize the various characters.
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    fishing-pole-mod.egg fishing-pole-chan.egg    
+//  #define OPTCHAR_OPTS \
+//     $[OPTCHAR_OPTS] -expose joint_attachBill
+//#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    calculator-mod.egg calculator-chan.egg    
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    shredder-paper-mod.egg shredder-paper-chan.egg    
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    sharpener.egg
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    pen.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] -expose joint_toSpray
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    clip-on-tie-mod.egg clip-on-tie-chan.egg
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    watercooler.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] -expose joint_toSpray
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    rake-step-mod.egg rake-step-chan.egg
+#end optchar_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    teeth-mod.egg teeth-chan.egg
+#end optchar_egg
+
+//
+// TRANSFORM
+//
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    card.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    dagger.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    pad.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    rubber-stamp.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    bounced-check.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    roll-o-dex.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source] 
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    redtape.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    redtape-tube.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    golf-club.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    golf-ball.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    phone.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    shredder.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    receiver.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    pencil.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    baseball.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    pink-slip.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    half-windsor.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    evil-eye.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    cigar.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    newspaper_english.egg newspaper_castillian.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    bird.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    gavel.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    lawbook.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+// Transform the various non-characters.
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    power-tie.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+//
+// INSTALL
+//
+
+// These should be seperated into the actual phases the are needed in!
+
+// Phase 3.5: install everything that should be installed.
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    shredder.egg phone.egg clip-on-tie-mod.egg shredder-paper-mod.egg receiver.egg 
+  #define UNPAL_SOURCES \
+    shredder-paper-chan.egg clip-on-tie-chan.egg
+  #define PHASE 3.5
+#end install_egg
+
+// Finally, install everything that should be installed.
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    propeller-mod.egg 
+  #define UNPAL_SOURCES \
+    propeller-chan.egg 
+  #define PHASE 4
+#end install_egg
+
+// Phase 5: install the optchar stuff 
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    roll-o-dex.egg rubber-stamp-pad-mod.egg calculator-mod.egg smile-mod.egg \
+    golf-club.egg golf-ball.egg redtape.egg \
+    pencil.egg sharpener.egg pen.egg bounced-check.egg \
+    watercooler.egg \
+    rubber-stamp.egg pad.egg dagger.egg card.egg \
+    redtape-tube.egg rake-step-mod.egg baseball.egg pink-slip.egg \
+    half-windsor.egg evil-eye.egg cigar.egg newspaper_english.egg newspaper_castillian.egg \
+    teeth-mod.egg bird.egg gavel.egg lawbook.egg power-tie.egg
+  #define UNPAL_SOURCES \
+    rubber-stamp-pad-chan.egg calculator-chan.egg \
+    smile-chan.egg teeth-chan.egg \
+    rake-step-chan.egg
+  #define PHASE 5
+#end install_egg
+
+// Phase 5: install the un-optchared stuff
+#begin install_egg
+  #define SOURCES \
+    can.egg
+  #define PHASE 5
+#end install_egg
+
+

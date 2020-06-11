@@ -1,0 +1,63 @@
+<Comment> {
+  "egg-texture-cards -p 32,32 -g -0.5,0.5,-0.5,0.5 -wm c -o catalogSoundIcons.egg ../maps/sound07.tif ../maps/sound08.tif"
+}
+<Texture> sound08 {
+  "../maps/sound08.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> sound07 {
+  "../maps/sound07.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> sound07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { sound07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> sound08 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { sound08 }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+}

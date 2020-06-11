@@ -1,0 +1,40 @@
+<CoordinateSystem> { Z-Up }
+
+<VertexPool> dd-e-w_xyz.pool {
+  <Vertex> 0 { 49.58 26.04 -3.85 1 }
+  <Vertex> 1 { 46.7532 -56.0485 -3.85004 1.00001 }
+  <Vertex> 2 { -19.4486 -80.5423 -3.85 1 }
+  <Vertex> 3 { -49.7222 -10.7106 -3.84988 0.99997 }
+}
+<NURBSCurve> dd-e-w_xyz {
+  <Char*> type { XYZ }
+  <Order> { 4 }
+  <Knots> {
+    0 0 0 0 20.0004 20.0004 
+    20.0004 20.0004 
+  }
+  <VertexRef> {
+    0 1 2 3
+    <Ref> { dd-e-w_xyz.pool }
+  }
+}
+<CoordinateSystem> { Z-Up }
+
+<VertexPool> dd-e-w_hpr.pool {
+  <Vertex> 0 { 180 0 0 1 }
+  <Vertex> 1 { 150.002 0 0 1.00001 }
+  <Vertex> 2 { 29.9999 0 0 1 }
+  <Vertex> 3 { -0.00569916 0 0 0.99997 }
+}
+<NURBSCurve> dd-e-w_hpr {
+  <Char*> type { HPR }
+  <Order> { 4 }
+  <Knots> {
+    0 0 0 0 20.0004 20.0004 
+    20.0004 20.0004 
+  }
+  <VertexRef> {
+    0 1 2 3
+    <Ref> { dd-e-w_hpr.pool }
+  }
+}

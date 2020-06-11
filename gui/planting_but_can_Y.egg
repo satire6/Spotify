@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -p 128,256 planting_but_can_Y.tif -o planting_but_can_Y.egg"
+}
+<Texture> planting_but_can_Y {
+  planting_but_can_Y.tif
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.625 0.3125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.625 -0.3125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.625 -0.3125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.625 0.3125 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> planting_but_can_Y {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { planting_but_can_Y }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

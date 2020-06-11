@@ -1,0 +1,158 @@
+node "level" [
+ prop "terrain_DNARoot" [
+  code [ "terrain" ]
+  pos [ -0.820801 -0.754913 3.04488 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ -36.3741 -43.3012 4.55367 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ -92.3638 24.6263 0.552321 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ 79.6661 -86.5785 0.146469 ]
+  hpr [ 0 0.000126892 0 ]
+  scale [ 1.06778 1.06778 1.06778 ]
+ ]
+ prop "prop_tree_large_ur_DNARoot" [
+  code [ "prop_tree_large_ur" ]
+  pos [ -43.4227 -28.6538 4.12347 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ -50.9041 -137.473 0.490761 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ 83.638 -61.8457 0.0771255 ]
+  hpr [ 0 -5.53992 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ 121.356 32.2032 0.0371246 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ -97.5178 -73.2054 0.125469 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ 54.8451 -28.8566 8.7089 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "fishing_spot_DNARoot" [
+  code [ "fishing_spot" ]
+  pos [ 30.9438 -98.8342 -1.8537 ]
+  hpr [ 165 0 0 ]
+ ]
+ prop "animated_prop_FishAnimatedProp_DNARoot" [
+  code [ "animated_prop_FishAnimatedProp" ]
+  pos [ 1.33734 -125.135 -6.59929 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_fat_ul_DNARoot" [
+  code [ "prop_tree_fat_ul" ]
+  pos [ 63.6308 -76.6244 0.0376587 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ -151.425 13.0959 -0.889091 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_fat_ul_DNARoot" [
+  code [ "prop_tree_fat_ul" ]
+  pos [ -143.933 -15.7508 -0.55123 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_small_ul_DNARoot" [
+  code [ "prop_tree_small_ul" ]
+  pos [ 7.08977 -20.1195 7.04463 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ul_DNARoot" [
+  code [ "prop_tree_small_ul" ]
+  pos [ -1.68657 -36.2648 7.24739 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ -90.3261 -9.21419 1.54222 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ -139.493 -113.856 -4.74133 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ -76.0853 121.084 0.87615 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ 130.934 -112.295 0.87703 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_large_ul_DNARoot" [
+  code [ "prop_tree_large_ul" ]
+  pos [ 91.8022 151.809 0.25066 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "fishing_spot_DNARoot" [
+  code [ "fishing_spot" ]
+  pos [ 46.1844 -107.677 -3.63723 ]
+  hpr [ 105 0 0 ]
+ ]
+ prop "prop_tree_fat_ur_DNARoot" [
+  code [ "prop_tree_fat_ur" ]
+  pos [ -20 90 0.343919 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "prop_tree_large_ul_DNARoot" [
+  code [ "prop_tree_large_ul" ]
+  pos [ 11.1228 -747.588 329.571 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_large_ul_DNARoot" [
+  code [ "prop_tree_large_ul" ]
+  pos [ -108.439 -205.743 -20.9663 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_large_ul_DNARoot" [
+  code [ "prop_tree_large_ul" ]
+  pos [ 172.91 27.0758 -0.424359 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ 28.5562 -775.483 357.109 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ -168.464 111.89 2.8051 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ 54.3968 150.639 -0.865251 ]
+  hpr [ 30 0 0 ]
+ ]
+ prop "prop_tree_small_ur_DNARoot" [
+  code [ "prop_tree_small_ur" ]
+  pos [ 51.6012 -144.655 0.173508 ]
+  hpr [ 30 0 0 ]
+ ]
+]

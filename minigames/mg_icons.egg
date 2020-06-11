@@ -1,0 +1,185 @@
+<Comment> {
+  "egg-texture-cards ../maps/mg_trolley_sign_cannon.tif ../maps/mg_trolley_sign_catch.tif ../maps/mg_trolley_sign_dive.tif ../maps/mg_trolley_sign_maze.tif ../maps/mg_trolley_sign_minnie.tif ../maps/mg_trolley_sign_race.tif ../maps/mg_trolley_sign_ring.tif ../maps/mg_trolley_sign_tag.tif ../maps/mg_trolley_sign_tugawar.tif ../maps/mg_trolley_sign_vine.tif ../maps/mg_trolley_sign_card.tif ../maps/mg_trolley_sign_umbrella.tif ../maps/mg_trolley_sign_2d.tif ../maps/mg_trolley_sign_ice.tif ../maps/mg_trolley_sign_photo.tif ../maps/mg_trolley_sign_theif.tif -o mg_icons.egg"
+}
+<Texture> mg_trolley_sign_vine {
+  "../maps/mg_trolley_sign_vine.tif"
+}
+<Texture> mg_trolley_sign_umbrella {
+  "../maps/mg_trolley_sign_umbrella.tif"
+}
+<Texture> mg_trolley_sign_tugawar {
+  "../maps/mg_trolley_sign_tugawar.tif"
+}
+<Texture> mg_trolley_sign_theif {
+  "../maps/mg_trolley_sign_theif.tif"
+}
+<Texture> mg_trolley_sign_tag {
+  "../maps/mg_trolley_sign_tag.tif"
+}
+<Texture> mg_trolley_sign_ring {
+  "../maps/mg_trolley_sign_ring.tif"
+}
+<Texture> mg_trolley_sign_race {
+  "../maps/mg_trolley_sign_race.tif"
+}
+<Texture> mg_trolley_sign_photo {
+  "../maps/mg_trolley_sign_photo.tif"
+}
+<Texture> mg_trolley_sign_minnie {
+  "../maps/mg_trolley_sign_minnie.tif"
+}
+<Texture> mg_trolley_sign_maze {
+  "../maps/mg_trolley_sign_maze.tif"
+}
+<Texture> mg_trolley_sign_ice {
+  "../maps/mg_trolley_sign_ice.tif"
+}
+<Texture> mg_trolley_sign_dive {
+  "../maps/mg_trolley_sign_dive.tif"
+}
+<Texture> mg_trolley_sign_catch {
+  "../maps/mg_trolley_sign_catch.tif"
+}
+<Texture> mg_trolley_sign_card {
+  "../maps/mg_trolley_sign_card.tif"
+}
+<Texture> mg_trolley_sign_cannon {
+  "../maps/mg_trolley_sign_cannon.tif"
+}
+<Texture> mg_trolley_sign_2d {
+  "../maps/mg_trolley_sign_2d.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> mg_trolley_sign_cannon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_cannon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_catch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_catch }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_dive {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_dive }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_maze {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_maze }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_minnie {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_minnie }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_race {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_race }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_ring {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_ring }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_tag {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_tag }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_tugawar {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_tugawar }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_vine {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_vine }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_card {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_card }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_umbrella {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_umbrella }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_2d {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_2d }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_ice {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_ice }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_photo {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_photo }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_trolley_sign_theif {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_trolley_sign_theif }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o jar_gui.egg ../maps/Jar.rgba"
+}
+<Texture> Jar {
+  "../maps/Jar.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.216667 0.264583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.216667 -0.264583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.216667 -0.264583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.216667 0.264583 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Jar {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Jar }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

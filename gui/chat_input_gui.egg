@@ -1,0 +1,306 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o chat_input_gui.egg ../maps/Chat_Bx_FNL.rgba ../maps/quick_talker.rgba ../maps/ChtBx_BackBtn_DN.rgba ../maps/ChtBx_BackBtn_Rllvr.rgba ../maps/ChtBx_BackBtn_UP.rgba ../maps/ChtBx_ChtBtn_DN.rgba ../maps/ChtBx_ChtBtn_RLVR.rgba ../maps/ChtBx_ChtBtn_UP.rgba ../maps/CloseBtn_DN.rgba ../maps/CloseBtn_Rllvr.rgba ../maps/CloseBtn_UP.rgba"
+}
+<Texture> quick_talker {
+  "../maps/quick_talker.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_UP {
+  "../maps/CloseBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_Rllvr {
+  "../maps/CloseBtn_Rllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_DN {
+  "../maps/CloseBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_ChtBtn_UP {
+  "../maps/ChtBx_ChtBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_ChtBtn_RLVR {
+  "../maps/ChtBx_ChtBtn_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_ChtBtn_DN {
+  "../maps/ChtBx_ChtBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_BackBtn_UP {
+  "../maps/ChtBx_BackBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_BackBtn_Rllvr {
+  "../maps/ChtBx_BackBtn_Rllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_BackBtn_DN {
+  "../maps/ChtBx_BackBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> Chat_Bx_FNL {
+  "../maps/Chat_Bx_FNL.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.270833 0.183333 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.270833 -0.183333 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.270833 -0.183333 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.270833 0.183333 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.908333 0.0916667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.908333 -0.0916667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.908333 -0.0916667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.908333 0.0916667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 17 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 18 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 19 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 20 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 21 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 22 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 23 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 24 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 25 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 26 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 27 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 28 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 29 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 30 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 31 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 32 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 33 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 34 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 35 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 36 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 37 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 38 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 39 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 40 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 41 {
+      -0.0520833 0.0479167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 42 {
+      -0.0520833 -0.0479167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 43 {
+      0.0520833 -0.0479167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 44 {
+      0.0520833 0.0479167 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Chat_Bx_FNL {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Chat_Bx_FNL }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> quick_talker {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { quick_talker }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_BackBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_BackBtn_DN }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_BackBtn_Rllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_BackBtn_Rllvr }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_BackBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_BackBtn_UP }
+      <VertexRef> { 17 18 19 20 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_ChtBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_ChtBtn_DN }
+      <VertexRef> { 21 22 23 24 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_ChtBtn_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_ChtBtn_RLVR }
+      <VertexRef> { 25 26 27 28 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_ChtBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_ChtBtn_UP }
+      <VertexRef> { 29 30 31 32 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_DN }
+      <VertexRef> { 33 34 35 36 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_Rllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_Rllvr }
+      <VertexRef> { 37 38 39 40 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_UP }
+      <VertexRef> { 41 42 43 44 <Ref> { vpool } }
+    }
+  }
+}

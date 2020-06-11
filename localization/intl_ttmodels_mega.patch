@@ -1,0 +1,3609 @@
+--- Package.pp	30 Jul 2004 18:32:45 -0000	1.14
++++ Package.pp	11 Aug 2005 07:42:32 -0000	1.14.4.1
+@@ -65,7 +65,7 @@
+ #define FLT2EGG_OPTS -no -uo ft
+ #define MAYA2EGG_OPTS -no -fri 24 -uo ft
+ 
+-#define LANGUAGES english castillian japanese german portuguese
++#define LANGUAGES english castillian japanese german portuguese french
+ #define DEFAULT_LANGUAGE english
+ 
+ #if $[not $[LANGUAGE]]
+--- src/dna/Sources.pp	9 Jun 2004 00:35:03 -0000	1.42
++++ src/dna/Sources.pp	23 Apr 2008 03:46:19 -0000	1.42.4.2
+@@ -6,9 +6,7 @@
+   #define SOURCES \
+     storage_tutorial.dna \
+     storage_interior.dna \
+-    tutorial_street_english.dna \
+-    tutorial_street_castillian.dna \
+-    tutorial_street_japanese.dna
++    tutorial_street_english.dna
+   #define PHASE 3.5
+ #end install_dna
+ 
+@@ -17,12 +15,8 @@
+   #define SOURCES \
+     storage_TT_sz.dna \
+     storage_english.dna storage_TT_english.dna \
+-    storage_castillian.dna storage_TT_castillian.dna \
+-    storage_japanese.dna storage_TT_japanese.dna \
+     winter_storage_TT.dna winter_storage_TT_sz.dna \
+-    toontown_central_sz_english.dna \
+-    toontown_central_sz_castillian.dna \
+-    toontown_central_sz_japanese.dna
++    toontown_central_sz_english.dna
+   #define PHASE 4
+ #end install_dna
+ 
+@@ -31,9 +25,7 @@
+   #define SOURCES \
+     storage_town.dna \
+     storage_TT_town.dna \
+-    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna \
+-    toontown_central_2100_castillian.dna toontown_central_2200_castillian.dna toontown_central_2300_castillian.dna \
+-    toontown_central_2100_japanese.dna toontown_central_2200_japanese.dna toontown_central_2300_japanese.dna
++    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna
+   #define PHASE 5
+ #end install_dna
+ 
+@@ -44,9 +36,7 @@
+     winter_storage_estate.dna \
+     house_interior3.dna house_interior4.dna house_interior5.dna \
+     house_interior7.dna house_interior8.dna house_interior10.dna \
+-    storage_estate_english.dna \
+-    storage_estate_castillian.dna \
+-    storage_estate_japanese.dna 
++    storage_estate_english.dna
+   #define PHASE 5.5
+ #end install_dna
+ 
+@@ -55,15 +45,9 @@
+   #define SOURCES \
+     storage_DD_sz.dna storage_DD_town.dna \
+     storage_DD_english.dna \
+-    storage_DD_castillian.dna \
+-    storage_DD_japanese.dna \
+     winter_storage_DD.dna \
+     donalds_dock_1100_english.dna donalds_dock_1200_english.dna donalds_dock_1300_english.dna \
+-    donalds_dock_1100_castillian.dna donalds_dock_1200_castillian.dna donalds_dock_1300_castillian.dna \
+-    donalds_dock_1100_japanese.dna donalds_dock_1200_japanese.dna donalds_dock_1300_japanese.dna \
+-    donalds_dock_sz_english.dna \
+-    donalds_dock_sz_castillian.dna \
+-    donalds_dock_sz_japanese.dna
++    donalds_dock_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -72,15 +56,9 @@
+   #define SOURCES \
+     storage_MM_sz.dna storage_MM_town.dna \
+     storage_MM_english.dna \
+-    storage_MM_castillian.dna \
+-    storage_MM_japanese.dna \
+     winter_storage_MM.dna \
+     minnies_melody_land_4100_english.dna minnies_melody_land_4200_english.dna minnies_melody_land_4300_english.dna \
+-    minnies_melody_land_4100_castillian.dna minnies_melody_land_4200_castillian.dna minnies_melody_land_4300_castillian.dna \
+-    minnies_melody_land_4100_japanese.dna minnies_melody_land_4200_japanese.dna minnies_melody_land_4300_japanese.dna \
+-    minnies_melody_land_sz_english.dna \
+-    minnies_melody_land_sz_castillian.dna \
+-    minnies_melody_land_sz_japanese.dna
++    minnies_melody_land_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -89,15 +67,9 @@
+   #define SOURCES \
+     storage_BR_sz.dna storage_BR_town.dna \
+     storage_BR_english.dna \
+-    storage_BR_castillian.dna \
+-    storage_BR_japanese.dna \
+     winter_storage_BR.dna \
+     the_burrrgh_3100_english.dna the_burrrgh_3200_english.dna \
+-    the_burrrgh_3100_castillian.dna the_burrrgh_3200_castillian.dna \
+-    the_burrrgh_3100_japanese.dna the_burrrgh_3200_japanese.dna \
+-    the_burrrgh_sz_english.dna \
+-    the_burrrgh_sz_castillian.dna \
+-    the_burrrgh_sz_japanese.dna
++    the_burrrgh_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -106,15 +78,9 @@
+   #define SOURCES \
+     storage_DG_sz.dna storage_DG_town.dna \
+     storage_DG_english.dna \
+-    storage_DG_castillian.dna \
+-    storage_DG_japanese.dna \
+     winter_storage_DG.dna \
+     daisys_garden_5100_english.dna daisys_garden_5200_english.dna daisys_garden_5300_english.dna \
+-    daisys_garden_5100_castillian.dna daisys_garden_5200_castillian.dna daisys_garden_5300_castillian.dna \
+-    daisys_garden_5100_japanese.dna daisys_garden_5200_japanese.dna daisys_garden_5300_japanese.dna \
+-    daisys_garden_sz_english.dna \
+-    daisys_garden_sz_castillian.dna \
+-    daisys_garden_sz_japanese.dna
++    daisys_garden_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -123,15 +89,9 @@
+   #define SOURCES \
+     storage_DL_sz.dna storage_DL_town.dna \
+     storage_DL_english.dna \
+-    storage_DL_castillian.dna \
+-    storage_DL_japanese.dna \
+     winter_storage_DL.dna \
+     donalds_dreamland_9100_english.dna \
+-    donalds_dreamland_9100_castillian.dna \
+-    donalds_dreamland_9100_japanese.dna \
+-    donalds_dreamland_sz_english.dna \
+-    donalds_dreamland_sz_castillian.dna \
+-    donalds_dreamland_sz_japanese.dna
++    donalds_dreamland_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+--- src/dna/Sources.pp	21 May 2008 18:55:50 -0000	1.53.26.1
++++ src/dna/Sources.pp	29 Oct 2008 07:18:27 -0000	1.53.26.2
+@@ -6,12 +6,7 @@
+   #define SOURCES \
+     storage_tutorial.dna \
+     storage_interior.dna \
+-    tutorial_street_english.dna \
+-    tutorial_street_castillian.dna \
+-    tutorial_street_japanese.dna \
+-    tutorial_street_german.dna \
+-    tutorial_street_portuguese.dna \
+-    tutorial_street_french.dna
++    tutorial_street_english.dna
+   #define PHASE 3.5
+ #end install_dna
+ 
+@@ -19,16 +14,8 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_TT_sz.dna \
+-    storage_english.dna storage_TT_english.dna \
+-    storage_castillian.dna storage_TT_castillian.dna \
+-    storage_japanese.dna storage_TT_japanese.dna \
+     winter_storage_TT.dna winter_storage_TT_sz.dna \
+-    toontown_central_sz_english.dna \
+-    toontown_central_sz_castillian.dna \
+-    toontown_central_sz_japanese.dna \
+-    toontown_central_sz_german.dna \
+-    toontown_central_sz_portuguese.dna \
+-    toontown_central_sz_french.dna
++    storage_english.dna storage_TT_english.dna toontown_central_sz_english.dna
+   #define PHASE 4
+ #end install_dna
+ 
+@@ -37,12 +24,7 @@
+   #define SOURCES \
+     storage_town.dna \
+     storage_TT_town.dna \
+-    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna \
+-    toontown_central_2100_castillian.dna toontown_central_2200_castillian.dna toontown_central_2300_castillian.dna \
+-    toontown_central_2100_japanese.dna toontown_central_2200_japanese.dna toontown_central_2300_japanese.dna \
+-    toontown_central_2100_german.dna toontown_central_2200_german.dna toontown_central_2300_german.dna \
+-    toontown_central_2100_portuguese.dna toontown_central_2200_portuguese.dna toontown_central_2300_portuguese.dna \
+-    toontown_central_2100_french.dna toontown_central_2200_french.dna toontown_central_2300_french.dna
++    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna
+   #define PHASE 5
+ #end install_dna
+ 
+@@ -53,9 +35,7 @@
+     winter_storage_estate.dna \
+     house_interior3.dna house_interior4.dna house_interior5.dna \
+     house_interior7.dna house_interior8.dna house_interior10.dna \
+-    storage_estate_english.dna \
+-    storage_estate_castillian.dna \
+-    storage_estate_japanese.dna 
++    storage_estate_english.dna
+   #define PHASE 5.5
+ #end install_dna
+ 
+@@ -64,22 +44,9 @@
+   #define SOURCES \
+     storage_DD_sz.dna storage_DD_town.dna \
+     storage_DD_english.dna \
+-    storage_DD_castillian.dna \
+-    storage_DD_japanese.dna \
+-    storage_DD_french.dna \
+     winter_storage_DD.dna \
+     donalds_dock_1100_english.dna donalds_dock_1200_english.dna donalds_dock_1300_english.dna \
+-    donalds_dock_1100_castillian.dna donalds_dock_1200_castillian.dna donalds_dock_1300_castillian.dna \
+-    donalds_dock_1100_japanese.dna donalds_dock_1200_japanese.dna donalds_dock_1300_japanese.dna \
+-    donalds_dock_1100_german.dna donalds_dock_1200_german.dna donalds_dock_1300_german.dna \
+-    donalds_dock_1100_portuguese.dna donalds_dock_1200_portuguese.dna donalds_dock_1300_portuguese.dna \
+-    donalds_dock_1100_french.dna donalds_dock_1200_french.dna donalds_dock_1300_french.dna \
+-    donalds_dock_sz_english.dna \
+-    donalds_dock_sz_castillian.dna \
+-    donalds_dock_sz_japanese.dna \
+-    donalds_dock_sz_german.dna \
+-    donalds_dock_sz_portuguese.dna \
+-    donalds_dock_sz_french.dna
++    donalds_dock_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -88,22 +55,9 @@
+   #define SOURCES \
+     storage_MM_sz.dna storage_MM_town.dna \
+     storage_MM_english.dna \
+-    storage_MM_castillian.dna \
+-    storage_MM_japanese.dna \
+-    storage_MM_french.dna \
+     winter_storage_MM.dna \
+     minnies_melody_land_4100_english.dna minnies_melody_land_4200_english.dna minnies_melody_land_4300_english.dna \
+-    minnies_melody_land_4100_castillian.dna minnies_melody_land_4200_castillian.dna minnies_melody_land_4300_castillian.dna \
+-    minnies_melody_land_4100_japanese.dna minnies_melody_land_4200_japanese.dna minnies_melody_land_4300_japanese.dna \
+-    minnies_melody_land_4100_german.dna minnies_melody_land_4200_german.dna minnies_melody_land_4300_german.dna \
+-    minnies_melody_land_4100_portuguese.dna minnies_melody_land_4200_portuguese.dna minnies_melody_land_4300_portuguese.dna \
+-    minnies_melody_land_4100_french.dna minnies_melody_land_4200_french.dna minnies_melody_land_4300_french.dna \
+-    minnies_melody_land_sz_english.dna \
+-    minnies_melody_land_sz_castillian.dna \
+-    minnies_melody_land_sz_japanese.dna \
+-    minnies_melody_land_sz_german.dna \
+-    minnies_melody_land_sz_portuguese.dna \
+-    minnies_melody_land_sz_french.dna
++    minnies_melody_land_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -113,22 +67,9 @@
+     storage_BR_sz.dna \
+     storage_BR_town.dna \
+     storage_BR_english.dna \
+-    storage_BR_castillian.dna \
+-    storage_BR_japanese.dna \
+-    storage_BR_french.dna \
+     winter_storage_BR.dna \
+     the_burrrgh_3100_english.dna the_burrrgh_3200_english.dna the_burrrgh_3300_english.dna \
+-    the_burrrgh_3100_castillian.dna the_burrrgh_3200_castillian.dna \
+-    the_burrrgh_3100_japanese.dna the_burrrgh_3200_japanese.dna the_burrrgh_3300_japanese.dna \
+-    the_burrrgh_3100_german.dna the_burrrgh_3200_german.dna \
+-    the_burrrgh_3100_portuguese.dna the_burrrgh_3200_portuguese.dna \
+-    the_burrrgh_3100_french.dna the_burrrgh_3200_french.dna the_burrrgh_3300_french.dna \
+-    the_burrrgh_sz_english.dna \
+-    the_burrrgh_sz_castillian.dna \
+-    the_burrrgh_sz_japanese.dna \
+-    the_burrrgh_sz_german.dna \
+-    the_burrrgh_sz_portuguese.dna \
+-    the_burrrgh_sz_french.dna
++    the_burrrgh_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -137,22 +78,9 @@
+   #define SOURCES \
+     storage_DG_sz.dna storage_DG_town.dna \
+     storage_DG_english.dna \
+-    storage_DG_castillian.dna \
+-    storage_DG_japanese.dna \
+-    storage_DG_french.dna \
+     winter_storage_DG.dna \
+     daisys_garden_5100_english.dna daisys_garden_5200_english.dna daisys_garden_5300_english.dna \
+-    daisys_garden_5100_castillian.dna daisys_garden_5200_castillian.dna daisys_garden_5300_castillian.dna \
+-    daisys_garden_5100_japanese.dna daisys_garden_5200_japanese.dna daisys_garden_5300_japanese.dna \
+-    daisys_garden_5100_german.dna daisys_garden_5200_german.dna daisys_garden_5300_german.dna \
+-    daisys_garden_5100_portuguese.dna daisys_garden_5200_portuguese.dna \
+-    daisys_garden_5100_french.dna daisys_garden_5200_french.dna daisys_garden_5300_french.dna \
+-    daisys_garden_sz_english.dna \
+-    daisys_garden_sz_castillian.dna \
+-    daisys_garden_sz_japanese.dna \
+-    daisys_garden_sz_german.dna \
+-    daisys_garden_sz_portuguese.dna \
+-    daisys_garden_sz_french.dna
++    daisys_garden_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -161,25 +89,9 @@
+   #define SOURCES \
+     storage_DL_sz.dna storage_DL_town.dna \
+     storage_DL_english.dna \
+-    storage_DL_castillian.dna \
+-    storage_DL_japanese.dna \
+-    storage_DL_french.dna \
+     winter_storage_DL.dna \
+-    donalds_dreamland_9100_english.dna \
+-    donalds_dreamland_9100_castillian.dna \
+-    donalds_dreamland_9100_japanese.dna \
+-    donalds_dreamland_9100_german.dna \
+-    donalds_dreamland_9100_portuguese.dna \
+-    donalds_dreamland_9100_french.dna \
+-    donalds_dreamland_9200_english.dna \
+-    donalds_dreamland_9200_japanese.dna \
+-    donalds_dreamland_9200_french.dna \
+-    donalds_dreamland_sz_english.dna \
+-    donalds_dreamland_sz_castillian.dna \
+-    donalds_dreamland_sz_japanese.dna \
+-    donalds_dreamland_sz_german.dna \
+-    donalds_dreamland_sz_portuguese.dna \
+-    donalds_dreamland_sz_french.dna
++    donalds_dreamland_9100_english.dna donalds_dreamland_9200_english.dna \
++    donalds_dreamland_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -207,14 +119,8 @@
+ // Goofy Speedway 
+ #begin install_dna
+   #define SOURCES \
+-    storage_GS_sz.dna \
+-    storage_GS_english.dna \
+-    storage_GS_japanese.dna \
+-    storage_GS_french.dna \
++    storage_GS_sz.dna storage_GS_english.dna \
+     goofy_speedway_sz_english.dna \
+-    goofy_speedway_sz_japanese.dna \
+-    goofy_speedway_sz_french.dna \
+-    urban_track_town.dna \
+-    urban_track_town_B.dna
++    urban_track_town.dna urban_track_town_B.dna
+   #define PHASE 6
+ #end install_dna
+--- src/dna/Sources.pp	24 Jun 2008 19:06:48 -0000	1.53.6.1
++++ src/dna/Sources.pp	18 Nov 2008 05:27:50 -0000	1.53.26.3
+@@ -6,9 +6,7 @@
+   #define SOURCES \
+     storage_tutorial.dna \
+     storage_interior.dna \
+-    tutorial_street_english.dna tutorial_street_castillian.dna \
+-    tutorial_street_japanese.dna \
+-    tutorial_street_french.dna
++    tutorial_street_english.dna
+   #define PHASE 3.5
+ #end install_dna
+ 
+@@ -16,14 +14,8 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_TT_sz.dna \
+-    storage_english.dna storage_TT_english.dna \
+-    storage_castillian.dna storage_TT_castillian.dna \
+-    storage_japanese.dna storage_TT_japanese.dna \
+-    storage_french.dna storage_TT_french.dna \
+     winter_storage_TT.dna winter_storage_TT_sz.dna \
+-    toontown_central_sz_english.dna toontown_central_sz_castillian.dna \
+-    toontown_central_sz_japanese.dna \
+-    toontown_central_sz_french.dna
++    storage_english.dna storage_TT_english.dna toontown_central_sz_english.dna
+   #define PHASE 4
+ #end install_dna
+ 
+@@ -32,10 +24,7 @@
+   #define SOURCES \
+     storage_town.dna \
+     storage_TT_town.dna \
+-    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna \
+-    toontown_central_2100_castillian.dna toontown_central_2200_castillian.dna toontown_central_2300_castillian.dna \
+-    toontown_central_2100_japanese.dna toontown_central_2200_japanese.dna toontown_central_2300_japanese.dna \
+-    toontown_central_2100_french.dna toontown_central_2200_french.dna toontown_central_2300_french.dna
++    toontown_central_2100_english.dna toontown_central_2200_english.dna toontown_central_2300_english.dna
+   #define PHASE 5
+ #end install_dna
+ 
+@@ -46,9 +35,7 @@
+     winter_storage_estate.dna \
+     house_interior3.dna house_interior4.dna house_interior5.dna \
+     house_interior7.dna house_interior8.dna house_interior10.dna \
+-    storage_estate_english.dna storage_estate_castillian.dna \
+-    storage_estate_japanese.dna \
+-    storage_estate_french.dna 
++    storage_estate_english.dna
+   #define PHASE 5.5
+ #end install_dna
+ 
+@@ -56,17 +43,10 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_DD_sz.dna storage_DD_town.dna \
+-    storage_DD_english.dna storage_DD_castillian.dna \
+-    storage_DD_japanese.dna \
+-    storage_DD_french.dna \
++    storage_DD_english.dna \
+     winter_storage_DD.dna \
+     donalds_dock_1100_english.dna donalds_dock_1200_english.dna donalds_dock_1300_english.dna \
+-    donalds_dock_1100_castillian.dna donalds_dock_1200_castillian.dna donalds_dock_1300_castillian.dna \
+-    donalds_dock_1100_japanese.dna donalds_dock_1200_japanese.dna donalds_dock_1300_japanese.dna \
+-    donalds_dock_1100_french.dna donalds_dock_1200_french.dna donalds_dock_1300_french.dna \
+-    donalds_dock_sz_english.dna donalds_dock_sz_castillian.dna \
+-    donalds_dock_sz_japanese.dna \
+-    donalds_dock_sz_french.dna
++    donalds_dock_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -74,17 +54,10 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_MM_sz.dna storage_MM_town.dna \
+-    storage_MM_english.dna storage_MM_castillian.dna \
+-    storage_MM_japanese.dna \
+-    storage_MM_french.dna \
++    storage_MM_english.dna \
+     winter_storage_MM.dna \
+     minnies_melody_land_4100_english.dna minnies_melody_land_4200_english.dna minnies_melody_land_4300_english.dna \
+-    minnies_melody_land_4100_castillian.dna minnies_melody_land_4200_castillian.dna minnies_melody_land_4300_castillian.dna \
+-    minnies_melody_land_4100_japanese.dna minnies_melody_land_4200_japanese.dna minnies_melody_land_4300_japanese.dna \
+-    minnies_melody_land_4100_french.dna minnies_melody_land_4200_french.dna minnies_melody_land_4300_french.dna \
+-    minnies_melody_land_sz_english.dna minnies_melody_land_sz_castillian.dna \
+-    minnies_melody_land_sz_japanese.dna \
+-    minnies_melody_land_sz_french.dna
++    minnies_melody_land_sz_english.dna
+   #define PHASE 6
+ #end install_dna
+ 
+@@ -93,17 +66,10 @@
+   #define SOURCES \
+     storage_BR_sz.dna \
+     storage_BR_town.dna \
+-    storage_BR_english.dna storage_BR_castillian.dna \
+-    storage_BR_japanese.dna \
+-    storage_BR_french.dna \
++    storage_BR_english.dna \
+     winter_storage_BR.dna \
+     the_burrrgh_3100_english.dna the_burrrgh_3200_english.dna the_burrrgh_3300_english.dna \
+-    the_burrrgh_3100_castillian.dna the_burrrgh_3200_castillian.dna \
+-    the_burrrgh_3100_japanese.dna the_burrrgh_3200_japanese.dna the_burrrgh_3300_japanese.dna \
+-    the_burrrgh_3100_french.dna the_burrrgh_3200_french.dna the_burrrgh_3300_french.dna \
+-    the_burrrgh_sz_english.dna the_burrrgh_sz_castillian.dna \
+-    the_burrrgh_sz_japanese.dna \
+-    the_burrrgh_sz_french.dna
++    the_burrrgh_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -111,17 +77,10 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_DG_sz.dna storage_DG_town.dna \
+-    storage_DG_english.dna storage_DG_castillian.dna \
+-    storage_DG_japanese.dna \
+-    storage_DG_french.dna \
++    storage_DG_english.dna \
+     winter_storage_DG.dna \
+     daisys_garden_5100_english.dna daisys_garden_5200_english.dna daisys_garden_5300_english.dna \
+-    daisys_garden_5100_castillian.dna daisys_garden_5200_castillian.dna daisys_garden_5300_castillian.dna \
+-    daisys_garden_5100_japanese.dna daisys_garden_5200_japanese.dna daisys_garden_5300_japanese.dna \
+-    daisys_garden_5100_french.dna daisys_garden_5200_french.dna daisys_garden_5300_french.dna \
+-    daisys_garden_sz_english.dna daisys_garden_sz_castillian.dna \
+-    daisys_garden_sz_japanese.dna \
+-    daisys_garden_sz_french.dna
++    daisys_garden_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -129,19 +88,10 @@
+ #begin install_dna
+   #define SOURCES \
+     storage_DL_sz.dna storage_DL_town.dna \
+-    storage_DL_english.dna storage_DL_castillian.dna \
+-    storage_DL_japanese.dna \
+-    storage_DL_french.dna \
++    storage_DL_english.dna \
+     winter_storage_DL.dna \
+-    donalds_dreamland_9100_english.dna donalds_dreamland_9100_castillian.dna \
+-    donalds_dreamland_9100_japanese.dna \
+-    donalds_dreamland_9100_french.dna \
+-    donalds_dreamland_9200_english.dna \
+-    donalds_dreamland_9200_japanese.dna \
+-    donalds_dreamland_9200_french.dna \
+-    donalds_dreamland_sz_english.dna donalds_dreamland_sz_castillian.dna \
+-    donalds_dreamland_sz_japanese.dna \
+-    donalds_dreamland_sz_french.dna
++    donalds_dreamland_9100_english.dna donalds_dreamland_9200_english.dna \
++    donalds_dreamland_sz_english.dna
+   #define PHASE 8
+ #end install_dna
+ 
+@@ -169,14 +119,8 @@
+ // Goofy Speedway 
+ #begin install_dna
+   #define SOURCES \
+-    storage_GS_sz.dna \
+-    storage_GS_english.dna \
+-    storage_GS_japanese.dna \
+-    storage_GS_french.dna \
++    storage_GS_sz.dna storage_GS_english.dna \
+     goofy_speedway_sz_english.dna \
+-    goofy_speedway_sz_japanese.dna \
+-    goofy_speedway_sz_french.dna \
+-    urban_track_town.dna \
+-    urban_track_town_B.dna
++    urban_track_town.dna urban_track_town_B.dna
+   #define PHASE 6
+ #end install_dna
+--- src/dna/daisys_garden_5100_german.dna	7 Oct 2004 03:11:32 -0000	1.5
++++ src/dna/daisys_garden_5100_german.dna	1 Dec 2005 18:17:30 -0000	1.6
+@@ -11372,6 +11372,11 @@
+  visgroup "5139" [
+   vis [   "5139"   "5112"   "5113"   "5111"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 148.7 19.8 0 ]
++    hpr [ -11 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 135.442 56.7881 0.407465 ]
+--- src/dna/daisys_garden_5100_japanese.dna	23 Jul 2004 02:50:54 -0000	1.6
++++ src/dna/daisys_garden_5100_japanese.dna	1 Dec 2005 18:17:30 -0000	1.7
+@@ -10482,6 +10482,11 @@
+  visgroup "5139" [
+   vis [   "5139"   "5112"   "5113"   "5111"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 148.7 19.8 0 ]
++    hpr [ -11 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 135.442 56.7881 0.407465 ]
+--- src/dna/daisys_garden_5100_portuguese.dna	17 Nov 2004 01:43:03 -0000	1.4
++++ src/dna/daisys_garden_5100_portuguese.dna	28 Aug 2008 00:38:58 -0000	1.6
+@@ -11577,6 +11577,11 @@
+  visgroup "5139" [
+   vis [   "5139"   "5112"   "5113"   "5111"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 148.7 19.8 0 ]
++    hpr [ -11 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 135.442 56.7881 0.407465 ]
+--- src/dna/daisys_garden_5200_german.dna	4 Aug 2005 03:13:39 -0000	1.7
++++ src/dna/daisys_garden_5200_german.dna	1 Dec 2005 18:17:30 -0000	1.8
+@@ -11709,6 +11709,11 @@
+  visgroup "5245" [
+   vis [   "5209"   "5208"   "5207"   "5206"   "5210"   "5211"   "5245"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 201 74 0 ]
++    hpr [ 32 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 179.3 114 0.338 ]
+--- src/dna/daisys_garden_5200_japanese.dna	23 Jul 2004 02:58:38 -0000	1.6
++++ src/dna/daisys_garden_5200_japanese.dna	1 Dec 2005 18:17:30 -0000	1.8
+@@ -10722,6 +10722,11 @@
+  visgroup "5245" [
+   vis [   "5209"   "5208"   "5207"   "5206"   "5210"   "5211"   "5245"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 201 74 0 ]
++    hpr [ 32 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 179.3 114 0.338 ]
+--- src/dna/daisys_garden_5200_portuguese.dna	17 Nov 2004 01:43:03 -0000	1.4
++++ src/dna/daisys_garden_5200_portuguese.dna	27 Aug 2008 23:37:41 -0000	1.7
+@@ -11757,6 +11757,11 @@
+  visgroup "5245" [
+   vis [   "5209"   "5208"   "5207"   "5206"   "5210"   "5211"   "5245"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 201 74 0 ]
++    hpr [ 32 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 179.3 114 0.338 ]
+@@ -11775,7 +11780,7 @@
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 162.961 113.59 0.404519 ]
+-    hpr [ 210 0.0225763 0.044784 ]
++    nhpr [ 210 0.0225763 -0.044784 ]
+    ]
+   ]
+   group "props" [
+@@ -11917,4 +11922,3 @@
+   ]
+  ]
+ ]
+-
+--- src/dna/daisys_garden_5300_japanese.dna	23 Jul 2004 03:41:37 -0000	1.4
++++ src/dna/daisys_garden_5300_japanese.dna	1 Dec 2005 18:17:30 -0000	1.8
+@@ -775,7 +775,7 @@
+       ]
+      ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 1 0.0235294 0.756863 1 ]
+       scale [ 0.749823 1 1 ]
+       text [
+@@ -1459,7 +1459,7 @@
+       ]
+      ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 1 0.501961 0 1 ]
+       pos [ 0.160579 0 0.798462 ]
+       text [
+@@ -2879,7 +2879,7 @@
+       ]
+      ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 0 0 0 1 ]
+       pos [ 0.640266 0 1.30177 ]
+       scale [ 1.27208 1 1.38108 ]
+@@ -5229,7 +5229,7 @@
+       ]
+      ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 0.0156863 0 0.0156863 1 ]
+       pos [ 0 0 0.647558 ]
+       scale [ 1 1 0.607175 ]
+@@ -5519,7 +5519,7 @@
+      pos [ 0 0 -3.08439 ]
+      scale [ 1.01508 1 1.43629 ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 0.941176 0.215686 0.956863 1 ]
+       pos [ -0.240297 0 1.06721 ]
+       scale [ 1.04562 1 0.954543 ]
+@@ -5540,7 +5540,7 @@
+       ]
+      ]
+      baseline [
+-      code [ "DD_Portago" ]
++      code [ "mickey2" ]
+       color [ 0.313726 0.866667 0.282353 1 ]
+       text [
+        letters [ "は" ]
+@@ -6154,6 +6154,11 @@
+    ]
+   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 134.5 -93.3 0 ]
++    hpr [ 3 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 120.449 -83.7576 0.413117 ]
+@@ -6250,17 +6255,6 @@
+       ]
+      ]
+     ]
+-    prop "prop_DG_flower_bed_DNARoot" [
+-     code [ "prop_DG_flower_bed" ]
+-     pos [ 7.9652 11.7093 -1.31378 ]
+-     hpr [ 135 0 0 ]
+-    ]
+-    prop "prop_tree_small_woodbox_ur_DNARoot" [
+-     code [ "prop_tree_fat_ul" ]
+-     pos [ 9.44025 -49.4146 1.52823 ]
+-     hpr [ 0 -0.217046 0.0161047 ]
+-     scale [ 2.18317 2.18317 2.18317 ]
+-    ]
+    ]
+    flat_building "tb11:random_DNARoot" [
+     pos [ -59.7941 218.305 0 ]
+@@ -6606,6 +6600,17 @@
+    ]
+   ]
+   group "props" [
++   prop "prop_DG_flower_bed_DNARoot" [
++    code [ "prop_DG_flower_bed" ]
++    pos [ -90.8713 207.583 -1.31378 ]
++    hpr [ -180 0 0 ]
++   ]
++   prop "prop_tree_small_woodbox_ur_DNARoot" [
++    code [ "prop_tree_fat_ul" ]
++    pos [ -46.6071 165.405 1.52823 ]
++    hpr [ 45 -0.200941 0.0227755 ]
++    scale [ 2.18317 2.18317 2.18317 ]
++   ]
+   ]
+  ]
+  visgroup "5320" [
+@@ -7067,6 +7067,17 @@
+    ]
+   ]
+   group "props" [
++   prop "prop_DG_flower_bed_DNARoot" [
++    code [ "prop_DG_flower_bed" ]
++    pos [ -90.8713 207.583 -1.31378 ]
++    hpr [ -180 0 0 ]
++   ]
++   prop "prop_tree_small_woodbox_ur_DNARoot" [
++    code [ "prop_tree_fat_ul" ]
++    pos [ -46.6071 165.405 1.52823 ]
++    hpr [ 45 -0.200941 0.0227755 ]
++    scale [ 2.18317 2.18317 2.18317 ]
++   ]
+   ]
+  ]
+  visgroup "5321" [
+--- src/dna/daisys_garden_sz_german.dna	15 Aug 2005 03:43:58 -0000	1.10
++++ src/dna/daisys_garden_sz_german.dna	1 Dec 2005 18:17:30 -0000	1.12
+@@ -153,8 +153,8 @@
+    ]
+    prop "prop_daisys_flowerbox_yellow_DNARoot" [
+     code [ "prop_daisys_flowerbox_yellow" ]
+-    pos [ 55.02 12.93 0 ]
+-    hpr [ 15 0 0 ]
++    pos [ 55.1738 12.9627 0 ]
++    hpr [ -167 0 0 ]
+    ]
+    prop "prop_daisys_flowerbox_pink_DNARoot" [
+     code [ "prop_daisys_flowerbox_pink" ]
+@@ -164,7 +164,7 @@
+    prop "prop_daisys_flowerbox_yellow_DNARoot" [
+     code [ "prop_daisys_flowerbox_yellow" ]
+     pos [ 51.34 11.94 0 ]
+-    hpr [ 15 0 0 ]
++    hpr [ 16 0 0 ]
+    ]
+    prop "prop_daisys_flowerbox_pink_DNARoot" [
+     code [ "prop_daisys_flowerbox_pink" ]
+@@ -408,13 +408,13 @@
+    ]
+    prop "prop_daisys_flowerbox_pink_DNARoot" [
+     code [ "prop_daisys_flowerbox_yellow" ]
+-    pos [ 30.44 9.42 0 ]
++    pos [ 34.4 9.41 0 ]
+     hpr [ 0 0 0 ]
+    ]
+    prop "prop_daisys_flowerbox_pink_DNARoot" [
+     code [ "prop_daisys_flowerbox_yellow" ]
+-    pos [ 34.4 9.41 0 ]
+-    hpr [ 0 0 0 ]
++    pos [ 30.44 9.42 0 ]
++    hpr [ -175 0 0 ]
+    ]
+   ]
+   node "buildings" [
+@@ -1152,7 +1152,7 @@
+       code [ "mickey" ]
+       color [ 0 0.72549 0 1 ]
+       pos [ 0 0 -0.5 ]
+-      scale [ 1.29019 1 1.87981 ]
++      scale [ 1.2 1 1.8 ]
+       text [
+        letters [ "B" ]
+       ]
+@@ -1291,7 +1291,7 @@
+  landmark_building "tb5:toon_landmark_DG_pet_shop_DNARoot" [
+   code [ "toon_landmark_DG_pet_shop" ]
+   building_type [ "petshop" ]
+-  title [ "Pet Shop" ]
++  title [ "Tierhandlung" ]
+   pos [ 43.9925 6.83166 0.18034 ]
+   hpr [ -171 0 0 ]
+   door [
+@@ -1309,32 +1309,44 @@
+     code [ "mickey" ]
+     color [ 0.501961 1 0.501961 1 ]
+     pos [ 0 0 0.154303 ]
+-    scale [ 1.53398 1 2.71448 ]
++    scale [ 1.1 1 2.3 ]
+     width [ 16.2951 ]
+     height [ 16.2951 ]
+     text [
+-     letters [ "P" ]
++     letters [ "T" ]
++    ]
++    text [
++     letters [ "i" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+-     letters [ "t" ]
++     letters [ "r" ]
+     ]
+     text [
+-     letters [ " " ]
++     letters [ "h" ]
+     ]
+     text [
+-     letters [ "S" ]
++     letters [ "a" ]
+     ]
+     text [
+-     letters [ "h" ]
++     letters [ "n" ]
++    ]
++    text [
++     letters [ "d" ]
++    ]
++    text [
++    letters [ "l" ]
++    ]
++    text [
++     letters [ "u" ]
+     ]
+     text [
+-     letters [ "o" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "p" ]
++     letters [ "g" ]
+     ]
+    ]
+   ]
+--- src/dna/daisys_garden_sz_japanese.dna	9 Jun 2004 02:23:32 -0000	1.8
++++ src/dna/daisys_garden_sz_japanese.dna	13 Jul 2005 20:18:53 -0000	1.10
+@@ -161,16 +161,6 @@
+     pos [ 75.19 23.04 0 ]
+     hpr [ 45 0 0 ]
+    ]
+-   prop "prop_daisys_flowerbox_pink_DNARoot" [
+-    code [ "prop_daisys_flowerbox_pink" ]
+-    pos [ 30.44 9.42 0 ]
+-    hpr [ 0 0 0 ]
+-   ]
+-   prop "prop_daisys_flowerbox_pink_DNARoot" [
+-    code [ "prop_daisys_flowerbox_pink" ]
+-    pos [ 34.4 9.41 0 ]
+-    hpr [ 0 0 0 ]
+-   ]
+    prop "prop_daisys_flowerbox_yellow_DNARoot" [
+     code [ "prop_daisys_flowerbox_yellow" ]
+     pos [ 51.34 11.94 0 ]
+@@ -416,6 +406,16 @@
+     pos [ -81 78 0 ]
+     hpr [ 0 0 0 ]
+    ]
++   prop "prop_daisys_flowerbox_pink_DNARoot" [
++    code [ "prop_daisys_flowerbox_yellow" ]
++    pos [ 34.4 9.41 0 ]
++    hpr [ 0 0 0 ]
++   ]
++   prop "prop_daisys_flowerbox_pink_DNARoot" [
++    code [ "prop_daisys_flowerbox_yellow" ]
++    pos [ 30.44 9.42 0 ]
++    hpr [ -175 0 0 ]
++   ]
+   ]
+   node "buildings" [
+    flat_building "sz0:random_DNARoot" [
+@@ -660,11 +660,6 @@
+      color [ 1 0.55 0.81 1 ]
+     ]
+    ]
+-//   prop "prop_construction_sign_DNARoot" [
+-//    code [ "prop_construction_sign" ]
+-//    pos [ 0 -5 0 ]
+-//    hpr [ -180 0 0 ]
+-//   ]
+    prop "linktunnel_dg_5301_DNARoot" [
+     code [ "prop_safe_zone_tunnel" ]
+     pos [ -60.12 -94.82 -6.63 ]
+@@ -1085,7 +1080,6 @@
+     hpr [ 135 0 0 ]
+    ]
+   ]
+- ]
+  landmark_building "tb1:toon_landmark_DG_gag_shop_DNARoot" [
+   code [ "toon_landmark_DG_gag_shop" ]
+   building_type [ "gagshop" ]
+@@ -1133,4 +1127,56 @@
+   pos [ -45.9641 39.1958 0 ]
+   hpr [ -45 0 0 ]
+  ]
++ landmark_building "tb5:toon_landmark_DG_pet_shop_DNARoot" [
++  code [ "toon_landmark_DG_pet_shop" ]
++  building_type [ "petshop" ]
++  title [ "ペットショップ" ]
++  pos [ 43.9925 6.83166 0.18034 ]
++  hpr [ -171 0 0 ]
++  door [
++   code [ "door_double_curved_ur" ]
++   color [ 0.73 0.55 0.86 1 ]
++  ]
++  prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++   code [ "animated_prop_PetShopFishAnimatedProp" ]
++   pos [ 0 0 0 ]
++   hpr [ 0 0 0 ]
++  ]
++  sign [
++   color [ 0.501961 1 0.501961 1 ]
++   baseline [
++    code [ "mickey" ]
++    color [ 0.501961 1 0.501961 1 ]
++    pos [ 0 0 0.154303 ]
++    scale [ 1.33398 1 2.51448 ]
++    width [ 16.2951 ]
++    height [ 16.2951 ]
++    text [
++     letters [ "ペ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "ト" ]
++    ]
++    text [
++     letters [ " " ]
++    ]
++    text [
++     letters [ "シ" ]
++    ]
++    text [
++     letters [ "ョ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "プ" ]
++    ]
++   ]
++  ]
++ ]
++ ]
+ ]
+--- src/dna/donalds_dock_1100_german.dna	9 Oct 2004 02:33:38 -0000	1.6
++++ src/dna/donalds_dock_1100_german.dna	1 Dec 2005 18:17:30 -0000	1.7
+@@ -8815,6 +8815,11 @@
+  visgroup "1129" [
+   vis [   "1129"   "1115"   "1116"   "1117"   "1126"   "1125"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 350 -358 0 ]
++    hpr [ -78 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 368.148 -339.916 0.419537 ]
+--- src/dna/donalds_dock_1100_japanese.dna	23 Jul 2004 04:17:04 -0000	1.6
++++ src/dna/donalds_dock_1100_japanese.dna	1 Dec 2005 18:17:30 -0000	1.7
+@@ -7590,6 +7590,11 @@
+  visgroup "1129" [
+   vis [   "1129"   "1115"   "1116"   "1117"   "1126"   "1125"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 350 -358 0 ]
++    hpr [ -78 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 368.148 -339.916 0.419537 ]
+--- src/dna/donalds_dock_1100_portuguese.dna	17 Nov 2004 01:43:03 -0000	1.5
++++ src/dna/donalds_dock_1100_portuguese.dna	27 Aug 2008 23:47:22 -0000	1.8
+@@ -8834,6 +8834,11 @@
+  visgroup "1129" [
+   vis [   "1129"   "1115"   "1116"   "1117"   "1126"   "1125"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 350 -358 0 ]
++    hpr [ -78 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 368.148 -339.916 0.419537 ]
+@@ -8997,4 +9002,3 @@
+   ]
+  ]
+ ]
+-
+--- src/dna/donalds_dock_1200_german.dna	9 Oct 2004 02:33:38 -0000	1.6
++++ src/dna/donalds_dock_1200_german.dna	1 Dec 2005 18:17:30 -0000	1.7
+@@ -9278,6 +9278,11 @@
+  visgroup "1236" [
+   vis [   "1236"   "1204"   "1205"   "1203"   "1202"   "1227"   "1226"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -413 -252 0 ]
++    hpr [ -35 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -395.292 -208.13 0.451049 ]
+--- src/dna/donalds_dock_1200_japanese.dna	23 Jul 2004 04:53:01 -0000	1.6
++++ src/dna/donalds_dock_1200_japanese.dna	1 Dec 2005 18:17:30 -0000	1.7
+@@ -8212,6 +8212,11 @@
+  visgroup "1236" [
+   vis [   "1236"   "1204"   "1205"   "1203"   "1202"   "1227"   "1226"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -413 -252 0 ]
++    hpr [ -35 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -395.292 -208.13 0.451049 ]
+--- src/dna/donalds_dock_1200_portuguese.dna	17 Nov 2004 01:43:03 -0000	1.5
++++ src/dna/donalds_dock_1200_portuguese.dna	27 Aug 2008 23:47:57 -0000	1.10
+@@ -9461,6 +9461,11 @@
+  visgroup "1236" [
+   vis [   "1236"   "1204"   "1205"   "1203"   "1202"   "1227"   "1226"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -413 -252 0 ]
++    hpr [ -35 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -395.292 -208.13 0.451049 ]
+@@ -9643,4 +9648,3 @@
+   ]
+  ]
+ ]
+-
+--- src/dna/donalds_dock_1300_german.dna	29 Oct 2004 19:22:53 -0000	1.8
++++ src/dna/donalds_dock_1300_german.dna	1 Dec 2005 18:17:30 -0000	1.9
+@@ -10715,6 +10715,11 @@
+  visgroup "1330" [
+   vis [   "1330"   "1315"   "1314"   "1317"   "1316"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 374 120 0 ]
++    hpr [ -230 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 353.717 88.211 0.441099 ]
+--- src/dna/donalds_dock_1300_japanese.dna	9 Jun 2004 02:23:32 -0000	1.5
++++ src/dna/donalds_dock_1300_japanese.dna	1 Dec 2005 18:17:30 -0000	1.6
+@@ -9534,6 +9534,11 @@
+  visgroup "1330" [
+   vis [   "1330"   "1315"   "1314"   "1317"  "1316"  ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 374 120 0 ]
++    hpr [ -230 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 353.717 88.211 0.441099 ]
+--- src/dna/donalds_dock_1300_portuguese.dna	17 Nov 2004 01:43:03 -0000	1.5
++++ src/dna/donalds_dock_1300_portuguese.dna	27 Aug 2008 23:48:45 -0000	1.8
+@@ -11037,6 +11037,11 @@
+  visgroup "1330" [
+   vis [   "1330"   "1315"   "1314"   "1317"   "1316"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 374 120 0 ]
++    hpr [ -230 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 353.717 88.211 0.441099 ]
+@@ -11229,7 +11234,7 @@
+    prop "prop_shipmasts_DNARoot" [
+     code [ "prop_shipmasts" ]
+     pos [ 377.074 166.283 10.8525 ]
+-    hpr [ -45 0.318443 -0.222146 ]
++    nhpr [ -45 0.318443 0.222146 ]
+     scale [ 1.94855 1.94855 1.94855 ]
+    ]
+   ]
+@@ -11243,4 +11248,3 @@
+   ]
+  ]
+ ]
+-
+--- src/dna/donalds_dock_sz_german.dna	15 Aug 2005 03:43:59 -0000	1.9
++++ src/dna/donalds_dock_sz_german.dna	1 Dec 2005 18:17:30 -0000	1.11
+@@ -856,7 +856,7 @@
+      baseline [
+       code [ "mickey" ]
+       color [ 0.701961 0 0 1 ]
+-      scale [ 1.26246 1 2.01649 ]
++      scale [ 1.2 1 1.9 ]
+       text [
+        letters [ "B" ]
+       ]
+@@ -1103,20 +1103,20 @@
+    ]
+    prop "prop_palm_tree_topflat_DNARoot" [
+     code [ "prop_palm_tree_topflat" ]
+-    pos [ 59.0938 -64.9951 3.26028 ]
+-    hpr [ -75 0 0 ]
+-    scale [ 1.3 1.3 1.3 ]
++    pos [ 59.0938 -64.9951 3.29744 ]
++    hpr [ -159 0 0 ]
++    scale [ 1.5304 1.5304 1.5304 ]
+    ]
+    prop "prop_palm_tree_topflat_DNARoot" [
+     code [ "prop_palm_tree_topflat" ]
+     pos [ 51.4007 -72.6317 3.29744 ]
+-    hpr [ 135 0 0 ]
++    hpr [ -18 0 0 ]
+     scale [ 0.8 0.8 0.8 ]
+    ]
+    prop "prop_palm_tree_topflat_DNARoot" [
+     code [ "prop_palm_tree_topflat" ]
+-    pos [ 19.2 -83.3846 3.251 ]
+-    hpr [ -90 0 0 ]
++    pos [ 19.2 -83.3846 3.29744 ]
++    hpr [ 91 0 0 ]
+     scale [ 1.3 1.3 1.3 ]
+    ]
+    prop "prop_palm_tree_topflat_DNARoot" [
+@@ -1179,7 +1179,7 @@
+  landmark_building "tb10:toon_landmark_DD_pet_shop_DNARoot" [
+   code [ "toon_landmark_DD_pet_shop" ]
+   building_type [ "petshop" ]
+-  title [ "Pet Shop" ]
++  title [ "Tierhandlung" ]
+   pos [ 40.2718 -89.8663 3.28834 ]
+   hpr [ -165 0 0 ]
+   door [
+@@ -1196,32 +1196,44 @@
+     code [ "mickey" ]
+     color [ 1 1 0 1 ]
+     pos [ 0 0 0.180612 ]
+-    scale [ 1.51565 1 3.00508 ]
++    scale [ 1.1 1 2.5 ]
+     width [ 15.3614 ]
+     height [ 15.3614 ]
+     text [
+-     letters [ "P" ]
++     letters [ "T" ]
++    ]
++    text [
++     letters [ "i" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+-     letters [ "t" ]
++     letters [ "r" ]
++    ]
++    text [
++     letters [ "h" ]
+     ]
+     text [
+-     letters [ " " ]
++     letters [ "a" ]
+     ]
+     text [
+-     letters [ "S" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "h" ]
++     letters [ "d" ]
++    ]
++    text [
++     letters [ "l" ]
++    ]
++    text [
++     letters [ "u" ]
+     ]
+     text [
+-     letters [ "o" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "p" ]
++     letters [ "g" ]
+     ]
+    ]
+   ]
+--- src/dna/donalds_dock_sz_japanese.dna	4 Feb 2004 05:59:05 -0000	1.4
++++ src/dna/donalds_dock_sz_japanese.dna	13 Jul 2005 20:18:53 -0000	1.6
+@@ -1048,5 +1048,55 @@
+     hpr [ -135 0 0 ]
+    ]
+   ]
++ landmark_building "tb10:toon_landmark_DD_pet_shop_DNARoot" [
++  code [ "toon_landmark_DD_pet_shop" ]
++  building_type [ "petshop" ]
++  title [ "ペットショップ" ]
++  pos [ 40.2718 -89.8663 3.28834 ]
++  hpr [ -165 0 0 ]
++  door [
++   code [ "door_double_square_ur" ]
++   color [ 0.86 0.48 0.23 1 ]
++  ]
++  prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++   code [ "animated_prop_PetShopFishAnimatedProp" ]
++   pos [ 0 0 0 ]
++   hpr [ 0 0 0 ]
++  ]
++  sign [
++   baseline [
++    code [ "mickey" ]
++    color [ 1 1 0 1 ]
++    pos [ 0 0 0.180612 ]
++    scale [ 1.31565 1 2.80508 ]
++    width [ 15.3614 ]
++    height [ 15.3614 ]
++    text [
++     letters [ "ペ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "ト" ]
++    ]
++    text [
++     letters [ " " ]
++    ]
++    text [
++     letters [ "シ" ]
++    ]
++    text [
++     letters [ "ョ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "プ" ]
++    ]
++   ]
++  ]
++ ]
+  ]
+ ]
+--- src/dna/donalds_dreamland_9100_german.dna	9 Oct 2004 02:33:39 -0000	1.4
++++ src/dna/donalds_dreamland_9100_german.dna	1 Dec 2005 18:17:30 -0000	1.5
+@@ -13069,6 +13069,11 @@
+  visgroup "9153" [
+   vis [   "9153"   "9121"   "9122"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 117 -149.8 0 ]
++    nhpr [ -159 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 106.796 -197.427 0.354809 ]
+--- src/dna/donalds_dreamland_9100_japanese.dna	9 Jun 2004 20:45:24 -0000	1.7
++++ src/dna/donalds_dreamland_9100_japanese.dna	1 Dec 2005 18:17:31 -0000	1.8
+@@ -11731,6 +11731,11 @@
+  visgroup "9153" [
+   vis [   "9153"   "9121"   "9122"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 117 -149.8 0 ]
++    nhpr [ -159 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 106.796 -197.427 0.354809 ]
+--- src/dna/donalds_dreamland_sz_german.dna	15 Aug 2005 03:43:59 -0000	1.11
++++ src/dna/donalds_dreamland_sz_german.dna	1 Dec 2005 18:17:31 -0000	1.14
+@@ -531,7 +531,7 @@
+        code [ "DL_JiggeryPokery" ]
+        color [ 0.0941176 0.164706 0.360784 1 ]
+        pos [ 0 0 -0.13 ]
+-       scale [ 1.28938 1 1.75127 ]
++       scale [ 1.2 1 1.5 ]
+        kern [ -0.027704 ]
+        width [ 28.6755 ]
+        height [ 28.6755 ]
+@@ -797,7 +797,7 @@
+     landmark_building "sz3:toon_landmark_DL_E1_DNARoot" [
+      code [ "toon_landmark_DL_E1" ]
+      title [ "Die Dämmer-Bar" ]
+-     pos [ 35 102 0 ]
++     pos [ 67.4996 105 0 ]
+      hpr [ 0 0 0 ]
+      door [
+       code [ "door_double_curvedDL_ur" ]
+@@ -940,7 +940,7 @@
+        code [ "mickey" ]
+        color [ 0.843137 0.615686 0.482353 1 ]
+        pos [ 0 0 -0.5 ]
+-       scale [ 1.29158 1 1.67207 ]
++       scale [ 1.2 1 1.5 ]
+        text [
+         letters [ "B" ]
+        ]
+@@ -1114,7 +1114,7 @@
+  landmark_building "tb8:toon_landmark_DL_pet_shop_DNARoot" [
+   code [ "toon_landmark_DL_pet_shop" ]
+   building_type [ "petshop" ]
+-  title [ "Pet Shop" ]
++  title [ "Tierhandlung" ]
+   pos [ 42.3097 102.794 0 ]
+   hpr [ 0 0 0 ]
+   door [
+@@ -1130,32 +1130,44 @@
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0.501961 0.501961 1 ]
+-    scale [ 1.55234 1 2.89634 ]
++    scale [ 1.1 1 2.3 ]
+     width [ 16.6464 ]
+     height [ 16.6464 ]
+     text [
+-     letters [ "P" ]
++     letters [ "T" ]
++    ]
++    text [
++     letters [ "i" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+-     letters [ "t" ]
++     letters [ "r" ]
+     ]
+     text [
+-     letters [ " " ]
++     letters [ "h" ]
+     ]
+     text [
+-     letters [ "S" ]
++     letters [ "a" ]
+     ]
+     text [
+-     letters [ "h" ]
++     letters [ "n" ]
++    ]
++    text [
++     letters [ "d" ]
++    ]
++    text [
++     letters [ "l" ]
++    ]
++    text [
++     letters [ "u" ]
+     ]
+     text [
+-     letters [ "o" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "p" ]
++     letters [ "g" ]
+     ]
+    ]
+   ]
+--- src/dna/donalds_dreamland_sz_japanese.dna	4 Feb 2004 05:59:05 -0000	1.5
++++ src/dna/donalds_dreamland_sz_japanese.dna	27 Apr 2006 18:32:39 -0000	1.7.6.1
+@@ -754,7 +754,7 @@
+     landmark_building "sz3:toon_landmark_DL_E1_DNARoot" [
+      code [ "toon_landmark_DL_E1" ]
+      title [ "バー こもりうた" ]
+-     pos [ 35 102 0 ]
++     pos [ 67.4996 105 0 ]
+      hpr [ 0 0 0 ]
+      door [
+       code [ "door_double_curvedDL_ur" ]
+@@ -927,7 +927,6 @@
+     hpr [ -45 0 0 ]
+    ]
+   ]
+- ]
+  landmark_building "tb4:toon_landmark_DL_gag_shop_DNARoot" [
+   code [ "toon_landmark_DL_gag_shop" ]
+   building_type [ "gagshop" ]
+@@ -946,4 +945,54 @@
+   pos [ -40.875 -1.37841 -15 ]
+   hpr [ -180 0 0 ]
+  ]
++ landmark_building "tb8:toon_landmark_DL_pet_shop_DNARoot" [
++  code [ "toon_landmark_DL_pet_shop" ]
++  building_type [ "petshop" ]
++  title [ "ペットショップ" ]
++  pos [ 42.3097 102.794 0 ]
++  hpr [ 0 0 0 ]
++  door [
++   code [ "door_double_curvedDL_ur" ]
++   color [ 1 1 1 1 ]
++  ]
++  prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++   code [ "animated_prop_PetShopFishAnimatedProp" ]
++   pos [ 0 0 0 ]
++   hpr [ 0 0 0 ]
++  ]
++  sign [
++   baseline [
++    code [ "mickey" ]
++    color [ 1 0.501961 0.501961 1 ]
++    scale [ 1.35234 1 2.69634 ]
++    width [ 16.6464 ]
++    height [ 16.6464 ]
++    text [
++     letters [ "ペ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "ト" ]
++    ]
++    text [
++     letters [ " " ]
++    ]
++    text [
++     letters [ "シ" ]
++    ]
++    text [
++     letters [ "ョ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "プ" ]
++    ]
++   ]
++  ]
++ ]
++ ]
+ ]
+--- src/dna/minnies_melody_land_4100_german.dna	9 Oct 2004 04:37:04 -0000	1.6
++++ src/dna/minnies_melody_land_4100_german.dna	1 Dec 2005 18:17:31 -0000	1.7
+@@ -10395,6 +10395,11 @@
+  visgroup "4148" [
+   vis [   "4148"   "4108"   "4109"   "4110"   "4133"   "4132"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -613.6 -89.8 0 ]
++    hpr [ 262 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -570.662 -101.811 1.9065 ]
+--- src/dna/minnies_melody_land_4100_japanese.dna	6 Jul 2004 23:51:10 -0000	1.5
++++ src/dna/minnies_melody_land_4100_japanese.dna	1 Dec 2005 18:17:31 -0000	1.6
+@@ -9235,6 +9235,11 @@
+  visgroup "4148" [
+   vis [   "4148"   "4108"   "4109"   "4110"   "4133"   "4132"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -613.6 -89.8 0 ]
++    hpr [ 262 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -570.662 -101.811 1.9065 ]
+--- src/dna/minnies_melody_land_4200_german.dna	9 Oct 2004 02:33:40 -0000	1.5
++++ src/dna/minnies_melody_land_4200_german.dna	1 Dec 2005 18:17:31 -0000	1.6
+@@ -9458,6 +9458,11 @@
+  visgroup "4240" [
+   vis [   "4240"   "4219"   "4237"   "4234"   "4235"   "4220"   "4221"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -248.7 249 0 ]
++    hpr [ -98 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -225.279 261.401 1.97518 ]
+--- src/dna/minnies_melody_land_4200_japanese.dna	6 Jul 2004 23:51:10 -0000	1.7
++++ src/dna/minnies_melody_land_4200_japanese.dna	1 Dec 2005 18:17:31 -0000	1.8
+@@ -8108,6 +8108,11 @@
+  visgroup "4240" [
+   vis [   "4240"   "4219"   "4237"   "4234"   "4235"   "4220"   "4221"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -248.7 249 0 ]
++    hpr [ -98 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -225.279 261.401 1.97518 ]
+--- src/dna/minnies_melody_land_4300_german.dna	13 Jan 2005 23:55:31 -0000	1.6
++++ src/dna/minnies_melody_land_4300_german.dna	1 Dec 2005 18:17:31 -0000	1.7
+@@ -12513,6 +12513,11 @@
+  visgroup "4345" [
+   vis [   "4345"   "4334"   "4333"   "4332"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 748.6 -14.4 0 ]
++    hpr [ 100 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 724.456 -3.10784 1.8323 ]
+--- src/dna/minnies_melody_land_4300_japanese.dna	6 Jul 2004 23:51:10 -0000	1.7
++++ src/dna/minnies_melody_land_4300_japanese.dna	1 Dec 2005 18:17:31 -0000	1.9
+@@ -10185,7 +10185,7 @@
+    code [ "street_stairs_40x10x5" ]
+    pos [ 345 145 0 ]
+    hpr [ 90 0 0 ]
+-   texture [ "street_sidewalk_MM_tex" ]
++   texture [ "street_street_MM_tex" ]
+    texture [ "street_sidewalk_MM_tex" ]
+    texture [ "street_curb_MM_tex" ]
+   ]
+@@ -10950,6 +10950,11 @@
+  visgroup "4345" [
+   vis [   "4345"   "4334"   "4333"   "4332"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 748.6 -14.4 0 ]
++    hpr [ 100 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 724.456 -3.10784 1.8323 ]
+--- src/dna/minnies_melody_land_4300_portuguese.dna	13 Jan 2005 23:55:31 -0000	1.5
++++ src/dna/minnies_melody_land_4300_portuguese.dna	28 Aug 2008 00:36:04 -0000	1.9
+@@ -12837,6 +12843,11 @@
+  visgroup "4345" [
+   vis [   "4345"   "4334"   "4333"   "4332"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 748.6 -14.4 0 ]
++    hpr [ 100 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 724.456 -3.10784 1.8323 ]
+@@ -13260,4 +13266,3 @@
+   ]
+  ]
+ ]
+-
+--- src/dna/minnies_melody_land_sz_german.dna	15 Aug 2005 03:43:59 -0000	1.9
++++ src/dna/minnies_melody_land_sz_german.dna	1 Dec 2005 18:17:31 -0000	1.11
+@@ -342,8 +342,8 @@
+     ]
+    ]
+    flat_building "tb0:random_DNARoot" [
+-    pos [ 54.82 -119.74 6.5 ]
+-    hpr [ 180 0 0 ]
++    pos [ 14.82 -119.74 6.5 ]
++    hpr [ -180 0 0 ]
+     width [ 15 ]
+     wall [
+      height [ 10 ]
+@@ -372,7 +372,7 @@
+    ]
+    prop "linktunnel_mm_4340_DNARoot" [
+     code [ "prop_safe_zone_tunnel" ]
+-    pos [ -40 -209.95 -0.17 ]
++    pos [ -25 -209.95 -0.17 ]
+     hpr [ 0 0 0 ]
+     sign [
+      code [ "tunnel_sign_magenta" ]
+@@ -841,7 +841,7 @@
+       code [ "mickey" ]
+       color [ 1 0.74902 0.87451 1 ]
+       pos [ 0 0 -0.5 ]
+-      scale [ 1.2651 1 1.99902 ]
++      scale [ 1.2 1 1.9 ]
+       text [
+        letters [ "B" ]
+       ]
+@@ -1060,8 +1060,8 @@
+    ]
+    prop "prop_cello_flat_DNARoot" [
+     code [ "prop_cello_flat" ]
+-    pos [ -31.26 -118.21 6.5 ]
+-    hpr [ 150 0 0 ]
++    pos [ -24.7673 -116.716 6.5 ]
++    hpr [ -165 0 0 ]
+     scale [ 0.7 0.7 0.7 ]
+    ]
+    prop "prop_trashcan_MM_DNARoot" [
+@@ -1093,7 +1093,7 @@
+    ]
+    prop "prop_tree_small_ur_DNARoot" [
+     code [ "prop_tree_small_ur_MM" ]
+-    pos [ 43.39 -103.87 6.5 ]
++    pos [ 8.74617 -103.038 6.50001 ]
+     hpr [ 180 0 0 ]
+     scale [ 0.7 0.7 0.7 ]
+    ]
+@@ -1119,8 +1119,8 @@
+    ]
+    prop "prop_mailbox_MM_DNARoot" [
+     code [ "prop_mailbox_MM" ]
+-    pos [ -12.28 -103.18 6.5 ]
+-    hpr [ 15 0 0 ]
++    pos [ -1.79604 -115.908 6.5 ]
++    hpr [ 150 0 0 ]
+    ]
+    prop "prop_chimney_DNARoot" [
+     code [ "prop_chimney" ]
+@@ -1180,14 +1180,14 @@
+    ]
+    prop "neighborhood_sign_DL_DNARoot" [
+     code [ "neighborhood_sign_DL" ]
+-    pos [ 35.31 -113.72 6.76 ]
++    pos [ 51.2461 -112.704 6.76006 ]
+     hpr [ 180 0 0 ]
+     scale [ 1.5 1.5 1.5 ]
+     color [ 0.75 0.75 0.75 1 ]
+    ]
+    prop "neighborhood_sign_DL_DNARoot" [
+     code [ "neighborhood_sign_DL" ]
+-    pos [ 3.42 -113.71 6.59 ]
++    pos [ 18.42 -113.71 6.59 ]
+     hpr [ 0 0 0 ]
+     scale [ 1.5 1.5 1.5 ]
+     color [ 0.75 0.75 0.75 1 ]
+@@ -1247,7 +1247,7 @@
+  landmark_building "tb8:toon_landmark_MM_pet_shop_DNARoot" [
+   code [ "toon_landmark_MM_pet_shop" ]
+   building_type [ "petshop" ]
+-  title [ "Pet Shop" ]
++  title [ "Tierhandlung" ]
+   pos [ -11.6789 -118.281 6.5 ]
+   hpr [ -178 0 0 ]
+   door [
+@@ -1265,32 +1265,44 @@
+     code [ "mickey" ]
+     color [ 1 1 0.501961 1 ]
+     pos [ 0 0 0.256555 ]
+-    scale [ 1.49894 1 2.85691 ]
++    scale [ 1.1 1 2.4 ]
+     width [ 14.3268 ]
+     height [ 14.3268 ]
+     text [
+-     letters [ "P" ]
++     letters [ "T" ]
++    ]
++    text [
++     letters [ "i" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+-     letters [ "t" ]
++     letters [ "r" ]
++    ]
++    text [
++     letters [ "h" ]
+     ]
+     text [
+-     letters [ " " ]
++     letters [ "a" ]
+     ]
+     text [
+-     letters [ "S" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "h" ]
++     letters [ "d" ]
++    ]
++    text [
++     letters [ "l" ]
++    ]
++    text [
++     letters [ "u" ]
+     ]
+     text [
+-     letters [ "o" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "p" ]
++     letters [ "g" ]
+     ]
+    ]
+   ]
+--- src/dna/minnies_melody_land_sz_japanese.dna	6 Jul 2004 23:51:11 -0000	1.5
++++ src/dna/minnies_melody_land_sz_japanese.dna	27 Apr 2006 18:32:39 -0000	1.7.6.1
+@@ -162,35 +162,6 @@
+     ]
+    ]
+    flat_building "sz0:random_DNARoot" [
+-    pos [ -15 -119.9 6.5 ]
+-    hpr [ -180 0 0 ]
+-    width [ 15 ]
+-    wall [
+-     height [ 10 ]
+-     code [ "wall_lg_rock_ur" ]
+-     color [ 1 1 1 1 ]
+-     windows [
+-      code [ "window_sm_square_ul" ]
+-      color [ 0.56 0.8 0.65 1 ]
+-      count [ 2 ]
+-     ]
+-    ]
+-    wall [
+-     height [ 10 ]
+-     code [ "wall_lg_rock_ur" ]
+-     color [ 1 0.67 1 1 ]
+-     windows [
+-      code [ "window_sm_square_ul" ]
+-      color [ 0.56 0.8 0.65 1 ]
+-      count [ 2 ]
+-     ]
+-     cornice [
+-      code [ "cornice_marble_ur" ]
+-      color [ 1 1 0.58 1 ]
+-     ]
+-    ]
+-   ]
+-   flat_building "sz0:random_DNARoot" [
+     pos [ -29.65 -120.1 6.5 ]
+     hpr [ 135 0 0 ]
+     width [ 20 ]
+@@ -338,8 +309,8 @@
+     ]
+    ]
+    flat_building "tb0:random_DNARoot" [
+-    pos [ 54.82 -119.74 6.5 ]
+-    hpr [ 180 0 0 ]
++    pos [ 14.82 -119.74 6.5 ]
++    hpr [ -180 0 0 ]
+     width [ 15 ]
+     wall [
+      height [ 10 ]
+@@ -368,7 +339,7 @@
+    ]
+    prop "linktunnel_mm_4340_DNARoot" [
+     code [ "prop_safe_zone_tunnel" ]
+-    pos [ -40 -209.95 -0.17 ]
++    pos [ -25 -209.95 -0.17 ]
+     hpr [ 0 0 0 ]
+     sign [
+      code [ "tunnel_sign_magenta" ]
+@@ -819,6 +790,30 @@
+      ]
+     ]
+    ]
++   flat_building "sz0:random_DNARoot" [
++    pos [ -15 -119.9 6.5 ]
++    hpr [ -180 0 0 ]
++    width [ 15 ]
++    wall [
++     height [ 10 ]
++     code [ "wall_lg_rock_ur" ]
++     color [ 1 1 1 1 ]
++    ]
++    wall [
++     height [ 10 ]
++     code [ "wall_lg_rock_ur" ]
++     color [ 1 0.7 0.7 1 ]
++     cornice [
++      code [ "cornice_marble_ur" ]
++      color [ 1 1 0.58 1 ]
++     ]
++     windows [
++      code [ "window_sm_round_ul" ]
++      color [ 0.97 0.87 0.47 1 ]
++      count [ 2 ]
++     ]
++    ]
++   ]
+   ]
+   group "props" [
+    prop "minnies_melody_land" [
+@@ -884,8 +879,8 @@
+    ]
+    prop "prop_cello_flat_DNARoot" [
+     code [ "prop_cello_flat" ]
+-    pos [ -31.26 -118.21 6.5 ]
+-    hpr [ 150 0 0 ]
++    pos [ -24.7673 -116.716 6.5 ]
++    hpr [ -165 0 0 ]
+     scale [ 0.7 0.7 0.7 ]
+    ]
+    prop "prop_trashcan_MM_DNARoot" [
+@@ -917,16 +912,10 @@
+    ]
+    prop "prop_tree_small_ur_DNARoot" [
+     code [ "prop_tree_small_ur_MM" ]
+-    pos [ 43.39 -103.87 6.5 ]
++    pos [ 8.74617 -103.038 6.50001 ]
+     hpr [ 180 0 0 ]
+     scale [ 0.7 0.7 0.7 ]
+    ]
+-   prop "prop_tree_small_ur_DNARoot" [
+-    code [ "prop_tree_small_ur_MM" ]
+-    pos [ -22.73 -114.61 6.5 ]
+-    hpr [ -180 0 0 ]
+-    scale [ 0.7 0.7 0.7 ]
+-   ]
+    prop "prop_minnie_planter_DNARoot" [
+     code [ "prop_minnie_planter" ]
+     pos [ 84.01 -61.13 -13.5 ]
+@@ -949,8 +938,8 @@
+    ]
+    prop "prop_mailbox_MM_DNARoot" [
+     code [ "prop_mailbox_MM" ]
+-    pos [ -12.28 -103.18 6.5 ]
+-    hpr [ 15 0 0 ]
++    pos [ -1.79604 -115.908 6.5 ]
++    hpr [ 150 0 0 ]
+    ]
+    prop "prop_chimney_DNARoot" [
+     code [ "prop_chimney" ]
+@@ -1010,14 +999,14 @@
+    ]
+    prop "neighborhood_sign_DL_DNARoot" [
+     code [ "neighborhood_sign_DL" ]
+-    pos [ 35.31 -113.72 6.76 ]
++    pos [ 51.2461 -112.704 6.76006 ]
+     hpr [ 180 0 0 ]
+     scale [ 1.5 1.5 1.5 ]
+     color [ 0.75 0.75 0.75 1 ]
+    ]
+    prop "neighborhood_sign_DL_DNARoot" [
+     code [ "neighborhood_sign_DL" ]
+-    pos [ 3.42 -113.71 6.59 ]
++    pos [ 18.42 -113.71 6.59 ]
+     hpr [ 0 0 0 ]
+     scale [ 1.5 1.5 1.5 ]
+     color [ 0.75 0.75 0.75 1 ]
+@@ -1074,5 +1063,56 @@
+     hpr [ -90 0 0 ]
+    ]
+   ]
++ landmark_building "tb8:toon_landmark_MM_pet_shop_DNARoot" [
++  code [ "toon_landmark_MM_pet_shop" ]
++  building_type [ "petshop" ]
++  title [ "ペットショップ" ]
++  pos [ -11.6789 -118.281 6.5 ]
++  hpr [ -178 0 0 ]
++  door [
++   code [ "door_double_curved_ur" ]
++   color [ 0.7 0.78 1 1 ]
++  ]
++  prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++   code [ "animated_prop_PetShopFishAnimatedProp" ]
++   pos [ 0 0 0 ]
++   hpr [ 0 0 0 ]
++  ]
++  sign [
++   color [ 1 1 0.501961 1 ]
++   baseline [
++    code [ "mickey" ]
++    color [ 1 1 0.501961 1 ]
++    pos [ 0 0 0.256555 ]
++    scale [ 1.29894 1 2.65691 ]
++    width [ 14.3268 ]
++    height [ 14.3268 ]
++    text [
++     letters [ "ペ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "ト" ]
++    ]
++    text [
++     letters [ " " ]
++    ]
++    text [
++     letters [ "シ" ]
++    ]
++    text [
++     letters [ "ョ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "プ" ]
++    ]
++   ]
++  ]
++ ]
+  ]
+ ]
+--- src/dna/storage_estate_japanese.dna	10 Jun 2004 00:26:06 -0000	1.4
++++ src/dna/storage_estate_japanese.dna	1 Dec 2005 18:17:31 -0000	1.5
+@@ -1,4 +1,4 @@
+-﻿
++
+ model "phase_5.5/models/estate/terrain" [
+         store_node [ "prop" "terrain" "" ]
+         ]
+--- src/dna/the_burrrgh_3100_german.dna	21 Oct 2004 00:28:42 -0000	1.7
++++ src/dna/the_burrrgh_3100_german.dna	1 Dec 2005 18:17:31 -0000	1.8
+@@ -10093,6 +10093,11 @@
+  visgroup "3136" [
+   vis [   "3136"   "3104"   "3105"   "3106"   "3107"   "3129"   "3128"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 488 36 0.1 ]
++    hpr [ 101 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 455.445 15.6579 0.376913 ]
+--- src/dna/the_burrrgh_3100_japanese.dna	10 Jun 2004 01:15:43 -0000	1.5
++++ src/dna/the_burrrgh_3100_japanese.dna	1 Dec 2005 18:17:31 -0000	1.7
+@@ -239,11 +239,6 @@
+   suit_edge [ 433 429 ]
+   suit_edge [ 430 431 ]
+   suit_edge [ 432 435 ]
+-  suit_edge [ 430 431 ]
+-  suit_edge [ 429 430 ]
+-  suit_edge [ 431 432 ]
+-  suit_edge [ 432 435 ]
+-  suit_edge [ 428 429 ]
+   battle_cell [ 20 20 400 210 -0.5 ]
+   group "streets" [
+    street "street_40x40_DNARoot" [
+@@ -586,8 +581,6 @@
+   suit_edge [ 435 436 ]
+   suit_edge [ 436 437 ]
+   suit_edge [ 32 434 ]
+-  suit_edge [ 32 434 ]
+-  suit_edge [ 32 434 ]
+   suit_edge [ 539 435 ]
+   suit_edge [ 435 539 ]
+   suit_edge [ 539 428 ]
+@@ -3592,22 +3585,16 @@
+   suit_edge [ 584 479 ]
+   suit_edge [ 479 585 ]
+   suit_edge [ 585 479 ]
+-  suit_edge [ 479 585 ]
+   suit_edge [ 488 585 ]
+   suit_edge [ 585 488 ]
+-  suit_edge [ 488 585 ]
+   suit_edge [ 584 586 ]
+   suit_edge [ 586 584 ]
+-  suit_edge [ 584 586 ]
+   suit_edge [ 583 586 ]
+   suit_edge [ 586 583 ]
+-  suit_edge [ 583 586 ]
+   suit_edge [ 238 587 ]
+   suit_edge [ 587 238 ]
+-  suit_edge [ 238 587 ]
+   suit_edge [ 247 587 ]
+   suit_edge [ 587 247 ]
+-  suit_edge [ 247 587 ]
+   battle_cell [ 20 20 170 115 -0.5 ]
+   group "streets" [
+   ]
+@@ -3834,7 +3821,6 @@
+   suit_edge [ 580 579 ]
+   suit_edge [ 579 581 ]
+   suit_edge [ 581 579 ]
+-  suit_edge [ 579 581 ]
+   battle_cell [ 20 20 110 20 -0.5 ]
+   group "streets" [
+    street "street_full_corner_DNARoot" [
+@@ -7182,7 +7168,6 @@
+   vis [   "3128"   "3127"   "3103"   "3102"   "3101"   "3104"   "3129"   "3105"   "3106"   "3136"   ]
+   suit_edge [ 452 48 ]
+   suit_edge [ 453 452 ]
+-  suit_edge [ 454 454 ]
+   suit_edge [ 452 454 ]
+   suit_edge [ 454 452 ]
+   suit_edge [ 47 538 ]
+@@ -7320,134 +7305,98 @@
+     baseline [
+      code [ "BR_Aftershock" ]
+      color [ 0 0.501961 0.752941 1 ]
+-     pos [ 0 0 -2.01 ]
+-     scale [ 2 1 2 ]
++     pos [ 0 0 -1.01786 ]
++     scale [ 1.50692 1 1.42881 ]
+      kern [ 0.1 ]
+      stumble [ 0.001279 ]
+      flags [ "d" ]
+      text [
+-      letters [ "I" ]
+-     ]
+-     text [
+-      letters [ "N" ]
+-     ]
+-     text [
+-      letters [ "S" ]
+-     ]
+-     text [
+-      letters [ "T" ]
+-     ]
+-     text [
+-      letters [ "A" ]
+-     ]
+-     text [
+-      letters [ "N" ]
++      letters [ "イ" ]
+      ]
+      text [
+-      letters [ "T" ]
++      letters [ "ン" ]
+      ]
+      text [
+-      letters [ " " ]
++      letters [ "ス" ]
+      ]
+      text [
+-      letters [ "I" ]
++      letters [ "タ" ]
+      ]
+      text [
+-      letters [ "C" ]
++      letters [ "ン" ]
+      ]
+      text [
+-      letters [ "E" ]
++      letters [ "ト" ]
+      ]
+     ]
+     baseline [
+      code [ "humanist" ]
+      color [ 0.176471 0.517647 0.388235 1 ]
+      pos [ 0 0 -3.14 ]
+-     scale [ 0.8 1 0.8 ]
++     scale [ 0.5518 1 0.555971 ]
+      flags [ "d" ]
+      text [
+-      letters [ "(" ]
++      letters [ "水" ]
+      ]
+      text [
+-      letters [ "J" ]
++      letters [ "を" ]
+      ]
+      text [
+-      letters [ "U" ]
++      letters [ "加" ]
+      ]
+      text [
+-      letters [ "S" ]
++      letters [ "え" ]
+      ]
+      text [
+-      letters [ "T" ]
++      letters [ "て" ]
+      ]
+      text [
+-      letters [ " " ]
++      letters [ "凍" ]
+      ]
+      text [
+-      letters [ "A" ]
++      letters [ "ら" ]
+      ]
+      text [
+-      letters [ "D" ]
++      letters [ "せ" ]
+      ]
+      text [
+-      letters [ "D" ]
+-     ]
+-     text [
+-      letters [ " " ]
+-     ]
+-     text [
+-      letters [ "W" ]
+-     ]
+-     text [
+-      letters [ "A" ]
+-     ]
+-     text [
+-      letters [ "T" ]
+-     ]
+-     text [
+-      letters [ "E" ]
+-     ]
+-     text [
+-      letters [ "R" ]
+-     ]
+-     text [
+-      letters [ " " ]
+-     ]
+-     text [
+-      letters [ "A" ]
+-     ]
+-     text [
+-      letters [ "N" ]
++      letters [ "る" ]
+      ]
+      text [
+-      letters [ "D" ]
++      letters [ "だ" ]
+      ]
+      text [
+-      letters [ " " ]
++      letters [ "け" ]
+      ]
+      text [
+-      letters [ "F" ]
++      letters [ "！" ]
+      ]
++    ]
++    baseline [
++     code [ "BR_Aftershock" ]
++     color [ 0.352941 0.341176 0.866667 1 ]
++     pos [ 0 0 -2.31593 ]
++     scale [ 1.58624 1 1.48536 ]
+      text [
+-      letters [ "R" ]
++      letters [ "ア" ]
+      ]
+      text [
+-      letters [ "E" ]
++      letters [ "イ" ]
+      ]
+      text [
+-      letters [ "E" ]
++      letters [ "ス" ]
+      ]
+      text [
+-      letters [ "Z" ]
++      letters [ "キ" ]
+      ]
+      text [
+-      letters [ "E" ]
++      letters [ "ュ" ]
+      ]
+      text [
+-      letters [ "!" ]
++      letters [ "ー" ]
+      ]
+      text [
+-      letters [ ")" ]
++      letters [ "ブ" ]
+      ]
+     ]
+    ]
+@@ -8053,7 +8002,6 @@
+   suit_edge [ 577 499 ]
+   suit_edge [ 577 588 ]
+   suit_edge [ 588 577 ]
+-  suit_edge [ 577 588 ]
+   battle_cell [ 20 20 170 30 -0.5 ]
+   flat_building "tb41:20_DNARoot" [
+    pos [ 190 60 0 ]
+@@ -9068,6 +9016,11 @@
+  visgroup "3136" [
+   vis [   "3136"   "3104"   "3105"   "3106"   "3107"   "3129"   "3128"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 488 36 0.1 ]
++    hpr [ 101 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 455.445 15.6579 0.376913 ]
+--- src/dna/the_burrrgh_3200_german.dna	9 Oct 2004 04:37:05 -0000	1.6
++++ src/dna/the_burrrgh_3200_german.dna	1 Dec 2005 18:17:31 -0000	1.7
+@@ -9446,6 +9446,11 @@
+  visgroup "3236" [
+   vis [   "3236"   "3226"   "3227"   "3206"   "3207"   "3208"   "3209"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 360 458 0 ]
++    hpr [ 56 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 322.615 479.904 0.406348 ]
+--- src/dna/the_burrrgh_3200_japanese.dna	10 Jun 2004 01:18:36 -0000	1.5
++++ src/dna/the_burrrgh_3200_japanese.dna	1 Dec 2005 18:17:31 -0000	1.6
+@@ -8240,6 +8240,11 @@
+  visgroup "3236" [
+   vis [   "3236"   "3226"   "3227"   "3206"   "3207"   "3208"   "3209"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 360 458 0 ]
++    hpr [ 56 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 322.615 479.904 0.406348 ]
+--- src/dna/the_burrrgh_sz_german.dna	15 Aug 2005 03:43:59 -0000	1.9
++++ src/dna/the_burrrgh_sz_german.dna	1 Dec 2005 18:17:31 -0000	1.11
+@@ -1109,7 +1109,7 @@
+       code [ "mickey" ]
+       color [ 0.501961 1 1 1 ]
+       pos [ 0 0 -0.5 ]
+-      scale [ 1.29553 1 2.1386 ]
++      scale [ 1.2 1 2.0 ]
+       text [
+        letters [ "B" ]
+       ]
+@@ -1417,7 +1417,7 @@
+  landmark_building "tb11:toon_landmark_BR_pet_shop_DNARoot" [
+   code [ "toon_landmark_BR_pet_shop" ]
+   building_type [ "petshop" ]
+-  title [ "Pet Shop" ]
++  title [ "Tierhandlung" ]
+   pos [ -161.461 -2.53207 6.09575 ]
+   hpr [ 93 0 0 ]
+   door [
+@@ -1434,32 +1434,44 @@
+     code [ "mickey" ]
+     color [ 0.501961 1 1 1 ]
+     pos [ 0 0 0.0852519 ]
+-    scale [ 1.31814 1 3.0045 ]
++    scale [ 1.0 1 2.5 ]
+     width [ 13.5458 ]
+     height [ 13.5458 ]
+     text [
+-     letters [ "P" ]
++     letters [ "T" ]
++    ]
++    text [
++     letters [ "i" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+-     letters [ "t" ]
++     letters [ "r" ]
+     ]
+     text [
+-     letters [ " " ]
++     letters [ "h" ]
+     ]
+     text [
+-     letters [ "S" ]
++     letters [ "a" ]
+     ]
+     text [
+-     letters [ "h" ]
++     letters [ "n" ]
++    ]
++    text [
++     letters [ "d" ]
++    ]
++    text [
++     letters [ "l" ]
++    ]
++    text [
++     letters [ "u" ]
+     ]
+     text [
+-     letters [ "o" ]
++     letters [ "n" ]
+     ]
+     text [
+-     letters [ "p" ]
++     letters [ "g" ]
+     ]
+    ]
+   ]
+--- src/dna/the_burrrgh_sz_japanese.dna	4 Feb 2004 06:01:22 -0000	1.4
++++ src/dna/the_burrrgh_sz_japanese.dna	13 Jul 2005 20:18:53 -0000	1.6
+@@ -1284,5 +1284,55 @@
+     scale [ 1.5 1.5 1.5 ]
+    ]
+   ]
++ landmark_building "tb11:toon_landmark_BR_pet_shop_DNARoot" [
++  code [ "toon_landmark_BR_pet_shop" ]
++  building_type [ "petshop" ]
++  title [ "ペットショップ" ]
++  pos [ -161.461 -2.53207 6.09575 ]
++  hpr [ 93 0 0 ]
++  door [
++   code [ "door_double_clothesshop_ur" ]
++   color [ 0.59 1 0.92 1 ]
++  ]
++  prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++   code [ "animated_prop_PetShopFishAnimatedProp" ]
++   pos [ 0 0 0 ]
++   hpr [ 0 0 0 ]
++  ]
++  sign [
++   baseline [
++    code [ "mickey" ]
++    color [ 0.501961 1 1 1 ]
++    pos [ 0 0 0.0852519 ]
++    scale [ 1.21814 1 2.8045 ]
++    width [ 13.5458 ]
++    height [ 13.5458 ]
++    text [
++     letters [ "ペ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "ト" ]
++    ]
++    text [
++     letters [ " " ]
++    ]
++    text [
++     letters [ "シ" ]
++    ]
++    text [
++     letters [ "ョ" ]
++    ]
++    text [
++     letters [ "ッ" ]
++    ]
++    text [
++     letters [ "プ" ]
++    ]
++   ]
++  ]
++ ]
+  ]
+ ]
+--- src/dna/toontown_central_2100_german.dna	6 Oct 2004 03:51:15 -0000	1.4
++++ src/dna/toontown_central_2100_german.dna	1 Dec 2005 18:17:31 -0000	1.5
+@@ -14324,6 +14324,11 @@
+    ]
+   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 11.4 -633 0.0 ]
++    hpr [ 273 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 35.2944 -672.413 0.445984 ]
+--- src/dna/toontown_central_2100_japanese.dna	10 Jun 2004 01:26:33 -0000	1.4
++++ src/dna/toontown_central_2100_japanese.dna	1 Dec 2005 18:17:31 -0000	1.5
+@@ -13465,6 +13465,11 @@
+    ]
+   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 11.4 -633 0.0 ]
++    hpr [ 273 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 35.2944 -672.413 0.445984 ]
+--- src/dna/toontown_central_2200_german.dna	9 Oct 2004 02:33:46 -0000	1.7
++++ src/dna/toontown_central_2200_german.dna	1 Dec 2005 18:17:31 -0000	1.8
+@@ -11910,6 +11910,11 @@
+  visgroup "2236" [
+   vis [   "2236"   "2223"   "2224"   "2220"   "2233"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -226.4 143.2 0.0 ]
++    hpr [ 94 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -223.506 161.474 0.477789 ]
+--- src/dna/toontown_central_2200_japanese.dna	29 Sep 2004 01:37:15 -0000	1.8
++++ src/dna/toontown_central_2200_japanese.dna	1 Dec 2005 18:17:31 -0000	1.9
+@@ -11056,6 +11056,11 @@
+  visgroup "2236" [
+   vis [   "2236"   "2223"   "2224"   "2220"   "2233"   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ -226.4 143.2 0.0 ]
++    hpr [ 94 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ -223.506 161.474 0.477789 ]
+--- src/dna/toontown_central_2300_german.dna	9 Oct 2004 02:33:47 -0000	1.6
++++ src/dna/toontown_central_2300_german.dna	1 Dec 2005 18:17:31 -0000	1.7
+@@ -13155,37 +13155,37 @@
+        stomp [ 0.01 ]
+        flags [ "d" ]
+        text [
+-        letters [ "N" ]
++        letters [ " " ]
+        ]
+        text [
+-        letters [ "O" ]
++        letters [ "Z" ]
+        ]
+        text [
+-        letters [ "W" ]
++        letters [ "U" ]
+        ]
+        text [
+-        letters [ " " ]
++        letters [ "R" ]
+        ]
+        text [
+-        letters [ "P" ]
++        letters [ " " ]
+        ]
+        text [
+-        letters [ "L" ]
++        letters [ "Z" ]
+        ]
+        text [
+-        letters [ "A" ]
++        letters [ "E" ]
+        ]
+        text [
+-        letters [ "Y" ]
++        letters [ "I" ]
+        ]
+        text [
+-        letters [ "I" ]
++        letters [ "T" ]
+        ]
+        text [
+-        letters [ "N" ]
++        letters [ ":" ]
+        ]
+        text [
+-        letters [ "G" ]
++        letters [ " " ]
+        ]
+       ]
+       baseline [
+@@ -13196,6 +13196,9 @@
+        wiggle [ 2.76215 ]
+        stomp [ 0.01 ]
+        text [
++        letters [ " " ]
++       ]
++       text [
+         letters [ "M" ]
+        ]
+        text [
+@@ -13208,43 +13211,40 @@
+         letters [ "K" ]
+        ]
+        text [
+-        letters [ "E" ]
+-       ]
+-       text [
+         letters [ "Y" ]
+        ]
+        text [
+-        letters [ "'" ]
+-       ]
+-       text [
+         letters [ "S" ]
+        ]
+        text [
+         letters [ " " ]
+        ]
+        text [
+-        letters [ " " ]
++        letters [ "T" ]
+        ]
+        text [
+-        letters [ "F" ]
++        letters [ "O" ]
+        ]
+        text [
+-        letters [ "O" ]
++        letters [ "R" ]
+        ]
+        text [
+-        letters [ "L" ]
++        letters [ "H" ]
+        ]
+        text [
+-        letters [ "L" ]
++        letters [ "E" ]
+        ]
+        text [
+         letters [ "I" ]
+        ]
+        text [
++        letters [ "T" ]
++       ]
++       text [
+         letters [ "E" ]
+        ]
+        text [
+-        letters [ "S" ]
++        letters [ "N" ]
+        ]
+       ]
+      ]
+@@ -13928,6 +13928,11 @@
+    ]
+   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 492.7 -78.6 0.0 ]
++    hpr [ 5 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 529.758 -83.7616 0.346085 ]
+--- src/dna/toontown_central_2300_japanese.dna	10 Jun 2004 01:38:43 -0000	1.4
++++ src/dna/toontown_central_2300_japanese.dna	1 Dec 2005 18:17:31 -0000	1.6
+@@ -2176,69 +2176,63 @@
+       baseline [
+        code [ "mickey" ]
+        color [ 0 0.501961 0 1 ]
+-       pos [ 0 0 -0.23 ]
+-       kern [ 0.035129 ]
++       pos [ 0 0 -0.154119 ]
++       kern [ -0.0231576 ]
+        wiggle [ 3.12775 ]
+        stomp [ 0.027854 ]
+        text [
+-        letters [ "M" ]
++        letters [ "は" ]
+        ]
+        text [
+-        letters [ "E" ]
++        letters [ "ち" ]
+        ]
+        text [
+-        letters [ "S" ]
++        letters [ "ゃ" ]
+        ]
+        text [
+-        letters [ "S" ]
++        letters [ "め" ]
+        ]
+        text [
+-        letters [ " " ]
++        letters [ "ち" ]
+        ]
+        text [
+-        letters [ " " ]
+-       ]
+-       text [
+-        letters [ "H" ]
++        letters [ "ゃ" ]
+        ]
+        text [
+-        letters [ "A" ]
++        letters [ "ホ" ]
+        ]
+        text [
+-        letters [ "L" ]
++        letters [ "ー" ]
+        ]
+        text [
+-        letters [ "L" ]
++        letters [ "ル" ]
+        ]
+       ]
+       baseline [
+        code [ "mickey" ]
+        color [ 0 0.501961 0 1 ]
+-       pos [ -0.11 0 1.79 ]
++       pos [ -0.11 0 1.83139 ]
+        scale [ 0.6 1 0.5 ]
+        text [
+-        letters [ "T" ]
+-       ]
+-       text [
+-        letters [ "O" ]
++        letters [ "ト" ]
+        ]
+        text [
+-        letters [ "O" ]
++        letters [ "ゥ" ]
+        ]
+        text [
+-        letters [ "N" ]
++        letters [ "ー" ]
+        ]
+        text [
+-        letters [ "T" ]
++        letters [ "ン" ]
+        ]
+        text [
+-        letters [ "O" ]
++        letters [ "タ" ]
+        ]
+        text [
+-        letters [ "W" ]
++        letters [ "ウ" ]
+        ]
+        text [
+-        letters [ "N" ]
++        letters [ "ン" ]
+        ]
+       ]
+      ]
+@@ -6389,10 +6383,8 @@
+   suit_edge [ 82 287 ]
+   suit_edge [ 285 288 ]
+   suit_edge [ 288 285 ]
+-  suit_edge [ 285 288 ]
+   suit_edge [ 287 288 ]
+   suit_edge [ 288 287 ]
+-  suit_edge [ 287 288 ]
+   battle_cell [ 20 20 335 20 -0.5 ]
+   group "streets" [
+    street "street_slope_transition_L_DNARoot" [
+@@ -9135,7 +9127,6 @@
+   suit_edge [ 274 273 ]
+   suit_edge [ 274 275 ]
+   suit_edge [ 275 274 ]
+-  suit_edge [ 274 275 ]
+   battle_cell [ 20 20 450 157 -0.5 ]
+   group "streets" [
+    street "street_slope_transition_R_DNARoot" [
+@@ -11815,7 +11806,6 @@
+   suit_edge [ 268 164 ]
+   suit_edge [ 268 271 ]
+   suit_edge [ 271 268 ]
+-  suit_edge [ 268 271 ]
+   suit_edge [ 265 290 ]
+   suit_edge [ 291 268 ]
+   battle_cell [ 20 20 679 90 -0.5 ]
+@@ -12325,10 +12315,8 @@
+   suit_edge [ 293 291 ]
+   suit_edge [ 292 294 ]
+   suit_edge [ 294 292 ]
+-  suit_edge [ 292 294 ]
+   suit_edge [ 293 295 ]
+   suit_edge [ 295 293 ]
+-  suit_edge [ 293 295 ]
+   battle_cell [ 20 20 722 89 -0.5 ]
+   group "streets" [
+    street "street_w_grass_60x40_DNARoot" [
+@@ -13025,6 +13013,11 @@
+    ]
+   ]
+   node "fishing_pond_1" [
++   prop "npc_fisherman_origin_0" [
++    code [ "DCS" ]
++    pos [ 492.7 -78.6 0.0 ]
++    hpr [ 5 0 0 ]
++   ]
+    prop "fishing_spot_DNARoot" [
+     code [ "fishing_spot" ]
+     pos [ 529.758 -83.7616 0.346085 ]
+--- src/dna/toontown_central_sz_german.dna	15 Aug 2005 03:43:59 -0000	1.12
++++ src/dna/toontown_central_sz_german.dna	1 Dec 2005 18:17:31 -0000	1.14
+@@ -757,7 +757,7 @@
+       code [ "mickey" ]
+       color [ 1 0.611765 0.423529 1 ]
+       pos [ 0 0 -0.5 ]
+-      scale [ 1.21825 1 1.7 ]
++      scale [ 1.1 1 1.6 ]
+       text [
+        letters [ "B" ]
+       ]
+@@ -1265,7 +1265,7 @@
+   landmark_building "sz22:toon_landmark_TT_pet_shop_DNARoot" [
+    code [ "toon_landmark_TT_pet_shop" ]
+    building_type [ "petshop" ]
+-   title [ "Pet Shop" ]
++   title [ "Tierhandlung" ]
+    pos [ -124.375 74.3749 0.5 ]
+    hpr [ 49 0 0 ]
+    door [
+@@ -1282,33 +1282,45 @@
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.0715486 0 0.575594 ]
+-     scale [ 1.58014 1 2.42354 ]
++     scale [ 1.1 1 2.0 ]
+      width [ 14.2363 ]
+      height [ 14.2363 ]
+      flags [ "d" ]
+      text [
+-      letters [ "P" ]
++      letters [ "T" ]
+      ]
+      text [
+-      letters [ "E" ]
++      letters [ "i" ]
+      ]
+      text [
+-      letters [ "T" ]
++      letters [ "e" ]
++     ]
++     text [
++      letters [ "r" ]
++     ]
++     text [
++      letters [ "h" ]
++     ]
++     text [
++      letters [ "a" ]
++     ]
++     text [
++      letters [ "n" ]
+      ]
+      text [
+-      letters [ " " ]
++      letters [ "d" ]
+      ]
+      text [
+-      letters [ "S" ]
++      letters [ "l" ]
+      ]
+      text [
+-      letters [ "H" ]
++      letters [ "u" ]
+      ]
+      text [
+-      letters [ "O" ]
++      letters [ "n" ]
+      ]
+      text [
+-      letters [ "P" ]
++      letters [ "g" ]
+      ]
+     ]
+    ]
+--- src/dna/toontown_central_sz_japanese.dna	24 Aug 2004 03:32:32 -0000	1.7
++++ src/dna/toontown_central_sz_japanese.dna	13 Jul 2005 20:18:53 -0000	1.9
+@@ -963,155 +963,206 @@
+    pos [ 93.2057 -106.482 2.50002 ]
+    hpr [ 0 0 0 ]
+   ]
+- ]
+- prop "prop_mickey_on_horse_DNARoot" [
+-  code [ "prop_mickey_on_horse" ]
+-  pos [ 73.6829 121.026 2.49996 ]
+-  hpr [ 0 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ 3.84337 118.504 3 ]
+-  hpr [ -110 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ 116.979 146.926 3 ]
+-  hpr [ 145 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ 86.808 164.831 3 ]
+-  hpr [ -95 0 0 ]
+- ]
+- prop "prop_tree_fat_ul_DNARoot" [
+-  code [ "prop_tree_fat_ul" ]
+-  pos [ 55.4077 154.679 2.49996 ]
+-  hpr [ -33 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 43.7488 -86.2016 3.00007 ]
+-  hpr [ -2 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 77.3059 -86.4255 2.99998 ]
+-  hpr [ -2 0 0 ]
+- ]
+- prop "prop_mailbox_TT_DNARoot" [
+-  code [ "prop_mailbox_TT" ]
+-  pos [ -95 87 0.5 ]
+-  hpr [ -75 4.55705 0 ]
+- ]
+- prop "prop_mailbox_TT_DNARoot" [
+-  code [ "prop_mailbox_TT" ]
+-  pos [ -60.8037 -84.8026 0.5 ]
+-  hpr [ 105 0 0 ]
+- ]
+- prop "prop_mailbox_TT_DNARoot" [
+-  code [ "prop_mailbox_TT" ]
+-  pos [ 81.3845 -159.55 3 ]
+-  hpr [ 90 0 0 ]
+- ]
+- prop "prop_mailbox_TT_DNARoot" [
+-  code [ "prop_mailbox_TT" ]
+-  pos [ 45.162 163.879 3 ]
+-  hpr [ -75 0 0 ]
+- ]
+- prop "prop_hydrant_DNARoot" [
+-  code [ "prop_hydrant" ]
+-  pos [ 133.82 124.946 3 ]
+-  hpr [ 120 0 0 ]
+- ]
+- prop "prop_hydrant_DNARoot" [
+-  code [ "prop_hydrant" ]
+-  pos [ 135.748 -119.711 3 ]
+-  hpr [ -120 0 0 ]
+- ]
+- prop "prop_trashcan_metal_DNARoot" [
+-  code [ "prop_trashcan_metal" ]
+-  pos [ 105.911 -153.71 3 ]
+-  hpr [ -120 0 0 ]
+- ]
+- prop "prop_hydrant_DNARoot" [
+-  code [ "prop_hydrant" ]
+-  pos [ 16.1492 -89.1852 3 ]
+-  hpr [ -45 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 58.8052 93.6999 3 ]
+-  hpr [ -90 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 92.8051 93.6997 3 ]
+-  hpr [ -90 0 0 ]
+- ]
+- prop "prop_trashcan_metal_DNARoot" [
+-  code [ "prop_trashcan_metal" ]
+-  pos [ 117.805 151.699 3 ]
+-  hpr [ -90 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ 132.882 -122.532 3 ]
+-  hpr [ -130 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ 4.9912 -116.182 3 ]
+-  hpr [ -155 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 108.962 -28.0532 4 ]
+-  hpr [ -180 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 108.205 32.0659 4 ]
+-  hpr [ 180 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 32.9609 61.9462 4 ]
+-  hpr [ -180 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ 28.9617 -57.0532 4 ]
+-  hpr [ -180 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ -101.98 -70.4832 0.5 ]
+-  hpr [ 175 0 0 ]
+- ]
+- prop "prop_post_three_light_DNARoot" [
+-  code [ "prop_post_three_light" ]
+-  pos [ -129.889 -39.5582 0.5 ]
+-  hpr [ 175 0 0 ]
+- ]
+- prop "prop_trashcan_metal_DNARoot" [
+-  code [ "prop_trashcan_metal" ]
+-  pos [ -145.168 -19.1499 0.5 ]
+-  hpr [ 175 0 0 ]
+- ]
+- prop "prop_hydrant_DNARoot" [
+-  code [ "prop_hydrant" ]
+-  pos [ -19.1686 83.5834 0.5 ]
+-  hpr [ 175 0 0 ]
+- ]
+- prop "prop_trashcan_metal_DNARoot" [
+-  code [ "prop_trashcan_metal" ]
+-  pos [ -69.2756 95.9983 0.5 ]
+-  hpr [ 175 0 0 ]
+- ]
+- prop "prop_post_one_light_DNARoot" [
+-  code [ "prop_post_one_light" ]
+-  pos [ -124.391 62.6756 0.5 ]
+-  hpr [ 145 0 0 ]
++  prop "prop_mickey_on_horse_DNARoot" [
++   code [ "prop_mickey_on_horse" ]
++   pos [ 73.6829 121.026 2.49996 ]
++   hpr [ 0 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ 3.84337 118.504 3 ]
++   hpr [ -110 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ 116.979 146.926 3 ]
++   hpr [ 145 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ 86.808 164.831 3 ]
++   hpr [ -95 0 0 ]
++  ]
++  prop "prop_tree_fat_ul_DNARoot" [
++   code [ "prop_tree_fat_ul" ]
++   pos [ 55.4077 154.679 2.49996 ]
++   hpr [ -33 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 43.7488 -86.2016 3.00007 ]
++   hpr [ -2 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 77.3059 -86.4255 2.99998 ]
++   hpr [ -2 0 0 ]
++  ]
++  prop "prop_mailbox_TT_DNARoot" [
++   code [ "prop_mailbox_TT" ]
++   pos [ -95 87 0.5 ]
++   hpr [ -75 4.55705 0 ]
++  ]
++  prop "prop_mailbox_TT_DNARoot" [
++   code [ "prop_mailbox_TT" ]
++   pos [ -60.8037 -84.8026 0.5 ]
++   hpr [ 105 0 0 ]
++  ]
++  prop "prop_mailbox_TT_DNARoot" [
++   code [ "prop_mailbox_TT" ]
++   pos [ 81.3845 -159.55 3 ]
++   hpr [ 90 0 0 ]
++  ]
++  prop "prop_mailbox_TT_DNARoot" [
++   code [ "prop_mailbox_TT" ]
++   pos [ 45.162 163.879 3 ]
++   hpr [ -75 0 0 ]
++  ]
++  prop "prop_hydrant_DNARoot" [
++   code [ "prop_hydrant" ]
++   pos [ 133.82 124.946 3 ]
++   hpr [ 120 0 0 ]
++  ]
++  prop "prop_hydrant_DNARoot" [
++   code [ "prop_hydrant" ]
++   pos [ 135.748 -119.711 3 ]
++   hpr [ -120 0 0 ]
++  ]
++  prop "prop_trashcan_metal_DNARoot" [
++   code [ "prop_trashcan_metal" ]
++   pos [ 105.911 -153.71 3 ]
++   hpr [ -120 0 0 ]
++  ]
++  prop "prop_hydrant_DNARoot" [
++   code [ "prop_hydrant" ]
++   pos [ 16.1492 -89.1852 3 ]
++   hpr [ -45 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 58.8052 93.6999 3 ]
++   hpr [ -90 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 92.8051 93.6997 3 ]
++   hpr [ -90 0 0 ]
++  ]
++  prop "prop_trashcan_metal_DNARoot" [
++   code [ "prop_trashcan_metal" ]
++   pos [ 117.805 151.699 3 ]
++   hpr [ -90 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ 132.882 -122.532 3 ]
++   hpr [ -130 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ 4.9912 -116.182 3 ]
++   hpr [ -155 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 108.962 -28.0532 4 ]
++   hpr [ -180 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 108.205 32.0659 4 ]
++   hpr [ 180 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 32.9609 61.9462 4 ]
++   hpr [ -180 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ 28.9617 -57.0532 4 ]
++   hpr [ -180 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ -101.98 -70.4832 0.5 ]
++   hpr [ 175 0 0 ]
++  ]
++  prop "prop_post_three_light_DNARoot" [
++   code [ "prop_post_three_light" ]
++   pos [ -129.889 -39.5582 0.5 ]
++   hpr [ 175 0 0 ]
++  ]
++  prop "prop_trashcan_metal_DNARoot" [
++   code [ "prop_trashcan_metal" ]
++   pos [ -145.168 -19.1499 0.5 ]
++   hpr [ 175 0 0 ]
++  ]
++  prop "prop_hydrant_DNARoot" [
++   code [ "prop_hydrant" ]
++   pos [ -19.1686 83.5834 0.5 ]
++   hpr [ 175 0 0 ]
++  ]
++  prop "prop_trashcan_metal_DNARoot" [
++   code [ "prop_trashcan_metal" ]
++   pos [ -69.2756 95.9983 0.5 ]
++   hpr [ 175 0 0 ]
++  ]
++  prop "prop_post_one_light_DNARoot" [
++   code [ "prop_post_one_light" ]
++   pos [ -125 60 0 ]
++   hpr [ 150 0 0 ]
++  ]
++  landmark_building "sz22:toon_landmark_TT_pet_shop_DNARoot" [
++   code [ "toon_landmark_TT_pet_shop" ]
++   building_type [ "petshop" ]
++   title [ "ペットショップ" ]
++   pos [ -124.375 74.3749 0.5 ]
++   hpr [ 49 0 0 ]
++   door [
++    code [ "door_double_round_ur" ]
++    color [ 1 0.87 0.38 1 ]
++   ]
++   prop "animated_prop_PetShopFishAnimatedProp_DNARoot" [
++    code [ "animated_prop_PetShopFishAnimatedProp" ]
++    pos [ 0 0 0 ]
++    hpr [ 0 0 0 ]
++   ]
++   sign [
++    baseline [
++     code [ "mickey" ]
++     color [ 1 1 0 1 ]
++     pos [ -0.0715486 0 0.575594 ]
++     scale [ 1.38014 1 2.22354 ]
++     width [ 14.2363 ]
++     height [ 14.2363 ]
++     flags [ "d" ]
++     text [
++      letters [ "ペ" ]
++     ]
++     text [
++      letters [ "ッ" ]
++     ]
++     text [
++      letters [ "ト" ]
++     ]
++     text [
++      letters [ " " ]
++     ]
++     text [
++      letters [ "シ" ]
++     ]
++     text [
++      letters [ "ョ" ]
++     ]
++     text [
++      letters [ "ッ" ]
++     ]
++     text [
++      letters [ "プ" ]
++     ]
++    ]
++   ]
++  ]
+  ]
+ ]
+--- src/fonts/Sources.pp	24 Dec 2003 00:14:20 -0000	1.21
++++ src/fonts/Sources.pp	24 Jul 2008 22:19:27 -0000
+@@ -11,7 +11,7 @@
+ 
+ #if $[eq $[LANGUAGE], japanese]
+   #begin install_misc
+-    #define SOURCES HGHanKointai.ttc HGHeiseiMarugothictaiW8.ttc
++    #define SOURCES DFKyG7.ttc HGHanKointai.ttc HGHeiseiMarugothictaiW8.ttc
+     #define PHASE 3
+   #end install_misc
+ #endif
+@@ -19,14 +19,13 @@
+ #begin install_egg
+   // Interface fonts.
+   #define SOURCES \
+-    MickeyFont_english.egg MickeyFont_japanese.egg \
+-    MinnieFont.egg
++    MickeyFont_english.egg MinnieFont.egg
+   #define PHASE 3
+ #end install_egg
+ 
+ #begin install_misc
+   // The primary interface font, now installed as directly as a TTF file.
+-  #define SOURCES ImpressBT.ttf
++  #define SOURCES ImpressBT.ttf MickeyFontFull.ttf
+   #define PHASE 3
+ #end install_misc
+ 
+--- src/gui/Sources.pp	24 Jun 2008 19:04:03 -0000	1.117.8.1
++++ src/gui/Sources.pp	29 Oct 2008 07:23:20 -0000
+@@ -28,20 +28,7 @@
+     trashcan_gui.egg quit_button.egg chat_button_gui.egg \
+     toon_council.egg cog_icons.egg \
+     ChatPanel.egg scroll_arrows_gui.egg \
+-    feature_gui_english.egg \
+-    feature_gui_japanese.egg \
+-    feature_gui_french.egg \
+-    members_only_gui_english.egg \
+-    members_only_gui_japanese.egg \
+-    members_only_gui_french.egg 
+-
+-  #if $[LANGUAGE]
+-    #define SOURCES $[SOURCES] \
+-      feature_gui_$[LANGUAGE].egg members_only_gui_$[LANGUAGE].egg
+-  #else
+-    #define SOURCES $[SOURCES] \
+       feature_gui_english.egg members_only_gui_english.egg
+-  #endif
+   #define PHASE 3
+ #end install_egg
+ 
+@@ -55,14 +42,11 @@
+     friendslist_gui.egg chat_input_gui.egg clock_gui.egg \
+     battle_gui.egg suit_detail_panel.egg cog_life_meter.egg \
+     avatar_panel_gui.egg jar_gui.egg \
+-    tutorial_gui_english.egg \
+-    tutorial_gui_castillian.egg \
+-    tutorial_gui_japanese.egg \
+-    tutorial_gui_french.egg \
+     suitpage_gui.egg suitpage_frame.egg matching_game_gui.egg \
+     filmstrip.egg name_star.egg speedChatGui.egg fishingBook.egg fishingTrophy.egg \
+     frame.egg frame4names.egg sos_textures.egg playingCard.egg fishingTrophyBowl.egg \
+-    PetControlPannel.egg
++    PetControlPannel.egg \
++    tutorial_gui_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+@@ -87,19 +71,14 @@
+ // Minigames
+ #begin install_egg
+   #define SOURCES \
+-    minigame_rules_gui.egg \
+-    cannon_game_gui_english.egg cannon_game_gui_castillian.egg \
+-    cannon_game_gui_japanese.egg \
+-    cannon_game_gui_french.egg
++    minigame_rules_gui.egg cannon_game_gui_english.egg
+   #define PHASE 4
+ #end install_egg
+ 
+ // COG HQ Disguises stuff
+ #begin install_egg
+   #define SOURCES \
+-    cog_disguises_english.egg cog_disguises_castillian.egg \
+-    cog_disguises_japanese.egg \
+-    cog_disguises_french.egg 
++    cog_disguises_english.egg
+   #define PHASE 9
+ #end install_egg
+ 
+@@ -107,16 +86,10 @@
+ #begin install_egg
+   #define SOURCES \
+     house_design_gui.egg package_delivery_panel.egg \
+-    PetTutorial.egg \
+-    PetTutorial_english.egg \
+-    PetTutorial_japanese.egg \
+-    PetTutorial_french.egg \
++    PetTutorial_english.egg catalog_gui_english.egg\
+     planting_gui.egg \
+     planting_but_can_P.egg planting_but_can_Y.egg \ 
+-    planting_but_shovel_P.egg planting_but_shovel_Y.egg \
+-    catalog_gui_english.egg catalog_gui_castillian.egg \
+-    catalog_gui_japanese.egg \
+-    catalog_gui_french.egg 
++    planting_but_shovel_P.egg planting_but_shovel_Y.egg
+   #define PHASE 5.5
+ #end install_egg
+ 
+--- src/minigames/Sources.pp	24 Jun 2008 19:06:48 -0000	1.26.24.1
++++ src/minigames/Sources.pp	29 Oct 2008 07:30:40 -0000
+@@ -14,15 +14,13 @@
+   #define SOURCES \
+     icecreamdrop.egg apple.egg orange.egg watermelon.egg \
+     pear.egg coconut.egg pineapple.egg \
+-    race.egg dice.egg question_mark.egg chance_card.egg \
++    race.egg race_english.egg dice.egg question_mark.egg chance_card.egg \
+     tug_of_war_dock.egg tug_of_war_rope.egg \
+     toon_cannon.egg toon_cannon_water_tower.egg toon_cannon_gameground.egg cannon_hill.egg \
+     tag_arena.egg block.egg swimming_game.egg swimming_game_ring.egg matching_room.egg \
+     maze_1player.egg maze_2player.egg maze_3player.egg maze_4player.egg \
+     treehouse_2players.egg treehouse_3players.egg treehouse_4players.egg \
+-    bboard-pointer_english.egg bboard-pointer_castillian.egg \
+-    bboard-pointer_japanese.egg \
+-    bboard-pointer_french.egg
++    bboard-pointer_english.egg
+   #define PHASE 4
+ #end install_egg
+ 
+--- src/modules/Sources.pp	13 Aug 2004 16:19:07 -0000	1.70
++++ src/modules/Sources.pp	24 Apr 2008 00:37:48 -0000	1.74.2.1
+@@ -14,9 +14,8 @@
+   #define SOURCES \
+     walls.egg doors_practical.egg safe_zone_entrance_tunnel_TT.egg \
+     windows.egg cornices.egg street_modules.egg street_modules_enhanced.egg \
+-    TT_A1.egg walls_basement.egg HQ_interior_english.egg HQ_interior_japanese.egg \
+-    HQ_interior_castillian.egg hqTT_english.egg hqTT_castillian.egg hqTT_german.egg \
+-    hqTT_japanese.egg hqTT_portuguese.egg HQ_interior_portuguese.egg 
++    TT_A1.egg walls_basement.egg \
++    HQ_interior_english.egg hqTT_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+@@ -43,9 +42,8 @@
+   #define SOURCES \
+     safe_zone_tunnel_TT.egg trolley_station_TT.egg doors.egg TT_pond.egg \
+     bank.egg library.egg school_house.egg mercantile.egg gazebo.egg \
+-    toonhall.egg gagShop_TT_english.egg gagShop_TT_castillian.egg \
+-    gagShop_interior_english.egg gagShop_interior_castillian.egg  \
+-    clothshopTT.egg PetShopInterior.egg PetShopExterior.egg PetShopExterior_TT.egg PetShopExterior_TT_test.egg 
++    toonhall.egg clothshopTT.egg PetShopInterior.egg PetShopExterior_TT.egg \
++    gagShop_TT_english.egg gagShop_interior_english.egg
+   #define PHASE 4
+ #end install_egg
+ 
+@@ -87,16 +85,12 @@
+ // Donalds Dock
+ #begin install_egg
+   #define SOURCES \
+-    neighborhood_tunnel_DD.egg safe_zone_entrance_tunnel_DD.egg \
+-    safe_zone_tunnel_DD.egg DD_doors.egg DD_doors_practical.egg DD_pond.egg \
+-    hqDD_english.egg hqDD_castillian.egg \
+-    hqDD_SZ_english.egg hqDD_SZ_castillian.egg \
+-    hqDD_german.egg hqDD_japanese.egg hqDD_portuguese.egg \
+-    hqDD_SZ_german.egg hqDD_SZ_japanese.egg hqDD_SZ_portuguese.egg \ 
+-    gagShop_DD_english.egg gagShop_DD_castillian.egg \
+     trolley_station_DD.egg \
+     DD_A1.egg DD_A2.egg DD_B1.egg DD_B2.egg DD_C1.egg DD_D1.egg \
+-    clothshopDD.egg PetShopExterior_DD.egg
++    neighborhood_tunnel_DD.egg safe_zone_entrance_tunnel_DD.egg \
++    safe_zone_tunnel_DD.egg DD_doors.egg DD_doors_practical.egg DD_pond.egg \
++    clothshopDD.egg PetShopExterior_DD.egg \
++    hqDD_english.egg hqDD_SZ_english.egg gagShop_DD_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -107,10 +101,8 @@
+     MM_A1.egg MM_A2.egg MM_B1.egg MM_B2.egg MM_C1.egg MM_D1.egg MM_E1.egg \
+     neighborhood_tunnel_MM.egg safe_zone_entrance_tunnel_MM.egg \
+     safe_zone_tunnel_MM.egg MM_windows.egg MM_pond.egg \
+-    gagShop_MM_english.egg gagShop_MM_castillian.egg \
+-    clothshopMM.egg \
+-    hqMM_english.egg hqMM_castillian.egg PetShopExterior_MM.egg \
+-    hqMM_german.egg hqMM_japanese.egg hqMM_portuguese.egg
++    clothshopMM.egg PetShopExterior_MM.egg \
++    hqMM_english.egg gagShop_MM_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -120,11 +112,9 @@
+     trolley_station_BR.egg \
+     BR_A1.egg BR_A2.egg BR_B1.egg BR_B2.egg BR_B3.egg BR_C1.egg \
+     neighborhood_tunnel_BR.egg safe_zone_entrance_tunnel_BR.egg \
+-    safe_zone_tunnel_BR.egg BR_windows.egg \
+-    gagShop_BR_english.egg gagShop_BR_castillian.egg \
+-    clothshopBR.egg BR_pond.egg \
+-    hqBR_english.egg hqBR_castillian.egg PetShopExterior_BR.egg \
+-    hqBR_german.egg hqBR_japanese.egg hqBR_portuguese.egg 
++    safe_zone_tunnel_BR.egg BR_windows.egg clothshopBR.egg BR_pond.egg \
++    PetShopExterior_BR.egg \
++    hqBR_english.egg gagShop_BR_english.egg
+   #define PHASE 8
+ #end install_egg
+ 
+@@ -135,11 +125,9 @@
+     DG_A1.egg DG_A2.egg DG_B1.egg DG_C1.egg DG_D1.egg \
+     cornices_DG.egg DG_windows.egg \
+     neighborhood_tunnel_DG.egg safe_zone_entrance_tunnel_DG.egg \
+-    safe_zone_tunnel_DG.egg gagShop_DG_english.egg gagShop_DG_castillian.egg \
+-    clothshopDG.egg  street_modules_enhanced_DG.egg \
+-    hqDG_english.egg hqDG_castillian.egg DG_pond.egg \
+-    hqDG_german.egg hqDG_japanese.egg \
+-    PetShopExterior_DG.egg
++    safe_zone_tunnel_DG.egg clothshopDG.egg street_modules_enhanced_DG.egg \
++    DG_pond.egg PetShopExterior_DG.egg \
++    hqDG_english.egg gagShop_DG_english.egg
+   #define PHASE 8
+ #end install_egg
+ 
+@@ -150,12 +138,7 @@
+     DL_A1.egg DL_B1.egg DL_C1.egg DL_D1.egg DL_E1.egg \
+     DL_windows.egg DL_doors.egg DL_doors_practical.egg \
+     neighborhood_tunnel_DL.egg safe_zone_entrance_tunnel_DL.egg \
+-    safe_zone_tunnel_DL.egg gagShop_DL_english.egg gagShop_DL_castillian.egg \
+-    clothshopDL.egg \
+-    hqDL_english.egg hqDL_castillian.egg \
+-    hqDL_german.egg hqDL_japanese.egg hqDL_portuguese.egg \
+-    DL_pond.egg PetShopExterior_DL.egg
++    safe_zone_tunnel_DL.egg clothshopDL.egg DL_pond.egg PetShopExterior_DL.egg \
++    hqDL_english.egg gagShop_DL_english.egg
+   #define PHASE 8
+ #end install_egg
+-
+-
+--- src/modules/Sources.pp	29 Oct 2008 07:37:40 -0000	1.75.42.2
++++ src/modules/Sources.pp	29 Oct 2008 07:44:57 -0000
+@@ -43,12 +43,7 @@
+     safe_zone_tunnel_TT.egg trolley_station_TT.egg doors.egg TT_pond.egg \
+     bank.egg library.egg school_house.egg mercantile.egg gazebo.egg \
+     toonhall.egg PetShopInterior.egg PetShopExterior_TT.egg Speedway_Tunnel.egg \
+-    gagShop_TT_english.egg gagShop_TT_castillian.egg \
+-    gagShop_TT_japanese.egg \
+-    gagShop_TT_french.egg \
+-    gagShop_interior_english.egg gagShop_interior_castillian.egg  \
+-    gagShop_interior_japanese.egg \
+-    gagShop_interior_french.egg \
++    gagShop_TT_english.egg gagShop_interior_english.egg \
+     clothshopTT.egg
+   #define PHASE 4
+ #end install_egg
+--- src/props/Sources.pp	17 Aug 2004 17:54:47 -0000	1.69
++++ src/props/Sources.pp	24 Apr 2008 00:36:25 -0000	1.78.8.1
+@@ -13,7 +13,7 @@
+ #begin install_egg
+   #define SOURCES \
+     chatbox.egg chatbox_input.egg chatbox_noarrow.egg \
+-    chatbox_thought_cutout.egg drop_shadow.egg \
++    chatbox_thought_cutout.egg drop_shadow.egg square_drop_shadow.egg \
+     arrow.egg scroll-arrow.egg page-arrow.egg panel.egg \
+     eyesClosed.egg eyesFemale.egg tutorialToonTextures.egg
+   #define PHASE 3
+@@ -25,8 +25,7 @@
+     trees.egg winter_trees.egg TT_sky.egg mickeySZ.egg cellar_door.egg \
+     streetlight_TT.egg big_planter.egg \
+     tunnel_sign_orange.egg \
+-    mailbox_TT_english.egg mailbox_TT_castillian.egg mailbox_TT_japanese.egg \
+-    mailbox_TT_german.egg mailbox_TT_portuguese.egg
++    mailbox_TT_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+@@ -40,14 +39,14 @@
+ // Toontown Central Safe Zone or general
+ #begin install_egg
+   #define SOURCES \
+-    sign_general1.egg signs_TTC.egg neighborhood_sign_sellBotHQ.egg \
+-    minnieSZ.egg donaldSZ.egg donald_DL_SZ.egg neighborhood_sign_sellBotHQ_german.egg \
+-    plutoSZ.egg goofySZ.egg daisySZ.egg neighborhood_sign_sellBotHQ_portuguese.egg \
+-    construction_sign.egg tunnel_sign_cogHQ.egg icecream.egg \
++    sign_general1.egg signs_TTC.egg \
++    neighborhood_sign_sellBotHQ_english.egg \
++    minnieSZ.egg donaldSZ.egg donald_DL_SZ.egg \
++    plutoSZ.egg goofySZ.egg daisySZ.egg \
++    construction_sign_english.egg tunnel_sign_cogHQ.egg icecream.egg \
+     airplane.egg butterfly.egg sun.egg \
+     toontown_central_fountain.egg piers_tt.egg fishing_bob.egg \
+     mickey_on_horse.egg goofy_statue.egg ripples.egg wake.egg \
+-    neighborhood_sign_sellBotHQ_japanese.egg neighborhood_sign_sellBotHQ_castillian.egg \
+     // Holiday decorations
+     winter_tree_Christmas.egg
+   #define PHASE 4
+@@ -68,45 +67,31 @@
+ // who knows where these will end up
+ #begin install_egg
+   #define SOURCES \
+-    neighborhood_sign_DD_english.egg neighborhood_sign_DD_castillian.egg \
+-    neighborhood_sign_MM_english.egg neighborhood_sign_MM_castillian.egg \
+-    neighborhood_sign_BR_english.egg neighborhood_sign_BR_castillian.egg \
+-    neighborhood_sign_DG_english.egg neighborhood_sign_DG_castillian.egg \
+-    neighborhood_sign_DL_english.egg neighborhood_sign_DL_castillian.egg \
+-    neighborhood_sign_DL_japanese.egg neighborhood_sign_DL_german.egg \
+-    neighborhood_sign_DD_japanese.egg neighborhood_sign_DD_german.egg \
+-    neighborhood_sign_MM_japanese.egg neighborhood_sign_MM_german.egg \
+-    neighborhood_sign_BR_japanese.egg neighborhood_sign_BR_german.egg \
+-    neighborhood_sign_DG_japanese.egg neighborhood_sign_DG_german.egg \
+-    neighborhood_sign_DL_portuguese.egg \
+-    neighborhood_sign_DD_portuguese.egg \
+-    neighborhood_sign_MM_portuguese.egg \
+-    neighborhood_sign_BR_portuguese.egg \
+-    neighborhood_sign_DG_portuguese.egg \
++    neighborhood_sign_DD_english.egg neighborhood_sign_MM_english.egg \
++    neighborhood_sign_BR_english.egg neighborhood_sign_DG_english.egg \
++    neighborhood_sign_DL_english.egg \
+     tunnel_sign_blue.egg \
+     tunnel_sign_green.egg \
+     tunnel_sign_magenta.egg \
+     tunnel_sign_red.egg \
+-    sign_sellBotHeadHQ.egg
++    sign_sellBotHeadHQ.egg \
++    jellybean4.egg
+   #define PHASE 4
+ #end install_egg
+ 
+ #begin install_egg
+   #define SOURCES \
+-    neighborhood_sign_TT_english.egg neighborhood_sign_TT_castillian.egg \
+-    neighborhood_sign_TT_german.egg neighborhood_sign_TT_japanese.egg \
+-    neighborhood_sign_TT_portuguese.egg
++    neighborhood_sign_TT_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+ #begin install_egg
+   #define SOURCES \
+-    moon.egg jellybean4.egg 
++    moon.egg
+   #define PHASE 5.5
+ #end install_egg
+ 
+ 
+-
+ // Now we need the second tier neighborhood props
+ 
+ // DD
+@@ -114,13 +99,12 @@
+   #define SOURCES \
+     dockpilings.egg ship_masts.egg \
+     streetlight_DD.egg palm_tree_topflat.egg winter_palm_tree_topflat.egg \
+-    trashcan_DD_english.egg trashcan_DD_castillian.egg trashcan_DD_german.egg trashcan_DD_japanese.egg \
+-    signs_DD.egg DD_flats.egg anchor.egg small_round_barrel.egg trashcan_DD_portuguese.egg \
++    trashcan_DD_english.egg \
++    signs_DD.egg DD_flats.egg anchor.egg small_round_barrel.egg \
+     DD_lighthouse.egg DD_street_water.egg starfish_treasure.egg \
+     // BR sky has to be put in here because DD uses it
+     BR_sky.egg \
+-    mailbox_DD_english.egg mailbox_DD_castillian.egg mailbox_DD_german.egg \
+-    mailbox_DD_japanese.egg mailbox_DD_portuguese.egg
++    mailbox_DD_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -130,8 +114,7 @@
+     minnie_planter.egg MM_sky.egg streetlight_MM.egg \
+     signs_MM.egg MM_flats.egg mailbox_MM.egg piano.egg trees_MM.egg winter_trees_MM.egg \
+     MM_awnings_square.egg MM_awnings_round.egg music_treasure.egg \
+-    trashcan_MM_english.egg trashcan_MM_castillian.egg trashcan_MM_german.egg trashcan_MM_japanese.egg \ 
+-    trashcan_MM_portuguese.egg
++    trashcan_MM_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -160,7 +143,8 @@
+ #begin install_egg
+   #define SOURCES \
+     DL_sky.egg streetlight_DL.egg mailbox_DL.egg \
++    neighborhood_sign_cashBotHQ_english.egg \
+     test_clouds.egg trees_DL.egg winter_trees_DL.egg DL_hydrant.egg \
+-    DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg 
++    DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg
+   #define PHASE 8
+ #end install_egg
+--- src/props/Sources.pp	24 Jun 2008 19:06:48 -0000	1.83.10.3
++++ src/props/Sources.pp	29 Oct 2008 07:38:20 -0000
+@@ -25,9 +25,7 @@
+     trees.egg winter_trees.egg TT_sky.egg mickeySZ.egg cellar_door.egg \
+     streetlight_TT.egg big_planter.egg \
+     tunnel_sign_orange.egg \
+-    mailbox_TT_english.egg mailbox_TT_castillian.egg \
+-    mailbox_TT_japanese.egg \
+-    mailbox_TT_french.egg
++    mailbox_TT_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+@@ -42,9 +40,7 @@
+ #begin install_egg
+   #define SOURCES \
+     sign_general1.egg signs_TTC.egg \
+-    neighborhood_sign_sellBotHQ_english.egg neighborhood_sign_sellBotHQ_castillian.egg \
+-    neighborhood_sign_sellBotHQ_japanese.egg \
+-    neighborhood_sign_sellBotHQ_french.egg \
++    neighborhood_sign_sellBotHQ_english.egg \
+     minnieSZ.egg donaldSZ.egg donald_DL_SZ.egg \
+     plutoSZ.egg goofySZ.egg daisySZ.egg \
+     construction_sign.egg tunnel_sign_cogHQ.egg icecream.egg \
+@@ -71,25 +67,11 @@
+ // who knows where these will end up
+ #begin install_egg
+   #define SOURCES \
+-    neighborhood_sign_DD_english.egg neighborhood_sign_DD_castillian.egg \
+-    neighborhood_sign_DD_japanese.egg \
+-    neighborhood_sign_DD_french.egg \
+-    neighborhood_sign_MM_english.egg neighborhood_sign_MM_castillian.egg \
+-    neighborhood_sign_MM_japanese.egg \
+-    neighborhood_sign_MM_french.egg \
+-    neighborhood_sign_BR_english.egg neighborhood_sign_BR_castillian.egg \
+-    neighborhood_sign_BR_japanese.egg \
+-    neighborhood_sign_BR_french.egg \
+-    neighborhood_sign_DG_english.egg neighborhood_sign_DG_castillian.egg \
+-    neighborhood_sign_DG_japanese.egg \
+-    neighborhood_sign_DG_french.egg \
+-    neighborhood_sign_DL_english.egg neighborhood_sign_DL_castillian.egg \
+-    neighborhood_sign_DL_japanese.egg \
+-    neighborhood_sign_DL_french.egg \
+-    tunnel_sign_blue.egg \
+-    tunnel_sign_green.egg \
+-    tunnel_sign_magenta.egg \
+-    tunnel_sign_red.egg \
++    neighborhood_sign_DD_english.egg neighborhood_sign_MM_english.egg \
++    neighborhood_sign_BR_english.egg neighborhood_sign_DG_english.egg \
++    neighborhood_sign_DL_english.egg \
++    tunnel_sign_blue.egg tunnel_sign_green.egg \
++    tunnel_sign_magenta.egg tunnel_sign_red.egg \
+     sign_sellBotHeadHQ.egg \
+     jellybean4.egg     
+   #define PHASE 4
+@@ -97,9 +79,7 @@
+ 
+ #begin install_egg
+   #define SOURCES \
+-    neighborhood_sign_TT_english.egg neighborhood_sign_TT_castillian.egg \
+-    neighborhood_sign_TT_japanese.egg \
+-    neighborhood_sign_TT_french.egg
++    neighborhood_sign_TT_english.egg
+   #define PHASE 3.5
+ #end install_egg
+ 
+@@ -118,16 +98,12 @@
+   #define SOURCES \
+     dockpilings.egg ship_masts.egg \
+     streetlight_DD.egg palm_tree_topflat.egg winter_palm_tree_topflat.egg \
+-    trashcan_DD_english.egg trashcan_DD_castillian.egg \
+-    trashcan_DD_japanese.egg \
+-    trashcan_DD_french.egg \
++    trashcan_DD_english.egg \
+     signs_DD.egg DD_flats.egg anchor.egg small_round_barrel.egg \
+     DD_lighthouse.egg DD_street_water.egg starfish_treasure.egg \
+     // BR sky has to be put in here because DD uses it
+     BR_sky.egg \
+-    mailbox_DD_english.egg mailbox_DD_castillian.egg \
+-    mailbox_DD_japanese.egg \
+-    mailbox_DD_french.egg
++    mailbox_DD_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -137,9 +113,7 @@
+     minnie_planter.egg MM_sky.egg streetlight_MM.egg \
+     signs_MM.egg MM_flats.egg mailbox_MM.egg piano.egg trees_MM.egg winter_trees_MM.egg \
+     MM_awnings_square.egg MM_awnings_round.egg music_treasure.egg \
+-    trashcan_MM_english.egg trashcan_MM_castillian.egg \
+-    trashcan_MM_japanese.egg \
+-    trashcan_MM_french.egg
++    trashcan_MM_english.egg
+   #define PHASE 6
+ #end install_egg
+ 
+@@ -169,11 +143,7 @@
+   #define SOURCES \
+     DL_sky.egg streetlight_DL.egg mailbox_DL.egg \
+     neighborhood_sign_cashBotHQ_english.egg \
+-    neighborhood_sign_cashBotHQ_japanese.egg \
+-    neighborhood_sign_cashBotHQ_french.egg \
+     neighborhood_sign_lawBotHQ_english.egg \
+-    neighborhood_sign_lawBotHQ_japanese.egg \
+-    neighborhood_sign_lawBotHQ_french.egg \
+     test_clouds.egg trees_DL.egg winter_trees_DL.egg DL_hydrant.egg \
+     DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg
+   #define PHASE 8
+--- src/effects/Sources.pp	24 Jun 2008 19:06:48 -0000	1.9.18.1
++++ src/effects/Sources.pp	29 Oct 2008 07:45:18 -0000
+@@ -8,10 +8,7 @@
+ // Tutorial
+ #begin install_egg
+   #define SOURCES \
+-    suit-particles_english.egg suit-particles_castillian.egg \
+-    suit-particles_japanese.egg \
+-    suit-particles_french.egg \
+-    explosion.egg glow.egg dust_cloud.egg
++    suit-particles_english.egg explosion.egg glow.egg dust_cloud.egg
+   #define PHASE 3.5
+ #end install_egg
+ 

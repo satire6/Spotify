@@ -1,0 +1,347 @@
+<Comment> {
+  "egg-texture-cards -p 640,480 -o petEmotes.egg ../../maps/PetEmoteAngry2.tif ../../maps/PetEmoteBored2.tif ../../maps/PetEmoteConfused2.tif ../../maps/PetEmoteHungry3.tif ../../maps/PetEmoteLonely2.tif ../../maps/PetEmoteLove1.tif ../../maps/PetEmoteOutside2.tif ../../maps/PetEmotePlay2.tif ../../maps/PetEmoteSad4.tif ../../maps/PetEmoteSleepy2.tif ../../maps/PetEmoteSurprised.tif ../../maps/PetEmoteInside4.tif ../../maps/PetEmoteHappy.tif"
+}
+<Texture> PetEmoteSurprised {
+  "../../maps/PetEmoteSurprised.tif"
+}
+<Texture> PetEmoteSleepy2 {
+  "../../maps/PetEmoteSleepy2.tif"
+}
+<Texture> PetEmoteSad4 {
+  "../../maps/PetEmoteSad4.tif"
+}
+<Texture> PetEmotePlay2 {
+  "../../maps/PetEmotePlay2.tif"
+}
+<Texture> PetEmoteOutside2 {
+  "../../maps/PetEmoteOutside2.tif"
+}
+<Texture> PetEmoteLove1 {
+  "../../maps/PetEmoteLove1.tif"
+}
+<Texture> PetEmoteLonely2 {
+  "../../maps/PetEmoteLonely2.tif"
+}
+<Texture> PetEmoteInside4 {
+  "../../maps/PetEmoteInside4.tif"
+}
+<Texture> PetEmoteHungry3 {
+  "../../maps/PetEmoteHungry3.tif"
+}
+<Texture> PetEmoteHappy {
+  "../../maps/PetEmoteHappy.tif"
+}
+<Texture> PetEmoteConfused2 {
+  "../../maps/PetEmoteConfused2.tif"
+}
+<Texture> PetEmoteBored2 {
+  "../../maps/PetEmoteBored2.tif"
+}
+<Texture> PetEmoteAngry2 {
+  "../../maps/PetEmoteAngry2.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.349219 0.357292 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.349219 -0.357292 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.349219 -0.357292 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.349219 0.357292 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.19375 0.0729167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.19375 -0.0729167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.19375 -0.0729167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.19375 0.0729167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.136719 0.3 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.136719 -0.3 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.136719 -0.3 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.136719 0.3 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -0.316406 0.4 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -0.316406 -0.4 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      0.316406 -0.4 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      0.316406 0.4 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 17 {
+      -0.398438 0.365625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 18 {
+      -0.398438 -0.365625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 19 {
+      0.398438 -0.365625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 20 {
+      0.398438 0.365625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 21 {
+      -0.360938 0.416667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 22 {
+      -0.360938 -0.416667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 23 {
+      0.360938 -0.416667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 24 {
+      0.360938 0.416667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 25 {
+      -0.377344 0.505208 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 26 {
+      -0.377344 -0.505208 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 27 {
+      0.377344 -0.505208 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 28 {
+      0.377344 0.505208 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 29 {
+      -0.353906 0.471875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 30 {
+      -0.353906 -0.471875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 31 {
+      0.353906 -0.471875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 32 {
+      0.353906 0.471875 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 33 {
+      -0.267188 0.354167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 34 {
+      -0.267188 -0.354167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 35 {
+      0.267188 -0.354167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 36 {
+      0.267188 0.354167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 37 {
+      -0.30625 0.278125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 38 {
+      -0.30625 -0.278125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 39 {
+      0.30625 -0.278125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 40 {
+      0.30625 0.278125 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 41 {
+      -0.0640625 0.246875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 42 {
+      -0.0640625 -0.246875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 43 {
+      0.0640625 -0.246875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 44 {
+      0.0640625 0.246875 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 45 {
+      -0.323437 0.459375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 46 {
+      -0.323437 -0.459375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 47 {
+      0.323437 -0.459375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 48 {
+      0.323437 0.459375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 49 {
+      -0.289063 0.391667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 50 {
+      -0.289063 -0.391667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 51 {
+      0.289063 -0.391667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 52 {
+      0.289063 0.391667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> PetEmoteAngry2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteAngry2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteBored2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteBored2 }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteConfused2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteConfused2 }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteHungry3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteHungry3 }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteLonely2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteLonely2 }
+      <VertexRef> { 17 18 19 20 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteLove1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteLove1 }
+      <VertexRef> { 21 22 23 24 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteOutside2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteOutside2 }
+      <VertexRef> { 25 26 27 28 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmotePlay2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmotePlay2 }
+      <VertexRef> { 29 30 31 32 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteSad4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteSad4 }
+      <VertexRef> { 33 34 35 36 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteSleepy2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteSleepy2 }
+      <VertexRef> { 37 38 39 40 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteSurprised {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteSurprised }
+      <VertexRef> { 41 42 43 44 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteInside4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteInside4 }
+      <VertexRef> { 45 46 47 48 <Ref> { vpool } }
+    }
+  }
+  <Group> PetEmoteHappy {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PetEmoteHappy }
+      <VertexRef> { 49 50 51 52 <Ref> { vpool } }
+    }
+  }
+}

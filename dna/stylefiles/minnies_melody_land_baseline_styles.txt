@@ -1,0 +1,26 @@
+baselineStyle
+kern: 1.0
+color: Vec4(1.0, 1.0, 1.0, 1.0)
+endBaselineStyle
+
+baselineStyle
+kern: 1.8
+color: Vec4(1.0, 8.0, 0.592157, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: MM_Musicals
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0399999991059
+x: 1.79967689514
+z: 0.45207709074
+scaleX: 0.959974229336
+scaleZ: 0.916948139668
+roll: 1.39531004429
+flags: 
+color: Vec4(0.80, 0.40, 0.00, 1.0)
+endBaselineStyle

@@ -1,0 +1,190 @@
+<Comment> {
+  "egg-texture-cards -wm r female_shirt1b.rgb female_shirt2.rgb female_shirt3.rgb female_skirt1.rgb female_skirt2.rgb female_skirt3.rgb female_sleeve1b.rgb female_sleeve2.rgb female_sleeve3.rgb male_shirt1.rgb male_shirt2_palm.rgb male_shirt3c.rgb male_sleeve1.rgb male_sleeve2_palm.rgb male_sleeve3c.rgb -o catalog-clothes.egg"
+}
+<Texture> male_sleeve3c {
+  male_sleeve3c.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> male_sleeve2_palm {
+  male_sleeve2_palm.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> male_sleeve1 {
+  male_sleeve1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> male_shirt3c {
+  male_shirt3c.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> male_shirt2_palm {
+  male_shirt2_palm.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> male_shirt1 {
+  male_shirt1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_sleeve3 {
+  female_sleeve3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_sleeve2 {
+  female_sleeve2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_sleeve1b {
+  female_sleeve1b.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_skirt3 {
+  female_skirt3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_skirt2 {
+  female_skirt2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_skirt1 {
+  female_skirt1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_shirt3 {
+  female_shirt3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_shirt2 {
+  female_shirt2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> female_shirt1b {
+  female_shirt1b.rgb
+  <Scalar> wrap { repeat }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> female_shirt1b {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_shirt1b }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_shirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_shirt2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_shirt3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_shirt3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_skirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_skirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_skirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_skirt2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_skirt3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_skirt3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeve1b {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeve1b }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeve2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeve2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeve3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeve3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_shirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_shirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_shirt2_palm {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_shirt2_palm }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_shirt3c {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_shirt3c }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_sleeve1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_sleeve1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_sleeve2_palm {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_sleeve2_palm }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_sleeve3c {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_sleeve3c }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

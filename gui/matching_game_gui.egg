@@ -1,0 +1,90 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o matching_game_gui.egg ../maps/minnieX.rgba ../maps/minnieCircle.rgba ../maps/minnieArrow.rgba"
+}
+<Texture> minnieX {
+  "../maps/minnieX.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> minnieCircle {
+  "../maps/minnieCircle.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> minnieArrow {
+  "../maps/minnieArrow.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.147917 0.147917 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.147917 -0.147917 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.147917 -0.147917 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.147917 0.147917 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.1 0.1 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.1 -0.1 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.1 -0.1 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.1 0.1 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.133333 0.141667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.133333 -0.141667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.133333 -0.141667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.133333 0.141667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> minnieX {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { minnieX }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> minnieCircle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { minnieCircle }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> minnieArrow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { minnieArrow }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+}

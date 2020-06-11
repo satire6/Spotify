@@ -1,0 +1,23 @@
+#/bin/sh
+
+echo Installing phase_3
+cp -rf $TTMODELS/phase_3 /alpha/player/install/ttmodels
+echo Installing phase_4
+cp -rf $TTMODELS/phase_4 /alpha/player/install/ttmodels
+echo Installing phase_5
+cp -rf $TTMODELS/phase_5 /alpha/player/install/ttmodels
+echo Installing phase_6
+cp -rf $TTMODELS/phase_6 /alpha/player/install/ttmodels
+echo Installing phase_8
+cp -rf $TTMODELS/phase_8 /alpha/player/install/ttmodels
+echo Installing models
+cp -rf $TTMODELS/models /alpha/player/install/ttmodels
+echo Installing maps
+cp -rf $TTMODELS/maps /alpha/player/install/ttmodels
+echo Installing icons
+cp -rf $TTMODELS/icons /alpha/player/install/ttmodels
+echo Installing leveleditor
+cp -rf $TTMODELS/leveleditor /alpha/player/install/ttmodels
+echo Installing nondownload
+cp -rf $TTMODELS/nondownload /alpha/player/install/ttmodels
+echo Done

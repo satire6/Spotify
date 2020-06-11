@@ -1,0 +1,144 @@
+<Comment> {
+  "egg-texture-cards -o tutorial_gui_french.egg -suffix _french -wm clamp -p 240,240 ../maps/squirt1.rgb ../maps/squirt2.rgb ../maps/toon_buildings.rgb ../maps/suit_buildings.rgb ../maps/suits_french.rgb"
+}
+<Texture> toon_buildings {
+  "../maps/toon_buildings.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> suits {
+  "../maps/suits_french.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> suit_buildings {
+  "../maps/suit_buildings.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> squirt2 {
+  "../maps/squirt2.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> squirt1 {
+  "../maps/squirt1.rgb"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -1.06667 0.860417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -1.06667 -0.860417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      1.06667 -0.860417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      1.06667 0.860417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -1.06667 0.860417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -1.06667 -0.860417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      1.06667 -0.860417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      1.06667 0.860417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -1.06667 0.860417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -1.06667 -0.860417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      1.06667 -0.860417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      1.06667 0.860417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -1.06667 0.860417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -1.06667 -0.860417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      1.06667 -0.860417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      1.06667 0.860417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 17 {
+      -1.06667 0.860417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 18 {
+      -1.06667 -0.860417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 19 {
+      1.06667 -0.860417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 20 {
+      1.06667 0.860417 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> squirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squirt2 }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> toon_buildings {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_buildings }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> suit_buildings {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_buildings }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+  <Group> suits {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suits }
+      <VertexRef> { 17 18 19 20 <Ref> { vpool } }
+    }
+  }
+}

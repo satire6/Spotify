@@ -1,0 +1,90 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o trashcan_gui.egg ../maps/TrashCan_CLSD.rgba ../maps/TrashCan_OPEN.rgba ../maps/TrashCan_RLVR.rgba"
+}
+<Texture> TrashCan_RLVR {
+  "../maps/TrashCan_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> TrashCan_OPEN {
+  "../maps/TrashCan_OPEN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> TrashCan_CLSD {
+  "../maps/TrashCan_CLSD.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.16875 0.214583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.16875 -0.214583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.16875 -0.214583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.16875 0.214583 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.16875 0.214583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.16875 -0.214583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.16875 -0.214583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.16875 0.214583 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.16875 0.214583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.16875 -0.214583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.16875 -0.214583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.16875 0.214583 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> TrashCan_CLSD {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { TrashCan_CLSD }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> TrashCan_OPEN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { TrashCan_OPEN }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> TrashCan_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { TrashCan_RLVR }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+}

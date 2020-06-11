@@ -1,0 +1,2 @@
+store_font [ "font" "humanist" "phase_3/models/fonts/ImpressBT.ttf" ]
+store_font [ "font" "TT_Comedy" "phase_3/models/fonts/Comedy" ]

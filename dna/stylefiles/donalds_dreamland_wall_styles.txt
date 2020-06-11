@@ -1,0 +1,102 @@
+wallStyle
+wall_texture: wall_md_pillars_ur
+wall_color: Vec4(1.00, 0.55, 1.00, 1.0)
+window_texture: window_sm_round_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 1
+cornice_texture: cornice_stone_ur
+cornice_color: Vec4(0.74, 0.65, 1.00, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_bricks_ur
+wall_color: Vec4(0.27, 0.17, 0.31, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(0.34, 0.25, 0.25, 1.0)
+window_texture: window_sm_round_ur
+window_color: Vec4(0.33, 0.34, 0.30, 1.0)
+window_count: 1
+endWallStyle
+
+wallStyle
+wall_texture: wall_lg_brick_ur
+wall_color: Vec4(0.25, 0.20, 0.15, 1.0)
+window_texture: window_sm_square_ur
+window_color: Vec4(0.33, 0.30, 0.29, 1.0)
+window_count: 1
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(0.40, 0.32, 0.23, 1.0)
+window_texture: window_sm_roundDL_ur
+window_color: Vec4(0.75, 0.75, 0.75, 1.0)
+window_count: 2
+cornice_texture: cornice_marble_ur
+cornice_color: Vec4(0.33, 0.25, 0.23, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_dental_ur
+wall_color: Vec4(0.26, 0.21, 0.23, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(0.33, 0.30, 0.29, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_bricks_ur
+wall_color: Vec4(0.34, 0.25, 0.25, 1.0)
+window_texture: window_sm_round_ur
+window_color: Vec4(0.33, 0.34, 0.30, 1.0)
+window_count: 1
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_bricks_ur
+wall_color: Vec4(0.34, 0.25, 0.25, 1.0)
+window_texture: window_md_curvedDL_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 2
+cornice_texture: cornice_curved_ur
+cornice_color: Vec4(0.27, 0.22, 0.27, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_bricks_ur
+wall_color: Vec4(0.27, 0.17, 0.31, 1.0)
+window_texture: window_sm_curvedDL_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 2
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_bricks_ur
+wall_color: Vec4(0.37, 0.27, 0.36, 1.0)
+window_texture: window_sm_curvedDL_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 2
+cornice_texture: cornice_curved_ur
+cornice_color: Vec4(0.31, 0.29, 0.36, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(0.27, 0.17, 0.31, 1.0)
+window_texture: window_sm_round2DL_ur
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_count: 4
+cornice_texture: cornice_brick_ur
+cornice_color: Vec4(0.39, 0.30, 0.25, 1.0)
+endWallStyle
+
+wallStyle
+wall_texture: wall_md_blank_ur
+wall_color: Vec4(0.26, 0.19, 0.13, 1.0)
+window_texture: window_sm_curved_ur
+window_color: Vec4(0.33, 0.34, 0.30, 1.0)
+window_count: 1
+endWallStyle

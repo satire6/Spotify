@@ -1,0 +1,117 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 64,64 -o game_logo_card.egg ../maps/GameLogo_XD.tif ../maps/GameLogo_Unknown.tif ../maps/GameLogo_Pirates.tif ../maps/GameLogo_Toontown.tif"
+}
+<Texture> GameLogo_XD {
+  "../maps/GameLogo_XD.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> GameLogo_Unknown {
+  "../maps/GameLogo_Unknown.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> GameLogo_Toontown {
+  "../maps/GameLogo_Toontown.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> GameLogo_Pirates {
+  "../maps/GameLogo_Pirates.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -1 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -1 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      1 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      1 0.5 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -1 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -1 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      1 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      1 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> GameLogo_XD {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GameLogo_XD }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> GameLogo_Unknown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GameLogo_Unknown }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> GameLogo_Pirates {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GameLogo_Pirates }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> GameLogo_Toontown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GameLogo_Toontown }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+}

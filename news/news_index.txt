@@ -1,0 +1,2 @@
+for now this is a text file used to help find the directory of the news content
+it could in the future be used for indexing

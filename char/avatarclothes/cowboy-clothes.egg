@@ -1,0 +1,185 @@
+<Comment> {
+  "egg-texture-cards -o cowboy-clothes.egg CowboyShirt1.rgb CowboyShirt2.rgb CowboyShirt3.rgb CowboyShirt4.rgb CowboyShirt5.rgb CowboyShirt6.rgb CowboyShorts1.rgb CowboyShorts2.rgb CowboySkirt1.rgb CowboySkirt2.rgb CowboySleeve1.rgb CowboySleeve2.rgb CowboySleeve3.rgb CowboySleeve4.rgb CowboySleeve5.rgb CowboySleeve6.rgb"
+}
+<Texture> CowboySleeve6 {
+  CowboySleeve6.rgb
+}
+<Texture> CowboySleeve5 {
+  CowboySleeve5.rgb
+}
+<Texture> CowboySleeve4 {
+  CowboySleeve4.rgb
+}
+<Texture> CowboySleeve3 {
+  CowboySleeve3.rgb
+}
+<Texture> CowboySleeve2 {
+  CowboySleeve2.rgb
+}
+<Texture> CowboySleeve1 {
+  CowboySleeve1.rgb
+}
+<Texture> CowboySkirt2 {
+  CowboySkirt2.rgb
+}
+<Texture> CowboySkirt1 {
+  CowboySkirt1.rgb
+}
+<Texture> CowboyShorts2 {
+  CowboyShorts2.rgb
+}
+<Texture> CowboyShorts1 {
+  CowboyShorts1.rgb
+}
+<Texture> CowboyShirt6 {
+  CowboyShirt6.rgb
+}
+<Texture> CowboyShirt5 {
+  CowboyShirt5.rgb
+}
+<Texture> CowboyShirt4 {
+  CowboyShirt4.rgb
+}
+<Texture> CowboyShirt3 {
+  CowboyShirt3.rgb
+}
+<Texture> CowboyShirt2 {
+  CowboyShirt2.rgb
+}
+<Texture> CowboyShirt1 {
+  CowboyShirt1.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> CowboyShirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShirt3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShirt4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShirt5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShirt6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShirt6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShorts1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShorts1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboyShorts2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboyShorts2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySkirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySkirt1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySkirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySkirt2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> CowboySleeve6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CowboySleeve6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o month_year_gui.egg ../maps/month-yearPanel.rgb ../maps/smallVerticalArrow.rgb"
+}
+<Texture> smallVerticalArrow {
+  "../maps/smallVerticalArrow.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> month-yearPanel {
+  "../maps/month-yearPanel.rgb"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.166667 0.08125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.166667 -0.08125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.166667 -0.08125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.166667 0.08125 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.0291667 0.01875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.0291667 -0.01875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.0291667 -0.01875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.0291667 0.01875 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> month-yearPanel {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { month-yearPanel }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> smallVerticalArrow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { smallVerticalArrow }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+}

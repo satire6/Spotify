@@ -1,0 +1,252 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o nameshop_gui.egg ../maps/namePanel.rgba ../maps/triangleButtonDwn.rgba ../maps/triangleButtonRllvr.rgba ../maps/triangleButtonUp.rgba ../maps/QuitBtn_DN.rgba ../maps/QuitBtn_RLVR.rgba ../maps/QuitBtn_UP.rgba ../maps/namePanelCircle.rgba ../maps/typeNamePanel.rgba"
+}
+<Texture> typeNamePanel {
+  "../maps/typeNamePanel.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> triangleButtonUp {
+  "../maps/triangleButtonUp.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> triangleButtonRllvr {
+  "../maps/triangleButtonRllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> triangleButtonDwn {
+  "../maps/triangleButtonDwn.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> namePanelCircle {
+  "../maps/namePanelCircle.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> namePanel {
+  "../maps/namePanel.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_UP {
+  "../maps/QuitBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_RLVR {
+  "../maps/QuitBtn_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_DN {
+  "../maps/QuitBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -1.05625 0.866667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -1.05625 -0.866667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      1.05625 -0.866667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      1.05625 0.866667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.195833 0.0416667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.195833 -0.0416667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.195833 -0.0416667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.195833 0.0416667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.195833 0.0416667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.195833 -0.0416667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.195833 -0.0416667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.195833 0.0416667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -0.195833 0.0416667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -0.195833 -0.0416667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      0.195833 -0.0416667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      0.195833 0.0416667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 17 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 18 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 19 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 20 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 21 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 22 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 23 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 24 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 25 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 26 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 27 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 28 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 29 {
+      -0.0666667 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 30 {
+      -0.0666667 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 31 {
+      0.0666667 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 32 {
+      0.0666667 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 33 {
+      -0.86875 0.829167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 34 {
+      -0.86875 -0.829167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 35 {
+      0.86875 -0.829167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 36 {
+      0.86875 0.829167 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> namePanel {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { namePanel }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> triangleButtonDwn {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { triangleButtonDwn }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> triangleButtonRllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { triangleButtonRllvr }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> triangleButtonUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { triangleButtonUp }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+  <Group> QuitBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_DN }
+      <VertexRef> { 17 18 19 20 <Ref> { vpool } }
+    }
+  }
+  <Group> QuitBtn_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_RLVR }
+      <VertexRef> { 21 22 23 24 <Ref> { vpool } }
+    }
+  }
+  <Group> QuitBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_UP }
+      <VertexRef> { 25 26 27 28 <Ref> { vpool } }
+    }
+  }
+  <Group> namePanelCircle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { namePanelCircle }
+      <VertexRef> { 29 30 31 32 <Ref> { vpool } }
+    }
+  }
+  <Group> typeNamePanel {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { typeNamePanel }
+      <VertexRef> { 33 34 35 36 <Ref> { vpool } }
+    }
+  }
+}

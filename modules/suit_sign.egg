@@ -1,0 +1,34 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o suit_sign.egg ../maps/suitSign.rgba"
+}
+<Texture> suitSign {
+  "../maps/suitSign.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -1.04792 0.322917 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -1.04792 -0.322917 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      1.04792 -0.322917 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      1.04792 0.322917 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> suitSign {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suitSign }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

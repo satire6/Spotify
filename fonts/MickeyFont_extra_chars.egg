@@ -1,0 +1,39 @@
+<Texture> MickeyFont_223 {
+  "../maps/MickeyFont_223.rgb"
+  <Scalar> format { luminance_alpha }
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+
+<VertexPool> extra {
+  <Vertex> 1 {
+    -0.00952381 -0.027381 0
+    <UV> { 0.0421875 0.0346154 }
+  }
+  <Vertex> 2 {
+    0.59881 -0.027381 0
+    <UV> { 0.957812 0.0346154 }
+  }
+  <Vertex> 3 {
+    0.59881 0.72381 0
+    <UV> { 0.957812 0.965385 }
+  }
+  <Vertex> 4 {
+    -0.00952381 0.72381 0
+    <UV> { 0.0421875 0.965385 }
+  }
+  <Vertex> 5 {
+    0.619048 0 0
+  }
+}
+
+<Group> 223 {
+  <Polygon> {
+    <TRef> { MickeyFont_223 }
+    <VertexRef> { 1 2 3 4 <Ref> { extra } }
+  }
+  <PointLight> {
+    <VertexRef> { 5 <Ref> { extra } }
+  }
+}

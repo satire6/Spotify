@@ -1,0 +1,75 @@
+<Comment> {
+  "egg-texture-cards ../maps/speedometer_face.tif ../maps/speedometer_gauge.tif ../maps/speedometer_spin.tif ../maps/speedometer_tics.tif ../maps/speedometer_ring.tif -o speedometer2.egg"
+}
+<Texture> speedometer_tics {
+  "../maps/speedometer_tics.tif"
+}
+<Texture> speedometer_spin {
+  "../maps/speedometer_spin.tif"
+}
+<Texture> speedometer_ring {
+  "../maps/speedometer_ring.tif"
+}
+<Texture> speedometer_gauge {
+  "../maps/speedometer_gauge.tif"
+}
+<Texture> speedometer_face {
+  "../maps/speedometer_face.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> speedometer_face {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { speedometer_face }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> speedometer_gauge {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { speedometer_gauge }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> speedometer_spin {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { speedometer_spin }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> speedometer_tics {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { speedometer_tics }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> speedometer_ring {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { speedometer_ring }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

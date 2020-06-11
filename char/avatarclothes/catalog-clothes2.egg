@@ -1,0 +1,145 @@
+<Comment> {
+  "egg-texture-cards shirtMale4B.rgb male_sleeve4New.rgb female_shirt1b.rgb female_sleeve1b.rgb sleeve6New.rgb shirt6New.rgb female_shirt5New.rgb female_sleeve5New.rgb shirtMaleNew7.rgb SleeveMaleNew7.rgb female_sleeveNew6.rgb femaleShirtNew6.rgb -o catalog-clothes2.egg"
+}
+<Texture> sleeve6New {
+  sleeve6New.rgb
+}
+<Texture> shirtMaleNew7 {
+  shirtMaleNew7.rgb
+}
+<Texture> shirtMale4B {
+  shirtMale4B.rgb
+}
+<Texture> shirt6New {
+  shirt6New.rgb
+}
+<Texture> male_sleeve4New {
+  male_sleeve4New.rgb
+}
+<Texture> female_sleeveNew6 {
+  female_sleeveNew6.rgb
+}
+<Texture> female_sleeve5New {
+  female_sleeve5New.rgb
+}
+<Texture> female_sleeve1b {
+  female_sleeve1b.rgb
+}
+<Texture> female_shirt5New {
+  female_shirt5New.rgb
+}
+<Texture> female_shirt1b {
+  female_shirt1b.rgb
+}
+<Texture> femaleShirtNew6 {
+  femaleShirtNew6.rgb
+}
+<Texture> SleeveMaleNew7 {
+  SleeveMaleNew7.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> shirtMale4B {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shirtMale4B }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> male_sleeve4New {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { male_sleeve4New }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_shirt1b {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_shirt1b }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeve1b {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeve1b }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> sleeve6New {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { sleeve6New }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> shirt6New {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shirt6New }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_shirt5New {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_shirt5New }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeve5New {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeve5New }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> shirtMaleNew7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shirtMaleNew7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> SleeveMaleNew7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { SleeveMaleNew7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> female_sleeveNew6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { female_sleeveNew6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> femaleShirtNew6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { femaleShirtNew6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

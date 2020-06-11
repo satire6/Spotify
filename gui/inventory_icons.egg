@@ -1,0 +1,625 @@
+<Comment> {
+  "egg-texture-cards -b -wm clamp -g -0.0666667,0.0666667,-0.0666667,0.0666667 -o inventory_icons.egg ../maps/inventory_10dollarbill.rgba ../maps/inventory_1dollarbill.rgba ../maps/inventory_5dollarbill.rgba ../maps/inventory_anvil.rgba ../maps/inventory_aoogah.rgba ../maps/inventory_bamboo_cane.rgba ../maps/inventory_bannana_peel.rgba ../maps/inventory_big_magnet.rgba ../maps/inventory_bikehorn.rgba ../maps/inventory_bugle.rgba ../maps/inventory_cake.rgba ../maps/inventory_creampie.rgba ../maps/inventory_cream_pie_slice.rgba ../maps/inventory_cup_cake.rgba ../maps/inventory_elephant.rgba ../maps/inventory_feather.rgba ../maps/inventory_firehose.rgba ../maps/inventory_flower_pot.rgba ../maps/inventory_fog_horn.rgba ../maps/inventory_fruitpie.rgba ../maps/inventory_fruit_pie_slice.rgba ../maps/inventory_glass_of_water.rgba ../maps/inventory_hypno_goggles.rgba ../maps/inventory_juggling_cubes.rgba ../maps/inventory_lipstick.rgba ../maps/inventory_marbles.rgba ../maps/inventory_megaphone.rgba ../maps/inventory_piano.rgba ../maps/inventory_pixiedust.rgba ../maps/inventory_quicksand_icon.rgba ../maps/inventory_rake.rgba ../maps/inventory_safe_box.rgba ../maps/inventory_sandbag.rgba ../maps/inventory_seltzer_bottle.rgba ../maps/inventory_small_magnet.rgba ../maps/inventory_squirt_flower.rgba ../maps/inventory_storm_cloud.rgba ../maps/inventory_tart.rgba ../maps/inventory_tnt.rgba ../maps/inventory_trapdoor.rgba ../maps/inventory_water_gun.rgba ../maps/inventory_weight.rgba ../maps/inventory_whistle.rgba ../maps/inventory_wedding.tif ../maps/inventory_traintracks.tif ../maps/inventory_screen.tif ../maps/inventory_opera_singer.tif ../maps/inventory_ladder.tif ../maps/inventory_geyser.tif ../maps/inventory_ship.tif"
+}
+<Texture> inventory_whistle {
+  "../maps/inventory_whistle.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_weight {
+  "../maps/inventory_weight.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_wedding {
+  "../maps/inventory_wedding.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_water_gun {
+  "../maps/inventory_water_gun.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_trapdoor {
+  "../maps/inventory_trapdoor.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_traintracks {
+  "../maps/inventory_traintracks.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_tnt {
+  "../maps/inventory_tnt.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_tart {
+  "../maps/inventory_tart.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_storm_cloud {
+  "../maps/inventory_storm_cloud.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_squirt_flower {
+  "../maps/inventory_squirt_flower.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_small_magnet {
+  "../maps/inventory_small_magnet.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_ship {
+  "../maps/inventory_ship.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_seltzer_bottle {
+  "../maps/inventory_seltzer_bottle.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_screen {
+  "../maps/inventory_screen.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_sandbag {
+  "../maps/inventory_sandbag.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_safe_box {
+  "../maps/inventory_safe_box.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_rake {
+  "../maps/inventory_rake.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_quicksand_icon {
+  "../maps/inventory_quicksand_icon.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_pixiedust {
+  "../maps/inventory_pixiedust.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_piano {
+  "../maps/inventory_piano.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_opera_singer {
+  "../maps/inventory_opera_singer.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_megaphone {
+  "../maps/inventory_megaphone.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_marbles {
+  "../maps/inventory_marbles.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_lipstick {
+  "../maps/inventory_lipstick.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_ladder {
+  "../maps/inventory_ladder.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_juggling_cubes {
+  "../maps/inventory_juggling_cubes.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_hypno_goggles {
+  "../maps/inventory_hypno_goggles.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_glass_of_water {
+  "../maps/inventory_glass_of_water.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_geyser {
+  "../maps/inventory_geyser.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_fruitpie {
+  "../maps/inventory_fruitpie.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_fruit_pie_slice {
+  "../maps/inventory_fruit_pie_slice.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_fog_horn {
+  "../maps/inventory_fog_horn.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_flower_pot {
+  "../maps/inventory_flower_pot.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_firehose {
+  "../maps/inventory_firehose.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_feather {
+  "../maps/inventory_feather.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_elephant {
+  "../maps/inventory_elephant.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_cup_cake {
+  "../maps/inventory_cup_cake.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_creampie {
+  "../maps/inventory_creampie.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_cream_pie_slice {
+  "../maps/inventory_cream_pie_slice.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_cake {
+  "../maps/inventory_cake.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_bugle {
+  "../maps/inventory_bugle.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_bikehorn {
+  "../maps/inventory_bikehorn.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_big_magnet {
+  "../maps/inventory_big_magnet.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_bannana_peel {
+  "../maps/inventory_bannana_peel.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_bamboo_cane {
+  "../maps/inventory_bamboo_cane.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_aoogah {
+  "../maps/inventory_aoogah.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_anvil {
+  "../maps/inventory_anvil.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_5dollarbill {
+  "../maps/inventory_5dollarbill.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_1dollarbill {
+  "../maps/inventory_1dollarbill.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> inventory_10dollarbill {
+  "../maps/inventory_10dollarbill.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.0666667 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.0666667 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.0666667 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.0666667 0.0666667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> inventory_10dollarbill {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_10dollarbill }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_1dollarbill {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_1dollarbill }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_5dollarbill {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_5dollarbill }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_anvil {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_anvil }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_aoogah {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_aoogah }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_bamboo_cane {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_bamboo_cane }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_bannana_peel {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_bannana_peel }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_big_magnet {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_big_magnet }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_bikehorn {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_bikehorn }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_bugle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_bugle }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_cake {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_cake }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_creampie {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_creampie }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_cream_pie_slice {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_cream_pie_slice }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_cup_cake {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_cup_cake }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_elephant {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_elephant }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_feather {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_feather }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_firehose {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_firehose }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_flower_pot {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_flower_pot }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_fog_horn {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_fog_horn }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_fruitpie {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_fruitpie }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_fruit_pie_slice {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_fruit_pie_slice }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_glass_of_water {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_glass_of_water }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_hypno_goggles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_hypno_goggles }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_juggling_cubes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_juggling_cubes }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_lipstick {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_lipstick }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_marbles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_marbles }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_megaphone {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_megaphone }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_piano {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_piano }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_pixiedust {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_pixiedust }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_quicksand_icon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_quicksand_icon }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_rake {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_rake }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_safe_box {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_safe_box }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_sandbag {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_sandbag }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_seltzer_bottle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_seltzer_bottle }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_small_magnet {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_small_magnet }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_squirt_flower {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_squirt_flower }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_storm_cloud {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_storm_cloud }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_tart {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_tart }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_tnt {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_tnt }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_trapdoor {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_trapdoor }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_water_gun {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_water_gun }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_weight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_weight }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_whistle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_whistle }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_wedding {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_wedding }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_traintracks {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_traintracks }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_screen {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_screen }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_opera_singer {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_opera_singer }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_ladder {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_ladder }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_geyser {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_geyser }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> inventory_ship {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { inventory_ship }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_groupListBg.egg ../maps/tt_t_gui_brd_memberListTop.tif ../maps/tt_t_gui_brd_memberListTop_half.tif ../maps/tt_t_gui_brd_memberListBtm_leader.tif ../maps/tt_t_gui_brd_memberListBtm_nonLeader.tif
+egg-texture-cards -p 32,32 -wm c -o tt_m_gui_brd_status.egg ../maps/tt_t_gui_brd_statusBattle.tif ../maps/tt_t_gui_brd_statusLeader.tif ../maps/tt_t_gui_brd_statusOn.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_inviteButton.egg ../maps/tt_t_gui_brd_inviteUp.tif ../maps/tt_t_gui_brd_inviteDown.tif ../maps/tt_t_gui_brd_inviteHover.tif ../maps/tt_t_gui_brd_inviteDisabled.tif ../maps/tt_t_gui_brd_kickoutUp.tif ../maps/tt_t_gui_brd_kickoutDown.tif ../maps/tt_t_gui_brd_kickoutHover.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_help.egg ../maps/tt_t_gui_brd_helpUp.tif ../maps/tt_t_gui_brd_helpDown.tif ../maps/tt_t_gui_brd_helpHover.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_avatarPanelBg.egg ../maps/tt_t_gui_brd_avatar_panel_party.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_arrow.egg ../maps/tt_t_gui_brd_arrow_up.tif ../maps/tt_t_gui_brd_arrow_down.tif ../maps/tt_t_gui_brd_arrow_hover.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_gotoArrow.egg ../maps/tt_t_gui_brd_arrowL_gotoUp.tif ../maps/tt_t_gui_brd_arrowL_gotoDown.tif ../maps/tt_t_gui_brd_arrowL_gotoHover.tif
+egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_gotoBtn.egg ../maps/tt_t_gui_brd_gotoUp.tif ../maps/tt_t_gui_brd_gotoDown.tif ../maps/tt_t_gui_brd_gotoHover.tif ../maps/tt_t_gui_brd_cancelGotoUp.tif ../maps/tt_t_gui_brd_cancelGotoDown.tif ../maps/tt_t_gui_brd_cancelGotoHover.tif
+egg-texture-cards -p 32,32 -wm c -o tt_m_gui_brd_leaveBtn.egg ../maps/tt_t_gui_brd_leaveUp.tif ../maps/tt_t_gui_brd_leaveDown.tif ../maps/tt_t_gui_brd_leaveHover.tif

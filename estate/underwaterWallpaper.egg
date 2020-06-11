@@ -1,0 +1,169 @@
+<Comment> {
+  "egg-texture-cards UWwallPaperShellBorder2.rgb UWwallPaperBubbles.rgb UWwallPaperAngelFish.rgb UWwallPaperAngelFishColor.rgb UWwallPaperBubbles.rgb UWwallPaperBubbles2.rgb UWwallPaperGreenFish.rgb UWwallPaperPlantBorder.rgb UWwallPaperRedFish.rgb UWwallPaperSea_horse.rgb UWwallPaperSea_horseBorder.rgb UWwallPaperShellBorder1.rgb UWwallPaperShellBorder2.rgb UWwallPaperShells.rgb UWwallPaperWaveBorder.rgb -o underwaterWallpaper.egg"
+}
+<Texture> UWwallPaperWaveBorder {
+  UWwallPaperWaveBorder.rgb
+}
+<Texture> UWwallPaperShells {
+  UWwallPaperShells.rgb
+}
+<Texture> UWwallPaperShellBorder2 {
+  UWwallPaperShellBorder2.rgb
+}
+<Texture> UWwallPaperShellBorder1 {
+  UWwallPaperShellBorder1.rgb
+}
+<Texture> UWwallPaperSea_horseBorder {
+  UWwallPaperSea_horseBorder.rgb
+}
+<Texture> UWwallPaperSea_horse {
+  UWwallPaperSea_horse.rgb
+}
+<Texture> UWwallPaperRedFish {
+  UWwallPaperRedFish.rgb
+}
+<Texture> UWwallPaperPlantBorder {
+  UWwallPaperPlantBorder.rgb
+}
+<Texture> UWwallPaperGreenFish {
+  UWwallPaperGreenFish.rgb
+}
+<Texture> UWwallPaperBubbles2 {
+  UWwallPaperBubbles2.rgb
+}
+<Texture> UWwallPaperBubbles {
+  UWwallPaperBubbles.rgb
+}
+<Texture> UWwallPaperAngelFishColor {
+  UWwallPaperAngelFishColor.rgb
+}
+<Texture> UWwallPaperAngelFish {
+  UWwallPaperAngelFish.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> UWwallPaperShellBorder2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperShellBorder2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperBubbles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperBubbles }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperAngelFish {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperAngelFish }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperAngelFishColor {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperAngelFishColor }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperBubbles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperBubbles }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperBubbles2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperBubbles2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperGreenFish {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperGreenFish }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperPlantBorder {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperPlantBorder }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperRedFish {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperRedFish }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperSea_horse {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperSea_horse }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperSea_horseBorder {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperSea_horseBorder }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperShellBorder1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperShellBorder1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperShellBorder2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperShellBorder2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperShells {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperShells }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> UWwallPaperWaveBorder {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { UWwallPaperWaveBorder }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+<Comment> {
+  "egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_groupListBg.egg ../maps/tt_t_gui_brd_memberListTop.tif ../maps/tt_t_gui_brd_memberListTop_half.tif ../maps/tt_t_gui_brd_memberListBtm_leader.tif ../maps/tt_t_gui_brd_memberListBtm_nonLeader.tif"
+}
+<Texture> tt_t_gui_brd_memberListTop_half {
+  "../maps/tt_t_gui_brd_memberListTop_half.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_memberListTop {
+  "../maps/tt_t_gui_brd_memberListTop.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_memberListBtm_nonLeader {
+  "../maps/tt_t_gui_brd_memberListBtm_nonLeader.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_memberListBtm_leader {
+  "../maps/tt_t_gui_brd_memberListBtm_leader.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.545833 0.69375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.545833 -0.69375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.545833 -0.69375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.545833 0.69375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.545833 0.404167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.545833 -0.404167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.545833 -0.404167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.545833 0.404167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.545833 0.235417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.545833 -0.235417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.545833 -0.235417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.545833 0.235417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.545833 0.116667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.545833 -0.116667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.545833 -0.116667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.545833 0.116667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_brd_memberListTop {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_memberListTop }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_memberListTop_half {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_memberListTop_half }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_memberListBtm_leader {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_memberListBtm_leader }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_memberListBtm_nonLeader {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_memberListBtm_nonLeader }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+}

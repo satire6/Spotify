@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/calendar_popup_birthday.png ../maps/calendar_popup_cupcake.png ../maps/calendar_popup_fun.png ../maps/tt_t_gui_sbk_calendar_popup_racing.tif ../maps/Stickerbook_PartyIcon.png ../maps/Stickerbook_PartyBalloons.png -o partyStickerbook.egg

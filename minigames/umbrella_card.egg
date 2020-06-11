@@ -1,0 +1,117 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 64,64 -o umbrella_card.egg ../maps/mg_slingshot_umbrella_purple.tif ../maps/mg_slingshot_umbrella_yellow.tif ../maps/mg_slingshot_umbrella_blue.tif ../maps/mg_slingshot_umbrella_red.tif"
+}
+<Texture> mg_slingshot_umbrella_yellow {
+  "../maps/mg_slingshot_umbrella_yellow.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> mg_slingshot_umbrella_red {
+  "../maps/mg_slingshot_umbrella_red.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> mg_slingshot_umbrella_purple {
+  "../maps/mg_slingshot_umbrella_purple.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> mg_slingshot_umbrella_blue {
+  "../maps/mg_slingshot_umbrella_blue.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -1.28906 1.9375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -1.28906 -1.9375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      1.28906 -1.9375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      1.28906 1.9375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -1.28906 1.9375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -1.28906 -1.9375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      1.28906 -1.9375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      1.28906 1.9375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -1.28906 1.9375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -1.28906 -1.9375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      1.28906 -1.9375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      1.28906 1.9375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -1.28906 1.9375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -1.28906 -1.9375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      1.28906 -1.9375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      1.28906 1.9375 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> mg_slingshot_umbrella_purple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_slingshot_umbrella_purple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_slingshot_umbrella_yellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_slingshot_umbrella_yellow }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_slingshot_umbrella_blue {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_slingshot_umbrella_blue }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> mg_slingshot_umbrella_red {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mg_slingshot_umbrella_red }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+}

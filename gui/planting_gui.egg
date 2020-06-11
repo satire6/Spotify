@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -p 128,256 planting_gui.tif -o planting_gui.egg"
+}
+<Texture> planting_gui {
+  planting_gui.tif
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.800781 1.11328 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.800781 -1.11328 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.800781 -1.11328 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.800781 1.11328 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> planting_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { planting_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

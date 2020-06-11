@@ -1,0 +1,51 @@
+
+model "phase_5.5/models/estate/terrain" [
+        store_node [ "prop" "terrain" "" ]
+        ]
+
+model "phase_5.5/models/estate/houseB" [
+        store_node [ "prop" "houseB" "" ]
+        ]
+
+model "phase_5.5/models/estate/house" [
+        store_node [ "prop" "house" "" ]
+        ]
+
+hood_model "phase_4/models/props/SZ_fish-mod" [
+	store_node [ "prop" "animated_prop_FishAnimatedProp" "fish" ]
+	]
+
+model "phase_4/models/props/piers_tt" [
+	store_node [ "prop" "fishing_spot" "" ]
+	]
+
+hood_model "phase_3.5/models/props/trees" [
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
+	]
+
+// We switched the interface font from impress to humanist
+// Warning!  This is overridden in PlayGame.py
+store_font [ "font" "humanist"
+             "phase_3/models/fonts/ImpressBT.ttf" ]
+
+// Warning!  This is overridden in PlayGame.py
+store_font [ "font" "mickey"
+             "phase_3/models/fonts/MickeyFont" ]
+

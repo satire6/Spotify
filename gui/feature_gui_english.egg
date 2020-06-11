@@ -1,0 +1,289 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -o feature_gui_english.egg ../maps/features-catalog.jpg ../maps/features-chat.jpg ../maps/features-clothes.jpg ../maps/features-cogHq.jpg ../maps/features-furniture.jpg ../maps/features-gags.jpg ../maps/features-holidays.jpg ../maps/features-hoods.jpg ../maps/features-mailers.jpg ../maps/features-mailers-UK.jpg ../maps/features-minigames.jpg ../maps/features-quests.jpg ../maps/features-sixToons.jpg ../maps/features-typeAName.jpg ../maps/features-karting.jpg ../maps/features-tricks.jpg ../maps/features-bigger.jpg ../maps/features-rental.jpg ../maps/features-garden.jpg ../maps/features-kartingAccessories.jpg ../maps/features-species.jpg ../maps/features-golf.jpg ../maps/features-fishing.jpg ../maps/features-parties.jpg"
+}
+<Texture> features-typeAName {
+  "../maps/features-typeAName.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-tricks {
+  "../maps/features-tricks.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-species {
+  "../maps/features-species.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-sixToons {
+  "../maps/features-sixToons.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-rental {
+  "../maps/features-rental.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-quests {
+  "../maps/features-quests.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-parties {
+  "../maps/features-parties.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-minigames {
+  "../maps/features-minigames.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-mailers-UK {
+  "../maps/features-mailers-UK.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-mailers {
+  "../maps/features-mailers.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-kartingAccessories {
+  "../maps/features-kartingAccessories.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-karting {
+  "../maps/features-karting.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-hoods {
+  "../maps/features-hoods.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-holidays {
+  "../maps/features-holidays.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-golf {
+  "../maps/features-golf.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-garden {
+  "../maps/features-garden.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-gags {
+  "../maps/features-gags.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-furniture {
+  "../maps/features-furniture.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-fishing {
+  "../maps/features-fishing.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-cogHq {
+  "../maps/features-cogHq.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-clothes {
+  "../maps/features-clothes.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-chat {
+  "../maps/features-chat.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-catalog {
+  "../maps/features-catalog.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-bigger {
+  "../maps/features-bigger.jpg"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> features-catalog {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-catalog }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-chat {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-chat }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-clothes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-clothes }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-cogHq {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-cogHq }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-furniture {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-furniture }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-gags {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-gags }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-holidays {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-holidays }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-hoods {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-hoods }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-mailers {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-mailers }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-mailers-UK {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-mailers-UK }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-minigames {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-minigames }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-quests {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-quests }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-sixToons {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-sixToons }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-typeAName {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-typeAName }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-karting {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-karting }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-tricks {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-tricks }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-bigger {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-bigger }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-rental {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-rental }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-garden {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-garden }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-kartingAccessories {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-kartingAccessories }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-species {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-species }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-golf {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-golf }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-fishing {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-fishing }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-parties {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-parties }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

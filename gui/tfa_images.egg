@@ -1,0 +1,69 @@
+<Comment> {
+  "egg-texture-cards -o tfa_images.egg -wm clamp ../maps/hq-dialog-image.rgb ../maps/trolley-dialog-image.rgb ../maps/tunnelSignA.tif ../maps/FrameBlankA.tif"
+}
+<Texture> tunnelSignA {
+  "../maps/tunnelSignA.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> trolley-dialog-image {
+  "../maps/trolley-dialog-image.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> hq-dialog-image {
+  "../maps/hq-dialog-image.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> FrameBlankA {
+  "../maps/FrameBlankA.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> hq-dialog-image {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { hq-dialog-image }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> trolley-dialog-image {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { trolley-dialog-image }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> tunnelSignA {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tunnelSignA }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> FrameBlankA {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { FrameBlankA }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

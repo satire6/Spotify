@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -o mickey_eyes_closed.egg mickey_eyes_closed.rgb"
+}
+<Texture> mickey_eyes_closed {
+  mickey_eyes_closed.rgb
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> mickey_eyes_closed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mickey_eyes_closed }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

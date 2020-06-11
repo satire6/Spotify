@@ -1,0 +1,78 @@
+
+model "phase_13/models/parties/partyGrounds" [
+        store_node [ "prop" "terrain" "" ]
+        ]
+
+hood_model "phase_3.5/models/props/trees" [
+	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
+	]
+
+// Party Props
+model "phase_13/models/parties/danceFloor" [
+ 	store_node [ "prop" "danceFloor" "" ]
+	]
+
+model "phase_13/models/parties/eventSign" [
+ 	store_node [ "prop" "eventSign" "" ]
+	]
+
+model "phase_13/models/parties/grass" [
+ 	store_node [ "prop" "grass" "" ]
+	]
+
+model "phase_13/models/parties/jukeboxGUI" [
+ 	store_node [ "prop" "jukeboxGUI" "" ]
+	]
+
+model "phase_13/models/parties/jukebox_model" [
+ 	store_node [ "prop" "jukebox_model" "" ]
+	]
+
+model "phase_13/models/parties/launchPad" [
+ 	store_node [ "prop" "launchPad" "" ]
+	]
+
+model "phase_13/models/parties/partyCatchTree" [
+ 	store_node [ "prop" "partyCatchTree" "" ]
+	]
+
+model "phase_13/models/parties/partyClock" [
+ 	store_node [ "prop" "partyClock" "" ]
+	]
+
+model "phase_13/models/parties/partyGrounds" [
+ 	store_node [ "prop" "partyGrounds" "" ]
+	]
+
+model "phase_13/models/parties/partyLeverBase" [
+ 	store_node [ "prop" "partyLeverBase" "" ]
+	]
+
+model "phase_13/models/parties/partyLeverStick" [
+ 	store_node [ "prop" "partyLeverStick" "" ]
+	]
+
+model "phase_13/models/parties/partyMerryGoRound" [
+ 	store_node [ "prop" "partyMerryGoRound" "" ]
+	]
+
+model "phase_13/models/parties/partyTugOfWar" [
+ 	store_node [ "prop" "partyTugOfWar" "" ]
+	]
+
+model "phase_13/models/parties/rocket_model" [
+ 	store_node [ "prop" "rocket_model" "" ]
+	]
+
+model "phase_13/models/parties/trampolineGUI" [
+ 	store_node [ "prop" "trampolineGUI" "" ]
+	]
+
+model "phase_13/models/parties/trampoline_model" [
+ 	store_node [ "prop" "trampoline_model" "" ]
+	]

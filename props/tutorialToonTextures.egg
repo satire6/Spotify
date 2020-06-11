@@ -1,0 +1,85 @@
+<Comment> {
+  "egg-texture-cards eyesSad.rgb eyesSadClosed.rgb eyesAngry.rgb eyesAngryClosed.rgb eyesSurprised.rgb muzzleShortSurprised.rgb"
+}
+<Texture> muzzleShortSurprised {
+  muzzleShortSurprised.rgb
+}
+<Texture> eyesSurprised {
+  eyesSurprised.rgb
+}
+<Texture> eyesSadClosed {
+  eyesSadClosed.rgb
+}
+<Texture> eyesSad {
+  eyesSad.rgb
+}
+<Texture> eyesAngryClosed {
+  eyesAngryClosed.rgb
+}
+<Texture> eyesAngry {
+  eyesAngry.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> eyesSad {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { eyesSad }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> eyesSadClosed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { eyesSadClosed }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> eyesAngry {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { eyesAngry }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> eyesAngryClosed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { eyesAngryClosed }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> eyesSurprised {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { eyesSurprised }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> muzzleShortSurprised {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { muzzleShortSurprised }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

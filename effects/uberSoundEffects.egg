@@ -1,0 +1,49 @@
+<Comment> {
+  "egg-texture-cards -o uberSoundEffects.egg -wm clamp -f1 alpha -b Circle.tif break.tif"
+}
+<Texture> break {
+  break.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> Circle {
+  Circle.tif
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Circle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Circle }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> break {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { break }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

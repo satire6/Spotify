@@ -1,0 +1,75 @@
+<Comment> {
+  "egg-texture-cards StPatWallpaper2.rgb StPatWallpaper1.rgb StPatBorder1.rgb StPatWallpaper3.rgb StPatWallpaper4.rgb -o stPat-wallpaper.egg"
+}
+<Texture> StPatWallpaper4 {
+  StPatWallpaper4.rgb
+}
+<Texture> StPatWallpaper3 {
+  StPatWallpaper3.rgb
+}
+<Texture> StPatWallpaper2 {
+  StPatWallpaper2.rgb
+}
+<Texture> StPatWallpaper1 {
+  StPatWallpaper1.rgb
+}
+<Texture> StPatBorder1 {
+  StPatBorder1.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> StPatWallpaper2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPatWallpaper2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPatWallpaper1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPatWallpaper1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPatBorder1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPatBorder1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPatWallpaper3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPatWallpaper3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> StPatWallpaper4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { StPatWallpaper4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

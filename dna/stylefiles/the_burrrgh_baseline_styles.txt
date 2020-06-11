@@ -1,0 +1,43 @@
+baselineStyle
+kern: 1.0
+color: Vec4(1.0, 1.0, 1.0, 1.0)
+endBaselineStyle
+
+baselineStyle
+kern: 1.8
+color: Vec4(1.0, 8.0, 0.592157, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: humanist
+kern: 0.0
+wiggle: 5.99172019958
+stumble: 0.0
+stomp: 0.0500000007451
+curve: 0.0300000286103
+x: 0.0
+z: -1.54837799072
+scaleX: 1.29226207733
+scaleZ: 1.41579198837
+roll: 0.0
+flags: b
+color: Vec4(0.00, 0.00, 0.00, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: humanist
+kern: 0.0555239990354
+wiggle: 7.96659994125
+stumble: 0.0
+stomp: 0.0268959999084
+curve: 0.0334300585091
+x: 0.0
+z: -0.514532983303
+scaleX: 1.29999995232
+scaleZ: 1.29999995232
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.00, 0.00, 1.0)
+endBaselineStyle

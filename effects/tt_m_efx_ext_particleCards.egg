@@ -1,0 +1,105 @@
+<Comment> {
+  "egg-texture-cards -o tt_m_efx_ext_particleCards.egg ../maps/tt_t_efx_ext_particleSparkle.tif ../maps/tt_t_efx_ext_particleSparkles.tif ../maps/tt_t_efx_ext_particleWhiteGlow.tif ../maps/tt_t_efx_ext_particleBlast.tif ../maps/tt_t_efx_ext_particleStars.tif ../maps/tt_t_efx_ext_particleSplash2.tif ../maps/tt_t_efx_ext_particleSplash3.tif ../maps/tt_t_efx_ext_particleSplat.tif"
+}
+<Texture> tt_t_efx_ext_particleWhiteGlow {
+  "../maps/tt_t_efx_ext_particleWhiteGlow.tif"
+}
+<Texture> tt_t_efx_ext_particleStars {
+  "../maps/tt_t_efx_ext_particleStars.tif"
+}
+<Texture> tt_t_efx_ext_particleSplat {
+  "../maps/tt_t_efx_ext_particleSplat.tif"
+}
+<Texture> tt_t_efx_ext_particleSplash3 {
+  "../maps/tt_t_efx_ext_particleSplash3.tif"
+}
+<Texture> tt_t_efx_ext_particleSplash2 {
+  "../maps/tt_t_efx_ext_particleSplash2.tif"
+}
+<Texture> tt_t_efx_ext_particleSparkles {
+  "../maps/tt_t_efx_ext_particleSparkles.tif"
+}
+<Texture> tt_t_efx_ext_particleSparkle {
+  "../maps/tt_t_efx_ext_particleSparkle.tif"
+}
+<Texture> tt_t_efx_ext_particleBlast {
+  "../maps/tt_t_efx_ext_particleBlast.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_efx_ext_particleSparkle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleSparkle }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleSparkles {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleSparkles }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleWhiteGlow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleWhiteGlow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleBlast {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleBlast }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleStars {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleStars }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleSplash2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleSplash2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleSplash3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleSplash3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_efx_ext_particleSplat {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_efx_ext_particleSplat }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

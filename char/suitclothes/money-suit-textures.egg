@@ -1,0 +1,85 @@
+<Comment> {
+  "egg-texture-cards m_blazer.rgb m_leg.rgb m_sleeve.rgb waiter_m_blazer.jpg waiter_m_leg.jpg waiter_m_sleeve.jpg"
+}
+<Texture> waiter_m_sleeve {
+  waiter_m_sleeve.jpg
+}
+<Texture> waiter_m_leg {
+  waiter_m_leg.jpg
+}
+<Texture> waiter_m_blazer {
+  waiter_m_blazer.jpg
+}
+<Texture> m_sleeve {
+  m_sleeve.rgb
+}
+<Texture> m_leg {
+  m_leg.rgb
+}
+<Texture> m_blazer {
+  m_blazer.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> m_blazer {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { m_blazer }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> m_leg {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { m_leg }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> m_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { m_sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> waiter_m_blazer {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { waiter_m_blazer }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> waiter_m_leg {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { waiter_m_leg }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> waiter_m_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { waiter_m_sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

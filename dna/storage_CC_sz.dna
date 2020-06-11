@@ -1,0 +1,76 @@
+
+place_model "phase_4/models/modules/bank" [
+	store_node [ "toon_landmark" "toon_landmark_TT_bank" "" ]
+        ]
+
+place_model "phase_12/models/bossbotHQ/CogGolfCourtyard" [
+	store_node [ "prop" "CogGolfCourtyard" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BB_Elevator" [
+	store_node [ "prop" "BB_Elevator" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/Coggolf_cart3" [
+	store_node [ "prop" "Coggolf_cart3" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotEntranceRoom" [
+	store_node [ "prop" "BossbotEntranceRoom" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/Connector_Tunnel_A" [
+	store_node [ "prop" "Connector_Tunnel_A" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/Connector_Tunnel_B" [
+	store_node [ "prop" "Connector_Tunnel_B" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotTeeOffRoom" [
+	store_node [ "prop" "BossbotTeeOffRoom" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotFairwayRoom_A" [
+	store_node [ "prop" "BossbotFairwayRoom_A" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotKartBoardingRm" [
+	store_node [ "prop" "BossbotKartBoardingRm" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BanquetInterior_1" [
+	store_node [ "prop" "BanquetInterior_1" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotMazex4_C" [
+	store_node [ "prop" "BossbotMazex4_C" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotMazex3_straight_C" [
+	store_node [ "prop" "BossbotMazex3_straight_C" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotMazex2_straight_C" [
+	store_node [ "prop" "BossbotMazex2_straight_C" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotMazex1_C" [
+	store_node [ "prop" "BossbotMazex1_C" ""]
+	]
+
+place_model "phase_6/models/golf/Golfzone_To_Bossbot_Tunnel" [
+	store_node [ "prop" "Golfzone_To_Bossbot_Tunnel" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/CogGolfHub" [
+	store_node [ "prop" "CogGolfHub" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotGreenRoom_A" [
+	store_node [ "prop" "BossbotGreenRoom_A" ""]
+	]
+
+place_model "phase_12/models/bossbotHQ/BossbotPresidentsRm" [
+	store_node [ "prop" "BossbotPresidentsRm" ""]
+	]

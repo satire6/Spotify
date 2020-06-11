@@ -1,0 +1,113 @@
+group "Party" [
+ visgroup "18000:party" [
+  vis [   "18000:party"   ]
+  node "level" [
+   prop "terrain_DNARoot" [
+    code [ "terrain" ]
+    pos [ 0 0 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ -120 80 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.5 0.5 0.5 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ -20 160 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.5 0.5 0.5 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ 165 80 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.8 0.8 0.8 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ 165 65 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.7 0.7 0.7 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ 165 -15 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.7 0.7 0.7 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ 5 -170 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.8 0.8 0.8 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ -155 30 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.6 0.6 0.6 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ -40 140 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 45 140 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.9 0.9 0.9 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 85 150 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 0.7 0.7 0.7 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 105 115 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 170 -5 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 175 -60 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ 130 -120 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ -50 -145 0 ]
+    nhpr [ 90 0 0 ]
+    scale [ 0.9 0.9 0.9 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ -100 -120 0 ]
+    nhpr [ 90 0 0 ]
+    scale [ 0.8 0.8 0.8 ]
+   ]
+   prop "prop_tree_large_ur_DNARoot" [
+    code [ "prop_tree_large_ur" ]
+    pos [ -115 -105 0 ]
+    nhpr [ 90 0 0 ]
+   ]
+   prop "prop_tree_large_ul_DNARoot" [
+    code [ "prop_tree_large_ul" ]
+    pos [ -160 -10 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+  ]
+ ]
+]

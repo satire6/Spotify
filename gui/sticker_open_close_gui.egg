@@ -1,0 +1,117 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o sticker_open_close_gui.egg ../maps/BookIcon_CLSD.rgba ../maps/BookIcon_OPEN.rgba ../maps/BookIcon_RLVR.rgba ../maps/BookIcon_RLVR2.rgba"
+}
+<Texture> BookIcon_RLVR2 {
+  "../maps/BookIcon_RLVR2.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_RLVR {
+  "../maps/BookIcon_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_OPEN {
+  "../maps/BookIcon_OPEN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_CLSD {
+  "../maps/BookIcon_CLSD.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.220833 0.191667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.220833 -0.191667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.220833 -0.191667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.220833 0.191667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.220833 0.191667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.220833 -0.191667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.220833 -0.191667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.220833 0.191667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.220833 0.191667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.220833 -0.191667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.220833 -0.191667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.220833 0.191667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -0.220833 0.191667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -0.220833 -0.191667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      0.220833 -0.191667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      0.220833 0.191667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> BookIcon_CLSD {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_CLSD }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_OPEN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_OPEN }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_RLVR }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_RLVR2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_RLVR2 }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+}

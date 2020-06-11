@@ -1,0 +1,17 @@
+baselineStyle
+name: baseline_style
+code: suit
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: 0.0
+z: 0.0
+scaleX: 1.0
+scaleZ: 1.0
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.00, 0.00, 1.0)
+endBaselineStyle
+

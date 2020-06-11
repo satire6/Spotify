@@ -1,0 +1,144 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 255,255 -o inventory_gui.egg ../maps/InventoryRow.rgba ../maps/InventoryButtonDown.rgba ../maps/InventoryButtonFlat.rgba ../maps/InventoryButtonRollover.rgba ../maps/InventoryButtonUp.rgba"
+}
+<Texture> InventoryRow {
+  "../maps/InventoryRow.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> InventoryButtonUp {
+  "../maps/InventoryButtonUp.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> InventoryButtonRollover {
+  "../maps/InventoryButtonRollover.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> InventoryButtonFlat {
+  "../maps/InventoryButtonFlat.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> InventoryButtonDown {
+  "../maps/InventoryButtonDown.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.833333 0.0568627 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.833333 -0.0568627 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.833333 -0.0568627 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.833333 0.0568627 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.0901961 0.0568627 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.0901961 -0.0568627 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.0901961 -0.0568627 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.0901961 0.0568627 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.0901961 0.0568627 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.0901961 -0.0568627 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.0901961 -0.0568627 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.0901961 0.0568627 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.0901961 0.0568627 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.0901961 -0.0568627 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.0901961 -0.0568627 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.0901961 0.0568627 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.0901961 0.0568627 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.0901961 -0.0568627 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.0901961 -0.0568627 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.0901961 0.0568627 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> InventoryRow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { InventoryRow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> InventoryButtonDown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { InventoryButtonDown }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> InventoryButtonFlat {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { InventoryButtonFlat }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> InventoryButtonRollover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { InventoryButtonRollover }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> InventoryButtonUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { InventoryButtonUp }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+}

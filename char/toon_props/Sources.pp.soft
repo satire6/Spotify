@@ -1,0 +1,957 @@
+#define DIR_TYPE models
+#define INSTALL_TO models/props
+#define DATABASE toon_props_cvs
+#define CHAN_SUFFIX -chan
+
+
+// These are the various animation files generated within this directory
+
+//
+// SOFT2EGG
+//
+
+//
+// misc
+//
+
+// sound prop
+#begin flt_egg
+  #define SOURCES $[wildcard *.flt]
+#end flt_egg
+
+#begin maya_egg
+  #define SOURCES $[wildcard *.mb]
+#end maya_egg
+
+// teleport hole
+#begin soft_char_egg
+  #define MODEL portal
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL portal-mod 
+  #define ANIMS portal
+  #define CHAR_NAME portal 
+#end soft_char_egg
+
+// shticker book
+#begin soft_char_egg
+  #define MODEL book
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL book-mod 
+  #define ANIMS book
+  #define SOFT2EGG_OPTS -F
+  #define CHAR_NAME book 
+#end soft_char_egg
+
+
+// different types of fishing poles 
+#begin soft_char_egg
+  #define MODEL pole_treebranch
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pole_treebranch-mod 
+  #define CHAR_NAME fishing-pole 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define MODEL pole_steel
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pole_steel-mod 
+  #define CHAR_NAME fishing-pole 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define MODEL pole_gold
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pole_gold-mod 
+  #define CHAR_NAME fishing-pole
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define MODEL pole_bamboo
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pole_bamboo-mod 
+  #define CHAR_NAME fishing-pole 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define MODEL pole_wood
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL pole_wood-mod 
+  #define CHAR_NAME fishing-pole 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+//
+// lure props
+//
+
+// fishing pole and anim 
+#begin soft_char_egg
+  #define MODEL fishing-pole
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL fishing-pole-mod 
+  #define ANIMS fishing-pole
+  #define CHAR_NAME fishing-pole 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+// 1dollar bill and anim 
+#begin soft_char_egg
+  #define MODEL 1dollar-bill
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL 1dollar-bill-mod 
+  #define ANIMS 1dollar-bill 
+  #define CHAR_NAME 1dollar 
+#end soft_char_egg
+
+// magnet   
+#begin soft_char_egg
+  #define MODEL magnet
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL magnet
+  #define CHAR_NAME magnet
+#end soft_char_egg
+
+// hypnotize   
+#begin soft_char_egg
+  #define MODEL hypnotize
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL hypnotize-mod
+  #define ANIMS hypnotize
+  #define CHAR_NAME hypnotize
+#end soft_char_egg
+
+//
+// trap props
+//
+
+// banana-peel and anim 
+#begin soft_char_egg
+  #define MODEL banana-peel
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL banana-peel-mod 
+  #define ANIMS banana-peel
+  #define CHAR_NAME banana-peel 
+#end soft_char_egg
+
+// rake   
+#begin soft_char_egg
+  #define MODEL rake
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL rake-mod
+  #define ANIMS rake
+  #define CHAR_NAME rake
+#end soft_char_egg
+
+// tnt   
+#begin soft_char_egg
+  #define MODEL tnt
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL tnt-mod
+  #define ANIMS tnt
+  #define CHAR_NAME tnt
+#end soft_char_egg
+
+// marbles   
+#begin soft_char_egg
+  #define MODEL marbles
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL marbles-mod
+  #define ANIMS marbles
+  #define CHAR_NAME marbles
+#end soft_char_egg
+
+// trapdoor   
+#begin soft_char_egg
+  #define MODEL trapdoor
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL trapdoor
+  #define CHAR_NAME trapdoor
+#end soft_char_egg
+
+// quicksand   
+#begin soft_char_egg
+  #define MODEL quicksand
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL quicksand
+  #define CHAR_NAME quicksand
+#end soft_char_egg
+
+//
+// heal props 
+//
+
+// feather and anim 
+#begin soft_char_egg
+  #define MODEL feather
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL feather-mod 
+  #define ANIMS feather
+  #define CHAR_NAME feather 
+#end soft_char_egg
+
+// lipstick   
+#begin soft_char_egg
+  #define MODEL lipstick
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL lipstick
+  #define CHAR_NAME lipstick
+#end soft_char_egg
+
+//  big lips
+#begin soft_char_egg
+  #define MODEL lips
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL lips
+  #define CHAR_NAME lips
+#end soft_char_egg
+
+// bamboo cane 
+#begin soft_char_egg
+  #define MODEL cane
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL cane 
+  #define CHAR_NAME cane 
+#end soft_char_egg
+
+// straw hat 
+#begin soft_char_egg
+  #define MODEL hat
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL hat 
+  #define CHAR_NAME hat 
+#end soft_char_egg
+
+// juggling cubes and anim 
+#begin soft_char_egg
+  #define MODEL cubes
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL cubes-mod 
+  #define ANIMS cubes
+  #define CHAR_NAME cubes 
+#end soft_char_egg
+
+//
+// drop props
+//
+
+// button box 
+#begin soft_char_egg
+  #define MODEL button
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL button 
+  #define CHAR_NAME button 
+#end soft_char_egg
+
+// flowerpot and anim 
+#begin soft_char_egg
+  #define MODEL flowerpot
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL flowerpot-mod 
+  #define ANIMS flowerpot
+  #define CHAR_NAME flowerot 
+#end soft_char_egg
+
+// sandbag and anim 
+#begin soft_char_egg
+  #define MODEL sandbag
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL sandbag-mod 
+  #define ANIMS sandbag
+  #define CHAR_NAME sandbag 
+#end soft_char_egg
+
+// anvil and anim 
+#begin soft_char_egg
+  #define MODEL anvil
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL anvil-mod 
+  #define ANIMS anvil
+  #define CHAR_NAME anvil 
+#end soft_char_egg
+
+// weight and anim 
+#begin soft_char_egg
+  #define MODEL weight
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL weight-mod 
+  #define ANIMS weight
+  #define CHAR_NAME weight 
+#end soft_char_egg
+
+// safe and anim 
+#begin soft_char_egg
+  #define MODEL safe
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL safe-mod 
+  #define ANIMS safe
+  #define CHAR_NAME safe 
+#end soft_char_egg
+
+// piano and anim 
+#begin soft_char_egg
+  #define MODEL piano
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL piano-mod 
+  #define ANIMS piano
+  #define CHAR_NAME piano 
+#end soft_char_egg
+
+//
+// throw props
+//
+
+// tart 
+#begin soft_char_egg
+  #define MODEL tart
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL tart
+  #define CHAR_NAME tart 
+#end soft_char_egg
+
+// fruit pie slice 
+#begin soft_char_egg
+  #define MODEL fruit-pie-slice
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL fruit-pie-slice
+  #define CHAR_NAME fruit-pie-slice 
+#end soft_char_egg
+
+// cream pie slice 
+#begin soft_char_egg
+  #define MODEL cream-pie-slice
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL cream-pie-slice
+  #define CHAR_NAME cream-pie-slice 
+#end soft_char_egg
+
+// birthday cake and anim 
+#begin soft_char_egg
+  #define MODEL birthday-cake
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL birthday-cake-mod
+  #define ANIMS birthday-cake 
+  #define CHAR_NAME birthday-cake 
+  #define SOFT2EGG_OPTS -F
+#end soft_char_egg
+
+//
+// sound
+//
+
+// megaphone 
+#begin soft_char_egg
+  #define MODEL megaphone
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL megaphone 
+  #define CHAR_NAME megaphone 
+#end soft_char_egg
+
+// elephant
+//#begin soft_char_egg
+//  #define MODEL elephant
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL elephant-mod 
+//  #define ANIMS elephant
+//  #define CHAR_NAME elephant 
+//#end soft_char_egg
+
+// foghorn
+//#begin soft_char_egg
+//  #define MODEL foghorn
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL foghorn-mod 
+//  #define ANIMS foghorn
+//  #define CHAR_NAME foghorn 
+//#end soft_char_egg
+
+// whistle
+//#begin soft_char_egg
+//  #define MODEL whistle
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL whistle-mod 
+//  #define ANIMS whistle
+//  #define CHAR_NAME whistle 
+//#end soft_char_egg
+
+// bugle
+//#begin soft_char_egg
+//  #define MODEL bugle
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL bugle-mod 
+//  #define ANIMS bugle
+//  #define CHAR_NAME bugle 
+//#end soft_char_egg
+
+// bikehorn
+//#begin soft_char_egg
+//  #define MODEL bikehorn
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL bikehorn-mod 
+//  #define ANIMS bikehorn
+//  #define CHAR_NAME bikehorn 
+//#end soft_char_egg
+
+// aoogah
+//#begin soft_char_egg
+//  #define MODEL aoogah
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX 
+//  #define POLY_MODEL aoogah-mod 
+//  #define ANIMS aoogah
+//  #define CHAR_NAME aoogah 
+//#end soft_char_egg
+
+//
+// squirt
+//
+
+// squirting flower 
+#begin soft_char_egg
+  #define MODEL squirting-flower
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL squirting-flower 
+  #define CHAR_NAME squirting-flower 
+#end soft_char_egg
+
+// seltzer bottle 
+#begin soft_char_egg
+  #define MODEL bottle
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL bottle 
+  #define CHAR_NAME bottle 
+#end soft_char_egg
+
+// water glass 
+#begin soft_char_egg
+  #define MODEL glass
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL glass-mod
+  #define ANIMS glass 
+  #define CHAR_NAME glass 
+#end soft_char_egg
+
+// water gun
+#begin soft_char_egg
+  #define MODEL water-gun
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL water-gun
+  #define CHAR_NAME water-gun
+#end soft_char_egg
+
+// firehose and anim 
+#begin soft_char_egg
+  #define MODEL firehose
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL firehose-mod
+  #define ANIMS firehose 
+  #define CHAR_NAME firehose 
+#end soft_char_egg
+
+// fire hydrant
+#begin soft_char_egg
+  #define MODEL hydrant
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL battle_hydrant
+  #define CHAR_NAME hydrant 
+#end soft_char_egg
+
+// storm cloud
+#begin soft_char_egg
+  #define MODEL stormcloud
+  #define SCENE_PREFIX prop-
+  #define EGG_PREFIX 
+  #define POLY_MODEL stormcloud-mod
+  #define ANIMS stormcloud 
+  #define CHAR_NAME stormcloud
+#end soft_char_egg
+
+// wall in COG HQ
+//#begin soft_char_egg
+//  #define MODEL wall
+//  #define SCENE_PREFIX prop-
+//  #define EGG_PREFIX
+//  #define POLY_MODEL wall-mod
+//  #define ANIMS wall
+//  #define CHAR_NAME wall
+//#end soft_char_egg 
+
+#define OPTCHAR_OPTS \
+   -no -TR 0,180,0 -TS 0.25 
+
+//
+// OPTIMIZE - for the characters
+//
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    portal-mod.egg portal-chan.egg    
+#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    elephant-mod.egg elephant-chan.egg    
+//#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    foghorn-mod.egg foghorn-chan.egg    
+//#end optchar_egg
+ 
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    whistle-mod.egg whistle-chan.egg    
+//#end optchar_egg
+ 
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    bugle-mod.egg bugle-chan.egg    
+//#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    bikehorn-mod.egg bikehorn-chan.egg    
+//#end optchar_egg
+ 
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    aoogah-mod.egg aoogah-chan.egg    
+//#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    book-mod.egg book-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    birthday-cake-mod.egg birthday-cake-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    1dollar-bill-mod.egg 1dollar-bill-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    feather-mod.egg feather-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    cubes-mod.egg cubes-chan.egg    
+#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    wall-mod.egg wall-chan.egg
+//#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    fishing-pole-mod.egg fishing-pole-chan.egg pole_treebranch-mod.egg pole_wood-mod.egg \
+    pole_steel-mod.egg pole_gold-mod.egg pole_bamboo-mod.egg   
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint_attachBill \
+     -p joint-poleRT,root \
+     -p joint-thereel,joint-poleROT \
+     -p fishing_pole1,joint-poleROT \
+     -p joint-pole1,fishing_pole1 \
+     -p joint-pole2,joint-pole1 \
+     -p joint-pole3,joint-pole2 \
+     -p joint-pole4,joint-pole3 \
+     -p joint-pole5,joint-pole4 \
+     -p joint-pole6,joint-pole5 \
+     -p ring4,joint-pole6 \
+     -p joint_attachBill,ring4 \
+     -p ring3,joint-pole4 \
+     -p joint-toString4,ring3 \
+     -p ring2,joint-pole3 \
+     -p joint-toString3,ring2 \
+     -p ring1,joint-pole2 \
+     -p joint-toString2,ring1 \
+     -p joint-toString1,joint-pole1
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    fruit-pie-slice.egg
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    cream-pie-slice.egg
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    tart.egg
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    flowerpot-mod.egg flowerpot-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    sandbag-mod.egg sandbag-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    anvil-mod.egg anvil-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    weight-mod.egg weight-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    safe-mod.egg safe-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    piano-mod.egg piano-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    banana-peel-mod.egg banana-peel-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    firehose-mod.egg firehose-chan.egg    
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint-water_stream
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    stormcloud-mod.egg stormcloud-chan.egg    
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    glass-mod.egg glass-chan.egg
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    water-gun.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint-nozzle
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    squirting-flower.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint-attachSpray
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    bottle.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint-toSpray
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    hypnotize-mod.egg hypnotize-chan.egg
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    tnt-mod.egg tnt-chan.egg
+  #define OPTCHAR_OPTS \
+     $[OPTCHAR_OPTS] \
+     -expose joint-attachEmitter
+#end optchar_egg
+
+//
+// TRANSFORM - for the skeleton-less ones
+//
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    button.egg
+  #defer COMMAND \
+    egg-trans -no -TR 0,180,0 -TS 0.25 \ 
+    -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    megaphone.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    lipstick.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    lips.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    cane.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    hat.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    battle_hydrant.egg
+  #defer OPTCHAR_OPTS \
+     -no -TR 0,180,0 -TS 0.25 \
+     -flag 'TheBase'=base -flag 'TheDropshadow'=base
+#end optchar_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    marbles-mod.egg marbles-chan.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    rake-mod.egg rake-chan.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    magnet.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    quicksand.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+#begin filter_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    trapdoor.egg
+  #defer COMMAND \
+     egg-trans -no -TR 0,180,0 -TS 0.25 \
+     -o $[target] $[source]
+#end filter_egg
+
+//
+// INSTALL
+//
+
+// Finally, install everything that should be installed.
+// The bottle is used in the tutorial
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    book-mod.egg portal-mod.egg tart.egg squirting-flower.egg button.egg bottle.egg
+  #define UNPAL_SOURCES \
+    book-chan.egg portal-chan.egg
+  #define PHASE 3.5
+#end install_egg
+
+// Finally, install everything that should be installed.
+// Anvil is used in catching game
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    fishing-pole-mod.egg stormcloud-mod.egg anvil-mod.egg pole_treebranch-mod.egg pole_wood-mod.egg \
+    pole_steel-mod.egg pole_gold-mod.egg pole_bamboo-mod.egg
+  #define UNPAL_SOURCES \
+    fishing-pole-chan.egg stormcloud-chan.egg anvil-chan.egg
+  #define PHASE 4
+#end install_egg
+
+
+// Finally, install everything that should be installed.
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    sandbag-mod.egg weight-mod.egg safe-mod.egg piano-mod.egg \
+    1dollar-bill-mod.egg fruit-pie-slice.egg \
+    birthday-cake-mod.egg feather-mod.egg magnet.egg rake-mod.egg \
+    flowerpot-mod.egg megaphone.egg trapdoor.egg \
+    banana-peel-mod.egg cubes-mod.egg \
+    cane.egg hat.egg lips.egg lipstick.egg firehose-mod.egg water-gun.egg \
+    glass-mod.egg battle_hydrant.egg hypnotize-mod.egg tnt-mod.egg \
+    marbles-mod.egg quicksand.egg cream-pie-slice.egg
+// wall-mod.egg
+//    elephant-mod.egg foghorn-mod.egg whistle-mod.egg bugle-mod.egg \
+//    bikehorn-mod.egg aoogah-mod.egg 
+  #define UNPAL_SOURCES \
+    sandbag-chan.egg weight-chan.egg safe-chan.egg \
+    piano-chan.egg hypnotize-chan.egg rake-chan.egg tnt-chan.egg \
+    1dollar-bill-chan.egg feather-chan.egg \
+    flowerpot-chan.egg banana-peel-chan.egg birthday-cake-chan.egg \
+    cubes-chan.egg firehose-chan.egg glass-chan.egg marbles-chan.egg
+//    wall-chan.egg
+//    elephant-chan.egg foghorn-chan.egg whistle-chan.egg bugle-chan.egg \
+//    bikehorn-chan.egg aoogah-chan.egg    
+  #define PHASE 5
+#end install_egg
+
+// Install fanfare model (just a partyball)
+#begin install_egg
+  #define SOURCES \
+    partyBall.egg
+  #define PHASE 5
+#end install_egg
+
+// Install sound gag models
+#begin install_egg
+  #define SOURCES \
+    aoogah.egg bikehorn.egg bugle.egg elephant.egg fog_horn.egg whistle.egg
+  #define PHASE 5
+#end install_egg
+
+// Install uber gag models
+#begin install_egg
+  #define SOURCES \
+    av_screen.egg geyser.egg traintrack2.egg wedding_cake.egg ladder2.egg singing.egg train.egg ship.egg
+  #define PHASE 5
+#end install_egg
+
+// Install textures
+#begin install_egg
+  #define SOURCES \
+    toon-prop-textures.egg 
+  #define PHASE 5
+#end install_egg
+

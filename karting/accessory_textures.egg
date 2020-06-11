@@ -1,0 +1,445 @@
+<Comment> {
+  "egg-texture-cards ../maps/Kartmenu_paintbucket.png ../maps/accessory_backMiddle_0_gui.png ../maps/accessory_backMiddle_1_gui.png ../maps/accessory_backMiddle_2_gui.png ../maps/accessory_backMiddle_3_gui.png ../maps/accessory_backMiddle_4_gui.png ../maps/accessory_backMiddle_5_gui.png ../maps/accessory_backMiddle_6_gui.png ../maps/accessory_backMiddle_7_gui.png ../maps/accessory_frontMiddle_0_gui.png ../maps/accessory_frontMiddle_1_gui.png ../maps/accessory_frontMiddle_2_gui.png ../maps/accessory_frontMiddle_3_gui.png ../maps/accessory_frontMiddle_4_gui.png ../maps/accessory_frontMiddle_5_gui.png ../maps/accessory_frontMiddle_6_gui.png ../maps/accessory_frontMiddle_7_gui.png ../maps/accessory_frontMiddle_8_gui.png ../maps/accessory_frontMiddle_9_gui.png ../maps/accessory_frontMiddle_10_gui.png ../maps/accessory_front_ww_0_gui.png ../maps/accessory_front_ww_1_gui.png ../maps/accessory_front_ww_2_gui.png ../maps/accessory_front_ww_3_gui.png ../maps/accessory_front_ww_4_gui.png ../maps/accessory_front_ww_5_gui.png ../maps/accessory_front_ww_6_gui.png ../maps/accessory_front_ww_7_gui.png ../maps/accessory_rear_ww_0_gui.png ../maps/accessory_rear_ww_1_gui.png ../maps/accessory_rear_ww_2_gui.png ../maps/accessory_rear_ww_3_gui.png ../maps/accessory_rear_ww_4_gui.png ../maps/accessory_rear_ww_5_gui.png ../maps/accessory_rear_ww_6_gui.png ../maps/accessory_rear_ww_7_gui.png ../maps/accessory_rear_ww_8_gui.png ../maps/accessory_rear_ww_9_gui.png ../maps/accessory_rear_ww_10_gui.png ../maps/accessory_rear_ww_11_gui.png ../maps/accessory_rear_ww_12_gui.png ../maps/NoAccessoryIcon3.png -o accessory_textures.egg"
+}
+<Texture> accessory_rear_ww_9_gui {
+  "../maps/accessory_rear_ww_9_gui.png"
+}
+<Texture> accessory_rear_ww_8_gui {
+  "../maps/accessory_rear_ww_8_gui.png"
+}
+<Texture> accessory_rear_ww_7_gui {
+  "../maps/accessory_rear_ww_7_gui.png"
+}
+<Texture> accessory_rear_ww_6_gui {
+  "../maps/accessory_rear_ww_6_gui.png"
+}
+<Texture> accessory_rear_ww_5_gui {
+  "../maps/accessory_rear_ww_5_gui.png"
+}
+<Texture> accessory_rear_ww_4_gui {
+  "../maps/accessory_rear_ww_4_gui.png"
+}
+<Texture> accessory_rear_ww_3_gui {
+  "../maps/accessory_rear_ww_3_gui.png"
+}
+<Texture> accessory_rear_ww_2_gui {
+  "../maps/accessory_rear_ww_2_gui.png"
+}
+<Texture> accessory_rear_ww_1_gui {
+  "../maps/accessory_rear_ww_1_gui.png"
+}
+<Texture> accessory_rear_ww_12_gui {
+  "../maps/accessory_rear_ww_12_gui.png"
+}
+<Texture> accessory_rear_ww_11_gui {
+  "../maps/accessory_rear_ww_11_gui.png"
+}
+<Texture> accessory_rear_ww_10_gui {
+  "../maps/accessory_rear_ww_10_gui.png"
+}
+<Texture> accessory_rear_ww_0_gui {
+  "../maps/accessory_rear_ww_0_gui.png"
+}
+<Texture> accessory_front_ww_7_gui {
+  "../maps/accessory_front_ww_7_gui.png"
+}
+<Texture> accessory_front_ww_6_gui {
+  "../maps/accessory_front_ww_6_gui.png"
+}
+<Texture> accessory_front_ww_5_gui {
+  "../maps/accessory_front_ww_5_gui.png"
+}
+<Texture> accessory_front_ww_4_gui {
+  "../maps/accessory_front_ww_4_gui.png"
+}
+<Texture> accessory_front_ww_3_gui {
+  "../maps/accessory_front_ww_3_gui.png"
+}
+<Texture> accessory_front_ww_2_gui {
+  "../maps/accessory_front_ww_2_gui.png"
+}
+<Texture> accessory_front_ww_1_gui {
+  "../maps/accessory_front_ww_1_gui.png"
+}
+<Texture> accessory_front_ww_0_gui {
+  "../maps/accessory_front_ww_0_gui.png"
+}
+<Texture> accessory_frontMiddle_9_gui {
+  "../maps/accessory_frontMiddle_9_gui.png"
+}
+<Texture> accessory_frontMiddle_8_gui {
+  "../maps/accessory_frontMiddle_8_gui.png"
+}
+<Texture> accessory_frontMiddle_7_gui {
+  "../maps/accessory_frontMiddle_7_gui.png"
+}
+<Texture> accessory_frontMiddle_6_gui {
+  "../maps/accessory_frontMiddle_6_gui.png"
+}
+<Texture> accessory_frontMiddle_5_gui {
+  "../maps/accessory_frontMiddle_5_gui.png"
+}
+<Texture> accessory_frontMiddle_4_gui {
+  "../maps/accessory_frontMiddle_4_gui.png"
+}
+<Texture> accessory_frontMiddle_3_gui {
+  "../maps/accessory_frontMiddle_3_gui.png"
+}
+<Texture> accessory_frontMiddle_2_gui {
+  "../maps/accessory_frontMiddle_2_gui.png"
+}
+<Texture> accessory_frontMiddle_1_gui {
+  "../maps/accessory_frontMiddle_1_gui.png"
+}
+<Texture> accessory_frontMiddle_10_gui {
+  "../maps/accessory_frontMiddle_10_gui.png"
+}
+<Texture> accessory_frontMiddle_0_gui {
+  "../maps/accessory_frontMiddle_0_gui.png"
+}
+<Texture> accessory_backMiddle_7_gui {
+  "../maps/accessory_backMiddle_7_gui.png"
+}
+<Texture> accessory_backMiddle_6_gui {
+  "../maps/accessory_backMiddle_6_gui.png"
+}
+<Texture> accessory_backMiddle_5_gui {
+  "../maps/accessory_backMiddle_5_gui.png"
+}
+<Texture> accessory_backMiddle_4_gui {
+  "../maps/accessory_backMiddle_4_gui.png"
+}
+<Texture> accessory_backMiddle_3_gui {
+  "../maps/accessory_backMiddle_3_gui.png"
+}
+<Texture> accessory_backMiddle_2_gui {
+  "../maps/accessory_backMiddle_2_gui.png"
+}
+<Texture> accessory_backMiddle_1_gui {
+  "../maps/accessory_backMiddle_1_gui.png"
+}
+<Texture> accessory_backMiddle_0_gui {
+  "../maps/accessory_backMiddle_0_gui.png"
+}
+<Texture> NoAccessoryIcon3 {
+  "../maps/NoAccessoryIcon3.png"
+}
+<Texture> Kartmenu_paintbucket {
+  "../maps/Kartmenu_paintbucket.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> Kartmenu_paintbucket {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Kartmenu_paintbucket }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_0_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_0_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_1_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_1_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_2_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_2_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_3_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_3_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_4_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_4_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_5_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_5_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_6_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_6_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_backMiddle_7_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_backMiddle_7_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_0_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_0_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_1_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_1_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_2_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_2_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_3_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_3_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_4_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_4_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_5_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_5_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_6_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_6_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_7_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_7_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_8_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_8_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_9_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_9_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_frontMiddle_10_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_frontMiddle_10_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_0_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_0_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_1_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_1_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_2_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_2_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_3_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_3_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_4_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_4_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_5_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_5_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_6_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_6_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_front_ww_7_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_front_ww_7_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_0_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_0_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_1_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_1_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_2_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_2_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_3_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_3_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_4_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_4_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_5_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_5_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_6_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_6_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_7_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_7_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_8_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_8_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_9_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_9_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_10_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_10_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_11_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_11_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> accessory_rear_ww_12_gui {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { accessory_rear_ww_12_gui }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> NoAccessoryIcon3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { NoAccessoryIcon3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

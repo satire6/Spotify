@@ -1,0 +1,105 @@
+<Comment> {
+  "egg-texture-cards candles_border.rgb candles_border_neutral.rgb wall_paper_snowman.rgb flakes_border.rgb wall_paper_clouds.rgb wall_paper_snowflakes.rgb hollyleaf_border.rgb wall_paper_hollyleaf.rgb -o winterWallpaper.egg"
+}
+<Texture> wall_paper_snowman {
+  wall_paper_snowman.rgb
+}
+<Texture> wall_paper_snowflakes {
+  wall_paper_snowflakes.rgb
+}
+<Texture> wall_paper_hollyleaf {
+  wall_paper_hollyleaf.rgb
+}
+<Texture> wall_paper_clouds {
+  wall_paper_clouds.rgb
+}
+<Texture> hollyleaf_border {
+  hollyleaf_border.rgb
+}
+<Texture> flakes_border {
+  flakes_border.rgb
+}
+<Texture> candles_border_neutral {
+  candles_border_neutral.rgb
+}
+<Texture> candles_border {
+  candles_border.rgb
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> candles_border {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { candles_border }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> candles_border_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { candles_border_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_snowman {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_snowman }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flakes_border {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flakes_border }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_clouds {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_clouds }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_snowflakes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_snowflakes }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> hollyleaf_border {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { hollyleaf_border }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_hollyleaf {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_hollyleaf }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

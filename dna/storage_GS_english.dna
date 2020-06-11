@@ -1,0 +1,11 @@
+store_font [ "font" "TT_Comedy" "phase_3/models/fonts/Comedy" ]
+
+
+place_model "phase_3.5/models/misc/tt_m_ara_gen_placeholder" [
+	store_node [ "holiday_prop" "prop_gs_crashed_board" "" ]
+        ]
+
+
+place_model "phase_6/models/karting/typ_leaderBoardSign2" [
+	store_node [ "holiday_prop" "leader_board" "" ]
+	]

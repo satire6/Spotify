@@ -1,0 +1,145 @@
+<Comment> {
+  "egg-texture-cards ../maps/PartyCatchIcon.png ../maps/PartyCannonIcon.png ../maps/PartyTugOfWarIcon.png ../maps/PartyJukeboxIcon.png ../maps/PartyMerryGoRoundIcon.png ../maps/PartyClockIcon.png ../maps/PartyDanceIcon.png ../maps/PartyFireworksIcon.png ../maps/PartyTrampolineIcon.png ../maps/PartyDance20Icon.png ../maps/PartyJukebox40Icon.png ../maps/PartyCogIcon.png -o eventSignIcons.egg"
+}
+<Texture> PartyTugOfWarIcon {
+  "../maps/PartyTugOfWarIcon.png"
+}
+<Texture> PartyTrampolineIcon {
+  "../maps/PartyTrampolineIcon.png"
+}
+<Texture> PartyMerryGoRoundIcon {
+  "../maps/PartyMerryGoRoundIcon.png"
+}
+<Texture> PartyJukeboxIcon {
+  "../maps/PartyJukeboxIcon.png"
+}
+<Texture> PartyJukebox40Icon {
+  "../maps/PartyJukebox40Icon.png"
+}
+<Texture> PartyFireworksIcon {
+  "../maps/PartyFireworksIcon.png"
+}
+<Texture> PartyDanceIcon {
+  "../maps/PartyDanceIcon.png"
+}
+<Texture> PartyDance20Icon {
+  "../maps/PartyDance20Icon.png"
+}
+<Texture> PartyCogIcon {
+  "../maps/PartyCogIcon.png"
+}
+<Texture> PartyClockIcon {
+  "../maps/PartyClockIcon.png"
+}
+<Texture> PartyCatchIcon {
+  "../maps/PartyCatchIcon.png"
+}
+<Texture> PartyCannonIcon {
+  "../maps/PartyCannonIcon.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> PartyCatchIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyCatchIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyCannonIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyCannonIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyTugOfWarIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyTugOfWarIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyJukeboxIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyJukeboxIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyMerryGoRoundIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyMerryGoRoundIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyClockIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyClockIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyDanceIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyDanceIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyFireworksIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyFireworksIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyTrampolineIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyTrampolineIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyDance20Icon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyDance20Icon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyJukebox40Icon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyJukebox40Icon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> PartyCogIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { PartyCogIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o tot_jar.egg ../maps/tot_jar.tif ../maps/tot_pumpkin_tall.tif"
+}
+<Texture> tot_pumpkin_tall {
+  "../maps/tot_pumpkin_tall.tif"
+}
+<Texture> tot_jar {
+  "../maps/tot_jar.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tot_jar {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tot_jar }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tot_pumpkin_tall {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tot_pumpkin_tall }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

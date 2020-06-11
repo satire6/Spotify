@@ -1,0 +1,9 @@
+hood_model "phase_8/models/props/winter_trees_DL" [
+	store_node [ "holiday_prop" "prop_tree_DL_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_DL_brickbox_ur" ]
+        ]
+
+hood_model "phase_8/models/props/tt_m_ara_DL_streetlight_winter" [
+    store_node [ "holiday_prop" "prop_DL_post_one_light" "prop_post_one_light" ]
+	store_node [ "holiday_prop" "prop_DL_post_three_light" "prop_post_three_light"]
+	]

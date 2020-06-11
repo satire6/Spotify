@@ -1,0 +1,278 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -o stickerbook_gui.egg ../maps/BookIcon_CLSD.rgba ../maps/BookIcon_OPEN.rgba ../maps/BookIcon_RLVR.rgba ../maps/BookIcon_RLVR2.rgba ../maps/big_book.rgb ../maps/arrow_button.rgb ../maps/arrow_down.rgb ../maps/paper_note.rgba ../maps/questCard.rgba ../maps/questPictureFrame.rgba ../maps/trolley.rgba ../maps/arrow_rollover.rgb ../maps/package.rgb ../maps/COG_building.rgb BossHead3Icon.tif CogArmIcon2.tif factoryIcon2.tif skelecog5.tif ../maps/clarabelleCow.rgb ../maps/CashBotBossHeadIcon.tif ../maps/CashBotMint.tif Fish_BG.tif ../maps/summons.tif"
+}
+<Texture> trolley {
+  "../maps/trolley.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> summons {
+  "../maps/summons.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> skelecog5 {
+  skelecog5.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> questPictureFrame {
+  "../maps/questPictureFrame.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> questCard {
+  "../maps/questCard.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> paper_note {
+  "../maps/paper_note.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> package {
+  "../maps/package.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> factoryIcon2 {
+  factoryIcon2.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> clarabelleCow {
+  "../maps/clarabelleCow.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> big_book {
+  "../maps/big_book.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> arrow_rollover {
+  "../maps/arrow_rollover.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> arrow_down {
+  "../maps/arrow_down.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> arrow_button {
+  "../maps/arrow_button.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> Fish_BG {
+  Fish_BG.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> CogArmIcon2 {
+  CogArmIcon2.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> CashBotMint {
+  "../maps/CashBotMint.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> CashBotBossHeadIcon {
+  "../maps/CashBotBossHeadIcon.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> COG_building {
+  "../maps/COG_building.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> BossHead3Icon {
+  BossHead3Icon.tif
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_RLVR2 {
+  "../maps/BookIcon_RLVR2.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_RLVR {
+  "../maps/BookIcon_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_OPEN {
+  "../maps/BookIcon_OPEN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> BookIcon_CLSD {
+  "../maps/BookIcon_CLSD.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> BookIcon_CLSD {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_CLSD }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_OPEN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_OPEN }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_RLVR }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> BookIcon_RLVR2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BookIcon_RLVR2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> big_book {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_book }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> arrow_button {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { arrow_button }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> arrow_down {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { arrow_down }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> paper_note {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { paper_note }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> questCard {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { questCard }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> questPictureFrame {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { questPictureFrame }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> trolley {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { trolley }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> arrow_rollover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { arrow_rollover }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> package {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { package }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> COG_building {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { COG_building }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> BossHead3Icon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BossHead3Icon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> CogArmIcon2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CogArmIcon2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> factoryIcon2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { factoryIcon2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> skelecog5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { skelecog5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> clarabelleCow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { clarabelleCow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> CashBotBossHeadIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CashBotBossHeadIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> CashBotMint {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CashBotMint }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Fish_BG {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Fish_BG }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> summons {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { summons }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

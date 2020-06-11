@@ -1,0 +1,165 @@
+<Comment> {
+  "egg-texture-cards -o contestWinner-clothes.egg ContestFishtankShirt1.tif ContestFishtankSleeve1.tif ContestPawShirt1.tif ContestPawSleeve1.tif Contest_leder_sleeve.tif ContestfishingVestShirt2.tif ContestfishingVestSleeve1.tif contest_backpack3.tif contest_backpack_sleeve.tif contest_leder.tif contest_mellon2.tif contest_mellon_sleeve2.tif contest_race2.tif contest_race_sleeve.tif"
+}
+<Texture> contest_race_sleeve {
+  contest_race_sleeve.tif
+}
+<Texture> contest_race2 {
+  contest_race2.tif
+}
+<Texture> contest_mellon_sleeve2 {
+  contest_mellon_sleeve2.tif
+}
+<Texture> contest_mellon2 {
+  contest_mellon2.tif
+}
+<Texture> contest_leder {
+  contest_leder.tif
+}
+<Texture> contest_backpack_sleeve {
+  contest_backpack_sleeve.tif
+}
+<Texture> contest_backpack3 {
+  contest_backpack3.tif
+}
+<Texture> ContestfishingVestSleeve1 {
+  ContestfishingVestSleeve1.tif
+}
+<Texture> ContestfishingVestShirt2 {
+  ContestfishingVestShirt2.tif
+}
+<Texture> Contest_leder_sleeve {
+  Contest_leder_sleeve.tif
+}
+<Texture> ContestPawSleeve1 {
+  ContestPawSleeve1.tif
+}
+<Texture> ContestPawShirt1 {
+  ContestPawShirt1.tif
+}
+<Texture> ContestFishtankSleeve1 {
+  ContestFishtankSleeve1.tif
+}
+<Texture> ContestFishtankShirt1 {
+  ContestFishtankShirt1.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> ContestFishtankShirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestFishtankShirt1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ContestFishtankSleeve1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestFishtankSleeve1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ContestPawShirt1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestPawShirt1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ContestPawSleeve1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestPawSleeve1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Contest_leder_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Contest_leder_sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ContestfishingVestShirt2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestfishingVestShirt2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ContestfishingVestSleeve1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ContestfishingVestSleeve1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_backpack3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_backpack3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_backpack_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_backpack_sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_leder {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_leder }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_mellon2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_mellon2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_mellon_sleeve2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_mellon_sleeve2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_race2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_race2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> contest_race_sleeve {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { contest_race_sleeve }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

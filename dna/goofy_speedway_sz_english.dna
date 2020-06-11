@@ -1,0 +1,1007 @@
+group "goofySpeedway" [
+ visgroup "8000:safe_zone" [
+  vis [   "8000:safe_zone"   ]
+  node "level" [
+   node "racing_pad_2_town" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 73.0385 -117.178 -0.73 ]
+     nhpr [ 75 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 71.7178 -121.868 -0.73 ]
+     nhpr [ 75 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 66.7986 -115.568 -0.73 ]
+     nhpr [ 75 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 65.5021 -120.238 -0.73 ]
+     nhpr [ 75 0 0 ]
+    ]
+   ]
+   node "racing_pad_3_town" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 59.4843 -132.151 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 55.2478 -134.588 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 56.2809 -126.578 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 51.9502 -129.195 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+   ]
+   node "racing_pad_1_town" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 72.1652 -96.0857 -0.73 ]
+     nhpr [ 105 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 73.3705 -100.877 -0.73 ]
+     nhpr [ 105 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 65.3432 -97.8303 -0.73 ]
+     nhpr [ 105 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 66.6576 -102.722 -0.73 ]
+     nhpr [ 105 0 0 ]
+    ]
+   ]
+   node "racing_pad_0_town" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 55.027 -84.6514 -0.73 ]
+     nhpr [ 150 6.67011e-009 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 59.104 -86.9306 -0.727414 ]
+     nhpr [ 150 0 1.86792e-007 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 51.586 -90.5975 -0.73 ]
+     nhpr [ 150 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 55.6422 -93.1141 -0.73 ]
+     nhpr [ 150 0 0 ]
+    ]
+   ]
+   node "racing_pad_4_stadium" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 23.3 -168.6 -0.73 ]
+     nhpr [ 60 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 21.31 -172.08 -0.73 ]
+     nhpr [ 60 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 17.5084 -165.257 -0.73 ]
+     nhpr [ 60 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 15.4951 -168.767 -0.73 ]
+     nhpr [ 60 0 0 ]
+    ]
+   ]
+   node "racing_pad_5_stadium" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 9.05689 -182.789 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ 5.41506 -184.871 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ 5.56268 -176.864 -0.73 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ 1.85977 -178.936 -0.734695 ]
+     nhpr [ 30 0 0 ]
+    ]
+   ]
+   node "racing_pad_6_stadium" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -10.4275 -183.285 -0.73 ]
+     nhpr [ -15 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -14.3288 -182.142 -0.73 ]
+     nhpr [ -15 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -8.54365 -176.376 -0.73 ]
+     nhpr [ -15 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -12.5286 -175.2 -0.73 ]
+     nhpr [ -15 0 0 ]
+    ]
+   ]
+   node "racing_pad_7_stadium" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -24.2997 -170.514 -0.73 ]
+     nhpr [ -60 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -26.4587 -166.589 -0.73 ]
+     nhpr [ -60 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -18.2461 -167.033 -0.73 ]
+     nhpr [ -60 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -20.4443 -163.069 -0.73 ]
+     nhpr [ -60 0 0 ]
+    ]
+   ]
+   node "viewing_pad_0" [
+    pos [ 0 0 0.08 ]
+    nhpr [ 0 0 0 ]
+    scale [ 1 1 1 ]
+    prop "starting_block_0" [
+     code [ "gs_showblock" ]
+     pos [ 34.7799 61.6369 0 ]
+     nhpr [ 55.49 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_showblock" ]
+     pos [ 48.4554 47.8536 0 ]
+     nhpr [ 35 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_4" [
+     code [ "gs_showblock" ]
+     pos [ 57.4133 29.7905 0 ]
+     nhpr [ 17.33 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_6" [
+     code [ "gs_showblock" ]
+     pos [ 57.3092 -6.08025 0 ]
+     nhpr [ 341.7 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_8" [
+     code [ "gs_showblock" ]
+     pos [ 48.6874 -22.9098 0 ]
+     nhpr [ 324.49 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_10" [
+     code [ "gs_showblock" ]
+     pos [ 34.9595 -36.4749 0 ]
+     nhpr [ 304.99 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+   ]
+   node "viewing_pad_1" [
+    pos [ 0 0 0.08 ]
+    nhpr [ 0 0 0 ]
+    scale [ 1 1 1 ]
+    prop "starting_block_0" [
+     code [ "gs_showblock" ]
+     pos [ -33.6555 62.01 0 ]
+     nhpr [ 124.7 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_showblock" ]
+     pos [ -48.2099 48.43 0 ]
+     nhpr [ 145.01 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_4" [
+     code [ "gs_showblock" ]
+     pos [ -57.8004 29.5893 0 ]
+     nhpr [ 161.57 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_6" [
+     code [ "gs_showblock" ]
+     pos [ -57.0908 -6.61133 0 ]
+     nhpr [ 196.57 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_8" [
+     code [ "gs_showblock" ]
+     pos [ -48.8114 -22.8225 0 ]
+     nhpr [ 216.87 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+    prop "starting_block_10" [
+     code [ "gs_showblock" ]
+     pos [ -35.0038 -36.5645 0 ]
+     nhpr [ 235.3 0 0 ]
+     scale [ 15 15 15 ]
+    ]
+   ]
+   prop "goofy_speedway_DNARoot" [
+    code [ "goofy_speedway" ]
+    pos [ 0 0 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   landmark_building "tb1:toon_landmark_GS_kart_shop_DNARoot" [
+    code [ "toon_landmark_GS_kart_shop" ]
+    building_type [ "kartshop" ]
+    title [ "" ]
+    pos [ 0 14.56 0.121307 ]
+    nhpr [ 0 0 0 ]
+   ]
+   node "Trees" [
+    prop "gs_treebase_01" [
+     code [ "gs_treebase" ]
+     pos [ 13.0862 60.3313 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_02" [
+     code [ "gs_treebase" ]
+     pos [ -12.7559 60.6068 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_03" [
+     code [ "gs_treebase" ]
+     pos [ 13.3112 -35.3729 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_04" [
+     code [ "gs_treebase" ]
+     pos [ -13.8737 -34.803 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_05" [
+     code [ "gs_treebase" ]
+     pos [ 17.1844 -58.7125 0 ]
+     nhpr [ -120 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_06" [
+     code [ "gs_treebase" ]
+     pos [ -16.5338 -59.6159 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_07" [
+     code [ "gs_treebase" ]
+     pos [ 33.5348 -77.524 -0.986076 ]
+     nhpr [ 15 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_08" [
+     code [ "gs_treebase" ]
+     pos [ -34.0546 -79.0192 -0.95 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_09" [
+     code [ "gs_treebase" ]
+     pos [ -33.9526 -142.334 -0.912308 ]
+     nhpr [ 30 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+    prop "gs_treebase_10" [
+     code [ "gs_treebase" ]
+     pos [ 32.1423 -145.064 -1.14349 ]
+     nhpr [ -75 0 0 ]
+     scale [ 14.0091 14.0091 14.0091 ]
+    ]
+   ]
+   node "crashedBoards" [
+    pos [ 0 0 0.1 ]
+    nhpr [ 0 0 0 ]
+    scale [ 1 1 1 ]
+    prop "prop_gs_crashed_board_01" [
+     code [ "prop_gs_crashed_board" ]
+     pos [ 0.970987 -110.599 -0.0135054]
+     nhpr [ 60 0 0 ]
+    ] 
+   ]
+   node "lampPosts" [
+    pos [ 0 0 0.1 ]
+    nhpr [ 0 0 0 ]
+    scale [ 1 1 1 ]
+    prop "gs_lamppost_01" [
+     code [ "gs_lamppost" ]
+     pos [ 64.2319 3.13617 0 ]
+     nhpr [ -180 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_02" [
+     code [ "gs_lamppost" ]
+     pos [ 64.2387 21.0899 0 ]
+     nhpr [ 180 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_03" [
+     code [ "gs_lamppost" ]
+     pos [ -64.2312 20.5462 0 ]
+     nhpr [ 180 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_04" [
+     code [ "gs_lamppost" ]
+     pos [ -64.0807 4.25428 0 ]
+     nhpr [ 180 359.223 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_05" [
+     code [ "gs_lamppost" ]
+     pos [ -12.6411 -54.3133 0 ]
+     nhpr [ -120 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_06" [
+     code [ "gs_lamppost" ]
+     pos [ 12.5559 -53.8343 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_07" [
+     code [ "gs_lamppost" ]
+     pos [ 11.4847 -72.3553 0 ]
+     nhpr [ 135 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+    prop "gs_lamppost_08" [
+     code [ "gs_lamppost" ]
+     pos [ -12.2492 -71.7945 0 ]
+     nhpr [ 225 0 0 ]
+     scale [ 16 16 16 ]
+    ]
+   ]
+   node "announcers" [
+    prop "gs_announcer_01" [
+     code [ "gs_announcer" ]
+     pos [ 36.9082 -137.074 -0.718405 ]
+     nhpr [ 60 0 0 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+    prop "gs_announcer_02" [
+     code [ "gs_announcer" ]
+     pos [ 25.0413 -148.413 -0.745812 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+    prop "gs_announcer_03" [
+     code [ "gs_announcer" ]
+     pos [ -26.1674 -146.864 -0.721916 ]
+     nhpr [ 150 1.28066e-006 5.08889e-014 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+    prop "gs_announcer_04" [
+     code [ "gs_announcer" ]
+     pos [ -37.404 -135.235 -0.77696 ]
+     nhpr [ 120 0 0 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+    prop "gs_announcer_05" [
+     code [ "gs_announcer" ]
+     pos [ 36.8472 -85.2043 -0.749627 ]
+     nhpr [ 120 0 0 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+    prop "gs_announcer_06" [
+     code [ "gs_announcer" ]
+     pos [ -37.6279 -87.5084 -0.747403 ]
+     nhpr [ 60 0 5.33706e-008 ]
+     scale [ 1.4 1.4 1.4 ]
+    ]
+   ]
+   node "cones" [
+    prop "gs_cone_01" [
+     code [ "gs_cone" ]
+     pos [ 13.9778 4.96125 0 ]
+     nhpr [ 0 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_02" [
+     code [ "gs_cone" ]
+     pos [ 13.9777 20.2565 0 ]
+     nhpr [ 0 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_03" [
+     code [ "gs_cone" ]
+     pos [ -29.6418 8.66831 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_04" [
+     code [ "gs_cone" ]
+     pos [ -32.9107 23.0442 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_05" [
+     code [ "gs_cone" ]
+     pos [ -13.5526 21.9477 0 ]
+     nhpr [ 0 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_06" [
+     code [ "gs_cone" ]
+     pos [ -8.50098 -107.548 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_07" [
+     code [ "gs_cone" ]
+     pos [ -21.2906 -130.285 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_08" [
+     code [ "gs_cone" ]
+     pos [ -18.3939 -130.38 1.95211 ]
+     nhpr [ 90 0 0 ]
+     scale [ 1.1 1.1 1.1 ]
+    ]
+    prop "gs_cone_09" [
+     code [ "gs_cone" ]
+     pos [ 23.6111 -111.615 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_10" [
+     code [ "gs_cone" ]
+     pos [ 23.8284 -108.171 0 ]
+     nhpr [ -15 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_11" [
+     code [ "gs_cone" ]
+     pos [ 45.5463 -80.2441 -0.782309 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_12" [
+     code [ "gs_cone" ]
+     pos [ 41.8548 -80.6942 -0.777281 ]
+     nhpr [ 120 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_13" [
+     code [ "gs_cone" ]
+     pos [ 79.336 -111.145 -0.778327 ]
+     nhpr [ 15 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_14" [
+     code [ "gs_cone" ]
+     pos [ 79.7556 -109.163 0.0892836 ]
+     nhpr [ -90 -65.6429 179.698 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_15" [
+     code [ "gs_cone" ]
+     pos [ 26.3967 -152.37 -0.785851 ]
+     nhpr [ 75 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_17" [
+     code [ "gs_cone" ]
+     pos [ -66.588 -129.773 -0.77 ]
+     nhpr [ 315 1.44729e-007 9.68138e-006 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_18" [
+     code [ "gs_cone" ]
+     pos [ 45.7352 -140.211 -0.780145 ]
+     nhpr [ 0 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_19" [
+     code [ "gs_cone" ]
+     pos [ 43.2261 -139.872 -0.781728 ]
+     nhpr [ 15 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_20" [
+     code [ "gs_cone" ]
+     pos [ -40.7592 -137.471 -0.774723 ]
+     nhpr [ -15 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_21" [
+     code [ "gs_cone" ]
+     pos [ -2.4526 -189.738 -0.727055 ]
+     nhpr [ -180 0.380735 0.529366 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_22" [
+     code [ "gs_cone" ]
+     pos [ -15.0527 1.83079 0 ]
+     nhpr [ 30 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+    prop "gs_cone_16" [
+     code [ "prop_3ftdockpiling" ]
+     pos [ -53.7762 -82.0762 -0.8 ]
+     nhpr [ 285 0 0 ]
+     scale [ 1.35 1.35 1.35 ]
+    ]
+   ]
+   node "crates" [
+    prop "gs_krate_01" [
+     code [ "gs_krate" ]
+     pos [ -18.4133 -130.325 0 ]
+     nhpr [ 75 0 0 ]
+     scale [ 1.2 1.2 1.2 ]
+    ]
+    prop "gs_krate_03" [
+     code [ "gs_krate" ]
+     pos [ -43.2279 -128.323 -0.77 ]
+     nhpr [ 15 0 0 ]
+    ]
+    prop "gs_krate_04" [
+     code [ "gs_krate" ]
+     pos [ -45.2487 -128.575 -0.77 ]
+     nhpr [ 30 0 0 ]
+    ]
+    prop "gs_krate_05" [
+     code [ "gs_krate" ]
+     pos [ 0 -189.543 -0.740014 ]
+     nhpr [ 270 0 0 ]
+     scale [ 1.3 1.3 1.3 ]
+    ]
+    prop "gs_krate_02" [
+     code [ "gs_krate" ]
+     pos [ -44.1964 -128.433 0.86 ]
+     nhpr [ 30 0 0 ]
+     scale [ 0.8 0.8 0.8 ]
+    ]
+   ]
+   node "mailboxes" [
+    prop "gs_mailbox_01" [
+     code [ "gs_mailbox" ]
+     pos [ 20.124 -49.9769 0.04 ]
+     nhpr [ 210 0 0 ]
+     scale [ 10 10 10 ]
+    ]
+    prop "gs_mailbox_02" [
+     code [ "gs_mailbox" ]
+     pos [ 17.3915 -76.0454 0 ]
+     nhpr [ -45 0 0 ]
+     scale [ 10 10 10 ]
+    ]
+   ]
+   prop "gs_wrench" [
+    code [ "gs_wrench" ]
+    pos [ -42.0194 7.93055 4.19378 ]
+    nhpr [ 15 -29.3964 57.2829 ]
+   ]
+   prop "gs_tireiron" [
+    code [ "gs_tireIron" ]
+    pos [ -40.9225 13.4848 -0.348712 ]
+    nhpr [ -30 1.98438e-007 -3.39793e-008 ]
+    scale [ 1.3 1.3 1.3 ]
+   ]
+   prop "gs_tires" [
+    code [ "gs_tires" ]
+    pos [ 34.3452 -1.20382 -0.331983 ]
+    nhpr [ 15 0 0 ]
+   ]
+   node "flags" [
+    prop "gs_flag_01" [
+     code [ "gs_flag" ]
+     pos [ 19.1008 6.4803 0 ]
+     nhpr [ 0 0 0 ]
+     scale [ 0.8 0.8 0.8 ]
+    ]
+    prop "gs_flag_02" [
+     code [ "gs_flag" ]
+     pos [ -17.2657 6.4803 0 ]
+     nhpr [ 0 0 0 ]
+     scale [ 0.8 0.8 0.8 ]
+    ]
+    prop "gs_flag_03" [
+     code [ "gs_flag" ]
+     pos [ -75.8772 -90.7048 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+    prop "gs_flag_04" [
+     code [ "gs_flag" ]
+     pos [ -75.3548 -132.856 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+    prop "gs_flag_05" [
+     code [ "gs_flag" ]
+     pos [ -22.0346 -185.934 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+    prop "gs_flag_06" [
+     code [ "gs_flag" ]
+     pos [ 18.2062 -186.257 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+    prop "gs_flag_07" [
+     code [ "gs_flag" ]
+     pos [ 76.063 -130.147 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+    prop "gs_flag_08" [
+     code [ "gs_flag" ]
+     pos [ 75.2066 -88.5278 0 ]
+     nhpr [ 0 0 0 ]
+    ]
+   ]
+   prop "linktunnel_tt_2000_DNARoot" [
+    code [ "prop_safe_zone_entrance_tunnel" ]
+    pos [ -20 78.1 0.56 ]
+    nhpr [ 0 0 0 ]
+    sign [
+     code [ "tunnel_sign_orange" ]
+     pos [ 0 0 -2.84 ]
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ 0.09 0 -0.99 ]
+      scale [ 1.5 1 1.5 ]
+      width [ 38.4394 ]
+      height [ 38.4394 ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "Y" ]
+      ]
+      text [
+       letters [ "G" ]
+      ]
+      text [
+       letters [ "R" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "U" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "D" ]
+      ]
+     ]
+     baseline [
+      pos [ 0 0 1.5 ]
+      scale [ 2.5 1 2.5 ]
+      graphic [
+       code [ "mickeySZ" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ 0 0 -1.94 ]
+      nhpr [ 0 0 1 ]
+      scale [ 0.8 1 0.8 ]
+      width [ 50 ]
+      height [ 50 ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "R" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+     ]
+    ]
+   ]
+   node "BuildingFacade" [
+    flat_building "tb0:random_DNARoot" [
+     pos [ 54.172 87.5718 0 ]
+     nhpr [ 30 0 0 ]
+     width [ 15 ]
+     wall [
+      height [ 20 ]
+      code [ "wall_md_blank_ur" ]
+      color [ 1 0.9 0.33 1 ]
+      windows [
+       code [ "window_sm_pointed_ur" ]
+       color [ 0.11 0.67 0.33 1 ]
+       count [ 4 ]
+      ]
+      cornice [
+       code [ "cornice_curved_ur" ]
+       color [ 0.21 0.73 0.31 1 ]
+      ]
+     ]
+    ]
+    flat_building "tb0:random_DNARoot" [
+     pos [ 34.7946 81.0034 0 ]
+     nhpr [ 15 0 0 ]
+     width [ 20 ]
+     wall [
+      height [ 10 ]
+      code [ "wall_md_pillars_ur" ]
+      color [ 1 1 0.59 1 ]
+      windows [
+       code [ "window_sm_pointed_ul" ]
+       color [ 1 0.63 0.38 1 ]
+       count [ 2 ]
+      ]
+     ]
+     wall [
+      height [ 10 ]
+      code [ "wall_md_dental_ur" ]
+      color [ 0.91 0.63 0.44 1 ]
+      windows [
+       code [ "window_sm_round_ur" ]
+       color [ 0.6 0.66 0.27 1 ]
+       count [ 1 ]
+      ]
+      cornice [
+       code [ "cornice_dental_ur" ]
+       color [ 1 0.84 0.59 1 ]
+      ]
+     ]
+    ]
+    flat_building "tb0:20_DNARoot" [
+     pos [ 19.8333 80.9249 0 ]
+     nhpr [ 0 0 0 ]
+     width [ 15 ]
+     wall [
+      height [ 20 ]
+      code [ "wall_md_blank_ur" ]
+      color [ 1 0.7 0.27 1 ]
+      windows [
+       code [ "window_sm_curved_ul" ]
+       color [ 0.95 0.89 0.17 1 ]
+       count [ 2 ]
+      ]
+      cornice [
+       code [ "cornice_curved_ur" ]
+       color [ 0.79 0.36 0.19 1 ]
+      ]
+     ]
+    ]
+    flat_building "tb0:20_DNARoot" [
+     pos [ -53.6004 96.1594 0 ]
+     nhpr [ -45 0 0 ]
+     width [ 20 ]
+     wall [
+      height [ 20 ]
+      code [ "wall_md_blank_ur" ]
+      color [ 1 0.7 0.27 1 ]
+      windows [
+       code [ "window_sm_curved_ul" ]
+       color [ 0.95 0.89 0.17 1 ]
+       count [ 2 ]
+      ]
+      cornice [
+       code [ "cornice_curved_ur" ]
+       color [ 0.79 0.36 0.19 1 ]
+      ]
+     ]
+    ]
+    flat_building "tb0:20_DNARoot" [
+     pos [ -39.6008 82.004 0 ]
+     nhpr [ 0 0 0 ]
+     width [ 20 ]
+     wall [
+      height [ 20 ]
+      code [ "wall_md_pillars_ur" ]
+      color [ 1 1 0.59 1 ]
+      windows [
+       code [ "window_sm_pointed_ur" ]
+       color [ 0.1 0.59 0.39 1 ]
+       count [ 4 ]
+      ]
+      cornice [
+       code [ "cornice_stone_ur" ]
+       color [ 1 1 0.59 1 ]
+      ]
+     ]
+    ]
+   ]
+   node "UseKartHereSigns" [
+    pos [ -177.409 -1.26947 0 ]
+    nhpr [ 0 0 0 ]
+    scale [ 20 20 20 ]
+   ]
+   node "leader_boards" [
+    prop "leaderBoard_stadium" [
+     code [ "leader_board" ]
+     pos [ 1.40398 -105.379 0 ]
+     nhpr [ 179.126 0 0 ]
+    ]
+    prop "leaderBoard_city" [
+     code [ "leader_board" ]
+     pos [ -3.54519 -113.659 0 ]
+     nhpr [ -58.0988 0 0 ]
+    ]
+    prop "leaderBoard_country" [
+     code [ "leader_board" ]
+     pos [ 6.30172 -113.738 0 ]
+     nhpr [ 60.2947 0 0 ]
+    ]
+   ]
+   node "racing_pad_9_country" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -71.682 -124.238 -0.73 ]
+     nhpr [ -75 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -72.8028 -119.873 -0.73 ]
+     nhpr [ -75 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -65.2119 -122.469 -0.73 ]
+     nhpr [ -75 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -66.1926 -118.067 -0.73 ]
+     nhpr [ -75 0 0 ]
+    ]
+   ]
+   node "racing_pad_10_country" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -73.2471 -104.146 -0.729938 ]
+     nhpr [ -105 0.0356288 -5.56654e-005 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -72.0614 -99.9108 -0.73 ]
+     nhpr [ -105 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -66.5596 -105.873 -0.73 ]
+     nhpr [ -105 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -65.3765 -101.588 -0.73 ]
+     nhpr [ -105 0 0 ]
+    ]
+   ]
+   node "racing_pad_11_country" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -61.2631 -89.9246 -0.73 ]
+     nhpr [ -150 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -57.3379 -87.6031 -0.73 ]
+     nhpr [ -150 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -57.7913 -96.0109 -0.73 ]
+     nhpr [ -150 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -53.7315 -93.7394 -0.73 ]
+     nhpr [ -150 0 0 ]
+    ]
+   ]
+   node "racing_pad_8_country" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -56.6638 -135.053 -0.73 ]
+     nhpr [ -30 0 0 ]
+    ]
+    prop "starting_block_1" [
+     code [ "gs_parkingspot" ]
+     pos [ -60.2216 -132.82 -0.73 ]
+     nhpr [ -30 0 0 ]
+    ]
+    prop "starting_block_2" [
+     code [ "gs_parkingspot" ]
+     pos [ -56.7835 -126.841 -0.73 ]
+     nhpr [ -30 0 0 ]
+    ]
+    prop "starting_block_3" [
+     code [ "gs_parkingspot" ]
+     pos [ -53.0094 -128.959 -0.73 ]
+     nhpr [ -30 0 0 ]
+    ]
+   ]
+  ]
+ ]
+]

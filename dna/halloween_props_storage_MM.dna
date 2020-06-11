@@ -1,0 +1,9 @@
+hood_model "phase_6/models/props/tt_m_ara_MM_tree_halloween" [
+	store_node [ "holiday_prop" "prop_tree_small_ur_MM" "prop_tree_small_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul_MM" "prop_tree_small_ul" ]
+	]
+	
+hood_model "phase_6/models/props/tt_m_ara_MM_streetlight_halloween" [
+	store_node [ "holiday_prop" "prop_MM_flute_lamp" "MM_flute_lamp" ]
+	store_node [ "holiday_prop" "prop_MM_trumpets_lamp" "MM_trumpets_lamp" ]
+	]

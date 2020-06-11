@@ -1,0 +1,762 @@
+<Comment> {
+  "egg-texture-cards -wm r bd_grey_border1.rgb big_stripes1.rgb big_stripes2.rgb big_stripes3.rgb big_stripes4.rgb big_stripes5.rgb big_stripes6.rgb diamonds2_cherries.rgb diamonds3_cherry.rgb diamonds3_cherries.rgb diamonds4_cherry.rgb diamonds4_cherries.rgb diamonds5_cherries.rgb diamonds6_cherry.rgb diamonds_border2.rgb diamonds_border2ch.rgb diamonds_border3ch.rgb diamonds_border4ch.rgb flat_wallpaper1.rgb flower_border2.rgb flower_border5.rgb flower_border6.rgb flower_border7.rgb flower_border8.rgb leaves1.rgb leaves2.rgb leaves3.rgb moon1.rgb moon2.rgb moon3.rgb moon4.rgb moon5.rgb moon6.rgb moon7.rgb squiggle1.rgb squiggle2.rgb squiggle3.rgb squiggle4.rgb squiggle5.rgb squiggle6.rgb stars1.rgb stars2.rgb stars3.rgb stars4.rgb stars5.rgb stars6.rgb stars7.rgb stripeB1.rgb stripeB2.rgb stripeB3.rgb stripeB4.rgb stripeB5.rgb stripeB6.rgb stripeB7.rgb stripes_cyan.rgb stripes_green.rgb stripes_magenta.rgb two_stripes1.rgb two_stripes2.rgb two_stripes3.rgb wall_paper_flower1.rgb wall_paper_flower2.rgb wall_paper_flower3.rgb wall_paper_flower4.rgb wall_paper_flower5.rgb wall_paper_flower6.rgb ../maps/wall_paper_b4_greyscale.rgb -o toon_wallpaper.egg"
+}
+<Texture> wall_paper_flower6 {
+  wall_paper_flower6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_flower5 {
+  wall_paper_flower5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_flower4 {
+  wall_paper_flower4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_flower3 {
+  wall_paper_flower3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_flower2 {
+  wall_paper_flower2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_flower1 {
+  wall_paper_flower1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> wall_paper_b4_greyscale {
+  "../maps/wall_paper_b4_greyscale.rgb"
+  <Scalar> wrap { repeat }
+}
+<Texture> two_stripes3 {
+  two_stripes3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> two_stripes2 {
+  two_stripes2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> two_stripes1 {
+  two_stripes1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripes_magenta {
+  stripes_magenta.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripes_green {
+  stripes_green.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripes_cyan {
+  stripes_cyan.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB7 {
+  stripeB7.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB6 {
+  stripeB6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB5 {
+  stripeB5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB4 {
+  stripeB4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB3 {
+  stripeB3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB2 {
+  stripeB2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stripeB1 {
+  stripeB1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars7 {
+  stars7.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars6 {
+  stars6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars5 {
+  stars5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars4 {
+  stars4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars3 {
+  stars3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars2 {
+  stars2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> stars1 {
+  stars1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle6 {
+  squiggle6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle5 {
+  squiggle5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle4 {
+  squiggle4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle3 {
+  squiggle3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle2 {
+  squiggle2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> squiggle1 {
+  squiggle1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon7 {
+  moon7.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon6 {
+  moon6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon5 {
+  moon5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon4 {
+  moon4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon3 {
+  moon3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon2 {
+  moon2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> moon1 {
+  moon1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> leaves3 {
+  leaves3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> leaves2 {
+  leaves2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> leaves1 {
+  leaves1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border8 {
+  flower_border8.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border7 {
+  flower_border7.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border6 {
+  flower_border6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border5 {
+  flower_border5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border2 {
+  flower_border2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flat_wallpaper1 {
+  flat_wallpaper1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds_border4ch {
+  diamonds_border4ch.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds_border3ch {
+  diamonds_border3ch.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds_border2ch {
+  diamonds_border2ch.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds_border2 {
+  diamonds_border2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds6_cherry {
+  diamonds6_cherry.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds5_cherries {
+  diamonds5_cherries.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds4_cherry {
+  diamonds4_cherry.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds4_cherries {
+  diamonds4_cherries.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds3_cherry {
+  diamonds3_cherry.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds3_cherries {
+  diamonds3_cherries.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> diamonds2_cherries {
+  diamonds2_cherries.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes6 {
+  big_stripes6.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes5 {
+  big_stripes5.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes4 {
+  big_stripes4.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes3 {
+  big_stripes3.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes2 {
+  big_stripes2.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> big_stripes1 {
+  big_stripes1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> bd_grey_border1 {
+  bd_grey_border1.rgb
+  <Scalar> wrap { repeat }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> bd_grey_border1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { bd_grey_border1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> big_stripes6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { big_stripes6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds2_cherries {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds2_cherries }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds3_cherry {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds3_cherry }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds3_cherries {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds3_cherries }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds4_cherry {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds4_cherry }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds4_cherries {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds4_cherries }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds5_cherries {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds5_cherries }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds6_cherry {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds6_cherry }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds_border2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds_border2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds_border2ch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds_border2ch }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds_border3ch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds_border3ch }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> diamonds_border4ch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { diamonds_border4ch }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flat_wallpaper1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flat_wallpaper1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flower_border2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flower_border5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flower_border6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flower_border7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flower_border8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border8 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> leaves1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { leaves1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> leaves2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { leaves2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> leaves3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { leaves3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> moon7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { moon7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> squiggle6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { squiggle6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stars7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stars7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripeB7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB7 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripes_cyan {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripes_cyan }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripes_green {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripes_green }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> stripes_magenta {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripes_magenta }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> two_stripes1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { two_stripes1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> two_stripes2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { two_stripes2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> two_stripes3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { two_stripes3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_flower6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_flower6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_b4_greyscale {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_b4_greyscale }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

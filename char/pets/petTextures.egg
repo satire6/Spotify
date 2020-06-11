@@ -1,0 +1,246 @@
+<Comment> {
+  "egg-texture-cards -o petTextures.egg ../../maps/BeanBunnyEar6.tif ../../maps/BeanCatEar6.tif ../../maps/BeanFoot6.tif ../../maps/BeanFootTurttle.tif ../../maps/BeanLongTail6.tif ../../maps/BeanbodyTummy6.tif ../../maps/Beanbody3stripes6.tif ../../maps/BeanbodyDots6.tif ../../maps/BeanbodyZebraStripes6.tif ../../maps/BeanbodyTurtle.tif ../../maps/beanCatTail6.tif ../../maps/BeanLongTailLepord.tif ../../maps/BeanbodyLepord2.tif ../../maps/BeanLongTailGiraffe.tif ../../maps/BeanbodyGiraffe1.tif ../../maps/BeanCatEar3Yellow.tif ../../maps/BeanFootYellow3.tif ../../maps/BeanBunnyEarYellow2.tif ../../maps/BeanEyeGirlsBlinkNew.tif ../../maps/BeanEyeBoysBlink.rgb ../../maps/BeanEyeGirlsNew.tif ../../maps/BeanEyeBoys2.rgb"
+}
+
+<Texture> beanCatTail6 {
+  "../../maps/beanCatTail6.tif"
+}
+<Texture> BeanbodyZebraStripes6 {
+  "../../maps/BeanbodyZebraStripes6.tif"
+}
+<Texture> BeanbodyTurtle {
+  "../../maps/BeanbodyTurtle.tif"
+}
+<Texture> BeanbodyTummy6 {
+  "../../maps/BeanbodyTummy6.tif"
+}
+<Texture> BeanbodyLepord2 {
+  "../../maps/BeanbodyLepord2.tif"
+}
+<Texture> BeanbodyGiraffe1 {
+  "../../maps/BeanbodyGiraffe1.tif"
+}
+<Texture> BeanbodyDots6 {
+  "../../maps/BeanbodyDots6.tif"
+}
+<Texture> Beanbody3stripes6 {
+  "../../maps/Beanbody3stripes6.tif"
+}
+<Texture> BeanLongTailLepord {
+  "../../maps/BeanLongTailLepord.tif"
+}
+<Texture> BeanLongTailGiraffe {
+  "../../maps/BeanLongTailGiraffe.tif"
+}
+<Texture> BeanLongTail6 {
+  "../../maps/BeanLongTail6.tif"
+}
+<Texture> BeanFootYellow3 {
+  "../../maps/BeanFootYellow3.tif"
+}
+<Texture> BeanFootTurttle {
+  "../../maps/BeanFootTurttle.tif"
+}
+<Texture> BeanFoot6 {
+  "../../maps/BeanFoot6.tif"
+}
+<Texture> BeanEyeGirlsNew {
+  "../../maps/BeanEyeGirlsNew.tif"
+}
+<Texture> BeanEyeGirlsBlinkNew {
+  "../../maps/BeanEyeGirlsBlinkNew.tif"
+}
+<Texture> BeanEyeBoysBlink {
+  "../../maps/BeanEyeBoysBlink.rgb"
+}
+<Texture> BeanEyeBoys2 {
+  "../../maps/BeanEyeBoys2.rgb"
+}
+<Texture> BeanCatEar6 {
+  "../../maps/BeanCatEar6.tif"
+}
+<Texture> BeanCatEar3Yellow {
+  "../../maps/BeanCatEar3Yellow.tif"
+}
+<Texture> BeanBunnyEarYellow2 {
+  "../../maps/BeanBunnyEarYellow2.tif"
+}
+<Texture> BeanBunnyEar6 {
+  "../../maps/BeanBunnyEar6.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> BeanBunnyEar6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanBunnyEar6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanCatEar6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanCatEar6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanFoot6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanFoot6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanFootTurttle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanFootTurttle }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanLongTail6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanLongTail6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyTummy6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyTummy6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> Beanbody3stripes6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Beanbody3stripes6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyDots6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyDots6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyZebraStripes6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyZebraStripes6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyTurtle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyTurtle }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> beanCatTail6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { beanCatTail6 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanLongTailLepord {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanLongTailLepord }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyLepord2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyLepord2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanLongTailGiraffe {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanLongTailGiraffe }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanbodyGiraffe1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanbodyGiraffe1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanCatEar3Yellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanCatEar3Yellow }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanFootYellow3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanFootYellow3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanBunnyEarYellow2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanBunnyEarYellow2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanEyeGirlsBlinkNew {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanEyeGirlsBlinkNew }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanEyeBoysBlink {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanEyeBoysBlink }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanEyeGirlsNew {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanEyeGirlsNew }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> BeanEyeBoys2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { BeanEyeBoys2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

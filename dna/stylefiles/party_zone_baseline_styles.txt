@@ -1,0 +1,220 @@
+baselineStyle
+name: baseline_style
+code: comic
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: 0.0
+z: 0.0
+scaleX: 1.0
+scaleZ: 1.0
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.00, 0.00, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: humanist
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.15
+x: 0.0
+z: 0.0
+scaleX: 0.7
+scaleZ: 0.7
+roll: 0.0
+flags: b
+color: Vec4(0.80, 0.80, 0.70, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: humanist
+kern: 0.10000000149
+wiggle: 2.0
+stumble: 0.0299999993294
+stomp: 0.0399999991059
+curve: 0.05
+x: 0.600000023842
+z: 0.699999988079
+scaleX: 0.800000011921
+scaleZ: 0.899999976158
+roll: 10.0
+flags: bcd
+color: Vec4(0.78, 0.23, 0.15, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: comic
+kern: 0.10000000149
+wiggle: 2.0
+stumble: 0.0299999993294
+stomp: 0.0399999991059
+curve: 0.05
+x: 0.600000023842
+z: 0.699999988079
+scaleX: 0.800000011921
+scaleZ: 0.899999976158
+roll: 10.0
+flags: bd
+color: Vec4(0.28, 0.90, 0.67, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: humanist
+kern: 0.0
+wiggle: 8.0
+stumble: 0.019999999553
+stomp: -0.0299999993294
+curve: 0.0
+x: 0.0
+z: 0.0
+scaleX: 0.699999988079
+scaleZ: 0.699999988079
+roll: 0.0
+flags: d
+color: Vec4(0.40, 0.80, 0.35, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: comic
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: 0.0
+z: 0.0
+scaleX: 0.699999988079
+scaleZ: 0.699999988079
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.00, 0.00, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: TT_Comedy
+kern: 0.127014994621
+wiggle: 4.76138973236
+stumble: 0.0498490072787
+stomp: 0.0
+curve: 0.0
+x: 0.0
+z: -2.22858810425
+scaleX: 1.95225811005
+scaleZ: 2.32445383072
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.33, 0.66, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: TT_Comedy
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0566519983113
+x: 0.0
+z: 0.979860901833
+scaleX: 1.0
+scaleZ: 1.0
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.50, 0.50, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: TT_Comedy
+kern: 0.0709529966116
+wiggle: 4.19808006287
+stumble: 0.0960079878569
+stomp: 0.0
+curve: 0.0528609976172
+x: 0.0
+z: -0.58442491293
+scaleX: 1.38603591919
+scaleZ: 1.62174701691
+roll: 0.0
+flags: 
+color: Vec4(0.69, 0.03, 0.31, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: TT_Comedy
+kern: 0.0
+wiggle: 0.0
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: 0.0
+z: -1.84828996658
+scaleX: 1.40283000469
+scaleZ: 1.36606800556
+roll: 0.0
+flags: 
+color: Vec4(0.69, 0.03, 0.31, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: mickey
+kern: -0.0144389998168
+wiggle: 5.59162998199
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: 0.5
+z: 0.649999976158
+scaleX: 1.20000004768
+scaleZ: 1.20000004768
+roll: 0.0
+flags: 
+color: Vec4(1.00, 0.50, 0.00, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: TT_Comedy
+kern: 0.137228995562
+wiggle: 5.12501001358
+stumble: 0.0185720007867
+stomp: 0.0285700000823
+curve: 0.0
+x: 0.0
+z: -0.769999980927
+scaleX: 1.20000004768
+scaleZ: 1.20000004768
+roll: 0.0
+flags: 
+color: Vec4(0.00, 0.50, 0.25, 1.0)
+endBaselineStyle
+
+baselineStyle
+name: baseline_style
+code: mickey
+kern: 0.00352300005034
+wiggle: -6.87874984741
+stumble: 0.0
+stomp: 0.0
+curve: 0.0
+x: -0.289999991655
+z: 0.340000003576
+scaleX: 1.20000004768
+scaleZ: 1.29999995232
+roll: 0.0
+flags: 
+color: Vec4(1.00, 1.00, 0.00, 1.0)
+endBaselineStyle

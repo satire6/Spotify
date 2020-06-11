@@ -1,0 +1,225 @@
+<Comment> {
+  "egg-texture-cards ../maps/kart3_HoodDecal_1.png ../maps/kart3_HoodDecal_2.png ../maps/kart3_HoodDecal_3.png ../maps/kart3_HoodDecal_4.png ../maps/kart3_HoodDecal_5.png ../maps/kart3_HoodDecal_6.png ../maps/kart3_HoodDecal_7.png ../maps/kart3_HoodDecal_8.png ../maps/kart3_HoodDecal_9.png ../maps/kart3_HoodDecal_10.png ../maps/kart3_SideDecal_1.png ../maps/kart3_SideDecal_2.png ../maps/kart3_SideDecal_3.png ../maps/kart3_SideDecal_4.png ../maps/kart3_SideDecal_5.png ../maps/kart3_SideDecal_6.png ../maps/kart3_SideDecal_7.png ../maps/kart3_SideDecal_8.png ../maps/kart3_SideDecal_9.png ../maps/kart3_SideDecal_10.png -o kart3_textures.egg"
+}
+<Texture> kart3_SideDecal_9 {
+  "../maps/kart3_SideDecal_9.png"
+}
+<Texture> kart3_SideDecal_8 {
+  "../maps/kart3_SideDecal_8.png"
+}
+<Texture> kart3_SideDecal_7 {
+  "../maps/kart3_SideDecal_7.png"
+}
+<Texture> kart3_SideDecal_6 {
+  "../maps/kart3_SideDecal_6.png"
+}
+<Texture> kart3_SideDecal_5 {
+  "../maps/kart3_SideDecal_5.png"
+}
+<Texture> kart3_SideDecal_4 {
+  "../maps/kart3_SideDecal_4.png"
+}
+<Texture> kart3_SideDecal_3 {
+  "../maps/kart3_SideDecal_3.png"
+}
+<Texture> kart3_SideDecal_2 {
+  "../maps/kart3_SideDecal_2.png"
+}
+<Texture> kart3_SideDecal_10 {
+  "../maps/kart3_SideDecal_10.png"
+}
+<Texture> kart3_SideDecal_1 {
+  "../maps/kart3_SideDecal_1.png"
+}
+<Texture> kart3_HoodDecal_9 {
+  "../maps/kart3_HoodDecal_9.png"
+}
+<Texture> kart3_HoodDecal_8 {
+  "../maps/kart3_HoodDecal_8.png"
+}
+<Texture> kart3_HoodDecal_7 {
+  "../maps/kart3_HoodDecal_7.png"
+}
+<Texture> kart3_HoodDecal_6 {
+  "../maps/kart3_HoodDecal_6.png"
+}
+<Texture> kart3_HoodDecal_5 {
+  "../maps/kart3_HoodDecal_5.png"
+}
+<Texture> kart3_HoodDecal_4 {
+  "../maps/kart3_HoodDecal_4.png"
+}
+<Texture> kart3_HoodDecal_3 {
+  "../maps/kart3_HoodDecal_3.png"
+}
+<Texture> kart3_HoodDecal_2 {
+  "../maps/kart3_HoodDecal_2.png"
+}
+<Texture> kart3_HoodDecal_10 {
+  "../maps/kart3_HoodDecal_10.png"
+}
+<Texture> kart3_HoodDecal_1 {
+  "../maps/kart3_HoodDecal_1.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> kart3_HoodDecal_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_6 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_7 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_8 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_9 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_HoodDecal_10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_HoodDecal_10 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_6 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_7 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_8 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_9 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kart3_SideDecal_10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kart3_SideDecal_10 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

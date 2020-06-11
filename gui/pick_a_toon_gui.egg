@@ -1,0 +1,144 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o pick_a_toon_gui.egg ../maps/QuitBtn_DN.rgba ../maps/QuitBtn_RLVR.rgba ../maps/QuitBtn_UP.rgba ../maps/av-chooser_FnlBG.rgb ../maps/av-chooser_Square_UP.rgba"
+}
+<Texture> av-chooser_Square_UP {
+  "../maps/av-chooser_Square_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> av-chooser_FnlBG {
+  "../maps/av-chooser_FnlBG.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_UP {
+  "../maps/QuitBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_RLVR {
+  "../maps/QuitBtn_RLVR.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> QuitBtn_DN {
+  "../maps/QuitBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.2125 0.0541667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.2125 -0.0541667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.2125 -0.0541667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.2125 0.0541667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -1.33333 1 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -1.33333 -1 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      1.33333 -1 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      1.33333 1 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.39375 0.39375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.39375 -0.39375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.39375 -0.39375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.39375 0.39375 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> QuitBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_DN }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> QuitBtn_RLVR {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_RLVR }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> QuitBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { QuitBtn_UP }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> av-chooser_FnlBG {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { av-chooser_FnlBG }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> av-chooser_Square_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { av-chooser_Square_UP }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+}

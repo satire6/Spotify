@@ -1,0 +1,90 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o scroll_arrows_gui.egg ../maps/FndsLst_ScrollDN.rgba ../maps/FndsLst_ScrollUp.rgba ../maps/FndsLst_ScrollUp_Rllvr.rgba"
+}
+<Texture> FndsLst_ScrollUp_Rllvr {
+  "../maps/FndsLst_ScrollUp_Rllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> FndsLst_ScrollUp {
+  "../maps/FndsLst_ScrollUp.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> FndsLst_ScrollDN {
+  "../maps/FndsLst_ScrollDN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.139583 0.0229167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.139583 -0.0229167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.139583 -0.0229167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.139583 0.0229167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.139583 0.0229167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.139583 -0.0229167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.139583 -0.0229167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.139583 0.0229167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.139583 0.0229167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.139583 -0.0229167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.139583 -0.0229167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.139583 0.0229167 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> FndsLst_ScrollDN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { FndsLst_ScrollDN }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> FndsLst_ScrollUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { FndsLst_ScrollUp }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> FndsLst_ScrollUp_Rllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { FndsLst_ScrollUp_Rllvr }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+}

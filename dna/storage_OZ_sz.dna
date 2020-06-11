@@ -1,0 +1,50 @@
+place_model "phase_6/models/golf/golf_outdoor_zone" [
+  	store_node [ "prop" "outdoor_zone" "" ]
+ 	]
+place_model "phase_8/models/modules/safe_zone_tunnel_DG" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_6/models/golf/chip_dale_enterance" [
+	store_node [ "prop" "prop_chip_dale_enterance" "" ]
+	]
+
+place_model "phase_6/models/golf/outdoor_zone_entrance" [
+	store_node [ "prop" "prop_outdoor_zone_entrance" "" ]
+	]
+
+place_model "phase_6/models/golf/golf_construction_sign" [
+	store_node [ "prop" "prop_golf_construction_sign" "" ]
+	]
+
+place_model "phase_6/models/golf/golf_gazebo" [
+	store_node [ "prop" "prop_golf_gazebo" "" ]
+	]
+
+place_model "phase_6/models/golf/picnic_table" [
+	store_node [ "prop" "prop_picnic_table" "" ]
+	]
+
+place_model "phase_6/models/golf/golf_bridge" [
+	store_node [ "prop" "prop_golf_bridge" "" ]
+	]
+
+place_model "phase_8/models/modules/trolley_station_DG" [
+	store_node [ "prop" "prop_trolley_station" ]
+	]
+
+place_model "phase_8/models/modules/gagShop_DG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_gag_shop" "" ]
+        ]
+
+place_model "phase_8/models/modules/PetShopExterior_DG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_pet_shop" "" ]
+        ]
+
+place_model "phase_8/models/modules/clothshopDG" [
+	store_node [ "toon_landmark" "toon_landmark_DG_clothes_shop" "" ]
+        ]
+
+place_model "phase_4/models/props/exteriorfish-zero" [
+	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
+	]

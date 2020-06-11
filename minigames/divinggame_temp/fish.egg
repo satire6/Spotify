@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards -o fish.egg -p 70,60 fish.png"
+}
+<Texture> fish {
+  fish.png
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.416667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.416667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.416667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.416667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> fish {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fish }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

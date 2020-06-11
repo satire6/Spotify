@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o golf_gui.egg ../maps/score_card_icon.tif ../maps/score_card_icon_rollover.tif"
+}
+<Texture> score_card_icon_rollover {
+  "../maps/score_card_icon_rollover.tif"
+}
+<Texture> score_card_icon {
+  "../maps/score_card_icon.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> score_card_icon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { score_card_icon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> score_card_icon_rollover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { score_card_icon_rollover }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

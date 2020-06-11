@@ -1,0 +1,65 @@
+<Comment> {
+  "egg-texture-cards ../maps/flooring_carpetA_neutral.rgb ../maps/flooring_tile_neutral.rgb ../maps/floor_wood_neutral.rgb ../maps/tile1_neutral.rgb -o toon_flooring.egg"
+}
+<Texture> tile1_neutral {
+  "../maps/tile1_neutral.rgb"
+}
+<Texture> flooring_tile_neutral {
+  "../maps/flooring_tile_neutral.rgb"
+}
+<Texture> flooring_carpetA_neutral {
+  "../maps/flooring_carpetA_neutral.rgb"
+}
+<Texture> floor_wood_neutral {
+  "../maps/floor_wood_neutral.rgb"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> flooring_carpetA_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flooring_carpetA_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> flooring_tile_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flooring_tile_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> floor_wood_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { floor_wood_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> tile1_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tile1_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

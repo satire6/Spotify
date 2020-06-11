@@ -1,0 +1,84 @@
+// This egg file was modeled by hand.
+
+<Texture> stripeB1 {
+  stripeB1.rgb
+  <Scalar> wrap { repeat }
+}
+<Texture> flower_border7 {
+  flower_border7.rgb
+  <Scalar> wrap { repeat }
+}
+
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -1 1 0
+      <UV> { 0 3 }
+    }
+    <Vertex> 2 {
+      -1 0.333 0
+      <UV> { 0 2 }
+    }
+    <Vertex> 3 {
+      1 0.333 0
+      <UV> { 3 2 }
+    }
+    <Vertex> 4 {
+      1 1 0
+      <UV> { 3 3 }
+    }
+    <Vertex> 5 {
+      -1 0.333 0
+      <UV> { 0 2 }
+    }
+    <Vertex> 6 {
+      -1 -0.333 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 7 {
+      1 -0.333 0
+      <UV> { 3 1 }
+    }
+    <Vertex> 8 {
+      1 0.333 0
+      <UV> { 3 2 }
+    }
+    <Vertex> 9 {
+      -1 -0.333 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -1 -1 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      1 -1 0
+      <UV> { 3 0 }
+    }
+    <Vertex> 12 {
+      1 -0.333 0
+      <UV> { 3 1 }
+    }
+  }
+  <Group> a {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> b {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { stripeB1 }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> c {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { flower_border7 }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+}

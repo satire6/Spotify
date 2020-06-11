@@ -1,0 +1,63 @@
+place_model "phase_6/models/karting/GasolineAlley_TT" [
+	store_node [ "prop" "goofy_speedway" "" ]
+	]
+
+place_model "phase_6/models/karting/kartShop" [
+	store_node [ "toon_landmark" "toon_landmark_GS_kart_shop" "" ]
+	]
+
+place_model "phase_6/models/karting/cone" [
+	store_node [ "prop" "gs_cone" "" ]
+	]
+
+place_model "phase_6/models/karting/KartArea_WrenchJack" [
+	store_node [ "prop" "gs_tireIron" "" ]
+	]
+
+place_model "phase_6/models/karting/KartArea_Tires" [
+	store_node [ "prop" "gs_tires" "" ]
+	]
+
+place_model "phase_6/models/karting/GoofyStadium_Lamppost_Base1" [
+	store_node [ "holiday_prop" "gs_lamppost" "" ]
+	]
+
+place_model "phase_6/models/karting/GoofyStadium_TreeBase" [
+	store_node [ "holiday_prop" "gs_treebase" "" ]
+	]
+
+place_model "phase_6/models/karting/GoofyStadium_Mailbox" [
+	store_node [ "prop" "gs_mailbox" "" ]
+	]
+
+place_model "phase_6/models/karting/krate" [
+	store_node [ "prop" "gs_krate" "" ]
+	]
+
+place_model "phase_6/models/karting/announcer" [
+	store_node [ "prop" "gs_announcer" "" ]
+	]
+
+place_model "phase_6/models/karting/Parkingspot" [
+	store_node [ "prop" "gs_parkingspot" "" ]
+]
+
+place_model "phase_6/models/karting/KartShowBlock" [
+	store_node [ "prop" "gs_showblock" "" ]
+]
+
+place_model "phase_6/models/karting/flag" [
+	store_node [ "prop" "gs_flag" "" ]
+]
+
+place_model "phase_6/models/karting/KartShowBlockSign" [
+	store_node [ "prop" "gs_showblocksign" "" ]
+]
+
+place_model "phase_4/models/modules/safe_zone_tunnel_TT" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_3.5/models/modules/safe_zone_entrance_tunnel_TT" [
+	store_node [ "prop" "prop_safe_zone_entrance_tunnel" ]
+        ]

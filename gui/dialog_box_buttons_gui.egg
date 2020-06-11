@@ -1,0 +1,198 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o dialog_box_buttons_gui.egg ../maps/ChtBx_OKBtn_DN.rgba ../maps/ChtBx_OKBtn_Rllvr.rgba ../maps/ChtBx_OKBtn_UP.rgba ../maps/CloseBtn_DN.rgba ../maps/CloseBtn_Rllvr.rgba ../maps/CloseBtn_UP.rgba ../maps/tt_t_gui_gen_closeBtn_desat.tif"
+}
+<Texture> tt_t_gui_gen_closeBtn_desat {
+  "../maps/tt_t_gui_gen_closeBtn_desat.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_UP {
+  "../maps/CloseBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_Rllvr {
+  "../maps/CloseBtn_Rllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> CloseBtn_DN {
+  "../maps/CloseBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_OKBtn_UP {
+  "../maps/ChtBx_OKBtn_UP.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_OKBtn_Rllvr {
+  "../maps/ChtBx_OKBtn_Rllvr.rgba"
+  <Scalar> wrap { clamp }
+}
+<Texture> ChtBx_OKBtn_DN {
+  "../maps/ChtBx_OKBtn_DN.rgba"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 20 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 21 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 22 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 23 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 24 {
+      -0.05625 0.05625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 25 {
+      -0.05625 -0.05625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 26 {
+      0.05625 -0.05625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 27 {
+      0.05625 0.05625 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> ChtBx_OKBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_OKBtn_DN }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_OKBtn_Rllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_OKBtn_Rllvr }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> ChtBx_OKBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ChtBx_OKBtn_UP }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_DN {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_DN }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_Rllvr {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_Rllvr }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+  <Group> CloseBtn_UP {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { CloseBtn_UP }
+      <VertexRef> { 20 21 22 23 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_gen_closeBtn_desat {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_gen_closeBtn_desat }
+      <VertexRef> { 24 25 26 27 <Ref> { vpool } }
+    }
+  }
+}

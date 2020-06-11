@@ -1,0 +1,8 @@
+hood_model "phase_6/models/props/winter_palm_tree_topflat" [
+	store_node [ "holiday_prop" "prop_palm_tree_topflat" ]
+	]
+
+hood_model "phase_6/models/props/tt_m_ara_DD_streetlight_winter" [
+	store_node [ "holiday_prop" "streetlight_DD_left"]
+	store_node [ "holiday_prop" "streetlight_DD_right"]
+	]

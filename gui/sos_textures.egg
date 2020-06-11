@@ -1,0 +1,155 @@
+<Comment> {
+  "egg-texture-cards disguises.tif fish.tif compass.tif gui_gear.tif switch.tif task.tif district.tif robot.tif teleportIcon.tif disguiseIcon.tif disguise2.tif gardenIcon.tif ../maps/kartIcon.PNG -o sos_textures.egg"
+}
+<Texture> teleportIcon {
+  teleportIcon.tif
+}
+<Texture> task {
+  task.tif
+}
+<Texture> switch {
+  switch.tif
+}
+<Texture> robot {
+  robot.tif
+}
+<Texture> kartIcon {
+  "../maps/kartIcon.PNG"
+}
+<Texture> gui_gear {
+  gui_gear.tif
+}
+<Texture> gardenIcon {
+  gardenIcon.tif
+}
+<Texture> fish {
+  fish.tif
+}
+<Texture> district {
+  district.tif
+}
+<Texture> disguises {
+  disguises.tif
+}
+<Texture> disguiseIcon {
+  disguiseIcon.tif
+}
+<Texture> disguise2 {
+  disguise2.tif
+}
+<Texture> compass {
+  compass.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> disguises {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { disguises }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fish {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fish }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> compass {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { compass }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> gui_gear {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { gui_gear }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> switch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { switch }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> task {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { task }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> district {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { district }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> robot {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { robot }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> teleportIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { teleportIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> disguiseIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { disguiseIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> disguise2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { disguise2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> gardenIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { gardenIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> kartIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { kartIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards ../maps/trophy.tif -o ./trophy.egg"
+}
+<Texture> trophy {
+  "../maps/trophy.tif"
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> trophy {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { trophy }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

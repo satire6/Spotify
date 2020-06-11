@@ -1,0 +1,5 @@
+// Christmas decoration
+place_model "phase_4/models/props/winter_tree_Christmas" [
+        store_node [ "holiday_prop" "prop_christmas_tree" "" ]
+                ]
+

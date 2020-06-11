@@ -1,0 +1,234 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -o feature_gui_french.egg ../maps/features-catalog_french.jpg ../maps/features-chat_french.jpg ../maps/features-clothes_french.jpg ../maps/features-cogHq_french.jpg ../maps/features-furniture_french.jpg ../maps/features-gags_french.jpg ../maps/features-holidays_french.jpg ../maps/features-hoods_french.jpg ../maps/features-mailers_french.jpg ../maps/features-minigames_french.jpg ../maps/features-quests_french.jpg ../maps/features-sixToons_french.jpg ../maps/features-typeAName_french.jpg ../maps/features-karting_french.jpg ../maps/features-tricks_french.jpg ../maps/features-bigger.jpg ../maps/features-rental.jpg ../maps/features-garden.jpg ../maps/features-kartingAccessories_french.jpg"
+}
+<Texture> features-typeAName {
+  "../maps/features-typeAName_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-tricks {
+  "../maps/features-tricks_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-sixToons {
+  "../maps/features-sixToons_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-rental {
+  "../maps/features-rental.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-quests {
+  "../maps/features-quests_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-minigames {
+  "../maps/features-minigames_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-mailers {
+  "../maps/features-mailers_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-kartingAccessories {
+  "../maps/features-kartingAccessories_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-karting {
+  "../maps/features-karting_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-hoods {
+  "../maps/features-hoods_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-holidays {
+  "../maps/features-holidays_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-garden {
+  "../maps/features-garden.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-gags {
+  "../maps/features-gags_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-furniture {
+  "../maps/features-furniture_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-cogHq {
+  "../maps/features-cogHq_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-clothes {
+  "../maps/features-clothes_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-chat {
+  "../maps/features-chat_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-catalog {
+  "../maps/features-catalog_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-bigger {
+  "../maps/features-bigger.jpg"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> features-catalog {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-catalog }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-chat {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-chat }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-clothes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-clothes }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-cogHq {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-cogHq }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-furniture {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-furniture }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-gags {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-gags }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-holidays {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-holidays }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-hoods {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-hoods }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-mailers {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-mailers }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-minigames {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-minigames }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-quests {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-quests }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-sixToons {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-sixToons }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-typeAName {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-typeAName }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-karting {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-karting }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-tricks {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-tricks }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-bigger {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-bigger }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-rental {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-rental }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-garden {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-garden }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-kartingAccessories {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-kartingAccessories }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+cornice_color: Vec4(1.00, 1.00, 1.00, 1.0)
+door_color: Vec4(1.00, 1.00, 1.00, 1.0)
+wall_color: Vec4(1.00, 1.00, 1.00, 1.0)
+window_color: Vec4(1.00, 1.00, 1.00, 1.0)
+prop_color: Vec4(1.00, 1.00, 1.00, 1.0)

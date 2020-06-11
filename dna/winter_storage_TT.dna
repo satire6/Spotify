@@ -1,0 +1,26 @@
+hood_model "phase_3.5/models/props/winter_trees" [
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul" ]
+
+	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
+	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
+	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
+	]
+
+hood_model "phase_3.5/models/props/tt_m_ara_TT_streetlight_winter" [
+	store_node [ "holiday_prop" "prop_post_sign"]
+	store_node [ "holiday_prop" "prop_post_one_light"]
+	store_node [ "holiday_prop" "prop_post_three_light"]
+	]

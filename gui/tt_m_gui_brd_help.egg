@@ -1,0 +1,90 @@
+<Comment> {
+  "egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_help.egg ../maps/tt_t_gui_brd_helpUp.tif ../maps/tt_t_gui_brd_helpDown.tif ../maps/tt_t_gui_brd_helpHover.tif"
+}
+<Texture> tt_t_gui_brd_helpUp {
+  "../maps/tt_t_gui_brd_helpUp.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_helpHover {
+  "../maps/tt_t_gui_brd_helpHover.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_helpDown {
+  "../maps/tt_t_gui_brd_helpDown.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.0666667 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.0666667 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.0666667 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.0666667 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.0666667 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.0666667 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.0666667 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.0666667 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.0666667 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.0666667 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.0666667 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.0666667 0.0666667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_brd_helpUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_helpUp }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_helpDown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_helpDown }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_helpHover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_helpHover }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+}

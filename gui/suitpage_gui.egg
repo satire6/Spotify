@@ -1,0 +1,900 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 240,240 -o suitpage_gui.egg ../maps/card.rgb ../maps/shadow1.rgb ../maps/shadow10.rgb ../maps/shadow11.rgb ../maps/shadow12.rgb ../maps/shadow13.rgb ../maps/shadow14.rgb ../maps/shadow15.rgb ../maps/shadow16.rgb ../maps/shadow17.rgb ../maps/shadow18.rgb ../maps/shadow19.rgb ../maps/shadow2.rgb ../maps/shadow20.rgb ../maps/shadow21.rgb ../maps/shadow22.rgb ../maps/shadow23.rgb ../maps/shadow24.rgb ../maps/shadow25.rgb ../maps/shadow26.rgb ../maps/shadow27.rgb ../maps/shadow28.rgb ../maps/shadow29.rgb ../maps/shadow3.rgb ../maps/shadow30.rgb ../maps/shadow31.rgb ../maps/shadow32.rgb ../maps/shadow4.rgb ../maps/shadow5.rgb ../maps/shadow6.rgb ../maps/shadow7.rgb ../maps/shadow8.rgb ../maps/shadow9.rgb"
+}
+<Texture> shadow9 {
+  "../maps/shadow9.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow8 {
+  "../maps/shadow8.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow7 {
+  "../maps/shadow7.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow6 {
+  "../maps/shadow6.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow5 {
+  "../maps/shadow5.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow4 {
+  "../maps/shadow4.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow32 {
+  "../maps/shadow32.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow31 {
+  "../maps/shadow31.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow30 {
+  "../maps/shadow30.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow3 {
+  "../maps/shadow3.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow29 {
+  "../maps/shadow29.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow28 {
+  "../maps/shadow28.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow27 {
+  "../maps/shadow27.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow26 {
+  "../maps/shadow26.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow25 {
+  "../maps/shadow25.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow24 {
+  "../maps/shadow24.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow23 {
+  "../maps/shadow23.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow22 {
+  "../maps/shadow22.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow21 {
+  "../maps/shadow21.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow20 {
+  "../maps/shadow20.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow2 {
+  "../maps/shadow2.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow19 {
+  "../maps/shadow19.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow18 {
+  "../maps/shadow18.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow17 {
+  "../maps/shadow17.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow16 {
+  "../maps/shadow16.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow15 {
+  "../maps/shadow15.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow14 {
+  "../maps/shadow14.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow13 {
+  "../maps/shadow13.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow12 {
+  "../maps/shadow12.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow11 {
+  "../maps/shadow11.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow10 {
+  "../maps/shadow10.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> shadow1 {
+  "../maps/shadow1.rgb"
+  <Scalar> wrap { clamp }
+}
+<Texture> card {
+  "../maps/card.rgb"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.166667 0.239583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.166667 -0.239583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.166667 -0.239583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.166667 0.239583 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 5 {
+      -0.120833 0.116667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 6 {
+      -0.120833 -0.116667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 7 {
+      0.120833 -0.116667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 8 {
+      0.120833 0.116667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 9 {
+      -0.0770833 0.15 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 10 {
+      -0.0770833 -0.15 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 11 {
+      0.0770833 -0.15 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 12 {
+      0.0770833 0.15 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 13 {
+      -0.129167 0.152083 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 14 {
+      -0.129167 -0.152083 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 15 {
+      0.129167 -0.152083 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 16 {
+      0.129167 0.152083 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 17 {
+      -0.0770833 0.160417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 18 {
+      -0.0770833 -0.160417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 19 {
+      0.0770833 -0.160417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 20 {
+      0.0770833 0.160417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 21 {
+      -0.0875 0.16875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 22 {
+      -0.0875 -0.16875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 23 {
+      0.0875 -0.16875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 24 {
+      0.0875 0.16875 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 25 {
+      -0.122917 0.175 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 26 {
+      -0.122917 -0.175 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 27 {
+      0.122917 -0.175 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 28 {
+      0.122917 0.175 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 29 {
+      -0.15625 0.160417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 30 {
+      -0.15625 -0.160417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 31 {
+      0.15625 -0.160417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 32 {
+      0.15625 0.160417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 33 {
+      -0.185417 0.197917 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 34 {
+      -0.185417 -0.197917 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 35 {
+      0.185417 -0.197917 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 36 {
+      0.185417 0.197917 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 37 {
+      -0.108333 0.129167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 38 {
+      -0.108333 -0.129167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 39 {
+      0.108333 -0.129167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 40 {
+      0.108333 0.129167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 41 {
+      -0.0791667 0.141667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 42 {
+      -0.0791667 -0.141667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 43 {
+      0.0791667 -0.141667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 44 {
+      0.0791667 0.141667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 45 {
+      -0.141667 0.129167 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 46 {
+      -0.141667 -0.129167 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 47 {
+      0.141667 -0.129167 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 48 {
+      0.141667 0.129167 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 49 {
+      -0.0729167 0.1625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 50 {
+      -0.0729167 -0.1625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 51 {
+      0.0729167 -0.1625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 52 {
+      0.0729167 0.1625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 53 {
+      -0.0833333 0.1625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 54 {
+      -0.0833333 -0.1625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 55 {
+      0.0833333 -0.1625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 56 {
+      0.0833333 0.1625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 57 {
+      -0.152083 0.164583 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 58 {
+      -0.152083 -0.164583 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 59 {
+      0.152083 -0.164583 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 60 {
+      0.152083 0.164583 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 61 {
+      -0.160417 0.13125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 62 {
+      -0.160417 -0.13125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 63 {
+      0.160417 -0.13125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 64 {
+      0.160417 0.13125 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 65 {
+      -0.122917 0.185417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 66 {
+      -0.122917 -0.185417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 67 {
+      0.122917 -0.185417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 68 {
+      0.122917 0.185417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 69 {
+      -0.1875 0.183333 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 70 {
+      -0.1875 -0.183333 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 71 {
+      0.1875 -0.183333 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 72 {
+      0.1875 0.183333 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 73 {
+      -0.108333 0.127083 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 74 {
+      -0.108333 -0.127083 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 75 {
+      0.108333 -0.127083 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 76 {
+      0.108333 0.127083 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 77 {
+      -0.10625 0.152083 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 78 {
+      -0.10625 -0.152083 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 79 {
+      0.10625 -0.152083 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 80 {
+      0.10625 0.152083 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 81 {
+      -0.116667 0.14375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 82 {
+      -0.116667 -0.14375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 83 {
+      0.116667 -0.14375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 84 {
+      0.116667 0.14375 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 85 {
+      -0.145833 0.11875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 86 {
+      -0.145833 -0.11875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 87 {
+      0.145833 -0.11875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 88 {
+      0.145833 0.11875 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 89 {
+      -0.08125 0.1625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 90 {
+      -0.08125 -0.1625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 91 {
+      0.08125 -0.1625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 92 {
+      0.08125 0.1625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 93 {
+      -0.14375 0.135417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 94 {
+      -0.14375 -0.135417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 95 {
+      0.14375 -0.135417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 96 {
+      0.14375 0.135417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 97 {
+      -0.14375 0.175 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 98 {
+      -0.14375 -0.175 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 99 {
+      0.14375 -0.175 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 100 {
+      0.14375 0.175 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 101 {
+      -0.14375 0.172917 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 102 {
+      -0.14375 -0.172917 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 103 {
+      0.14375 -0.172917 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 104 {
+      0.14375 0.172917 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 105 {
+      -0.1875 0.18125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 106 {
+      -0.1875 -0.18125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 107 {
+      0.1875 -0.18125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 108 {
+      0.1875 0.18125 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 109 {
+      -0.147917 0.152083 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 110 {
+      -0.147917 -0.152083 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 111 {
+      0.147917 -0.152083 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 112 {
+      0.147917 0.152083 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 113 {
+      -0.108333 0.16875 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 114 {
+      -0.108333 -0.16875 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 115 {
+      0.108333 -0.16875 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 116 {
+      0.108333 0.16875 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 117 {
+      -0.160417 0.15625 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 118 {
+      -0.160417 -0.15625 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 119 {
+      0.160417 -0.15625 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 120 {
+      0.160417 0.15625 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 121 {
+      -0.166667 0.160417 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 122 {
+      -0.166667 -0.160417 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 123 {
+      0.166667 -0.160417 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 124 {
+      0.166667 0.160417 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 125 {
+      -0.15 0.191667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 126 {
+      -0.15 -0.191667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 127 {
+      0.15 -0.191667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 128 {
+      0.15 0.191667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 129 {
+      -0.122917 0.1125 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 130 {
+      -0.122917 -0.1125 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 131 {
+      0.122917 -0.1125 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 132 {
+      0.122917 0.1125 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> card {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { card }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow1 }
+      <VertexRef> { 5 6 7 8 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow10 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow10 }
+      <VertexRef> { 9 10 11 12 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow11 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow11 }
+      <VertexRef> { 13 14 15 16 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow12 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow12 }
+      <VertexRef> { 17 18 19 20 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow13 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow13 }
+      <VertexRef> { 21 22 23 24 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow14 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow14 }
+      <VertexRef> { 25 26 27 28 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow15 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow15 }
+      <VertexRef> { 29 30 31 32 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow16 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow16 }
+      <VertexRef> { 33 34 35 36 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow17 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow17 }
+      <VertexRef> { 37 38 39 40 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow18 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow18 }
+      <VertexRef> { 41 42 43 44 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow19 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow19 }
+      <VertexRef> { 45 46 47 48 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow2 }
+      <VertexRef> { 49 50 51 52 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow20 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow20 }
+      <VertexRef> { 53 54 55 56 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow21 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow21 }
+      <VertexRef> { 57 58 59 60 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow22 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow22 }
+      <VertexRef> { 61 62 63 64 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow23 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow23 }
+      <VertexRef> { 65 66 67 68 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow24 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow24 }
+      <VertexRef> { 69 70 71 72 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow25 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow25 }
+      <VertexRef> { 73 74 75 76 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow26 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow26 }
+      <VertexRef> { 77 78 79 80 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow27 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow27 }
+      <VertexRef> { 81 82 83 84 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow28 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow28 }
+      <VertexRef> { 85 86 87 88 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow29 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow29 }
+      <VertexRef> { 89 90 91 92 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow3 }
+      <VertexRef> { 93 94 95 96 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow30 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow30 }
+      <VertexRef> { 97 98 99 100 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow31 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow31 }
+      <VertexRef> { 101 102 103 104 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow32 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow32 }
+      <VertexRef> { 105 106 107 108 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow4 }
+      <VertexRef> { 109 110 111 112 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow5 }
+      <VertexRef> { 113 114 115 116 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow6 }
+      <VertexRef> { 117 118 119 120 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow7 }
+      <VertexRef> { 121 122 123 124 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow8 }
+      <VertexRef> { 125 126 127 128 <Ref> { vpool } }
+    }
+  }
+  <Group> shadow9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { shadow9 }
+      <VertexRef> { 129 130 131 132 <Ref> { vpool } }
+    }
+  }
+}

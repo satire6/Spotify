@@ -1,0 +1,1515 @@
+group "goofySpeedway" [
+ visgroup "8000:safe_zone" [
+  vis [   "8000:safe_zone"   ]
+  node "level" [
+   node "golf_kart_0_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 133.588 47.396 -0.05 ]
+     nhpr [ 58.732 0 0 ]
+    ]
+   ]
+   node "golf_kart_0_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 121.484 23.65 -0.05 ]
+     nhpr [ 75.142 0 0 ]
+    ]
+   ]
+   node "golf_kart_0_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 117.751 -1.069 -0.05 ]
+     nhpr [ 81.928 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ 10.725 -95.93 -0.05 ]
+     nhpr [ -30.762 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -16.308 -86.81 -0.05 ]
+     nhpr [ -16.949 0 0 ]
+    ]
+   ]
+   node "golf_kart_1_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -41.97 -87.26 -0.05 ]
+     nhpr [ -9.108 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_0" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -97.77 -27.878 -0.05 ]
+     nhpr [ -87.415 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_1" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -100.205 -2.018 -0.05 ]
+     nhpr [ 284.36 0 0 ]
+    ]
+   ]
+   node "golf_kart_2_2" [
+    prop "starting_block_0" [
+     code [ "gs_parkingspot" ]
+     pos [ -106.58 21.819 -0.05 ]
+     nhpr [ -66.64 0 0 ]
+    ]
+   ]
+   prop "goofy_speedway_DNARoot" [
+    code [ "goofy_speedway" ]
+    pos [ 0 0 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   prop "linktunnel_bosshq_10000_DNARoot" [
+    code [ "prop_golf_cog_tunnel" ]
+    pos [ 100 -95 0.05 ]
+    nhpr [ 45 0 0 ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ -20 -100 0.129929 ]
+    nhpr [ -15 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "F" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -129.472 37.2723 0.129929 ]
+    nhpr [ -54.6042 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "b" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ -110 -5 0.129929 ]
+    nhpr [ -75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "b" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -110 -5 0.129929 ]
+    nhpr [ -75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 0.1 ]
+      nhpr [ 0 0 3 ]
+      scale [ 0.43 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "b" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ -0.2 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "9" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -66.3251 -96.9588 0.129929 ]
+    nhpr [ 7.99989 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "F" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel2" ]
+    pos [ 135 20 0.129929 ]
+    nhpr [ 75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARoot" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ 130.87 -26.3261 0.129929 ]
+    nhpr [ 95.7167 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARootTest" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ 135 20 0.129929 ]
+    nhpr [ 75 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0.25098 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.6 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "3" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "tunnel_gz_DNARootTest" [
+    code [ "prop_golf_tunnel1" ]
+    pos [ -20 -100 0.129929 ]
+    nhpr [ -15 0 0 ]
+    sign [
+     scale [ 1.5 1 1.5 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 0 ]
+      nhpr [ 0 0 3.88713 ]
+      scale [ 0.7 1 0.7 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "F" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0 1 ]
+      pos [ -0.3 0 -0.5 ]
+      nhpr [ 0 0 4 ]
+      scale [ 0.5 1 0.5 ]
+      width [ -8.33333 ]
+      height [ -8.33333 ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "m" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "-" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "6" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+   prop "linktunnel_oz_6000_DNARoot" [
+    code [ "prop_golf_NoSign_entrance" ]
+    pos [ 5 145 0 ]
+    nhpr [ 0 0 0 ]
+    sign [
+     baseline [
+      code [ "mickey" ]
+      color [ 0.705882 0.156863 0.235294 1 ]
+      scale [ 2 1 2 ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "i" ]
+      ]
+      text [
+       letters [ "p" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "'" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "'" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0.705882 0.156863 0.235294 1 ]
+      pos [ 0 0 -4 ]
+      scale [ 3 1 3 ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+     ]
+    ]
+   ]
+  ]
+ ]
+
+]

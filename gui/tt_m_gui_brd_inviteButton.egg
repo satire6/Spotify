@@ -1,0 +1,198 @@
+<Comment> {
+  "egg-texture-cards -p 240,240 -wm c -o tt_m_gui_brd_inviteButton.egg ../maps/tt_t_gui_brd_inviteUp.tif ../maps/tt_t_gui_brd_inviteDown.tif ../maps/tt_t_gui_brd_inviteHover.tif ../maps/tt_t_gui_brd_inviteDisabled.tif ../maps/tt_t_gui_brd_kickoutUp.tif ../maps/tt_t_gui_brd_kickoutDown.tif ../maps/tt_t_gui_brd_kickoutHover.tif"
+}
+<Texture> tt_t_gui_brd_kickoutUp {
+  "../maps/tt_t_gui_brd_kickoutUp.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_kickoutHover {
+  "../maps/tt_t_gui_brd_kickoutHover.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_kickoutDown {
+  "../maps/tt_t_gui_brd_kickoutDown.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_inviteUp {
+  "../maps/tt_t_gui_brd_inviteUp.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_inviteHover {
+  "../maps/tt_t_gui_brd_inviteHover.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_inviteDown {
+  "../maps/tt_t_gui_brd_inviteDown.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_brd_inviteDisabled {
+  "../maps/tt_t_gui_brd_inviteDisabled.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 20 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 21 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 22 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 23 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 24 {
+      -0.108333 0.0666667 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 25 {
+      -0.108333 -0.0666667 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 26 {
+      0.108333 -0.0666667 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 27 {
+      0.108333 0.0666667 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_brd_inviteUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_inviteUp }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_inviteDown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_inviteDown }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_inviteHover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_inviteHover }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_inviteDisabled {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_inviteDisabled }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_kickoutUp {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_kickoutUp }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_kickoutDown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_kickoutDown }
+      <VertexRef> { 20 21 22 23 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_brd_kickoutHover {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_brd_kickoutHover }
+      <VertexRef> { 24 25 26 27 <Ref> { vpool } }
+    }
+  }
+}

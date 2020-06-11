@@ -1,0 +1,676 @@
+<Comment> {
+  "egg-texture-cards -o suit-particles_french.egg -suffix _french -wm clamp -f1 alpha -b audit-div.rgb audit-five.rgb audit-four.rgb audit-minus.rgb audit-mult.rgb audit-one.rgb audit-plus.rgb audit-six.rgb audit-three.rgb audit-two.rgb blah.rgb brainstorm-box_french.rgb brainstorm-env_french.rgb brainstorm-track_french.rgb buzzwords-crash_french.rgb buzzwords-inc_french.rgb buzzwords-main_french.rgb buzzwords-over_french.rgb buzzwords-syn_french.rgb dagger.rgb doubletalk-double_french.rgb doubletalk-dup_french.rgb doubletalk-good_french.rgb filibuster-cut_french.rgb filibuster-fiscal_french.rgb filibuster-impeach_french.rgb filibuster-inc_french.rgb fire.rgb gear.rgb jargon-brow_french.rgb jargon-deep_french.rgb jargon-hoop_french.rgb jargon-ipo_french.rgb legalese-hc.rgb legalese-qpq.rgb legalese-vd.rgb mumbojumbo-boiler_french.rgb mumbojumbo-creative_french.rgb mumbojumbo-deben_french.rgb mumbojumbo-high_french.rgb mumbojumbo-iron_french.rgb poundsign.rgb raindrop.rgb roll-o-dex.rgb rollodex-card.rgb schmooze-genius_french.rgb schmooze-instant_french.rgb schmooze-master_french.rgb schmooze-viz_french.rgb snow-particle.rgb checkmark.rgba dollar-sign_french.rgb spark.rgba"
+}
+<Texture> spark {
+  spark.rgba
+  <Scalar> wrap { clamp }
+}
+<Texture> snow-particle {
+  snow-particle.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> schmooze-viz {
+  schmooze-viz_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> schmooze-master {
+  schmooze-master_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> schmooze-instant {
+  schmooze-instant_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> schmooze-genius {
+  schmooze-genius_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> rollodex-card {
+  rollodex-card.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> roll-o-dex {
+  roll-o-dex.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> raindrop {
+  raindrop.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> poundsign {
+  poundsign.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> mumbojumbo-iron {
+  mumbojumbo-iron_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> mumbojumbo-high {
+  mumbojumbo-high_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> mumbojumbo-deben {
+  mumbojumbo-deben_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> mumbojumbo-creative {
+  mumbojumbo-creative_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> mumbojumbo-boiler {
+  mumbojumbo-boiler_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> legalese-vd {
+  legalese-vd.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> legalese-qpq {
+  legalese-qpq.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> legalese-hc {
+  legalese-hc.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> jargon-ipo {
+  jargon-ipo_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> jargon-hoop {
+  jargon-hoop_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> jargon-deep {
+  jargon-deep_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> jargon-brow {
+  jargon-brow_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> gear {
+  gear.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> fire {
+  fire.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> filibuster-inc {
+  filibuster-inc_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> filibuster-impeach {
+  filibuster-impeach_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> filibuster-fiscal {
+  filibuster-fiscal_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> filibuster-cut {
+  filibuster-cut_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> doubletalk-good {
+  doubletalk-good_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> doubletalk-dup {
+  doubletalk-dup_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> doubletalk-double {
+  doubletalk-double_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> dollar-sign {
+  dollar-sign_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> dagger {
+  dagger.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> checkmark {
+  checkmark.rgba
+  <Scalar> wrap { clamp }
+}
+<Texture> buzzwords-syn {
+  buzzwords-syn_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> buzzwords-over {
+  buzzwords-over_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> buzzwords-main {
+  buzzwords-main_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> buzzwords-inc {
+  buzzwords-inc_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> buzzwords-crash {
+  buzzwords-crash_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> brainstorm-track {
+  brainstorm-track_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> brainstorm-env {
+  brainstorm-env_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> brainstorm-box {
+  brainstorm-box_french.rgb
+  <Scalar> wrap { clamp }
+}
+<Texture> blah {
+  blah.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-two {
+  audit-two.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-three {
+  audit-three.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-six {
+  audit-six.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-plus {
+  audit-plus.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-one {
+  audit-one.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-mult {
+  audit-mult.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-minus {
+  audit-minus.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-four {
+  audit-four.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-five {
+  audit-five.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Texture> audit-div {
+  audit-div.rgb
+  <Scalar> format { alpha }
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> audit-div {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-div }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-five {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-five }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-four {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-four }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-minus {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-minus }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-mult {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-mult }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-one {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-one }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-plus {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-plus }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-six {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-six }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-three {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-three }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> audit-two {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { audit-two }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> blah {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { blah }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> brainstorm-box {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { brainstorm-box }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> brainstorm-env {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { brainstorm-env }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> brainstorm-track {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { brainstorm-track }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> buzzwords-crash {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { buzzwords-crash }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> buzzwords-inc {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { buzzwords-inc }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> buzzwords-main {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { buzzwords-main }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> buzzwords-over {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { buzzwords-over }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> buzzwords-syn {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { buzzwords-syn }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> dagger {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { dagger }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> doubletalk-double {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { doubletalk-double }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> doubletalk-dup {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { doubletalk-dup }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> doubletalk-good {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { doubletalk-good }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> filibuster-cut {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { filibuster-cut }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> filibuster-fiscal {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { filibuster-fiscal }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> filibuster-impeach {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { filibuster-impeach }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> filibuster-inc {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { filibuster-inc }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> fire {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fire }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> gear {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { gear }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> jargon-brow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { jargon-brow }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> jargon-deep {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { jargon-deep }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> jargon-hoop {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { jargon-hoop }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> jargon-ipo {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { jargon-ipo }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> legalese-hc {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { legalese-hc }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> legalese-qpq {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { legalese-qpq }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> legalese-vd {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { legalese-vd }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> mumbojumbo-boiler {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mumbojumbo-boiler }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> mumbojumbo-creative {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mumbojumbo-creative }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> mumbojumbo-deben {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mumbojumbo-deben }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> mumbojumbo-high {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mumbojumbo-high }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> mumbojumbo-iron {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { mumbojumbo-iron }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> poundsign {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { poundsign }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> raindrop {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { raindrop }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> roll-o-dex {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { roll-o-dex }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> rollodex-card {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { rollodex-card }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> schmooze-genius {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { schmooze-genius }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> schmooze-instant {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { schmooze-instant }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> schmooze-master {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { schmooze-master }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> schmooze-viz {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { schmooze-viz }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> snow-particle {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { snow-particle }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> checkmark {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { checkmark }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> dollar-sign {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { dollar-sign }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> spark {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { spark }
+      <BFace> { 1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

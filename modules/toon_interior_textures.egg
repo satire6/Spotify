@@ -1,0 +1,165 @@
+<Comment> {
+  "egg-texture-cards -o toon_interior_textures.egg ../maps/wall_paper_a1.rgb ../maps/wall_paper_a2.rgb ../maps/wall_paper_a3.rgb ../maps/wall_paper_a4.rgb ../maps/wall_paper_a5.rgb ../maps/wall_paper_b3.rgb ../maps/wall_paper_b4.rgb ../maps/carpet.rgb ../maps/couch.rgb ../maps/couch2.rgb ../maps/couch3.rgb ../maps/floor_create_toon.rgb ../maps/molding_wood1.rgb ../maps/molding_wood2.rgb"
+}
+<Texture> wall_paper_b4 {
+  "../maps/wall_paper_b4.rgb"
+}
+<Texture> wall_paper_b3 {
+  "../maps/wall_paper_b3.rgb"
+}
+<Texture> wall_paper_a5 {
+  "../maps/wall_paper_a5.rgb"
+}
+<Texture> wall_paper_a4 {
+  "../maps/wall_paper_a4.rgb"
+}
+<Texture> wall_paper_a3 {
+  "../maps/wall_paper_a3.rgb"
+}
+<Texture> wall_paper_a2 {
+  "../maps/wall_paper_a2.rgb"
+}
+<Texture> wall_paper_a1 {
+  "../maps/wall_paper_a1.rgb"
+}
+<Texture> molding_wood2 {
+  "../maps/molding_wood2.rgb"
+}
+<Texture> molding_wood1 {
+  "../maps/molding_wood1.rgb"
+}
+<Texture> floor_create_toon {
+  "../maps/floor_create_toon.rgb"
+}
+<Texture> couch3 {
+  "../maps/couch3.rgb"
+}
+<Texture> couch2 {
+  "../maps/couch2.rgb"
+}
+<Texture> couch {
+  "../maps/couch.rgb"
+}
+<Texture> carpet {
+  "../maps/carpet.rgb"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> wall_paper_a1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_a1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_a2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_a2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_a3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_a3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_a4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_a4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_a5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_a5 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_b3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_b3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_b4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_b4 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> carpet {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { carpet }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> couch {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { couch }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> couch2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { couch2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> couch3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { couch3 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> floor_create_toon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { floor_create_toon }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> molding_wood1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { molding_wood1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> molding_wood2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { molding_wood2 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

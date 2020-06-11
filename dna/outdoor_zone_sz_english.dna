@@ -1,0 +1,207 @@
+group "daisysGarden" [
+ visgroup "6000:safe_zone" [
+  vis [   "6000:safe_zone"   ]
+  group "props" [
+   prop "outdoor_zone_DNARoot" [
+    code [ "outdoor_zone" ]
+    pos [ -60 -20 0 ]
+    nhpr [ 0 0 0 ]
+   ]
+   flat_building "tb0:random_DNARoot" [
+    pos [ 94.71 174.42 10.54 ]
+    nhpr [ -143 0 0 ]
+    width [ 10 ]
+    wall [
+     height [ 3 ]
+     code [ "wall_basement_rock_ur" ]
+     color [ 0.57 1 0.65 1 ]
+     windows [
+      code [ "window_sm_pointed_ur" ]
+      color [ 0.27 1 0.42 1 ]
+      count [ 0 ]
+     ]
+    ]
+    wall [
+     height [ 13 ]
+     code [ "wall_md_board_ur" ]
+     color [ 0.48 1 0.7 1 ]
+     windows [
+      code [ "window_sm_pointed_DG_ur" ]
+      color [ 1 1 1 1 ]
+      count [ 1 ]
+     ]
+    ]
+    wall [
+     height [ 9 ]
+     code [ "wall_md_board_ur" ]
+     color [ 0.48 1 0.7 1 ]
+     windows [
+      code [ "window_sm_pointed_DG_ur" ]
+      color [ 1 1 1 1 ]
+      count [ 1 ]
+     ]
+    ]
+   ]
+    // chineseCheckers1
+   node "game_table_1" [
+    prop "prop_game_table_DNARoot" [
+     code [ "prop_game_table" ]
+     pos [ 91.7 5.68547 1.2 ]
+     nhpr [ 30 1.45363 0 ]
+    ]
+   ]
+   //chineseCheckers2
+   node "game_table_2" [
+    prop "prop_game_table_DNARoot" [
+     code [ "prop_game_table" ]
+     pos [ -75.439 62.507 0.55 ]
+     nhpr [ 90 -1.45363 0 ]
+    ]
+   ]
+   //chineseCheckers3
+   node "game_table_3" [
+    prop "prop_game_table_DNARoot" [
+     code [ "prop_game_table" ]
+     pos [ 7.156 116.564 0.79 ]
+     nhpr [ 0 -1.45363 0 ]
+    ]
+   ]
+   // right
+   node "picnic_table_1" [
+    prop "prop_picnic_table_DNARoot" [
+     code [ "prop_picnic_table" ]
+     //pos [ -22.0614 -23.779 1.34649 ]
+     pos [ -22.0614 -23.779 1.45 ]
+     nhpr [ 0 0 0 ]
+    ]
+   ]
+   // middle
+   node "picnic_table_2" [
+    prop "prop_picnic_table_DNARoot" [
+     code [ "prop_picnic_table" ]
+     pos [ 35.4114 -35.0274 0.5 ]
+     nhpr [ 0 1.10906 0 ]
+    ]
+   ]
+  ]
+  node "buildings" [
+   prop "linktunnel_gz_17000_DNARoot" [
+    code [ "prop_chip_dale_enterance" ]
+    pos [ -264.137 -15.4392 0.227776 ]
+    nhpr [ 105 -0.422594 0.309814 ]
+    scale [ 1.0546 1.0546 1.0546 ]
+   ]
+   prop "linktunnel_dd_1000_DNARoot" [
+    code [ "prop_outdoor_zone_entrance" ]
+    pos [ 86.7098 148.899 0.0205739 ]
+    nhpr [ 321.091 0 0 ]
+    sign [
+     code [ "DD_sign2" ]
+     pos [ 0 0 0 ]
+     nhpr [ 0 0 -3.0 ]
+     scale [ 1.85 1 1.35 ]
+     baseline [
+      code [ "TT_Comedy" ]
+      color [ 0.439216 0.247059 0.184314 1 ]
+      pos [ 0 0 -0.2 ]
+      scale [ 1.6 1 1.7 ]
+      wiggle [ 7 ]
+      stumble [ 0.1 ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+      text [
+       letters [ "g" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "u" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+     ]
+     baseline [
+      code [ "TT_Comedy" ]
+      color [ 0.439216 0.247059 0.184314 1 ]
+      pos [ 0 0 -1.4 ]
+      scale [ 1.2 1 1.2 ]
+      wiggle [ 3 ]
+      stomp [ 0.0367716 ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "l" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ "'" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+     ]
+    ]
+   ]
+  ]
+ ]
+ prop "prop_golf_construction_sign_DNARoot" [
+  code [ "prop_golf_construction_sign" ]
+  pos [ -48.1255 -136.145 0.0177824 ]
+  nhpr [ 180 0 0 ]
+ ]
+ prop "prop_outdoor_zone_entrance_DNARoot" [
+  code [ "prop_outdoor_zone_entrance" ]
+  pos [ -47.8387 -143.259 0.1 ]
+  nhpr [ 180 0 0.1 ]
+  sign [
+   pos [ 0 0 -0.65 ]
+   nhpr [ 0 0 -4 ]
+   scale [ 1.33009 1 0.849568 ]
+  ]
+ ]
+]

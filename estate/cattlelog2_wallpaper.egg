@@ -1,0 +1,135 @@
+<Comment> {
+  "egg-texture-cards wall_paper_car.rgb wall_paper_car_neutral.rgb wall_paper_football_neutral.rgb football_border_neutral.rgb vine_border1.rgb wall_paper_vine_neutral.rgb wainscotings_neutral.tif dental_Border_wood_neutral.tif littleFlowers_border.rgb littleFlowers_border_neutral.rgb ladybugs2_Border.rgb -o cattlelog2_wallpaper.egg"
+}
+<Texture> wall_paper_vine_neutral {
+  wall_paper_vine_neutral.rgb
+}
+<Texture> wall_paper_football_neutral {
+  wall_paper_football_neutral.rgb
+}
+<Texture> wall_paper_car_neutral {
+  wall_paper_car_neutral.rgb
+}
+<Texture> wall_paper_car {
+  wall_paper_car.rgb
+}
+<Texture> wainscotings_neutral {
+  wainscotings_neutral.tif
+}
+<Texture> vine_border1 {
+  vine_border1.rgb
+}
+<Texture> littleFlowers_border_neutral {
+  littleFlowers_border_neutral.rgb
+}
+<Texture> littleFlowers_border {
+  littleFlowers_border.rgb
+}
+<Texture> ladybugs2_Border {
+  ladybugs2_Border.rgb
+}
+<Texture> football_border_neutral {
+  football_border_neutral.rgb
+}
+<Texture> dental_Border_wood_neutral {
+  dental_Border_wood_neutral.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 1 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 3 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 4 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> wall_paper_car {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_car }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_car_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_car_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_football_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_football_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> football_border_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { football_border_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> vine_border1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { vine_border1 }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_paper_vine_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wall_paper_vine_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> wainscotings_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { wainscotings_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> dental_Border_wood_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { dental_Border_wood_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> littleFlowers_border {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { littleFlowers_border }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> littleFlowers_border_neutral {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { littleFlowers_border_neutral }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+  <Group> ladybugs2_Border {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ladybugs2_Border }
+      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+    }
+  }
+}

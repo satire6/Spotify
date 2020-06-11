@@ -1,0 +1,95 @@
+<Comment> {
+  "egg-texture-cards ../maps/calendar_popup_birthday.png ../maps/calendar_popup_cupcake.png ../maps/calendar_popup_fun.png ../maps/tt_t_gui_sbk_calendar_popup_racing.tif ../maps/Stickerbook_PartyIcon.png ../maps/Stickerbook_PartyBalloons.png ../maps/tt_t_gui_sbk_calendar_popup_valentine1.tif -o partyStickerbook.egg"
+}
+<Texture> tt_t_gui_sbk_calendar_popup_valentine1 {
+  "../maps/tt_t_gui_sbk_calendar_popup_valentine1.tif"
+}
+<Texture> tt_t_gui_sbk_calendar_popup_racing {
+  "../maps/tt_t_gui_sbk_calendar_popup_racing.tif"
+}
+<Texture> calendar_popup_fun {
+  "../maps/calendar_popup_fun.png"
+}
+<Texture> calendar_popup_cupcake {
+  "../maps/calendar_popup_cupcake.png"
+}
+<Texture> calendar_popup_birthday {
+  "../maps/calendar_popup_birthday.png"
+}
+<Texture> Stickerbook_PartyIcon {
+  "../maps/Stickerbook_PartyIcon.png"
+}
+<Texture> Stickerbook_PartyBalloons {
+  "../maps/Stickerbook_PartyBalloons.png"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> calendar_popup_birthday {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { calendar_popup_birthday }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> calendar_popup_cupcake {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { calendar_popup_cupcake }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> calendar_popup_fun {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { calendar_popup_fun }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_calendar_popup_racing {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_calendar_popup_racing }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Stickerbook_PartyIcon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Stickerbook_PartyIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> Stickerbook_PartyBalloons {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Stickerbook_PartyBalloons }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_calendar_popup_valentine1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_calendar_popup_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

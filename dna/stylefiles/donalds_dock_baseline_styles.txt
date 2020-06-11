@@ -1,0 +1,9 @@
+baselineStyle
+kern: 1.0
+color: Vec4(1.0, 1.0, 1.0, 1.0)
+endBaselineStyle
+
+baselineStyle
+kern: 1.8
+color: Vec4(1.0, 8.0, 0.592157, 1.0)
+endBaselineStyle

@@ -1,0 +1,69 @@
+node "interior" [
+ prop "house_interiorA_DNARoot" [
+  code [ "house_interiorA" ]
+  pos [ 0 0 0 ]
+  hpr [ 0 0 0 ]
+ ]
+ prop "rugB_DNARoot" [
+  code [ "rugB" ]
+  pos [ -7.08867 19.0589 0 ]
+  hpr [ -120 0.000859682 0 ]
+  scale [ 5.15552 5.15552 5.15552 ]
+ ]
+ prop "regular_bed_DNARoot" [
+  code [ "regular_bed" ]
+  pos [ -13.618 26.1823 0 ]
+  hpr [ 0 0.0257039 -4.34842e-017 ]
+ ]
+ prop "closetBoy_DNARoot" [
+  code [ "closetBoy" ]
+  pos [ -19.45 24.7018 0 ]
+  hpr [ 0 0.0257039 -4.34842e-017 ]
+ ]
+ prop "jellybeanBank_DNARoot" [
+  code [ "jellybeanBank" ]
+  pos [ -21.4932 5.76027 0 ]
+  hpr [ 120 -0.0501863 -0.0440521 ]
+ ]
+ prop "rugB_DNARoot" [
+  code [ "rugB" ]
+  pos [ 7.87512 -11.2897 0 ]
+  hpr [ -90 0 0 ]
+  scale [ 3.57074 3.57074 3.57074 ]
+ ]
+ prop "rugB_DNARoot" [
+  code [ "rugB" ]
+  pos [ -20.6508 6.52406 0 ]
+  hpr [ 135 -0.0357293 -0.0257721 ]
+  scale [ 2.3354 2.3354 2.3354 ]
+ ]
+ prop "FireplaceSq_DNARoot" [
+  code [ "FireplaceSq" ]
+  pos [ 15.9865 -11.3307 0 ]
+  hpr [ -90 -5.67817e-006 4.33472e-005 ]
+ ]
+ prop "chairA_DNARoot" [
+  code [ "chairA" ]
+  pos [ -2.64541 21.3024 0 ]
+  hpr [ -75 -3.55911 5.20593e-007 ]
+  scale [ 10 10 10 ]
+ ]
+ prop "chairA_DNARoot" [
+  code [ "chairA" ]
+  pos [ -6.36842 24.5659 0 ]
+  hpr [ -15 -4.42376 -8.56704e-009 ]
+  scale [ 10 10 10 ]
+ ]
+ prop "chairA_DNARoot" [
+  code [ "chairA" ]
+  pos [ -23.9124 16.9335 0 ]
+  hpr [ 90 3.94404 5.82562 ]
+  scale [ 10 10 10 ]
+ ]
+ prop "GardenA_DNARoot" [
+  code [ "GardenA" ]
+  pos [ -19.9865 -12.0134 8.7862 ]
+  hpr [ -90 -37.3586 32.9583 ]
+  scale [ 0.889117 0.889117 0.889117 ]
+ ]
+]

@@ -1,0 +1,7 @@
+May 20, 2009
+http://play.toontown.com/shared/images/newsimages/spring_flowers_gardening_fun_sm.jpg
+file:///cygwin/home/rurbino/player/ttmodels/built/nondownload/news/gardening_news.txt
+http://play.toontown.com/shared/images/newsimages/acorn_acres_winners_2009.jpg
+file:///cygwin/home/rurbino/player/ttmodels/built/nondownload/news/acorn_acres_news.txt
+http://play.toontown.com/shared/images/newsimages/toons_love_to_party.jpg
+file:///cygwin/home/rurbino/player/ttmodels/built/nondownload/news/party_news.txt

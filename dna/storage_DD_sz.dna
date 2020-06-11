@@ -1,0 +1,40 @@
+// Parties
+model "phase_6/models/modules/partyGate_DD" [
+ 	store_node [ "prop" "prop_party_gate" "" ]
+	]
+    
+place_model "phase_6/models/modules/safe_zone_tunnel_DD" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_6/models/modules/trolley_station_DD" [
+	store_node [ "prop" "prop_trolley_station" ]
+	]
+
+place_model "phase_6/models/neighborhoods/donalds_dock" [
+ 	store_node [ "prop" "donalds_dock" ]
+	]
+
+place_model "phase_6/models/modules/gagShop_DD" [
+	store_node [ "toon_landmark" "toon_landmark_DD_gag_shop" "" ]
+        ]
+
+place_model "phase_6/models/modules/PetShopExterior_DD" [
+	store_node [ "toon_landmark" "toon_landmark_DD_pet_shop" "" ]
+        ]
+
+place_model "phase_6/models/modules/clothshopDD" [
+	store_node [ "toon_landmark" "toon_landmark_DD_clothes_shop" "" ]
+        ]
+
+place_model "phase_6/models/modules/tt_m_ara_DD_SZ_hq" [
+	store_node [ "toon_landmark" "toon_landmark_hqDD_SZ" "" ]
+	]
+
+place_model "phase_4/models/props/exteriorfish-zero" [
+	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
+	]
+
+place_model "phase_6/models/golf/outdoor_zone_entrance" [
+	store_node [ "prop" "prop_outdoor_zone_entrance" "" ]
+	]

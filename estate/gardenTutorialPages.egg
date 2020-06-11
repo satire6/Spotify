@@ -1,0 +1,144 @@
+<Comment> {
+  "egg-texture-cards -p 700,700 -g -0.5,0.5,-0.5,0.5 -wm c -o gardenTutorialPages.egg ../maps/GardenTutorialPage1.TIF ../maps/GardenTutorialPage2.TIF ../maps/GardenTutorialPage3.TIF ../maps/GardenTutorialPage4.TIF ../maps/GardenTutorialPage5.TIF"
+}
+<Texture> GardenTutorialPage5 {
+  "../maps/GardenTutorialPage5.TIF"
+  <Scalar> wrap { clamp }
+}
+<Texture> GardenTutorialPage4 {
+  "../maps/GardenTutorialPage4.TIF"
+  <Scalar> wrap { clamp }
+}
+<Texture> GardenTutorialPage3 {
+  "../maps/GardenTutorialPage3.TIF"
+  <Scalar> wrap { clamp }
+}
+<Texture> GardenTutorialPage2 {
+  "../maps/GardenTutorialPage2.TIF"
+  <Scalar> wrap { clamp }
+}
+<Texture> GardenTutorialPage1 {
+  "../maps/GardenTutorialPage1.TIF"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.354286 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.354286 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.354286 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.354286 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.0978571 0.148571 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.0978571 -0.148571 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.0978571 -0.148571 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.0978571 0.148571 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.294286 0.374286 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.294286 -0.374286 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.294286 -0.374286 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.294286 0.374286 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.417857 0.162857 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.417857 -0.162857 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.417857 -0.162857 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.417857 0.162857 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.232143 0.275714 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.232143 -0.275714 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.232143 -0.275714 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.232143 0.275714 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> GardenTutorialPage1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GardenTutorialPage1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> GardenTutorialPage2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GardenTutorialPage2 }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> GardenTutorialPage3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GardenTutorialPage3 }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> GardenTutorialPage4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GardenTutorialPage4 }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> GardenTutorialPage5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { GardenTutorialPage5 }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+}

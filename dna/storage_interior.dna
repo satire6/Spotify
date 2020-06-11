@@ -1,0 +1,123 @@
+
+// Toon interior category for pre-built toon interiors
+model "phase_3.5/models/modules/toon_interior" [
+        store_node [ "TI_room" "TI_room" "" ]
+        ]
+model "phase_3.5/models/modules/toon_interior_2" [
+        store_node [ "TI_room" "TI_room_2" "" ]
+        ]
+model "phase_3.5/models/modules/toon_interior_L" [
+        store_node [ "TI_room" "TI_room_L" "" ]
+        ]
+model "phase_3.5/models/modules/toon_interior_T" [
+        store_node [ "TI_room" "TI_room_T" "" ]
+        ]
+model "phase_3.5/models/modules/tt_m_ara_int_toonhall" [
+        store_node [ "TI_hall" "TI_hall" "" ]
+        ]
+
+
+// store_texture [ "TI_wallpaper" "wall_paper_a1"
+//                 "phase_3.5/maps/wall_paper_a1.jpg" ]
+// store_texture [ "TI_wallpaper" "wall_paper_a2"
+//                 "phase_3.5/maps/wall_paper_a2.jpg" ]
+// store_texture [ "TI_wallpaper" "wall_paper_a3"
+//                 "phase_3.5/maps/wall_paper_a3.jpg" ]
+// store_texture [ "TI_wallpaper" "wall_paper_a4"
+//                 "phase_3.5/maps/wall_paper_a4.jpg" ]
+// store_texture [ "TI_wallpaper" "wall_paper_a5"
+//                 "phase_3.5/maps/wall_paper_a5.jpg" ]
+
+store_texture [ "TI_wallpaper" "stripeB5"
+                "phase_3.5/maps/stripeB5.jpg" ]
+
+store_texture [ "TI_wallpaper_border" "stripeB5"
+                "phase_3.5/maps/stripeB5.jpg" ]
+
+store_texture [ "TI_wainscotting" "wall_paper_b3"
+                "phase_3.5/maps/wall_paper_b3.jpg" ]
+store_texture [ "TI_wainscotting" "wall_paper_b4"
+                "phase_3.5/maps/wall_paper_b4.jpg" ]
+
+store_texture [ "TI_floor" "floor_wood"
+                "phase_3/maps/floor_create_toon.jpg" ]
+store_texture [ "TI_floor" "floor_carpet"
+                "phase_3.5/maps/carpet.jpg" ]
+
+store_texture [ "TI_molding" "molding_wood1"
+                "phase_3.5/maps/molding_wood1.jpg" ]
+store_texture [ "TI_molding" "molding_wood2"
+                "phase_3.5/maps/molding_wood2.jpg" ]
+
+
+store_texture [ "TI_couch" "couch1"
+                "phase_3.5/maps/couch.jpg" ]
+store_texture [ "TI_couch" "couch2"
+                "phase_3.5/maps/couch2.jpg" ]
+store_texture [ "TI_couch" "couch3"
+                "phase_3.5/maps/couch3.jpg" ]
+
+
+
+model "phase_3.5/models/modules/paper_trashcan" [
+        store_node [ "TI_paper_trashcan" "TI_paper_trashcan" "" ]
+        ]
+model "phase_3.5/models/props/big_planter" [
+        store_node [ "TI_big_planter" "TI_big_planter" "" ]
+        ]
+model "phase_3.5/models/modules/bookcase" [
+        store_node [ "TI_bookcase" "TI_bookcase" "" ]
+        ]
+model "phase_3.5/models/modules/bookcase_low" [
+        store_node [ "TI_bookcase_low" "TI_bookcase_low" "" ]
+        ]
+model "phase_3.5/models/modules/chair" [
+        store_node [ "TI_chair" "TI_chair" "" ]
+        ]
+model "phase_3.5/models/modules/coatrack" [
+        store_node [ "TI_coatrack" "TI_coatrack" "" ]
+        ]
+model "phase_3.5/models/modules/counter" [
+        store_node [ "TI_counter" "TI_counter" "" ]
+        ]
+model "phase_3.5/models/modules/counterShort" [
+        store_node [ "TI_counterShort" "TI_counterShort" "" ]
+        ]
+model "phase_3.5/models/modules/desk" [
+        store_node [ "TI_desk" "TI_desk" "" ]
+        ]
+model "phase_3.5/models/modules/desk_only" [
+        store_node [ "TI_desk_only" "TI_desk_only" "" ]
+        ]
+model "phase_3.5/models/modules/desk_only_wo_phone" [
+        store_node [ "TI_desk_only_wo_phone" "TI_desk_only_wo_phone" "" ]
+        ]
+model "phase_3.5/models/modules/int_door" [
+        store_node [ "TI_int_door" "TI_int_door" "" ]
+        ]
+model "phase_3.5/models/modules/lamp_short" [
+        store_node [ "TI_lamp_short" "TI_lamp_short" "" ]
+        ]
+model "phase_3.5/models/modules/lamp_tall" [
+        store_node [ "TI_lamp_tall" "TI_lamp_tall" "" ]
+        ]
+model "phase_3.5/models/modules/rug" [
+        store_node [ "TI_rug" "TI_rug" "" ]
+        ]
+model "phase_3.5/models/modules/tie_rack" [
+        store_node [ "TI_tie_rack" "TI_tie_rack" "" ]
+        ]
+model "phase_3.5/models/modules/umbrella_stand" [
+        store_node [ "TI_umbrella_stand" "TI_umbrella_stand" "" ]
+        ]
+model "phase_3.5/models/modules/couch_1person" [
+        store_node [ "TI_couch_1person" "TI_couch_1person" "" ]
+        ]
+model "phase_3.5/models/modules/couch_2person" [
+        store_node [ "TI_couch_2person" "TI_couch_2person" "" ]
+        ]
+model "phase_3.5/models/modules/ending_table" [
+        store_node [ "TI_ending_table" "TI_ending_table" "" ]
+        ]
+
+
